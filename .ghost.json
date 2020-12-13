@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://rachsmith-ghost.herokuapp.com",
+    "contentApiKey": "8a015d0fe530932151039419e4"
+  },
+  "production": {
+    "apiUrl": "https://rachsmith-ghost.herokuapp.com",
+    "contentApiKey": "8a015d0fe530932151039419e4"
+  }
+}
