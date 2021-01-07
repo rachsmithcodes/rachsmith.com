@@ -1,14 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Helmet } from "react-helmet";
-import { Link, StaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
+import { Link, StaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
+import Tag from './Tag';
 
-import { Navigation } from ".";
-import config from "../../utils/siteConfig";
+import config from '../../utils/siteConfig';
 
 // Styles
-import "../../styles/app.css";
+import '../../styles/app.css';
 
 /**
  * Main layout component
@@ -18,14 +18,8 @@ import "../../styles/app.css";
  * styles, and meta data for each page.
  *
  */
-const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
+const DefaultLayout = ({ data, children, bodyClass, isHome, tags }) => {
   const site = data.allGhostSettings.edges[0].node;
-  const twitterUrl = site.twitter
-    ? `https://twitter.com/${site.twitter.replace(/^@/, ``)}`
-    : null;
-  const facebookUrl = site.facebook
-    ? `https://www.facebook.com/${site.facebook.replace(/^\//, ``)}`
-    : null;
 
   return (
     <>
@@ -33,70 +27,59 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
         <html lang={site.lang} />
         <style type="text/css">{`${site.codeinjection_styles}`}</style>
         <body className={bodyClass} />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+          rel="stylesheet"
+        />
       </Helmet>
 
       <div className="viewport">
-        <div className="viewport-top">
-          {/* The main header section on top of the screen */}
-          <header
-            className="site-head"
-            style={{
-              ...(site.cover_image && {
-                backgroundImage: `url(${site.cover_image})`,
-              }),
-            }}
-          >
-            <div className="container">
-              <div className="site-mast">
-                <div className="site-mast-left">
-                  <Link to="/">
-                    {site.logo ? (
-                      <img
-                        className="site-logo"
-                        src={site.logo}
-                        alt={site.title}
-                      />
-                    ) : (
-                      <Img
-                        fixed={data.file.childImageSharp.fixed}
-                        alt={site.title}
-                      />
-                    )}
-                  </Link>
-                </div>
-                <div className="site-mast-right">
-                  <a
-                    className="site-nav-item"
-                    href={`https://feedly.com/i/subscription/feed/${config.siteUrl}/rss/`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="site-nav-icon"
-                      src="/images/icons/rss.svg"
-                      alt="RSS Feed"
-                    />
-                  </a>
-                </div>
-              </div>
-              {isHome ? null : null}
-            </div>
+        <div className="sidebar">
+          <header className="site-head">
+            <Link to="/">
+              {site.logo ? (
+                <img className="site-logo" src={site.logo} alt={site.title} />
+              ) : (
+                <Img fixed={data.file.childImageSharp.fixed} alt={site.title} />
+              )}
+            </Link>
+            <h3 className="tags-heading">Tags</h3>
+            <ul className="tags">
+              {tags.map((tag) => (
+                <li key={tag.slug}>
+                  <Tag tag={tag} />
+                </li>
+              ))}
+            </ul>
+            <a
+              className="rss-feed"
+              href={`https://feedly.com/i/subscription/feed/${config.siteUrl}/rss/`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              RSS
+            </a>
           </header>
-
+        </div>
+        <div className="site">
           <main className="site-main">
+            {isHome ? (
+              <p className="bio">
+                Hi 👋🏼 I&apos;m Rach. A developer building software for{' '}
+                <a href="https://codepen.io">CodePen</a>, wife, mother of two,
+                productivity nerd and revovering screen addict. This is my blog.
+              </p>
+            ) : null}
             {/* All the main content gets inserted here, index.js, post.js */}
             {children}
           </main>
-        </div>
-
-        <div className="viewport-bottom">
-          {/* The footer at the very bottom of the screen */}
           <footer className="site-foot">
-            <div className="site-foot-nav container">
-              <div className="site-foot-nav-left">
-                <Link to="/">{site.title}</Link> © 2020
-              </div>
-            </div>
+            <p>
+              If you&apos;d like to connect, feel free send an email to contact
+              at rachsmith dot com.
+            </p>
+            <Link to="/">{site.title}</Link> © 2020
           </footer>
         </div>
       </div>
@@ -112,6 +95,7 @@ DefaultLayout.propTypes = {
     file: PropTypes.object,
     allGhostSettings: PropTypes.object.isRequired,
   }).isRequired,
+  tags: PropTypes.arrayOf(PropTypes.object),
 };
 
 const DefaultLayoutSettingsQuery = (props) => (

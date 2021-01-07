@@ -1,12 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Link } from "gatsby";
-import { Tags } from "@tryghost/helpers-gatsby";
-import { readingTime as readingTimeHelper } from "@tryghost/helpers";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link } from 'gatsby';
+import { readingTime as readingTimeHelper } from '@tryghost/helpers';
+import Tag from './Tag';
 
 const PostCard = ({ post }) => {
   const url = `/${post.slug}/`;
   const readingTime = readingTimeHelper(post);
+
+  console.log(post);
 
   return (
     <Link to={url} className="post-card">
@@ -15,15 +17,9 @@ const PostCard = ({ post }) => {
         <div className="post-card-meta">
           {post.tags && (
             <div className="post-card-tags">
-              {" "}
-              <Tags
-                classes="post-card-tag"
-                autolink
-                separator=""
-                post={post}
-                visibility="public"
-                autolink={false}
-              />
+              {post.tags.map((tag) => (
+                <Tag key={tag.slug} tag={tag} />
+              ))}
             </div>
           )}
           <div className="post-card-reading-time">
