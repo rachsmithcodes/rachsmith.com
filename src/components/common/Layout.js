@@ -44,14 +44,18 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, tags }) => {
                 <Img fixed={data.file.childImageSharp.fixed} alt={site.title} />
               )}
             </Link>
-            <h3 className="tags-heading">Tags</h3>
-            <ul className="tags">
-              {tags.map((tag) => (
-                <li key={tag.slug}>
-                  <Tag tag={tag} />
-                </li>
-              ))}
-            </ul>
+            {tags && (
+              <>
+                <h3 className="tags-heading">Tags</h3>
+                <ul className="tags">
+                  {tags.map((tag) => (
+                    <li key={tag.slug}>
+                      <Tag tag={tag} />
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
             <a
               className="rss-feed"
               href={`https://feedly.com/i/subscription/feed/${config.siteUrl}/rss/`}

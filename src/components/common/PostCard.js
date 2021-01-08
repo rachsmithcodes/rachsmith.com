@@ -8,8 +8,6 @@ const PostCard = ({ post }) => {
   const url = `/${post.slug}/`;
   const readingTime = readingTimeHelper(post);
 
-  console.log(post);
-
   return (
     <Link to={url} className="post-card">
       <header className="post-card-header">

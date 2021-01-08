@@ -1081,6 +1081,7 @@ h6 {
   padding: 20px 0 40px 0;
   color: var(--color-base);
   font-size: 1.6rem;
+  border-top: 2px solid #ddd;
 }
 
 /* Koenig Styles
