@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 
 import { Layout } from '../components/common';
 import { MetaData } from '../components/common/meta';
+import TalkyardCommentsIframe from '@debiki/gatsby-plugin-talkyard';
 
 /**
  * Single post view (/:slug)
@@ -38,6 +39,7 @@ const Post = ({ data, location }) => {
                 className="content-body load-external-scripts"
                 dangerouslySetInnerHTML={{ __html: post.html }}
               />
+              <TalkyardCommentsIframe />
             </section>
           </article>
         </div>

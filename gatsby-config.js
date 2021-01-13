@@ -203,5 +203,11 @@ module.exports = {
         trackingIds: ['UA-66382585-2'],
       },
     },
+    {
+      resolve: '@debiki/gatsby-plugin-talkyard',
+      options: {
+        talkyardServerUrl: 'https://comments-for-rachsmith-com.talkyard.net',
+      },
+    },
   ],
 };
