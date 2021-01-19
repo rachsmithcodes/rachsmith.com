@@ -5,7 +5,7 @@ module.exports = {
 
   siteTitleMeta: `Rach Smith`, // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta: `Hi 👋🏼 I'm Rach. A developer building software for CodePen, wife, mother of two,
-  productivity nerd and revovering screen addict. This is my blog.`, // This allows an alternative site description for meta data for pages.
+  productivity nerd and recovering screen addict. This is my blog.`, // This allows an alternative site description for meta data for pages.
 
   shareImageWidth: 1000, // Change to the width of your default share image
   shareImageHeight: 523, // Change to the height of your default share image

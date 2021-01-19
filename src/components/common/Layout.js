@@ -72,7 +72,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, tags }) => {
               <p className="bio">
                 Hi 👋🏼 I&apos;m Rach. A developer building software for{' '}
                 <a href="https://codepen.io">CodePen</a>, wife, mother of two,
-                productivity nerd and revovering screen addict. This is my blog.
+                productivity nerd and recovering screen addict. This is my blog.
               </p>
             ) : null}
             {/* All the main content gets inserted here, index.js, post.js */}
