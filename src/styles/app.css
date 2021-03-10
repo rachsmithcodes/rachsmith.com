@@ -1044,12 +1044,16 @@ h6 {
 .pagination a {
   display: inline-block;
   padding: 10px 15px;
-  border: var(--color-border) 1px solid;
   color: var(--color-secondary);
+  font-weight: var(--font-bold);
   text-decoration: none;
-  font-size: 1.4rem;
+  font-size: 2rem;
   line-height: 1em;
-  border-radius: var(--radius);
+  background: none;
+}
+
+.pagination a:hover {
+  color: var(--color-base) l;
 }
 
 .pagination-location {
