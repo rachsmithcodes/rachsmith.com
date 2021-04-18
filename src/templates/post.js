@@ -33,7 +33,7 @@ const Post = ({ data, location }) => {
             ) : null}
             <section className="post-full-content">
               <h1 className="content-title">{post.title}</h1>
-
+              <p className="content-date">{post.published_at_pretty}</p>
               {/* The main post content */}
               <section
                 className="content-body load-external-scripts"
@@ -55,6 +55,7 @@ Post.propTypes = {
       title: PropTypes.string.isRequired,
       html: PropTypes.string.isRequired,
       feature_image: PropTypes.string,
+      published_at_pretty: PropTypes.string,
     }).isRequired,
     allGhostTag: PropTypes.object,
   }).isRequired,
