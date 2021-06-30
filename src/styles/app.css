@@ -26,12 +26,15 @@ what's here to work the way you'd like it to.
   --color-secondary: #5b7a81;
   --color-border: #c7d5d8;
   --color-bg: #f5f5f5;
-  --color-mothering: #824d99;
-  --color-productivity: #4f79c3;
-  --color-books: #d0b440;
-  --color-work: #e57f33;
-  --color-development: #56a2ab;
-  --color-wellbeing: #7eb776;
+
+  --color-books: #952f32;
+  --color-development: #952f8c;
+  --color-miscellany: #382f95;
+  --color-mothering: #2f7a95;
+  --color-podcasts: #2f9576;
+  --color-productivity: #49952f;
+  --color-wellbeing: #8e952f;
+  --color-work: #955b2f;
 
   /* Fonts */
   --font-sans-serif: 'Inria Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
@@ -836,17 +839,17 @@ h6 {
 }
 
 .tag {
-  background: gray;
-  color: #fff;
+  color: #333;
+  background: none;
   display: inline-block;
-  padding: 2px 4px;
+  padding: 1px 5px;
   border-radius: 3px;
   margin-right: 4px;
-  opacity: 0.8;
+  font-weight: bold;
 }
 
 .tag:hover {
-  opacity: 1;
+  color: #fff;
 }
 
 .rss-feed {
@@ -887,45 +890,68 @@ h6 {
 }
 
 .tag-mothering {
-  background: var(--color-mothering);
+  border: 2px solid var(--color-mothering);
+  background: none;
+  color: var(--color-mothering);
 }
 .tag-mothering:hover {
   background: var(--color-mothering);
 }
 
 .tag-wellbeing {
-  background: var(--color-wellbeing);
+  border: 2px solid var(--color-wellbeing);
+  color: var(--color-wellbeing);
 }
 .tag-wellbeing:hover {
   background: var(--color-wellbeing);
 }
 
 .tag-productivity {
-  background: var(--color-productivity);
+  border: 2px solid var(--color-productivity);
+  color: var(--color-productivity);
 }
 .tag-productivity:hover {
   background: var(--color-productivity);
 }
 
 .tag-books {
-  background: var(--color-books);
+  border: 2px solid var(--color-books);
+  color: var(--color-books);
 }
 .tag-books:hover {
   background: var(--color-books);
 }
 
 .tag-work {
-  background: var(--color-work);
+  border: 2px solid var(--color-work);
+  color: var(--color-work);
 }
 .tag-work:hover {
   background: var(--color-work);
 }
 
 .tag-development {
-  background: var(--color-development);
+  border: 2px solid var(--color-development);
+  color: var(--color-development);
 }
 .tag-development:hover {
   background: var(--color-development);
+}
+
+.tag-podcasts {
+  border: 2px solid var(--color-podcasts);
+  color: var(--color-podcasts);
+}
+.tag-podcasts:hover {
+  background: var(--color-podcasts);
+}
+
+.tag-miscellany {
+  border: 2px solid var(--color-miscellany);
+  color: var(--color-miscellany);
+}
+.tag-miscellany:hover {
+  background: var(--color-miscellany);
 }
 
 .post-card-reading-time {

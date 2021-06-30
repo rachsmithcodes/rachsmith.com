@@ -48,11 +48,17 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, tags }) => {
               <>
                 <h3 className="tags-heading">Tags</h3>
                 <ul className="tags">
-                  {tags.map((tag) => (
-                    <li key={tag.slug}>
-                      <Tag tag={tag} />
-                    </li>
-                  ))}
+                  {tags
+                    .sort((a, b) => {
+                      if (a.slug < b.slug) return -1;
+                      if (a.slug > b.slug) return 1;
+                      return 0;
+                    })
+                    .map((tag) => (
+                      <li key={tag.slug}>
+                        <Tag tag={tag} />
+                      </li>
+                    ))}
                 </ul>
               </>
             )}
@@ -62,7 +68,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, tags }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              RSS
+              RSS Feed
             </a>
           </header>
         </div>
@@ -70,7 +76,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, tags }) => {
           <main className="site-main">
             {isHome ? (
               <p className="bio">
-                Hi 👋🏼 I&apos;m Rach. A developer building software for{' '}
+                Hi 👋🏼 I&apos;m Rach. I&apos;m a developer building software for{' '}
                 <a href="https://codepen.io">CodePen</a>, wife, mother of two,
                 productivity nerd and recovering screen addict. This is my blog.
               </p>
@@ -83,7 +89,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, tags }) => {
               If you&apos;d like to connect, feel free send an email to contact
               at rachsmith dot com.
             </p>
-            <Link to="/">{site.title}</Link> © 2020
+            <Link to="/">{site.title}</Link> © 2021
           </footer>
         </div>
       </div>
