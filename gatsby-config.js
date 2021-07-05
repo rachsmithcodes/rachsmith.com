@@ -195,7 +195,7 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-force-trailing-slashes`,
-    `gatsby-plugin-offline`,
+    `gatsby-plugin-remove-serviceworker`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
