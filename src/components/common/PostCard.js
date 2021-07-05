@@ -15,8 +15,12 @@ const PostCard = ({ post }) => {
         <div className="post-card-meta">
           {post.tags && (
             <div className="post-card-tags">
-              {post.tags.map((tag) => (
-                <Tag key={tag.slug} tag={tag} />
+              {post.tags.map((tag, i) => (
+                <>
+                  {i !== 0 && <>&nbsp;</>}
+                  <Tag key={tag.slug} tag={tag} noLink noBorder />{' '}
+                  {i < post.tags.length - 1 && <>&bull;</>}
+                </>
               ))}
             </div>
           )}

@@ -559,6 +559,8 @@ h6 {
   display: flex;
   flex-direction: column;
   font-family: var(--font-sans-serif);
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 3rem;
 }
 
 .post-full-content {
@@ -597,6 +599,17 @@ h6 {
 .content-title {
   margin: 0 0 0.8em;
   font-size: 5rem;
+}
+
+.post-meta {
+  color: var(--color-secondary);
+  margin-bottom: 3rem;
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 1rem;
+}
+
+.post-meta p {
+  margin: 0;
 }
 
 .content-date {
@@ -819,7 +832,7 @@ h6 {
 .post-card-tags {
   flex: 1;
   margin: 0 0 5px 0;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   line-height: 1.19em;
   color: var(--color-secondary);
 }
@@ -848,8 +861,13 @@ h6 {
   font-weight: bold;
 }
 
-.tag:hover {
+a.tag:not(.no-border):hover {
   color: #fff;
+}
+
+a.tag.no-border:hover {
+  text-decoration: underline;
+  background: none;
 }
 
 .rss-feed {
@@ -894,7 +912,7 @@ h6 {
   background: none;
   color: var(--color-mothering);
 }
-.tag-mothering:hover {
+a.tag-mothering:hover {
   background: var(--color-mothering);
 }
 
@@ -902,7 +920,7 @@ h6 {
   border: 2px solid var(--color-wellbeing);
   color: var(--color-wellbeing);
 }
-.tag-wellbeing:hover {
+a.tag-wellbeing:hover {
   background: var(--color-wellbeing);
 }
 
@@ -910,7 +928,7 @@ h6 {
   border: 2px solid var(--color-productivity);
   color: var(--color-productivity);
 }
-.tag-productivity:hover {
+a.tag-productivity:hover {
   background: var(--color-productivity);
 }
 
@@ -918,7 +936,7 @@ h6 {
   border: 2px solid var(--color-books);
   color: var(--color-books);
 }
-.tag-books:hover {
+a.tag-books:hover {
   background: var(--color-books);
 }
 
@@ -926,7 +944,7 @@ h6 {
   border: 2px solid var(--color-work);
   color: var(--color-work);
 }
-.tag-work:hover {
+a.tag-work:hover {
   background: var(--color-work);
 }
 
@@ -934,7 +952,7 @@ h6 {
   border: 2px solid var(--color-development);
   color: var(--color-development);
 }
-.tag-development:hover {
+a.tag-development:hover {
   background: var(--color-development);
 }
 
@@ -942,7 +960,7 @@ h6 {
   border: 2px solid var(--color-podcasts);
   color: var(--color-podcasts);
 }
-.tag-podcasts:hover {
+a.tag-podcasts:hover {
   background: var(--color-podcasts);
 }
 
@@ -950,8 +968,13 @@ h6 {
   border: 2px solid var(--color-miscellany);
   color: var(--color-miscellany);
 }
-.tag-miscellany:hover {
+a.tag-miscellany:hover {
   background: var(--color-miscellany);
+}
+
+.tag.no-border {
+  border: none;
+  padding: 0;
 }
 
 .post-card-reading-time {

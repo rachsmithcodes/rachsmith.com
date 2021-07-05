@@ -38,6 +38,7 @@ module.exports = {
     ],
     'jsx-quotes': ['error', 'prefer-double'],
     'object-curly-spacing': ['error', 'always'],
+    'curly': ['igonre'],
     'comma-dangle': [
       'error',
       {

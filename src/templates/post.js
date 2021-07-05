@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 
 import { Layout } from '../components/common';
 import { MetaData } from '../components/common/meta';
+import Tag from '../components/common/Tag';
 import TalkyardCommentsIframe from '@debiki/gatsby-plugin-talkyard';
 
 /**
@@ -16,6 +17,8 @@ import TalkyardCommentsIframe from '@debiki/gatsby-plugin-talkyard';
 const Post = ({ data, location }) => {
   const post = data.ghostPost;
   const tags = data.allGhostTag.edges.map((edge) => edge.node);
+
+  console.log(post);
 
   return (
     <>
@@ -33,7 +36,18 @@ const Post = ({ data, location }) => {
             ) : null}
             <section className="post-full-content">
               <h1 className="content-title">{post.title}</h1>
-              <p className="content-date">{post.published_at_pretty}</p>
+              <div className="post-meta">
+                <p className="content-date">{post.published_at_pretty}</p>
+                <p>
+                  Tagged:{' '}
+                  {post.tags.map((tag, i) => (
+                    <>
+                      <Tag key={tag.slug} tag={tag} noBorder />
+                      {i < post.tags.length - 1 && <>, </>}
+                    </>
+                  ))}
+                </p>
+              </div>
               {/* The main post content */}
               <section
                 className="content-body load-external-scripts"
