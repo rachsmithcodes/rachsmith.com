@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
@@ -16,9 +16,8 @@ import TalkyardCommentsIframe from '@debiki/gatsby-plugin-talkyard';
  */
 const Post = ({ data, location }) => {
   const post = data.ghostPost;
+  const tagSlug = post.primary_tag.slug;
   const tags = data.allGhostTag.edges.map((edge) => edge.node);
-
-  console.log(post);
 
   return (
     <>
@@ -41,14 +40,20 @@ const Post = ({ data, location }) => {
                 <p>
                   Tagged:{' '}
                   {post.tags.map((tag, i) => (
-                    <>
-                      <Tag key={tag.slug} tag={tag} noBorder />
+                    <Fragment key={tag.slug}>
+                      <Tag tag={tag} noBorder />
                       {i < post.tags.length - 1 && <>, </>}
-                    </>
+                    </Fragment>
                   ))}
                 </p>
               </div>
               {/* The main post content */}
+              {tagSlug === 'podcasts' && (
+                <section className="post-tag-intro">
+                  I listen to a lot of podcasts. When one makes a personal
+                  impact or gets me thinking I share those thoughts here.
+                </section>
+              )}
               <section
                 className="content-body load-external-scripts"
                 dangerouslySetInnerHTML={{ __html: post.html }}

@@ -576,6 +576,12 @@ h6 {
   object-fit: cover;
 }
 
+.post-tag-intro {
+  font-style: italic;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
 .content-body h1,
 .content-body h2,
 .content-body h3,
