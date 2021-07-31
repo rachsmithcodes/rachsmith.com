@@ -28,10 +28,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, tags }) => {
         <style type="text/css">{`${site.codeinjection_styles}`}</style>
         <body className={bodyClass} />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,400;0,700;1,400&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="stylesheet" href="https://use.typekit.net/rag2eie.css" />
       </Helmet>
 
       <div className="viewport">
