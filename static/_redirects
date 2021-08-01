@@ -3,3 +3,5 @@
 
 https://gatsby-starter-ghost.netlify.com/*      https://gatsby.ghost.org/:splat    301!
 http://gatsby-starter-ghost.netlify.com/*       https://gatsby.ghost.org/:splat    301!
+
+/2017/i-dont-have-imposter-syndrome/  /i-dont-have-imposter-syndrome/
