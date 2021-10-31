@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { Helmet } from 'react-helmet';
@@ -7,6 +7,7 @@ import { Layout } from '../components/common';
 import { MetaData } from '../components/common/meta';
 import Tag from '../components/common/Tag';
 import TalkyardCommentsIframe from '@debiki/gatsby-plugin-talkyard';
+import Prism from 'prismjs';
 
 /**
  * Single post view (/:slug)
@@ -18,6 +19,10 @@ const Post = ({ data, location }) => {
   const post = data.ghostPost;
   const tagSlug = post.primary_tag.slug;
   const tags = data.allGhostTag.edges.map((edge) => edge.node);
+
+  useEffect(() => {
+    Prism.highlightAll();
+  });
 
   return (
     <>

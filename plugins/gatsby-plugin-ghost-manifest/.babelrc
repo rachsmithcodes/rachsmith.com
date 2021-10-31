@@ -5,6 +5,14 @@
             {
     "browser": true
             }
-        ]
+        ], ["babel-preset-gatsby"]
+    ],
+    "plugins": [
+        ["prismjs", {
+          "languages": ["javascript", "css", "markup", "graphql", "jsx"],
+          "plugins": ["show-language"],
+          "theme": "one-light",
+          "css": true
+        }]
     ]
 }
