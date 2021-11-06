@@ -1,6 +1,6 @@
-const cheerio = require(`cheerio`)
-const tagsHelper = require(`@tryghost/helpers`).tags
-const _ = require(`lodash`)
+// const cheerio = require(`cheerio`)
+// const tagsHelper = require(`@tryghost/helpers`).tags
+// const _ = require(`lodash`)
 
 // const generateItem = function generateItem(siteUrl, post) {
 //     const itemUrl = post.canonical_url || `${siteUrl}/${post.slug}/`
@@ -162,8 +162,7 @@ const generateRSSFeed = function generateRSSFeed(siteConfig) {
     // current page satisfied this regular expression;
     // if not provided or `undefined`, all pages will have feed reference inserted
     match: '^/notes/',
-  }
-}
+  };
+};
 
-
-module.exports = generateRSSFeed
+module.exports = generateRSSFeed;

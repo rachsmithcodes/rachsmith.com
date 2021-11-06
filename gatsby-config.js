@@ -23,6 +23,7 @@ if (
 module.exports = {
   siteMetadata: {
     siteUrl: process.env.SITEURL || config.siteUrl,
+    author: 'Rach Smith',
   },
   plugins: [
     {
@@ -42,43 +43,36 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-remark-images`,
     'gatsby-plugin-postcss',
-    {
-      resolve: `gatsby-source-ghost`,
-      options:
-        process.env.NODE_ENV === `development`
-          ? ghostConfig.development
-          : ghostConfig.production,
-    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           {
-            resolve: `gatsby-remark-double-brackets-link`,
+            resolve: `gatsby-remark-images`,
             options: {
-              parseWikiLinks: true,
-              titleToURLPath: `${__dirname}/resolve-url.js`,
+              maxWidth: 800,
             },
           },
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   options: {
+    //     name: `gatsby-starter-default`,
+    //     short_name: `starter`,
+    //     start_url: `/`,
+    //     background_color: `#663399`,
+    //     // This will impact how browsers show your PWA/website
+    //     // https://css-tricks.com/meta-theme-color-and-trickery/
+    //     // theme_color: `#663399`,
+    //     display: `minimal-ui`,
+    //     icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-feed-mdx`,
       options: {

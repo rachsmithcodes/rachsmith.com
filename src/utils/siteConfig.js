@@ -1,8 +1,5 @@
 module.exports = {
   siteUrl: `https://rachsmith.com`, // Site domain. Do not include a trailing slash!
-
-  postsPerPage: 12, // Number of posts shown on paginated pages (changes this requires sometimes to delete the cache)
-
   siteTitleMeta: `Rach Smith`, // This allows an alternative site title for meta data for pages.
   siteDescriptionMeta: `Hi 👋🏼 I'm Rach. A developer building software for CodePen, wife, mother of two,
   productivity nerd and recovering screen addict. This is my blog.`, // This allows an alternative site description for meta data for pages.
