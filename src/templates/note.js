@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql, Link } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Layout from '../components/Layout';
+import TalkyardCommentsIframe from '@debiki/gatsby-plugin-talkyard';
 
 export default function note({ data: { mdx }, pageContext: { references } }) {
   return (
@@ -21,13 +22,14 @@ export default function note({ data: { mdx }, pageContext: { references } }) {
             })}
           </ul>
         </section>
+        <TalkyardCommentsIframe />
       </article>
     </Layout>
   );
 }
 
 export const query = graphql`
-  query ($slug: String!) {
+  query($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       fields {
         title

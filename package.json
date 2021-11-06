@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-ghost",
-  "description": "A starter template to build lightning fast websites with Ghost and Gatsby",
+  "name": "rachsmith.com",
+  "description": "Rach Smith's digital garden",
   "version": "1.0.0",
   "license": "MIT",
-  "author": "Ghost Foundation",
-  "homepage": "https://docs.ghost.org/api/gatsby/",
+  "author": "Rachel Smith",
+  "homepage": "https://rachsmith.com",
   "resolutions": {
     "sharp": "0.26.0"
   },

@@ -3,7 +3,6 @@ const path = require(`path`);
 const config = require(`./src/utils/siteConfig`);
 const generateRSSFeed = require(`./src/utils/rss/generate-feed`);
 
-
 if (
   process.env.NODE_ENV === `production` &&
   config.siteUrl === `http://localhost:8000` &&
@@ -112,7 +111,7 @@ module.exports = {
     {
       resolve: '@debiki/gatsby-plugin-talkyard',
       options: {
-        talkyardServerUrl: 'https://comments-for-rachsmith-com.talkyard.net',
+        talkyardServerUrl: 'https://site-1hvw5pe7vn.talkyard.net',
       },
     },
   ],
