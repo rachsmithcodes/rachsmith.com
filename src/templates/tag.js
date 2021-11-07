@@ -1,82 +1,72 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
 
-import { Layout, PostCard, Pagination } from '../components/common';
-import { MetaData } from '../components/common/meta';
+// Components
+import { Link, graphql } from 'gatsby';
+import Layout from '../components/Layout';
 
-/**
- * Tag page (/tag/:slug)
- *
- * Loads all posts for the requested tag incl. pagination.
- *
- */
-const Tag = ({ data, location, pageContext }) => {
-  const tag = data.ghostTag;
-  const posts = data.allGhostPost.edges;
-  const tags = data.allGhostTag.edges.map((edge) => edge.node);
+const Tag = ({ pageContext, data }) => {
+  const { tag } = pageContext;
+  const { edges, totalCount } = data.allMdx;
+  const tagHeader = `${totalCount} post${
+    totalCount === 1 ? '' : 's'
+  } tagged with "${tag}"`;
 
   return (
-    <>
-      <MetaData data={data} location={location} type="series" />
-      <Layout tags={tags}>
-        <div className="container">
-          <header className="tag-header">
-            <h1>tagged: {tag.name}</h1>
-            {tag.description ? <p>{tag.description}</p> : null}
-          </header>
-          <section className="post-feed">
-            {posts.map(({ node }) => (
-              // The tag below includes the markup for each post - components/common/PostCard.js
-              <PostCard key={node.id} post={node} />
-            ))}
-          </section>
-          <Pagination pageContext={pageContext} />
-        </div>
-      </Layout>
-    </>
+    <Layout>
+      <h1>{tagHeader}</h1>
+      <ul>
+        {edges.map(({ node }) => {
+          // const { slug } = node.fields;
+          const { title, slug } = node.fields;
+          return (
+            <li key={slug}>
+              <Link to={`/${slug}/`}>{title}</Link>
+            </li>
+          );
+        })}
+      </ul>
+    </Layout>
   );
 };
 
 Tag.propTypes = {
+  pageContext: PropTypes.shape({
+    tag: PropTypes.string.isRequired,
+  }),
   data: PropTypes.shape({
-    ghostTag: PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      description: PropTypes.string,
+    allMdx: PropTypes.shape({
+      totalCount: PropTypes.number.isRequired,
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          node: PropTypes.shape({
+            fields: PropTypes.shape({
+              title: PropTypes.string.isRequired,
+              slug: PropTypes.string.isRequired,
+            }),
+          }),
+        }).isRequired
+      ),
     }),
-    allGhostPost: PropTypes.object.isRequired,
-    allGhostTag: PropTypes.object.isRequired,
-  }).isRequired,
-  location: PropTypes.shape({
-    pathname: PropTypes.string.isRequired,
-  }).isRequired,
-  pageContext: PropTypes.object,
+  }),
 };
 
 export default Tag;
 
 export const pageQuery = graphql`
-  query GhostTagQuery($slug: String!, $limit: Int!, $skip: Int!) {
-    ghostTag(slug: { eq: $slug }) {
-      ...GhostTagFields
-    }
-    allGhostPost(
-      sort: { order: DESC, fields: [published_at] }
-      filter: { tags: { elemMatch: { slug: { eq: $slug } } } }
-      limit: $limit
-      skip: $skip
+  query($tag: String) {
+    allMdx(
+      limit: 2000
+      sort: { fields: [frontmatter___added], order: DESC }
+      filter: { frontmatter: { tags: { in: [$tag] } } }
     ) {
+      totalCount
       edges {
         node {
-          ...GhostPostFields
-        }
-      }
-    }
-    allGhostTag {
-      edges {
-        node {
-          name
-          slug
+          fields {
+            slug
+            title
+          }
         }
       }
     }
