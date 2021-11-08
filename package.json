@@ -5,9 +5,6 @@
   "license": "MIT",
   "author": "Rachel Smith",
   "homepage": "https://rachsmith.com",
-  "resolutions": {
-    "sharp": "0.26.0"
-  },
   "engines": {
     "node": ">= 10.13.0"
   },
