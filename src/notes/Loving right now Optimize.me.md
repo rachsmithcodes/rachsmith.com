@@ -1,5 +1,5 @@
 ---
-title: Loving right now: Optimize.me
+title: "Loving right now: Optimize.me"
 added: 2021-10-13 07:42
 updated: 2021-10-13 07:42
 tags: [books, productivity]

@@ -56,6 +56,13 @@ module.exports = {
               maxWidth: 800,
             },
           },
+          {
+            resolve: '@weknow/gatsby-remark-codepen',
+            options: {
+              theme: 'dark',
+              height: 400,
+            },
+          },
         ],
       },
     },
@@ -93,8 +100,8 @@ module.exports = {
     },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-force-trailing-slashes`,
     `gatsby-plugin-remove-serviceworker`,
+    `gatsby-plugin-force-trailing-slashes`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {

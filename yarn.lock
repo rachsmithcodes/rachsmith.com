@@ -2532,6 +2532,14 @@
     "@webassemblyjs/ast" "1.11.1"
     "@xtuc/long" "4.2.2"
 
+"@weknow/gatsby-remark-codepen@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@weknow/gatsby-remark-codepen/-/gatsby-remark-codepen-0.1.0.tgz#fb910dae84531a30d9a9b08df6c02c01a91bf797"
+  integrity sha512-5fsHLw2ImwbtSU0tQfHGhx45qCLfyOLhskYvQHMhtSOQfuI7z4ggla32IknnVM/7L/a+ENYVFkbksNlS0jGeuA==
+  dependencies:
+    babel-runtime "^6.26.0"
+    unist-util-visit "^1.1.3"
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@xtuc/ieee754/-/ieee754-1.2.0.tgz"
@@ -12730,7 +12738,7 @@ unist-util-visit@2.0.3, unist-util-visit@^2.0.0, unist-util-visit@^2.0.2:
     unist-util-is "^4.0.0"
     unist-util-visit-parents "^3.0.0"
 
-unist-util-visit@^1.1.0, unist-util-visit@^1.4.1:
+unist-util-visit@^1.1.0, unist-util-visit@^1.1.3, unist-util-visit@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-1.4.1.tgz"
   integrity sha512-AvGNk7Bb//EmJZyhtRUnNMEpId/AZ5Ph/KUpTI09WHQuDZHKovQ1oEv3mfmKpWKtoMzyMC4GLBm1Zy5k12fjIw==
