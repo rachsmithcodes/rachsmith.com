@@ -33,6 +33,8 @@
   },
   "dependencies": {
     "@debiki/gatsby-plugin-talkyard": "^0.5.8",
+    "@fontsource/open-sans": "^4.5.2",
+    "@fontsource/ubuntu": "^4.5.0",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "@weknow/gatsby-remark-codepen": "^0.1.0",

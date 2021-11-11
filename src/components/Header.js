@@ -3,21 +3,21 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import Tags from './Tags';
 
-const Sidebar = ({ siteTitle }) => (
-  <aside className="min-w-max p-5">
+const Header = ({ siteTitle }) => (
+  <section className="p-5">
     <h1 className="text-3xl mb-5">
       <Link to="/">{siteTitle}</Link>
     </h1>
-    <Tags />
-  </aside>
+    {/* <Tags /> */}
+  </section>
 );
 
-Sidebar.propTypes = {
+Header.propTypes = {
   siteTitle: PropTypes.string,
 };
 
-Sidebar.defaultProps = {
+Header.defaultProps = {
   siteTitle: ``,
 };
 
-export default Sidebar;
+export default Header;

@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 import { MDXProvider } from '@mdx-js/react';
 
-import Sidebar from './Sidebar';
+import Header from './Header';
 
 const Paragraph = (props) => <p className="mb-5" {...props} />;
 const H1 = (props) => <p className="text-5xl mb-5" {...props} />;
@@ -30,17 +30,15 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <div className="font-sans text-lg min-h-full flex flex-col">
-      <div className="flex min-h-full">
-        <Sidebar siteTitle={data.site.siteMetadata?.title || `Title`} />
-        <main className="p-4 max-w-screen-md">
-          <MDXProvider
-            components={{ p: Paragraph, h1: H1, h2: H2, h3: H3, h4: H4 }}
-          >
-            {children}
-          </MDXProvider>
-        </main>
-      </div>
+    <div className="font-body container text-xl">
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <main className="p-5 max-w-screen-md">
+        <MDXProvider
+          components={{ p: Paragraph, h1: H1, h2: H2, h3: H3, h4: H4 }}
+        >
+          {children}
+        </MDXProvider>
+      </main>
       <footer
         style={{
           marginTop: `2rem`,
