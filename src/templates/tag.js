@@ -13,7 +13,7 @@ const Tag = ({ pageContext, data }) => {
   } tagged with "${tag}"`;
 
   return (
-    <Layout>
+    <Layout page="tag">
       <h1>{tagHeader}</h1>
       <ul>
         {edges.map(({ node }) => {

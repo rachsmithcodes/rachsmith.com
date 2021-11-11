@@ -6,7 +6,7 @@ import TalkyardCommentsIframe from '@debiki/gatsby-plugin-talkyard';
 
 export default function note({ data: { mdx }, pageContext: { references } }) {
   return (
-    <Layout>
+    <Layout page="note">
       <article>
         <h1 className="text-5xl mb-5">{mdx.fields.title}</h1>
         <MDXRenderer>{mdx.body}</MDXRenderer>

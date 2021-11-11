@@ -18,7 +18,7 @@ const H2 = (props) => <p className="text-4xl mb-5" {...props} />;
 const H3 = (props) => <p className="text-3xl mb-5" {...props} />;
 const H4 = (props) => <p className="text-2xl mb-5" {...props} />;
 
-const Layout = ({ children }) => {
+const Layout = ({ page, children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -30,9 +30,9 @@ const Layout = ({ children }) => {
   `);
 
   return (
-    <div className="font-body container text-xl">
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <main className="p-5 max-w-screen-md">
+    <div className="font-body container text-lg">
+      <Header page={page} />
+      <main className="p-5">
         <MDXProvider
           components={{ p: Paragraph, h1: H1, h2: H2, h3: H3, h4: H4 }}
         >
