@@ -1,7 +1,7 @@
 ---
 title: Why write?
-added: "2021-06-13 21:23"
-updated: "2021-06-13 21:23"
+added: 2021-06-13 21:23
+updated: 2021-06-13 21:23
 tags: [wellbeing]
 excerpt: Why do I want to dedicate my precious time to writing?
 ---
