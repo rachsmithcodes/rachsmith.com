@@ -1,7 +1,7 @@
 ---
 title: "How I keep up with the latest Front-End Development news, without scrolling my life away"
-added: "2021-09-01 06:52"
-updated: "2021-09-01 06:52"
+added: 2021-09-01 06:52
+updated: 2021-09-01 06:52
 tags: [development]
 excerpt: Some of the email newsletters I've found useful for keeping up with Front End news.
 ---

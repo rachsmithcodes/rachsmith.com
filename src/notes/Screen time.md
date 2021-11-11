@@ -1,7 +1,7 @@
 ---
 title: Screen time
-added: "2021-08-28 07:48"
-updated: "2021-08-28 07:48"
+added: 2021-08-28 07:48
+updated: 2021-08-28 07:48
 tags: [wellbeing, productivity]
 excerpt: The inability to self-regulate my screen usage has been a thread of my entire life.
 ---

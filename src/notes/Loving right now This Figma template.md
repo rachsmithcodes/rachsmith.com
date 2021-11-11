@@ -1,7 +1,7 @@
 ---
 title: "Loving right now: This Figma template for creating Database ERDs"
-added: "2021-08-25 14:20"
-updated: "2021-08-25 14:20"
+added: 2021-08-25 14:20
+updated: 2021-08-25 14:20
 tags: [development]
 excerpt: "This Figma template came through for me today"
 ---
