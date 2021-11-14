@@ -1,33 +1,34 @@
 import * as React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
 import Seo from '../components/Seo';
+import NoteListItem from '../components/NoteListItem';
 
 const AllNotes = ({ data }) => {
   return (
     <Layout page="page">
       <Seo title="All Notes" />
-      <h1 className="text-xl mb-6 font-headings">All Notes</h1>
-      <ul>
-        {data.allMdx.edges.map(
-          ({
-            node: {
-              fields: { added, excerpt, slug, title },
-            },
-          }) => (
-            <li className="mb-6">
-              <Link
-                to={`/{slug}/`}
-                className="text-black font-headings font-bold"
-              >
-                {title}
-              </Link>{' '}
-              - {excerpt}
-            </li>
-          )
-        )}
-      </ul>
+      <div className="p-5">
+        <h1 className="text-xl mb-5 font-headings">All Notes</h1>
+        <ul>
+          {data.allMdx.edges.map(
+            ({
+              node: {
+                fields: { excerpt, slug, title, tags },
+              },
+            }) => (
+              <NoteListItem
+                key={slug}
+                excerpt={excerpt}
+                slug={slug}
+                title={title}
+                tags={tags}
+              />
+            )
+          )}
+        </ul>
+      </div>
     </Layout>
   );
 };
@@ -42,6 +43,7 @@ export const query = graphql`
             added
             slug
             excerpt
+            tags
           }
         }
       }

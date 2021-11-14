@@ -12,6 +12,7 @@ import { MDXProvider } from '@mdx-js/react';
 
 import Header from './Header';
 import Footer from './Footer';
+import { Helmet } from 'react-helmet';
 
 const Paragraph = (props) => <p className="mb-5" {...props} />;
 const H1 = (props) => <p className="text-5xl mb-5" {...props} />;
@@ -31,17 +32,25 @@ const Layout = ({ page, children }) => {
   `);
 
   return (
-    <div className="font-body container text-lg">
-      <Header page={page} />
-      <main className="">
-        <MDXProvider
-          components={{ p: Paragraph, h1: H1, h2: H2, h3: H3, h4: H4 }}
-        >
-          {children}
-        </MDXProvider>
-      </main>
-      <Footer />
-    </div>
+    <>
+      <Helmet>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </Helmet>
+      <div className="font-body container text-lg">
+        <Header page={page} />
+        <main className="">
+          <MDXProvider
+            components={{ p: Paragraph, h1: H1, h2: H2, h3: H3, h4: H4 }}
+          >
+            {children}
+          </MDXProvider>
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 };
 

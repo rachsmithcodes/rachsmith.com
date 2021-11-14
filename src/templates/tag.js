@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 // Components
 import { Link, graphql } from 'gatsby';
 import Layout from '../components/Layout';
+import NoteListItem from '../components/NoteListItem';
 
 const Tag = ({ pageContext, data }) => {
   const { tag } = pageContext;
@@ -13,19 +14,24 @@ const Tag = ({ pageContext, data }) => {
   } tagged with "${tag}"`;
 
   return (
-    <Layout page="tag">
-      <h1>{tagHeader}</h1>
-      <ul>
-        {edges.map(({ node }) => {
-          // const { slug } = node.fields;
-          const { title, slug } = node.fields;
-          return (
-            <li key={slug}>
-              <Link to={`/${slug}/`}>{title}</Link>
-            </li>
-          );
-        })}
-      </ul>
+    <Layout page="page">
+      <div className="p-5 border-b">
+        <h1 className="font-headings text-2xl mb-5">{tagHeader}</h1>
+        <ul>
+          {edges.map(({ node }) => {
+            const { title, slug, excerpt, tags } = node.fields;
+            return (
+              <NoteListItem
+                key={slug}
+                title={title}
+                slug={slug}
+                excerpt={excerpt}
+                tags={tags}
+              />
+            );
+          })}
+        </ul>
+      </div>
     </Layout>
   );
 };
@@ -66,6 +72,8 @@ export const pageQuery = graphql`
           fields {
             slug
             title
+            excerpt
+            tags
           }
         }
       }
