@@ -16,18 +16,17 @@ const Tags = () => {
     }
   `);
   return (
-    <section>
-      <h3>Tags</h3>
-      <ul>
-        {group.map((tag) => (
-          <li key={tag.fieldValue}>
-            <Link to={`/tag/${tag.fieldValue}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </section>
+    <ul>
+      {group.map((tag) => (
+        <li key={tag.fieldValue} className="inline-block mr-4">
+          <Link to={`/tag/${tag.fieldValue}/`} className="no-underline">
+            <span className="text-sm">#</span>
+            <span className="underline">{tag.fieldValue}</span>
+          </Link>
+          <span className="text-sm pl-1">{tag.totalCount}</span>
+        </li>
+      ))}
+    </ul>
   );
 };
 

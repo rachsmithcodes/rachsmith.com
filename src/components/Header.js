@@ -4,11 +4,22 @@ import { Link } from 'gatsby';
 import Tags from './Tags';
 
 const HomeHeader = () => (
-  <p className="">
-    Hi 👋🏼 &nbsp;I'm Rach. A developer building software for CodePen, wife,
-    mother of two, productivity nerd and recovering screen addict. This is my
-    digital garden.
-  </p>
+  <>
+    <p className="mb-5">
+      Hi 👋🏼 &nbsp;I'm Rach. A{' '}
+      <Link to="/full-stack-t-shaped-comb-shaped-developer-or-engineer/">
+        developer
+      </Link>{' '}
+      building software for CodePen, wife, mother of two, productivity nerd and
+      recovering screen addict. This is my digital garden.
+    </p>
+    <p className="mb-5">
+      I am in process of redesigning this website in public. It has been
+      stripped back to the bare minimum and I will make gradual improvements as
+      time goes on. You can follow the changes or suggest your own at the{' '}
+      <a href="https://github.com/rachsmithcodes/rachsmith.com">GitHub repo.</a>
+    </p>
+  </>
 );
 
 const PageHeader = () => (

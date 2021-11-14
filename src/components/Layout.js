@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { MDXProvider } from '@mdx-js/react';
 
 import Header from './Header';
+import Footer from './Footer';
 
 const Paragraph = (props) => <p className="mb-5" {...props} />;
 const H1 = (props) => <p className="text-5xl mb-5" {...props} />;
@@ -32,22 +33,14 @@ const Layout = ({ page, children }) => {
   return (
     <div className="font-body container text-lg">
       <Header page={page} />
-      <main className="p-5">
+      <main className="">
         <MDXProvider
           components={{ p: Paragraph, h1: H1, h2: H2, h3: H3, h4: H4 }}
         >
           {children}
         </MDXProvider>
       </main>
-      <footer
-        style={{
-          marginTop: `2rem`,
-        }}
-      >
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
-      </footer>
+      <Footer />
     </div>
   );
 };
