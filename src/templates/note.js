@@ -3,6 +3,7 @@ import { graphql, Link } from 'gatsby';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Layout from '../components/Layout';
 import TalkyardCommentsIframe from '@debiki/gatsby-plugin-talkyard';
+import Seo from '../components/Seo';
 
 function formatDate(date) {
   return new Date(date).toLocaleDateString('en-US', {
@@ -15,6 +16,7 @@ function formatDate(date) {
 export default function note({ data: { mdx }, pageContext: { references } }) {
   return (
     <Layout page="note">
+      <Seo title={mdx.fields.title} />
       <article className="mb-5 border-b p-5">
         <h1 className="font-headings text-5xl mb-5 font-bold">
           {mdx.fields.title}

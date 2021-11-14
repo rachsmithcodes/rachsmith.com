@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// Components
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import NoteListItem from '../components/NoteListItem';
 
@@ -15,6 +14,7 @@ const Tag = ({ pageContext, data }) => {
 
   return (
     <Layout page="page">
+      <Seo title={`Tag: ${tag}`} />
       <div className="p-5 border-b">
         <h1 className="font-headings text-2xl mb-5">{tagHeader}</h1>
         <ul>

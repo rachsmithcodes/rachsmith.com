@@ -24,6 +24,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: process.env.SITEURL || config.siteUrl,
     author: 'Rach Smith',
+    title: "Rach Smith's digital garden",
   },
   plugins: [
     {
