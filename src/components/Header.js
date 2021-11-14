@@ -23,19 +23,21 @@ const HomeHeader = () => (
 );
 
 const PageHeader = () => (
-  <Link to="/" className="text-black font-headings">
-    Rach Smith's digital garden
-  </Link>
+  <h2 className="mb-5">
+    <Link to="/" className="text-black font-headings">
+      Rach Smith's digital garden
+    </Link>
+    .
+  </h2>
 );
 
 const NoteHeader = () => (
   <h2 className="mb-5">
-    A note from <Link to="/">Rach Smith's digital garden</Link>
+    A note from <Link to="/">Rach Smith's digital garden</Link>.
   </h2>
 );
 
 const Header = ({ page }) => {
-  console.log(page);
   let header = null;
   switch (page) {
     case 'home':

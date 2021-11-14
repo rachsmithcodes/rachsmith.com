@@ -5,7 +5,6 @@ import Layout from '../components/Layout';
 import Seo from '../components/Seo';
 
 const AllNotes = ({ data }) => {
-  console.log(data);
   return (
     <Layout page="page">
       <Seo title="All Notes" />
