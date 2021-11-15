@@ -4,6 +4,7 @@ import { MDXRenderer } from 'gatsby-plugin-mdx';
 import Layout from '../components/Layout';
 import TalkyardCommentsIframe from '@debiki/gatsby-plugin-talkyard';
 import Seo from '../components/Seo';
+import NoteListItem from '../components/NoteListItem';
 
 function formatDate(date) {
   return new Date(date).toLocaleDateString('en-US', {
@@ -41,6 +42,18 @@ export default function note({ data: { mdx }, pageContext: { references } }) {
         </div>
         <MDXRenderer>{mdx.body}</MDXRenderer>
       </article>
+      {references.length > 0 && (
+        <section className="p-5 border-b">
+          <h3 className="font-headings text-xl mb-3">
+            Referenced by these notes
+          </h3>
+          <ul className="list-none">
+            {references.map((reference) => (
+              <NoteListItem slug={reference.slug} title={reference.title} />
+            ))}
+          </ul>
+        </section>
+      )}
       <section className="p-5 border-b">
         <h3 className="font-headings text-xl">Comments</h3>
         <TalkyardCommentsIframe />

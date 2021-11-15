@@ -7,8 +7,8 @@ export default function NoteListItem({ slug, title, excerpt, tags }) {
       <Link to={`/${slug}/`} className="text-black font-headings font-bold">
         {title}
       </Link>{' '}
-      - {excerpt}{' '}
-      {tags.map((tag) => (
+      {excerpt && `- ${excerpt} `}
+      {tags?.map((tag) => (
         <Link className="text-base mr-2" to={`/tag/${tag}/`}>{`#${tag}`}</Link>
       ))}
     </li>

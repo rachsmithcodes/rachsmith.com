@@ -23,7 +23,7 @@ export default function Footer() {
           rachsmith dot com.
         </p>
       </section>
-      <section className="p-5">
+      <section className="p-5 text-sm">
         © {new Date().getFullYear()} Rachel Smith
       </section>
     </footer>

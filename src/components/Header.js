@@ -17,7 +17,7 @@ const HomeHeader = () => (
       I am in process of redesigning this website in public. It has been
       stripped back to the bare minimum and I will make gradual improvements as
       time goes on. You can follow the changes or suggest your own at the{' '}
-      <a href="https://github.com/rachsmithcodes/rachsmith.com">GitHub repo.</a>
+      <a href="https://github.com/rachsmithcodes/rachsmith.com">GitHub repo</a>.
     </p>
   </>
 );

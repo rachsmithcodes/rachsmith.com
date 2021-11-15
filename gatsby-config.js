@@ -52,6 +52,14 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
         gatsbyRemarkPlugins: [
           {
+            resolve: `gatsby-remark-double-brackets-link`,
+            options: {
+              parseWikiLinks: true,
+              titleToURLPath: `${__dirname}/resolve-url.js`,
+              stripBrackets: true,
+            },
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 800,
