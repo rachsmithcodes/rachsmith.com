@@ -64,17 +64,20 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   // build links
   notesResult.data.allMdx.nodes.forEach((note) => {
-    const { slug, title } = note.fields;
+    const { slug, title, excerpt, tags } = note.fields;
     const { rawBody } = note;
 
     const wikiLinkMatches = rawBody.match(/((?<=\[\[).*?(?=\]\]))/g) ?? [];
     wikiLinkMatches.forEach((wikiLink) => {
-      const wikiLinkSlug = slugify(wikiLink.split('|')[0], { lower: true });
+      const wikiLinkSlug = slugify(wikiLink.split('|')[0], {
+        lower: true,
+        remove: /[^a-zA-Z\d\s:]/,
+      });
       if (references[wikiLinkSlug]) {
         if (!references[wikiLinkSlug].some((ref) => ref.slug === slug))
           references[wikiLinkSlug].push({ slug, title });
       } else {
-        references[wikiLinkSlug] = [{ slug, title }];
+        references[wikiLinkSlug] = [{ slug, title, excerpt, tags }];
       }
     });
   });
@@ -99,6 +102,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const fileName = fileNameSplit[fileNameSplit.length - 1].split('.')[0];
     const slug = slugify(fileName, {
       lower: true,
+      remove: /[^a-zA-Z\d\s:]/,
     });
 
     createNodeField({

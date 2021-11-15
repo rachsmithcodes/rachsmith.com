@@ -13,11 +13,25 @@ const HomeHeader = () => (
       building software for CodePen, wife, mother of two, productivity nerd and
       recovering screen addict. This is my digital garden.
     </p>
-    <p className="mb-5">
+    <p className="mb-10">
       I am in process of redesigning this website in public. It has been
       stripped back to the bare minimum and I will make gradual improvements as
       time goes on. You can follow the changes or suggest your own at the{' '}
       <a href="https://github.com/rachsmithcodes/rachsmith.com">GitHub repo</a>.
+    </p>
+    <p>
+      <Link
+        className="mr-4 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+        to="/all-notes/"
+      >
+        See all the notes
+      </Link>
+      <a
+        href="https://feedly.com/i/subscription/feed/https://rachsmith.com/rss/"
+        className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+      >
+        Subscribe to RSS feed
+      </a>
     </p>
   </>
 );

@@ -48,8 +48,13 @@ export default function note({ data: { mdx }, pageContext: { references } }) {
             Referenced by these notes
           </h3>
           <ul className="list-none">
-            {references.map((reference) => (
-              <NoteListItem slug={reference.slug} title={reference.title} />
+            {references.map(({ title, slug, excerpt, tags }) => (
+              <NoteListItem
+                slug={slug}
+                title={title}
+                excerpt={excerpt}
+                tags={tags}
+              />
             ))}
           </ul>
         </section>
