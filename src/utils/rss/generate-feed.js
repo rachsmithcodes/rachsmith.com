@@ -5,8 +5,8 @@ const generateRSSFeed = function generateRSSFeed(siteConfig) {
         return Object.assign({}, edge.node.frontmatter, {
           description: edge.node.fields.excerpt,
           date: edge.node.frontmatter.added,
-          url: site.siteMetadata.siteUrl + '/blog' + edge.node.fields.slug,
-          guid: site.siteMetadata.siteUrl + '/blog' + edge.node.fields.slug,
+          url: site.siteMetadata.siteUrl + '/' + edge.node.fields.slug,
+          guid: site.siteMetadata.siteUrl + '/' + edge.node.fields.slug,
           custom_elements: [{ 'content:encoded': edge.node.html }],
           categories: edge.node.frontmatter.tags,
         });
