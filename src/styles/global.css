@@ -2,7 +2,7 @@
 
 @layer base {
   a {
-    @apply text-blue-600 underline;
+    @apply text-pink-800 underline;
   }
 }
 
