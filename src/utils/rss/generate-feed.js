@@ -35,14 +35,14 @@ const generateRSSFeed = function generateRSSFeed(siteConfig) {
         }
       }
     `,
-    output: '/rss.xml',
+    output: '/rss',
     title: "Rach Smith's digital garden",
     // optional configuration to insert feed reference in pages:
     // if `string` is used, it will be used to create RegExp and then test if pathname of
     // current page satisfied this regular expression;
     // if not provided or `undefined`, all pages will have feed reference inserted
     match: '^/notes/',
-    feed_url: 'https://rachsmith.com/rss',
+    feed_url: 'https://rachsmith.com/rss/',
     site_url: 'https://rachsmith.com',
     image_url: 'https://rachsmith.com/favicon-32x32.png',
     description: siteConfig.siteDescriptionMeta,
