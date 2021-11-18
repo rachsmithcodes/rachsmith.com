@@ -1,0 +1,10 @@
+@tailwind base;
+
+@layer base {
+  a {
+    @apply text-pink-800 underline;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
