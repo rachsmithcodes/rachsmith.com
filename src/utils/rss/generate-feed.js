@@ -7,7 +7,9 @@ const generateRSSFeed = function generateRSSFeed(siteConfig) {
           date: edge.node.frontmatter.added,
           url: `${site.siteMetadata.siteUrl}/${edge.node.fields.slug}/`,
           guid: `${site.siteMetadata.siteUrl}/${edge.node.fields.slug}/`,
-          custom_elements: [{ 'content:encoded': edge.node.html }],
+          custom_elements: [
+            { 'content:encoded': `<![CDATA[${edge.node.html}"]]>` },
+          ],
           categories: edge.node.frontmatter.tags,
         });
       });
