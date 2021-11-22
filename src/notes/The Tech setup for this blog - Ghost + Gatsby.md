@@ -1,10 +1,12 @@
 ---
 title: "The Tech setup for this blog - Ghost + Gatsby"
 added: 2021-02-21 20:55
-updated: 2021-02-21 20:55
+updated: 2021-11-22 17:00
 tags: [development]
 excerpt: The best way to procrastinate on writing for your new blog is to deliberate over choosing the tech stack for your new blog. 
 ---
+
+**Update:** The stack for this blog has changed a little. It no longer uses Ghost to store the content. The content is now stored within the Gatsby `src`. [[10,000 gatsby develops later|Read more here]].
 
 ## The Stack
 The best way to procrastinate on writing for your new blog is to deliberate over choosing the tech stack for your new blog. Especially if you are a capable cross-stack Web Developer, as the options to choose from may as well be infinite. 
