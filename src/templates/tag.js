@@ -15,7 +15,7 @@ const Tag = ({ pageContext, data }) => {
 
   return (
     <Layout page="page">
-      <Seo title={`Tag: ${tag}`} />
+      <Seo title={tag} description={`All notes tagged with ${tag}`} />
       <div className="p-5 border-b">
         <h1 className="font-headings text-2xl mb-5">{tagHeader}</h1>
         <ul>
@@ -61,7 +61,7 @@ Tag.propTypes = {
 export default Tag;
 
 export const pageQuery = graphql`
-  query($tag: String) {
+  query ($tag: String) {
     allMdx(
       limit: 2000
       sort: { fields: [frontmatter___added], order: DESC }

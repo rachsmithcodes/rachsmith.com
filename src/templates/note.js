@@ -17,7 +17,7 @@ function formatDate(date) {
 export default function note({ data: { mdx }, pageContext: { references } }) {
   return (
     <Layout page="note">
-      <Seo title={mdx.fields.title} />
+      <Seo title={mdx.fields.title} description={mdx.fields.excerpt} />
       <article className="mb-5 border-b p-5">
         <h1 className="font-headings text-5xl mb-5 font-bold">
           {mdx.fields.title}
@@ -68,7 +68,7 @@ export default function note({ data: { mdx }, pageContext: { references } }) {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       fields {
         title
