@@ -75,6 +75,7 @@ export const query = graphql`
         added
         updated
         tags
+        excerpt
       }
       body
     }
