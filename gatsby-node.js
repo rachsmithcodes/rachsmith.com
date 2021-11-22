@@ -50,6 +50,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           fields {
             slug
             title
+            excerpt
+            tags
           }
           rawBody
         }
@@ -88,6 +90,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       component: noteTemplate,
       context: {
         slug: node.fields.slug,
+        excerpt: node.fields.excerpt,
+        tags: node.fields.tags,
         references: references[node.fields.slug] || [],
       },
     });
