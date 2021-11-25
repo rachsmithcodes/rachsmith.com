@@ -44,7 +44,6 @@ const generateRSSFeed = function generateRSSFeed(siteConfig) {
     match: '^/notes/',
     feed_url: 'https://rachsmith.com/rss/',
     site_url: 'https://rachsmith.com',
-    image_url: 'https://rachsmith.com/favicon-32x32.png',
     description: siteConfig.siteDescriptionMeta,
   };
 };
