@@ -20,8 +20,8 @@ Five minutes into using the release where vscode introduced automatic import-sta
 
 ### [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
 Before using React and Redux I had experience with
-- typical jQuery style development, where you attach event handlers to DOM elements (wild)
-- JavaScript MVC style development, where state is tracked via JS objects (a little more controlled) 
+- 🙃 typical jQuery style development, where you attach event handlers to DOM elements (wild)
+- 😕 JavaScript MVC style development, where state is tracked via JS objects (a little more controlled) 
 Redux devtools was my first experience with a tool that would show you a visual representation of your application state and the effect of all the actions taken on that state as you modified the application. No more endless console logging was required. I never wanted to go back to being 'in the dark' about state again.
 We don't use Redux anymore, but Apollo Client has [similar devtools](https://chrome.google.com/webstore/detail/apollo-client-devtools/jdkknkkbebbapilgoeccciglkfbmbnfm) where you can track the state of your local cache data. I suspect Redux played a large part in setting a new standard around in-browser tooling. [React](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) also has excellent tooling for tracking props and context. That old jQuery style development seems archaic in comparison.
 
