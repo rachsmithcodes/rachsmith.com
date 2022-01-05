@@ -15,10 +15,10 @@ import Footer from './Footer';
 import { Helmet } from 'react-helmet';
 
 const Paragraph = (props) => <p className="mb-5" {...props} />;
-const H1 = (props) => <p className="text-5xl mb-5 mt-3" {...props} />;
-const H2 = (props) => <p className="text-4xl mb-5 mt-3" {...props} />;
-const H3 = (props) => <p className="text-3xl mb-5 mt-3" {...props} />;
-const H4 = (props) => <p className="text-2xl mb-5 mt-3" {...props} />;
+const H1 = (props) => <p className="text-5xl mb-3 mt-3" {...props} />;
+const H2 = (props) => <p className="text-4xl mb-3 mt-3" {...props} />;
+const H3 = (props) => <p className="text-3xl mb-3 mt-3" {...props} />;
+const H4 = (props) => <p className="text-2xl mb-3 mt-3" {...props} />;
 const List = (props) => <ul className="mb-5" {...props} />;
 const OrderedList = (props) => (
   <ol className="mb-5 ml-5 list-decimal" {...props} />

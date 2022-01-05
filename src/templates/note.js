@@ -7,7 +7,7 @@ import Seo from '../components/Seo';
 import NoteListItem from '../components/NoteListItem';
 
 function formatDate(date) {
-  return new Date(date).toLocaleDateString('en-US', {
+  return new Date(date.replace(/-/g, '/')).toLocaleDateString('en-US', {
     month: 'long',
     day: 'numeric',
     year: 'numeric',
