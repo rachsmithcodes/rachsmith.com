@@ -1,5 +1,17 @@
 @tailwind base;
 
+@font-face {
+  font-family: "Ilisarniq-Light";
+  src: url("/fonts/Ilisarniq-Light.woff2") format("woff2"),
+       url("/fonts/Ilisarniq-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Ilisarniq-Demi";
+  src: url("/fonts/Ilisarniq-Demi.woff2") format("woff2"),
+       url("/fonts/Ilisarniq-Demi.woff") format("woff");
+}
+
 @layer base {
   a {
     @apply text-pink-800 underline;
@@ -8,3 +20,7 @@
 
 @tailwind components;
 @tailwind utilities;
+
+#ed-embedded-comments {
+  font-family: "Ilisarniq-Light", sans-serif;
+}

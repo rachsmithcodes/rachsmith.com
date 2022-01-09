@@ -3,8 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      body: ['"Open Sans"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
-      headings: ['Ubuntu', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      body: ['Ilisarniq-Light', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      demi: ['Ilisarniq-Demi', 'ui-sans-serif', 'system-ui', 'sans-serif'],
     },
     container: {
       center: true,

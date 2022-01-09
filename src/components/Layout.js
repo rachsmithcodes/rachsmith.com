@@ -20,8 +20,14 @@ const H2 = (props) => <p className="text-4xl mb-3 mt-3" {...props} />;
 const H3 = (props) => <p className="text-3xl mb-3 mt-3" {...props} />;
 const H4 = (props) => <p className="text-2xl mb-3 mt-3" {...props} />;
 const List = (props) => <ul className="mb-5" {...props} />;
+const Strong = (props) => (
+  <strong className="font-demi font-normal" {...props} />
+);
 const OrderedList = (props) => (
   <ol className="mb-5 ml-5 list-decimal" {...props} />
+);
+const UnorderedList = (props) => (
+  <ol className="mb-5 ml-5 list-disc" {...props} />
 );
 
 const Layout = ({ page, children }) => {
@@ -43,7 +49,7 @@ const Layout = ({ page, children }) => {
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Helmet>
-      <div className="font-body container text-lg">
+      <div className="font-body container text-lg max-w-prose mx-auto">
         <Header page={page} />
         <main className="">
           <MDXProvider
@@ -55,6 +61,8 @@ const Layout = ({ page, children }) => {
               h4: H4,
               ul: List,
               ol: OrderedList,
+              ul: UnorderedList,
+              strong: Strong,
             }}
           >
             {children}

@@ -21,14 +21,14 @@ const HomeHeader = () => (
     </p>
     <p>
       <Link
-        className="mb-5 inline-block mr-4 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+        className="mb-5 inline-block mr-4 bg-white hover:bg-gray-100 text-gray-800 font-demi py-2 px-4 border border-gray-400 rounded shadow"
         to="/all-notes/"
       >
         See all the notes
       </Link>
       <a
         href="https://feedly.com/i/subscription/feed/https://rachsmith.com/rss/"
-        className="inline-block bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+        className="inline-block bg-white hover:bg-gray-100 text-gray-800 font-demi py-2 px-4 border border-gray-400 rounded shadow"
       >
         Subscribe to RSS feed
       </a>
@@ -38,7 +38,7 @@ const HomeHeader = () => (
 
 const PageHeader = () => (
   <h2 className="mb-5">
-    <Link to="/" className="text-black font-headings">
+    <Link to="/" className="text-black font-demi">
       Rach Smith's digital garden
     </Link>
     .

@@ -19,9 +19,7 @@ export default function note({ data: { mdx }, pageContext: { references } }) {
     <Layout page="note">
       <Seo title={mdx.fields.title} description={mdx.fields.excerpt} />
       <article className="mb-5 border-b p-5">
-        <h1 className="font-headings text-5xl mb-5 font-bold">
-          {mdx.fields.title}
-        </h1>
+        <h1 className="font-demi text-5xl mb-5">{mdx.fields.title}</h1>
         <div className="mb-5 pt-5 pb-5">
           <p>
             <em>Added:</em> {formatDate(mdx.fields.added)}
@@ -44,7 +42,7 @@ export default function note({ data: { mdx }, pageContext: { references } }) {
       </article>
       {references.length > 0 && (
         <section className="p-5 border-b">
-          <h3 className="font-headings text-xl mb-3">
+          <h3 className="mb-3 uppercase tracking-wide">
             Referenced by these notes
           </h3>
           <ul className="list-none">
@@ -60,7 +58,7 @@ export default function note({ data: { mdx }, pageContext: { references } }) {
         </section>
       )}
       <section className="p-5 border-b">
-        <h3 className="font-headings text-xl">Comments</h3>
+        <h3 className="mb-3 uppercase tracking-wide">Comments</h3>
         <TalkyardCommentsIframe />
       </section>
     </Layout>

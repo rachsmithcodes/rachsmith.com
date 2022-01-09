@@ -9,8 +9,8 @@ import NoteListItem from '../components/NoteListItem';
 const IndexPage = ({ data }) => (
   <Layout page="home">
     <Seo title="Home" />
-    <div className="p-5 border-b">
-      <h3 className="font-headings text-xl mb-3">Try these</h3>
+    <div className="p-5 border-b max-w-prose mx-auto">
+      <h3 className="mb-3 uppercase tracking-wide">Try these</h3>
       <ul className="list-none mb-5">
         {data.allMdx.nodes.map(({ fields: { slug, title, tags, excerpt } }) => (
           <NoteListItem

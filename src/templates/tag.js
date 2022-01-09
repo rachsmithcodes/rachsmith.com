@@ -17,7 +17,7 @@ const Tag = ({ pageContext, data }) => {
     <Layout page="page">
       <Seo title={tag} description={`All notes tagged with ${tag}`} />
       <div className="p-5 border-b">
-        <h1 className="font-headings text-2xl mb-5">{tagHeader}</h1>
+        <h1 className="font-demi text-2xl mb-5">{tagHeader}</h1>
         <ul>
           {edges.map(({ node }) => {
             const { title, slug, excerpt, tags } = node.fields;

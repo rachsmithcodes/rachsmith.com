@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 export default function NoteListItem({ slug, title, excerpt, tags }) {
   return (
     <li className="mb-6">
-      <Link to={`/${slug}/`} className="text-black font-headings font-bold">
+      <Link to={`/${slug}/`} className="text-black font-demi">
         {title}
       </Link>{' '}
       {excerpt && `- ${excerpt} `}

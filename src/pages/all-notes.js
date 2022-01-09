@@ -10,7 +10,7 @@ const AllNotes = ({ data }) => {
     <Layout page="page">
       <Seo title="All Notes" />
       <div className="p-5">
-        <h1 className="text-xl mb-5 font-headings">All Notes</h1>
+        <h1 className="mb-3 uppercase tracking-wide">All Notes</h1>
         <ul>
           {data.allMdx.edges.map(
             ({
