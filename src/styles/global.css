@@ -24,3 +24,11 @@
 #ed-embedded-comments {
   font-family: "Ilisarniq-Light", sans-serif;
 }
+
+.footnotes {
+  margin-top: 3rem;
+}
+
+.footnotes ol {
+  padding: 1rem;
+}
