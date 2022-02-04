@@ -8,7 +8,7 @@ excerpt: Looking back and looking forward 5 years on this half-decade birthday.
 
 I turned 35 on Wednesday. For whatever reason, half-decade birthdays have always felt like a significant milestone to me.
 
-### Looking back
+## Looking back
 
 I remember when I turned 30; I had some ideas about where I wanted to be when I was 35: living and working on the Sunshine Coast, own a house and a dog, and have 2 kids. 
 
@@ -20,7 +20,7 @@ The birthday prompt to look back like this couldn't have come at a better time. 
 
 But then I remember: "I wanted this. I got everything I wanted!" I let that perspective sink in and I feel a little more grateful and a lot lighter.
 
-### Looking forward
+## Looking forward
 
 Coming up with a vision for 40 is a little tricky. 25 to 30 involved suddenly losing my mum to cancer, leaving Australia, travelling the world, building my dream career, and marrying the love of my life. 30 to 35 involved moving home from the USA, buying a house near the beach, adopting a Staffy and growing and giving birth to two entire humans. These were huge, often exciting and perspective-shaking changes.
 
@@ -53,4 +53,3 @@ I want:
 Some of these wishes I have zero control over, some a little. It will be interesting to check in at 40 and see how many have come to be. In fact, I just thought of another one:
 
 - to still be writing on my blog.
-

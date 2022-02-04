@@ -10,7 +10,7 @@ It was a goal of mine at the start of 2021 to publish consistently to this blog.
 
 As someone with classic [rebel tendencies](https://time.com/4938409/four-tendencies-gretchen-rubin-rebels/) I find it really difficult to do anything unless I *know* I want to do it. I want to write. I also want to be a brilliant partner, mother, and coworker and in fulfilling these identities my own wants get edged out of the picture. One reason I enjoy writing is that it allows me to sort out what I actually think and feel. So I will take this moment to be a little meta and write about why I want to write, so I am more likely to remember how much I want to write the next time I consider prioritising something I want less over writing (phew).
 
-### Why I want to write
+## Why I want to write
 
 - Writing helps me to slow down and turn over the thoughts in my head. I think a lot during the day - predominately about the needs of my family, the work Project I'm currently working on, current events or the contents of the podcasts I've been listening to. This thinking is frenetic and always looks outward rather than in. I like that writing in my personal journal or public blog gives me an excuse to look inward and somewhat sort through the intense amount of information I'm consuming every day.
 
@@ -21,4 +21,3 @@ As someone with classic [rebel tendencies](https://time.com/4938409/four-tendenc
 - I want to share more of myself, hoping to connect with and maybe even help people who have similar interests and challenges as me.
 
 - Sometimes I think about what a gift it would have been if blogging was a thing when my parents were alive and I could read about their experiences first-hand. I want to leave a record of who I am now, if I'm not around to share that in person later on.
-

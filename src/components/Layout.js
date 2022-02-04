@@ -15,10 +15,18 @@ import Footer from './Footer';
 import { Helmet } from 'react-helmet';
 
 const Paragraph = (props) => <p className="mb-5" {...props} />;
-const H1 = (props) => <p className="text-5xl mb-3 mt-3" {...props} />;
-const H2 = (props) => <p className="text-4xl mb-3 mt-3" {...props} />;
-const H3 = (props) => <p className="text-3xl mb-3 mt-3" {...props} />;
-const H4 = (props) => <p className="text-2xl mb-3 mt-3" {...props} />;
+const H1 = (props) => (
+  <h1 className="text-4xl mb-3 mt-10 font-demi" {...props} />
+);
+const H2 = (props) => (
+  <h2 className="text-3xl mb-3 mt-10 font-demi" {...props} />
+);
+const H3 = (props) => (
+  <h3 className="text-2xl mb-3 mt-10 font-demi" {...props} />
+);
+const H4 = (props) => (
+  <h4 className="text-xl mb-3 mt-10 font-demi" {...props} />
+);
 const List = (props) => <ul className="mb-5" {...props} />;
 const Strong = (props) => (
   <strong className="font-demi font-normal" {...props} />

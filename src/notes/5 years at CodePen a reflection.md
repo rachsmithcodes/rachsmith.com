@@ -8,13 +8,13 @@ excerpt: I have been working for CodePen for 5 years.
 
 I have been working for [CodePen](https://codepen.io) for 5 years, a long time for a millennial developer to stay in the same job. I thought I would take a minute to reflect on my time with the company.
 
-### How it started vs. how it’s going
+## How it started vs. how it’s going
 
 I was in the first round of hires after CodePen received some funding to scale the company. Including me, there were 7 full-time people at the company. It was very much a young startup situation. The founders were figuring out how to be leaders and managers. As a group, we were coming up with processes for working with each other, maintaining the website. As I recall it, all the devs were very self-directed. There wasn’t a lot of top-down direction. I loved this, as I  highly valued autonomous work back then. People would often decide they wanted to build a quick feature, bring it up in all hands to get the okay, and then release it 2 weeks later. We sometimes joke about those old days being a “Twitter driven development” model. A user could suggest a feature on Twitter, and we would start building it that week.
 
 In 2021, there are still 7 people working for the company, including me, although I am only part-time. So the company size hasn’t scaled, but oh my have we improved our processes. We have a lot more meetings than we did back then, and we have a bomb Notion setup that records all our planning and decisions, roadmaps etc. The founders are a lot more active in defining a clear vision and strategy for the company. I love all of these changes. My role is still autonomous, but for the most part, I can be confident that what I’m working on is contributing to where the product is supposed to be heading. There is way less guesswork about what I could or should be working on day-to-day.
 
-### Highlights
+## Highlights
 
 **IRL time with the team**When I look back on the last 5 years, the standout highlights are the few times I hung out with the team in person. Being an all-remote company definitely has its perks. Still, I genuinely enjoyed the company of the people I worked with and would look forward to those moments. I wish they could happen more often.
 
@@ -26,7 +26,7 @@ I’m also thrilled with how our new (2020) homepage and turned out. I put a lot
 
 **Marie**Marie is the other remaining OG employee. We have experienced this wild ride together. Navigating the ups and downs all whilst chatting to each other daily in the Slack dm. I see her as a slightly older wise soul who regularly drops the knowledge about work, parenting and life in general. Of all the things this experience has given me, I think I treasure my friendship with her the most.
 
-### What I’ll try and do differently in the future
+## What I’ll try and do differently in the future
 
 I don’t like to regret or run hypotheticals about the past as I don’t think it is that useful. But we should reflect and take responsibility for ourselves from time to time if we hope to grow into a better person.
 
@@ -36,7 +36,7 @@ For this reason, I have a tendency to stay in my own lane, do my good work, show
 
 In my rush to be clever and impressive, I can bend over backwards to solve problems, when I should probably first ask if the problem is even one that should be solved. This is how the original CodePen Projects turned out to be something I wasn’t 100% happy with in the end. We worked on it for over a year, and I felt pressure to get it shipped by any means necessary. I should have set my ego aside, and asked for more help, probably throughout the entire time we were building it. Thankfully, we were able to redo Projects in 2020 with new technology and all the lessons we’d learnt the first time around. I’m pleased with where it is at, and no longer have to crumple to the foetal position while reading the insane code I wrote in 2017 trying to fix all the bugs.
 
-### Tools, technology and processes
+## Tools, technology and processes
 
 I thought it would be fun to look back on the software we’ve used over the years.
 
@@ -47,7 +47,7 @@ I thought it would be fun to look back on the software we’ve used over the yea
 -   Front End tech: we started with everything built in Rails .erb files and jQuery. Then we incorporated React and Redux, gradually converting jQuery powered pages to React rendered ones. We brought in Apollo Client when we built a GraphQL API and progressively replaced the Redux state management. We are currently massaging our codebase of adhoc React components into an intentional, reusable component library.
 -   Back End tech and infrastructure. First, almost everything in-app ran on Rails servers. We brought in Lambda functions for our Pen processing. We were using SOLR for search but moved to ElasticSearch. We build out a bunch of servers connecting to a Docker swarm and EFS to power CodePen Projects. We brought in Stream to build the new Homepage feeds. In 2020, our CTO Alex and Engineer Dee went into beast mode. Basically, they replaced the entire infrastructure powering Projects and many other parts of the site. They changed so much I actually can’t keep up and do it real justice. But I can tell you we now use Go servers and rely even more on Lambda functions.
 
-### Why I’ve lasted 5 years and am sticking around for the foreseeable future
+## Why I’ve lasted 5 years and am sticking around for the foreseeable future
 
 When it comes to my job I have 3 top values, in no particular order:
 
