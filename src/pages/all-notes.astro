@@ -1,0 +1,38 @@
+---
+// Component Imports
+import BaseHead from '../components/BaseHead.astro';
+import Layout from '../components/Layout.svelte';
+import NoteListItem from '../components/NoteListItem.svelte';
+import { postsAndTags } from '../data/posts';
+
+let title = `All Notes | Rach Smith's digital garden`;
+let description = 'See all of my notes in my digital garden.';
+let permalink = 'https://rachsmith.com/all-notes/';
+
+let posts = await Astro.glob(`../notes/*.md`);
+const { allPosts, allTags } = await postsAndTags(posts);
+
+let page = 'page';
+---
+
+<html lang="en">
+
+<head>
+  <BaseHead {title} {description} {permalink} />
+</head>
+
+<body>
+  <Layout {page} tags={allTags}>
+    <div>
+      <h1>All Notes</h1>
+      <ul>
+        {allPosts.map(
+        ({url, frontmatter: { excerpt, slug, title, tags }}) => (
+        <NoteListItem {url} {excerpt} {slug} {title} {tags} />
+        ))}
+      </ul>
+    </div>
+  </Layout>
+</body>
+
+</html>

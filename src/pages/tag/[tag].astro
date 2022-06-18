@@ -1,0 +1,54 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Layout from '../../components/Layout.svelte';
+import NoteListItem from '../../components/NoteListItem.svelte';
+import { postsAndTags } from '../../data/posts';
+
+export async function getStaticPaths() {
+  let posts = await Astro.glob(`../../notes/*.md`);
+  const { allTags } = postsAndTags(posts);
+  return Object.keys(allTags).map(tag => ({
+    params: { tag: tag }, props: { posts: allTags[tag] }
+  }));
+}
+
+export function formatDate(date) {
+  return new Date(date.replace(/-/g, '/')).toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  });
+}
+
+const { tag } = Astro.params;
+const { posts } = Astro.props;
+const allPosts = await Astro.glob(`../../notes/*.md`);
+const { allTags } = postsAndTags(allPosts);
+const tagHeader = `${posts.length} post${posts.length === 1 ? '' : 's'
+  } tagged with "${tag}"`;
+const title = `${tagHeader} | Rach Smith's digital garden`;
+const description = tagHeader;
+const permalink = `https://rachsmith.com/tag/${tag}`;
+
+
+---
+
+<html lang="en">
+
+<head>
+  <BaseHead {title} {description} {permalink} />
+</head>
+
+<Layout page="page" tags={allTags}>
+  <div>
+    <h1>{tagHeader}</h1>
+    <ul>
+      {posts.map(
+      ({url, frontmatter: { excerpt, slug, title, tags }}) => (
+      <NoteListItem {url} {excerpt} {slug} {title} {tags} />
+      ))}
+    </ul>
+  </div>
+</Layout>
+
+</html>

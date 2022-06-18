@@ -1,0 +1,31 @@
+---
+// Component Imports
+import BaseHead from '../components/BaseHead.astro';
+import Layout from '../components/Layout.svelte';
+import HomePosts from '../components/HomePosts.svelte';
+import { postsAndTags } from '../data/posts';
+
+let title = `Home | Rach Smith's digital garden`;
+let description = `Hi 👋🏼 I'm Rach. A developer building software for CodePen, wife, mother of two,
+  productivity nerd and recovering screen addict. This is my digital garden.`;
+let permalink = 'https://rachsmith.com';
+
+let posts = await Astro.glob(`../notes/*.md`);
+const { allPosts, allTags } = await postsAndTags(posts);
+
+let page = 'home';
+---
+
+<html lang="en">
+
+<head>
+	<BaseHead {title} {description} {permalink} />
+</head>
+
+<body>
+	<Layout {page} tags={allTags}>
+		<HomePosts {allPosts} />
+	</Layout>
+</body>
+
+</html>

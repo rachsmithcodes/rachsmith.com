@@ -1,0 +1,87 @@
+---
+import Layout from '../components/Layout.svelte';
+import BaseHead from '../components/BaseHead.astro';
+import { postsAndTags } from '../data/posts';
+
+export async function getStaticPaths() {
+  let posts = await Astro.glob(`../notes/*.md`);
+  return posts.map(post => ({
+    params: { slug: post.frontmatter.slug }, props: { post: post }
+  }));
+}
+
+export function formatDate(date) {
+  return new Date(date.replace(/-/g, '/')).toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+  });
+}
+
+const { slug } = Astro.params;
+const { post } = Astro.props;
+const { Content, frontmatter: { title, added, updated, tags, excerpt } } = post;
+const allPosts = await Astro.glob(`../notes/*.md`);
+const { allTags } = postsAndTags(allPosts);
+
+let description = excerpt;
+let permalink = `https://rachsmith.com/${slug}/`;
+
+---
+
+<html lang="en">
+
+<head>
+  <BaseHead {title} {description} {permalink} />
+</head>
+
+<Layout page="note" tags={allTags}>
+  <article>
+    <h1>{title}</h1>
+    <div>
+      <p>
+        <em>Added:</em> {formatDate(added)}
+      </p>
+      {updated !== added && (
+      <p>
+        <em>Updated:</em> {formatDate(updated)}
+      </p>
+      )}
+      <p>
+        <em>Tags:</em>{' '}
+        {tags.map((tag) => (
+        <a href={`/tag/${tag}/`}>
+          {`#${tag}`}
+        </a>
+        ))}
+      </p>
+    </div>
+    <Content />
+  </article>
+  <!-- {references.length > 0 && (
+  <section className="p-5 border-b">
+    <h3 className="mb-3 uppercase tracking-wide">
+      Referenced by these notes
+    </h3>
+    <ul className="list-none">
+      {references.map(({ title, slug, excerpt, tags }) => (
+      <NoteListItem slug={slug} title={title} excerpt={excerpt} tags={tags} />
+      ))}
+    </ul>
+  </section>
+  )} -->
+  <section>
+    <h3>Comments</h3>
+    <script is:inline>talkyardServerUrl='https://site-1hvw5pe7vn.talkyard.net';</script>
+    <script is:inline async defer src="https://cdn.talkyard.net/-/talkyard-comments.min.js"></script>
+    <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
+    <div class="talkyard-comments" data-discussion-id={slug} style="margin-top: 45px;">
+      <noscript>Please enable Javascript to view comments.</noscript>
+      <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+        <a href="https://www.talkyard.io">Talkyard</a>.
+      </p>
+    </div>
+  </section>
+</Layout>
+
+</html>
