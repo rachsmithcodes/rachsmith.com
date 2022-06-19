@@ -3,19 +3,19 @@
 </script>
 
 <section class="">
-  {#if page === "home"}
+  {#if page === 'home'}
     <p>
-      Hi 👋🏼 &nbsp;I'm Rach. A{" "}
+      Hi 👋🏼 &nbsp;I'm Rach. A{' '}
       <a href="/full-stack-t-shaped-comb-shaped-developer-or-engineer/">
         developer
-      </a>{" "}
+      </a>{' '}
       building software for CodePen, wife, mother of two, productivity nerd and recovering
       screen addict. This is my digital garden.
     </p>
     <p>
       I am in process of redesigning this website in public. It has been
       stripped back to the bare minimum and I will make gradual improvements as
-      time goes on. You can follow the changes or suggest your own at the{" "}
+      time goes on. You can follow the changes or suggest your own at the{' '}
       <a href="https://github.com/rachsmithcodes/rachsmith.com">GitHub repo</a>.
     </p>
     <p>
@@ -28,16 +28,24 @@
     </p>
   {/if}
 
-  {#if page == "page"}
-    <h2 class="mb-5">
+  {#if page == 'page'}
+    <h2>
       <a href="/"> Rach Smith's digital garden </a>
       .
     </h2>
   {/if}
 
-  {#if page == "note"}
-    <h2 class="mb-5">
+  {#if page == 'note'}
+    <h2 class="header">
       A note from <a href="/">Rach Smith's digital garden</a>.
     </h2>
   {/if}
 </section>
+
+<style>
+  .header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+</style>

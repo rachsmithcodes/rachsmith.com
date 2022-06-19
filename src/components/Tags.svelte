@@ -3,14 +3,24 @@
   let tagsSorted = tags ? Object.keys(tags).sort() : [];
 </script>
 
-<ul>
+<ul class="tags">
   {#each tagsSorted as tag}
-    <li class="">
+    <li>
       <a href={`/tag/${tag}/`} class="">
-        <span class="">#</span>
-        <span class="">{tag}</span>
+        <span class="">#{tag}</span>
       </a>
       <span class="">{tags[tag].length}</span>
     </li>
   {/each}
 </ul>
+
+<style>
+  .tags {
+    text-align: center;
+  }
+
+  .tags li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+</style>

@@ -10,10 +10,11 @@ ol,
 li {
   font-size: 1.2rem;
   line-height: 1.5;
+  margin-bottom: 0.6em;
 }
 
 .container {
-  max-width: 75ch;
+  max-width: 65ch;
   padding: 2em;
   margin: 0 auto;
 }

@@ -29,6 +29,38 @@ let permalink = `https://rachsmith.com/${slug}/`;
 
 ---
 
+<style>
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .meta {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3em;
+  }
+
+  .meta p {
+    font-size: 1rem;
+    margin: 0.1em;
+  }
+
+  .meta a {
+    text-transform: lowercase;
+  }
+
+  .meta-label {
+    font-style: normal;
+  }
+
+  .comments {
+    margin-bottom: 4em;
+  }
+</style>
+
 <html lang="en">
 
 <head>
@@ -37,18 +69,18 @@ let permalink = `https://rachsmith.com/${slug}/`;
 
 <Layout page="note" tags={allTags}>
   <article>
-    <h1>{title}</h1>
-    <div>
+    <h1 class="title">{title}</h1>
+    <div class="meta">
       <p>
-        <em>Added:</em> {formatDate(added)}
+        <em class="meta-label">Added:</em> {formatDate(added)}
       </p>
       {updated !== added && (
       <p>
-        <em>Updated:</em> {formatDate(updated)}
+        <em class="meta-label">Updated:</em> {formatDate(updated)}
       </p>
       )}
       <p>
-        <em>Tags:</em>{' '}
+        <em class="meta-label">Tags:</em>{' '}
         {tags.map((tag) => (
         <a href={`/tag/${tag}/`}>
           {`#${tag}`}
@@ -70,7 +102,7 @@ let permalink = `https://rachsmith.com/${slug}/`;
     </ul>
   </section>
   )} -->
-  <section>
+  <section class="comments">
     <h3>Comments</h3>
     <script is:inline>talkyardServerUrl='https://site-1hvw5pe7vn.talkyard.net';</script>
     <script is:inline async defer src="https://cdn.talkyard.net/-/talkyard-comments.min.js"></script>
@@ -82,6 +114,7 @@ let permalink = `https://rachsmith.com/${slug}/`;
       </p>
     </div>
   </section>
+  <hr />
 </Layout>
 
 </html>
