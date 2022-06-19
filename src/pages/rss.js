@@ -1,14 +1,14 @@
-import rss from "@astrojs/rss";
-import * as marked from "marked";
+import rss from '@astrojs/rss';
+import * as marked from 'marked';
 
-const postImportResult = import.meta.globEager("../notes/**/*.md");
+const postImportResult = import.meta.globEager('../notes/**/*.md');
 const posts = Object.values(postImportResult);
 
 const postsWithContent = await Promise.all(
   posts.map(async (post) => {
     const rawContent = await post.rawContent();
     let html = marked.parse(rawContent);
-    html = html.replace(/<img[^>]*>/g, "");
+    html = html.replace(/<img[^>]*>/g, '');
 
     return {
       ...post,
@@ -31,7 +31,7 @@ export const get = () =>
       const contentTag = `<content:encoded><![CDATA[${post.htmlContent}]]></content:encoded>`;
       const categoryTags = post.frontmatter.tags
         .map((tag) => `<category><![CDATA[${tag}]]></category>`)
-        .join("");
+        .join('');
       return {
         link: post.frontmatter.slug,
         title: post.frontmatter.title,
@@ -42,8 +42,8 @@ export const get = () =>
     }),
     customData: `<atom:link href="https://rachsmith.com/rss/" rel="self" type="application/rss+xml" />`,
     xmlns: {
-      dc: "http://purl.org/dc/elements/1.1/",
-      content: "http://purl.org/rss/1.0/modules/content/",
-      atom: "http://www.w3.org/2005/Atom",
+      dc: 'http://purl.org/dc/elements/1.1/',
+      content: 'http://purl.org/rss/1.0/modules/content/',
+      atom: 'http://www.w3.org/2005/Atom',
     },
   });
