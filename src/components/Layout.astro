@@ -1,0 +1,15 @@
+---
+import Header from "./Header.astro";
+import Footer from "./Footer.svelte";
+
+const { page, tags, HeaderComponent } = Astro.props;
+
+---
+
+<div class="container">
+  <Header {page} {HeaderComponent} />
+  <main class="">
+    <slot />
+  </main>
+  <Footer {tags} />
+</div>

@@ -1,8 +1,9 @@
 ---
 // Component Imports
 import BaseHead from '../components/BaseHead.astro';
-import Layout from '../components/Layout.svelte';
+import Layout from '../components/Layout.astro';
 import HomePosts from '../components/HomePosts.svelte';
+import HomeHeader from '../components/HomeHeader.astro';
 import { postsAndTags } from '../data/posts';
 
 let title = `Home | Rach Smith's digital garden`;
@@ -19,13 +20,13 @@ let page = 'home';
 <html lang="en">
 
 <head>
-	<BaseHead {title} {description} {permalink} />
+  <BaseHead {title} {description} {permalink} />
 </head>
 
 <body>
-	<Layout {page} tags={allTags}>
-		<HomePosts {allPosts} />
-	</Layout>
+  <Layout {page} tags={allTags} HeaderComponent={HomeHeader}>
+    <HomePosts {allPosts} />
+  </Layout>
 </body>
 
 </html>

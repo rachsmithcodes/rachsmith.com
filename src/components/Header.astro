@@ -1,0 +1,24 @@
+---
+const { page, HeaderComponent } = Astro.props;
+---
+
+<section class="">
+  {HeaderComponent &&
+  <HeaderComponent />}
+
+  {page === 'note' && (<h2 class="header">
+    A note from <a href="/">Rach Smith's digital garden</a>.
+  </h2>)}
+
+  {page === 'page' && (<h2 class="header">
+    <a href="/"> Rach Smith's digital garden</a>.
+  </h2>)}
+</section>
+
+<style>
+  .header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+</style>

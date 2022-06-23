@@ -1,5 +1,5 @@
 ---
-import Layout from '../components/Layout.svelte';
+import Layout from '../components/Layout.astro';
 import BaseHead from '../components/BaseHead.astro';
 import { postsAndTags } from '../data/posts';
 
@@ -37,6 +37,7 @@ let permalink = `https://rachsmith.com/${slug}/`;
     text-align: center;
   }
 
+
   .meta {
     text-align: center;
     text-transform: uppercase;
@@ -64,7 +65,7 @@ let permalink = `https://rachsmith.com/${slug}/`;
 <html lang="en">
 
 <head>
-  <BaseHead {title} {description} {permalink} />
+  <BaseHead {title} {description} {permalink} canonicalUrl={permalink} />
 </head>
 
 <Layout page="note" tags={allTags}>
