@@ -3,33 +3,39 @@
   font-family: 'Chivo';
   font-style: normal;
   font-weight: 700;
-  src: local(''),
-       url('../fonts/chivo-v17-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/chivo-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''), url('../fonts/chivo-v17-latin-700.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/chivo-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* chivo-900 - latin */
 @font-face {
   font-family: 'Chivo';
   font-style: normal;
   font-weight: 900;
-  src: local(''),
-       url('../fonts/chivo-v17-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/chivo-v17-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''), url('../fonts/chivo-v17-latin-900.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url('../fonts/chivo-v17-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  pading: 0;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
     helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
     sans-serif;
-  margin: 0;
 }
 
 h1,
-  h2,
-  h3,
-  h4 {
-    font-family: "Chivo", sans-serif;
-  }
+h2,
+h3,
+h4 {
+  font-family: 'Chivo', sans-serif;
+}
 
 p,
 ul,
@@ -38,6 +44,14 @@ li {
   font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 0.6em;
+}
+
+blockquote {
+  background: #fdfdfd;
+  border-left: 6px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  color: #333;
 }
 
 .container {

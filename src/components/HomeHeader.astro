@@ -45,6 +45,7 @@
     const heading = document.getElementById("heading");
     textCanvas.style.position = "absolute";
     const rect = heading.getBoundingClientRect();
+    console.log(rect);
     textCanvas.width = rect.width;
     textCanvas.height = rect.height;
     textCanvas.style.left = `${rect.x}px`;
@@ -67,8 +68,8 @@
     height = rect.height;
     particlesCanvas.width = rect.width + padding * 2;
     particlesCanvas.height = rect.height + padding * 2;
-    particlesCanvas.style.left = `${rect.x - padding}px`;
-    particlesCanvas.style.top = `${rect.y - padding}px`;
+    particlesCanvas.style.left = `${rect.x + window.scrollX - padding}px`;
+    particlesCanvas.style.top = `${rect.y + window.scrollY - padding}px`;
   }
 
   function getTextImageData() {
@@ -177,6 +178,10 @@
   window.onresize = function () {
     positionCanvas();
   };
+
+  document.addEventListener("scroll", function () {
+    positionCanvas();
+  });
 
   function toggleMotion() {
     motionOff = !motionOff;
