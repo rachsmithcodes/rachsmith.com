@@ -20,7 +20,7 @@ export function formatDate(date) {
 
 const { slug } = Astro.params;
 const { post } = Astro.props;
-const { Content, frontmatter: { title, added, updated, tags, excerpt } } = post;
+const { Content, frontmatter: { title, added, updated, tags, excerpt, imageId } } = post;
 const allPosts = await Astro.glob(`../notes/*.md`);
 const { allTags } = postsAndTags(allPosts);
 
@@ -66,7 +66,7 @@ let permalink = `https://rachsmith.com/${slug}/`;
 <html lang="en">
 
 <head>
-  <BaseHead {title} {description} {permalink} canonicalUrl={permalink} />
+  <BaseHead {title} {description} {permalink} canonicalUrl={permalink} {imageId} />
 </head>
 
 <Layout page="note" tags={allTags}>
