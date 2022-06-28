@@ -19,7 +19,7 @@ I transferred out of that degree after a couple of years, but found my way back 
 
 Over an over again I was told the same thing: "I've never worked with a developer who's a woman before!". I felt like the weight of their impression of an entire category of people: developers who aren't men, was on my shoulders. If I was anything short of impressive, they would write us off. 
 
-Over the years men would make the comment on Twitter or to me personally, "I worked with a woman once, she was the highest performer in the whole team!". I would think: because she had to be, there is no other choices.
+Over the years men would make the comment on Twitter or to me personally, "I worked with a woman once, she was the highest performer in the whole team!". I would think: because she had to be, there is no other option.
 
 I'd try to encourage non-men coming in to the field as junior developers, who couldn't manage to be amazing and impressive. They were just regular, meets expectations developers. They were rewarded with being disrespected by colleagues, PIPs, disciplinary actions, and being fired. 
 
