@@ -23,7 +23,7 @@ Over the years men would make the comment on Twitter or to me personally, "I wor
 
 I'd try to encourage non-men coming in to the field as junior developers, who couldn't manage to be amazing and impressive. They were just regular, meets expectations developers. They were rewarded with being disrespected by colleagues, PIPs, disciplinary actions, and being fired. 
 
-Every time it happened, the narrative for me is reinforced. It's not okay to be wrong.
+Every time it happened, the narrative for me was reinforced. It's not okay to be wrong.
 
 At my last two jobs, I've been lucky to work in small teams that I feel safe in. I could and can be wrong in that context. That is fortunate, as if I felt like I couldn't be wrong I would be a nightmare to work with! 
 
