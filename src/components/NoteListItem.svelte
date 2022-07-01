@@ -1,4 +1,5 @@
 <script>
+  import Tag from './Tag.svelte';
   export let slug;
   export let title;
   export let tags;
@@ -6,17 +7,24 @@
 </script>
 
 <li>
-  <a href={`/${slug}/`} class:title>
-    {title}
-  </a>{" "}
+  <a href={`/${slug}/`} class:title>{title}</a>{' '}
   {excerpt && `- ${excerpt} `}
   {#each tags as tag}
-    <a href={`/tag/${tag}/`}>{`#${tag}`}</a>&nbsp;
+    <Tag {tag} class="smallTag" />&nbsp;
   {/each}
 </li>
 
 <style>
   .title {
     font-weight: bold;
+    color: #222;
+  }
+
+  li {
+    margin-bottom: 1.2em;
+  }
+
+  li :global(.smallTag) {
+    font-size: 0.9em;
   }
 </style>

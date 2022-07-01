@@ -59,3 +59,23 @@ blockquote {
   padding: 2em;
   margin: 0 auto;
 }
+
+.note-content a {
+  position: relative;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.note-content a:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(130deg, #ffcc00, #00ffa5 41.07%, #d400ff 76.05%);
+}

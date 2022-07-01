@@ -1,6 +1,7 @@
 ---
 import Layout from '../components/Layout.astro';
 import BaseHead from '../components/BaseHead.astro';
+import Tag from '../components/Tag.svelte';
 import { postsAndTags } from '../data/posts';
 
 export async function getStaticPaths() {
@@ -49,10 +50,6 @@ let permalink = `https://rachsmith.com/${slug}/`;
     margin: 0.1em;
   }
 
-  .meta a {
-    text-transform: lowercase;
-  }
-
   .meta-label {
     font-style: normal;
   }
@@ -84,13 +81,12 @@ let permalink = `https://rachsmith.com/${slug}/`;
       <p>
         <em class="meta-label">Tags:</em>{' '}
         {tags.map((tag) => (
-        <a href={`/tag/${tag}/`}>
-          {`#${tag}`}
-        </a>
-        ))}
+        <Tag tag={tag} />))}
       </p>
     </div>
-    <Content />
+    <div class="note-content">
+      <Content />
+    </div>
   </article>
   <!-- {references.length > 0 && (
   <section className="p-5 border-b">
