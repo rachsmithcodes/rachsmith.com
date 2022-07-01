@@ -35,6 +35,7 @@ h2,
 h3,
 h4 {
   font-family: 'Chivo', sans-serif;
+  font-display: swap;
 }
 
 p,
