@@ -7,7 +7,7 @@ tags: [development]
 excerpt: "I don't need git to tell me who's to blame for the complexity here."
 ---
 
-### Link: [The Grug Brained Developer](https://grugbrain.dev/) - A layman's guide to thinking like the self-aware smol brained
+### Link: [The Grug Brained Developer - A layman's guide to thinking like the self-aware smol brained](https://grugbrain.dev/)
 
 This made me laugh, multiple times, because of the dunks on "big brained" developers.
 

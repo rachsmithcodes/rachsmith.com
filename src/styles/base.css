@@ -3,6 +3,7 @@
   font-family: 'Chivo';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: local(''), url('../fonts/chivo-v17-latin-700.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
       url('../fonts/chivo-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -12,6 +13,7 @@
   font-family: 'Chivo';
   font-style: normal;
   font-weight: 900;
+  font-display: swap;
   src: local(''), url('../fonts/chivo-v17-latin-900.woff2') format('woff2'),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
       url('../fonts/chivo-v17-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -35,7 +37,22 @@ h2,
 h3,
 h4 {
   font-family: 'Chivo', sans-serif;
-  font-display: swap;
+}
+
+h1 {
+  font-size: 2.4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.2em;
 }
 
 p,
@@ -62,21 +79,34 @@ blockquote {
 }
 
 .note-content a {
-  position: relative;
-  display: inline-block;
   color: #000;
   text-decoration: none;
-  line-height: 1;
-  white-space: nowrap;
+  background-image: linear-gradient(
+    130deg,
+    #ffcc00,
+    #00ffa5 41.07%,
+    #d400ff 76.05%
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 0.15em;
+  background-position: 0 92%;
+  transition: background-size 0.2s ease-in-out;
 }
 
-.note-content a:before {
-  content: '';
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  left: 0;
-  height: 3px;
-  border-radius: 2px;
-  background: linear-gradient(130deg, #ffcc00, #00ffa5 41.07%, #d400ff 76.05%);
+.note-content a:hover {
+  background-size: 100% 0.4em;
+}
+
+.footnotes {
+  margin-top: 2em;
+}
+
+.footnotes li,
+.footnotes p {
+  font-size: 1rem;
+}
+
+.footnotes h2 {
+  font-size: 1em;
+  text-transform: uppercase;
 }
