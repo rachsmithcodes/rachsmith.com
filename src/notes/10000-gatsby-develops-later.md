@@ -2,9 +2,13 @@
 title: '10,000 gatsby develops later'
 slug: 10000-gatsby-develops-later
 added: 2021-11-22 19:00
-updated: 2021-11-22 19:00
+updated: 2022-07-11 07:51
 tags: [development]
 excerpt: I love gatsby, I hate gatsby.
+---
+
+**Update**: I've changed the stack _again_. I know. What can I say, I'm an engineer. Details [here](/initial-thoughts-on-astro/).
+
 ---
 
 A month ago, I had an idea that I wanted to change [my site's stack](/the-tech-setup-for-this-blog-gatsby/).
