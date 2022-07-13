@@ -3,6 +3,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Layout from '../components/Layout.astro';
 import NoteListItem from '../components/NoteListItem.svelte';
+import Section from '../components/Section.svelte';
 import { postsAndTags } from '../data/posts';
 
 let title = `All Notes | Rach Smith's digital garden`;
@@ -25,14 +26,23 @@ let page = 'page';
   <Layout {page} tags={allTags}>
     <div>
       <h1>All Notes</h1>
-      <ul>
-        {allPosts.map(
-        ({url, frontmatter: { excerpt, slug, title, tags }}) => (
-        <NoteListItem {url} {excerpt} {slug} {title} {tags} />
-        ))}
-      </ul>
+      <Section>
+        <ul>
+          {allPosts.map(
+          ({url, frontmatter: { excerpt, slug, title, tags }}) => (
+          <NoteListItem {url} {excerpt} {slug} {title} {tags} />
+          ))}
+        </ul>
+      </Section>
     </div>
   </Layout>
 </body>
 
 </html>
+
+<style>
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+</style>

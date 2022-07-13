@@ -18,10 +18,12 @@
   .title {
     font-weight: bold;
     color: #222;
+    text-decoration: none;
   }
 
   li {
     margin-bottom: 1.2em;
+    list-style: none;
   }
 
   li :global(.smallTag) {

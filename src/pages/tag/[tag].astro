@@ -2,6 +2,7 @@
 import BaseHead from '../../components/BaseHead.astro';
 import Layout from '../../components/Layout.astro';
 import NoteListItem from '../../components/NoteListItem.svelte';
+import Section from '../../components/Section.svelte';
 import { postsAndTags } from '../../data/posts';
 
 export async function getStaticPaths() {
@@ -42,13 +43,22 @@ const permalink = `https://rachsmith.com/tag/${tag}`;
 <Layout page="page" tags={allTags}>
   <div>
     <h1>{tagHeader}</h1>
-    <ul>
-      {posts.map(
-      ({url, frontmatter: { excerpt, slug, title, tags }}) => (
-      <NoteListItem {url} {excerpt} {slug} {title} {tags} />
-      ))}
-    </ul>
+    <Section>
+      <ul>
+        {posts.map(
+        ({url, frontmatter: { excerpt, slug, title, tags }}) => (
+        <NoteListItem {url} {excerpt} {slug} {title} {tags} />
+        ))}
+      </ul>
+    </Section>
   </div>
 </Layout>
 
 </html>
+
+<style>
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+</style>

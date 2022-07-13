@@ -3,6 +3,8 @@ import Layout from '../components/Layout.astro';
 import BaseHead from '../components/BaseHead.astro';
 import Tag from '../components/Tag.svelte';
 import { postsAndTags } from '../data/posts';
+import Section from '../components/Section.svelte';
+import OutlineHeading from '../components/OutlineHeading.svelte';
 
 export async function getStaticPaths() {
   let posts = await Astro.glob(`../notes/*.md`);
@@ -84,9 +86,11 @@ let permalink = `https://rachsmith.com/${slug}/`;
         <Tag tag={tag} />))}
       </p>
     </div>
-    <div class="note-content">
-      <Content />
-    </div>
+    <Section>
+      <div class="note-content">
+        <Content />
+      </div>
+    </Section>
   </article>
   <!-- {references.length > 0 && (
   <section className="p-5 border-b">
@@ -101,18 +105,19 @@ let permalink = `https://rachsmith.com/${slug}/`;
   </section>
   )} -->
   <section class="comments">
-    <h3>Comments</h3>
-    <script is:inline>talkyardServerUrl='https://site-1hvw5pe7vn.talkyard.net';</script>
-    <script is:inline async defer src="https://cdn.talkyard.net/-/talkyard-comments.min.js"></script>
-    <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
-    <div class="talkyard-comments" style="margin-top: 45px;">
-      <noscript>Please enable Javascript to view comments.</noscript>
-      <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
-        <a href="https://www.talkyard.io">Talkyard</a>.
-      </p>
-    </div>
+    <OutlineHeading>Comments</OutlineHeading>
+    <Section>
+      <script is:inline>talkyardServerUrl='https://site-1hvw5pe7vn.talkyard.net';</script>
+      <script is:inline async defer src="https://cdn.talkyard.net/-/talkyard-comments.min.js"></script>
+      <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
+      <div class="talkyard-comments" style="margin-top: 45px;">
+        <noscript>Please enable Javascript to view comments.</noscript>
+        <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+          <a href="https://www.talkyard.io">Talkyard</a>.
+        </p>
+      </div>
+    </Section>
   </section>
-  <hr />
 </Layout>
 
 </html>
