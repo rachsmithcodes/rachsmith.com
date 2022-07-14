@@ -21,7 +21,8 @@
 
 
 :root {
-  --off-white-color: #FCFCF8;
+  --off-white-color: #fdfdfc;
+  --black-pearl-color: #1c232a;
 }
 
 
@@ -38,7 +39,7 @@ body {
     sans-serif;
   background-color: var(--off-white-color);
   opacity: 1;
-  background-image:  linear-gradient(#e7dde9 1.1px, transparent 1.1px), linear-gradient(to right, #e7dde9 1.1px, #f7f7f4 1.1px);
+  background-image:  linear-gradient(#eeece9 1.1px, transparent 1.1px), linear-gradient(to right, #eeece9 1.1px, var(--off-white-color) 1.1px);
   background-size: 22px 22px;
 }
 
