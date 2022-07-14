@@ -8,7 +8,7 @@ const postsWithContent = await Promise.all(
   posts.map(async (post) => {
     const rawContent = await post.rawContent();
     let html = marked.parse(rawContent);
-    html = html.replace(/<img[^>]*>/g, '');
+    // html = html.replace(/<img[^>]*>/g, '');
 
     return {
       ...post,
