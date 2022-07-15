@@ -7,21 +7,24 @@ const { page, HeaderComponent } = Astro.props;
   <HeaderComponent />}
 
   {page === 'note' && (<h2 class="header">
-    A note from <a href="/">Rach Smith's digital garden</a>.
+    A note from <a href="/">Rach Smith's digital garden</a>
   </h2>)}
 
   {page === 'page' && (<h2 class="header">
-    <a href="/"> Rach Smith's digital garden</a>.
+    <a href="/"> Rach Smith's digital garden</a>
   </h2>)}
 </section>
 
 <style>
   .header {
-    font-size: 1.2em;
-    font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 400;
     margin-bottom: 3em;
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-      helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
-      sans-serif;
+    font-family: var(--mono-font);
+  }
+
+  a {
+    color: var(--pear-black-color);
   }
 </style>
