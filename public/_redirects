@@ -6,3 +6,4 @@ http://gatsby-starter-ghost.netlify.com/*       https://gatsby.ghost.org/:splat 
 
 /2017/i-dont-have-imposter-syndrome/  /i-dont-have-imposter-syndrome/
 /i-completely-ignored-the-front-end-development-scene-for-6-months-it-was-fine/ /i-completely-ignored-the-front-end-development-scene-for-6-months/
+/rss.xml /rss/
