@@ -1,16 +1,9 @@
 ---
 import '../styles/base.css';
 
-// export interface Props {
-//   title: string;
-//   description: string;
-//   permalink: string;
-//   imageId: string;
-//   canonicalUrl: string;
-// }
 let { title, description, permalink, imageId, canonicalUrl } = Astro.props;
 
-let metaImage = `https://rachsmith.com/images/meta-image-${imageId || 1}.png`;
+let metaImage = `https://rachsmith.com/twitter-image-${imageId || 1}.png`;
 
 ---
 
@@ -39,7 +32,6 @@ let metaImage = `https://rachsmith.com/images/meta-image-${imageId || 1}.png`;
 <meta property="og:url" content={permalink} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={metaImage} />
 
 <!-- Twitter -->
 <meta property="twitter:url" content={permalink} />

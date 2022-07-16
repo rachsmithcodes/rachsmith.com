@@ -23,9 +23,12 @@ export function formatDate(date) {
 
 const { slug } = Astro.params;
 const { post } = Astro.props;
-const { Content, frontmatter: { title, added, updated, tags, excerpt, imageId } } = post;
-const allPosts = await Astro.glob(`../notes/*.md`);
-const { allTags } = postsAndTags(allPosts);
+const { Content, frontmatter: { title, added, updated, tags, excerpt } } = post;
+const posts = await Astro.glob(`../notes/*.md`);
+const { allPosts, allTags } = postsAndTags(posts);
+const postIndex = [...allPosts].reverse().findIndex(p => p.frontmatter.slug === slug);
+const imageId = (postIndex % 6) + 1;
+console.log(imageId);
 
 let description = excerpt;
 let permalink = `https://rachsmith.com/${slug}/`;
