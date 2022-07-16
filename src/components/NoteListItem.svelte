@@ -27,6 +27,6 @@
   }
 
   li :global(.smallTag) {
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
 </style>

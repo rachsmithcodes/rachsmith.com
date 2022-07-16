@@ -231,14 +231,12 @@ import Section from './Section.svelte';
     time goes on. You can follow the changes or suggest your own at the{' '}
     <a href="https://github.com/rachsmithcodes/rachsmith.com">GitHub repo</a>.
   </p>
-</Section>
-<Section>
-<p>
-  <a href="/all-notes/"> See all the notes </a>&nbsp;
-  <a href="https://feedly.com/i/subscription/feed/https://rachsmith.com/rss/">
-    Subscribe to RSS feed
-  </a>
-</p>
+  <p style="min-height: 80px;">
+    <a class="cta" href="/all-notes/"> See all the notes </a>&nbsp;
+    <a class="cta" href="https://feedly.com/i/subscription/feed/https://rachsmith.com/rss/">
+      Subscribe to RSS feed
+    </a>
+  </p>
 </Section>
 
 <style>
@@ -276,22 +274,20 @@ import Section from './Section.svelte';
     display: inline-block;
     color: #000;
     text-decoration: none;
-    background-image: linear-gradient(
-      90deg,
-      hsl(6deg 100% 50%) 0%,
-      hsl(29deg 100% 50%) 12%,
-      hsl(45deg 100% 50%) 20%,
-      hsl(59deg 100% 50%) 28%,
-      hsl(80deg 100% 64%) 35%,
-      hsl(117deg 100% 73%) 41%,
-      hsl(159deg 100% 50%) 48%,
-      hsl(183deg 100% 47%) 55%,
-      hsl(197deg 100% 50%) 62%,
-      hsl(211deg 100% 51%) 70%,
-      hsl(266deg 77% 66%) 78%,
-      hsl(310deg 70% 55%) 88%,
-      hsl(327deg 100% 50%) 100%
-    );
+    background-image: linear-gradient(90deg,
+        hsl(6deg 100% 50%) 0%,
+        hsl(29deg 100% 50%) 12%,
+        hsl(45deg 100% 50%) 20%,
+        hsl(59deg 100% 50%) 28%,
+        hsl(80deg 100% 64%) 35%,
+        hsl(117deg 100% 73%) 41%,
+        hsl(159deg 100% 50%) 48%,
+        hsl(183deg 100% 47%) 55%,
+        hsl(197deg 100% 50%) 62%,
+        hsl(211deg 100% 51%) 70%,
+        hsl(266deg 77% 66%) 78%,
+        hsl(310deg 70% 55%) 88%,
+        hsl(327deg 100% 50%) 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.15em;
     background-position: 0 88%;
@@ -300,5 +296,53 @@ import Section from './Section.svelte';
 
   a:hover {
     background-size: 100% 0.4em;
+  }
+
+  .cta {
+    font-family: var(--mono-font);
+    text-decoration: none;
+    color: #222;
+    font-size: 0.9em;
+    display: inline-block;
+    border: 4px solid #222;
+    border-image: var(--rainbow-gradient-45);
+    border-image-slice: 1 1 1 1;
+    padding: 16px;
+    position: relative;
+    transition: transform 0.1s ease-in-out;
+    transform: translate3d(0px, 0px, 0);
+    transform-style: preserve-3d;
+    padding: 14px 10px 10px 14px;
+    transition: transform 0.2s ease-in-out, padding 0.2s ease-in-out;
+    background-image: none;
+    box-sizing: border-box;
+    margin-right: 1em;
+    margin-top: 1em;
+  }
+
+  .cta:hover {
+    position: relative;
+    transform: translate3d(3px, 3px, 0);
+    padding: 12px;
+  }
+
+  .cta::before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    transform: translate3d(3px, 3px, -1px);
+    background: #222;
+    border: 4px solid #222;
+    transition: transform 0.2s ease-in-out;
+    background: none;
+    box-sizing: content-box;
+  }
+
+  .cta:hover::before {
+    transform: translate3d(-4px, -4px, -1px);
   }
 </style>

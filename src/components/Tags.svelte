@@ -8,8 +8,7 @@
 <ul class="tags">
   {#each tagsSorted as tag}
     <li>
-      <Tag {tag} />
-      <span class="">{tags[tag].length}</span>
+      <Tag {tag} number={tags[tag].length} />
     </li>
   {/each}
 </ul>
@@ -17,10 +16,10 @@
 <style>
   .tags {
     text-align: center;
+    padding: 0;
   }
 
   .tags li {
     display: inline-block;
-    margin-right: 1em;
   }
 </style>
