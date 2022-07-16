@@ -40,7 +40,7 @@
   }
 
   .tag.books {
-    text-shadow: 1px -1px 0 #ff1900;
+    /* text-shadow: 1px -1px 0 #ff1900; */
   }
   .tag.books:hover {
     background: #ff1900;
@@ -51,7 +51,7 @@
   }
 
   .tag.development {
-    text-shadow: 1px -1px 0 #ff8800;
+    /* text-shadow: 1px -1px 0 #ff8800; */
   }
   .tag.development:hover {
     background: #ff8800;
@@ -62,7 +62,7 @@
   }
 
   .tag.miscellany {
-    text-shadow: 1px -1px 0 #d8ff00;
+    /* text-shadow: 1px -1px 0 #d8ff00; */
   }
   .tag.miscellany:hover {
     background: #d8ff00;
@@ -73,7 +73,7 @@
   }
 
   .tag.mothering {
-    text-shadow: 1px -1px 0 #00ff2e;
+    /* text-shadow: 1px -1px 0 #00ff2e; */
   }
   .tag.mothering:hover {
     background: #00ff2e;
@@ -84,7 +84,7 @@
   }
 
   .tag.podcasts {
-    text-shadow: 1px -1px 0 #00ddff;
+    /* text-shadow: 1px -1px 0 #00ddff; */
   }
   .tag.podcasts:hover {
     background: #00ddff;
@@ -95,7 +95,7 @@
   }
 
   .tag.productivity {
-    text-shadow: 1px -1px 0 #057dff;
+    /* text-shadow: 1px -1px 0 #057dff; */
   }
   .tag.productivity:hover {
     background: #057dff;
@@ -106,7 +106,7 @@
   }
 
   .tag.wellbeing {
-    text-shadow: 1px -1px 0 #d400ff;
+    /* text-shadow: 1px -1px 0 #d400ff; */
   }
   .tag.wellbeing:hover {
     background: #d400ff;
@@ -117,7 +117,7 @@
   }
 
   .tag.work {
-    text-shadow: 1px -1px 0 #ff008c;
+    /* text-shadow: 1px -1px 0 #ff008c; */
   }
   .tag.work:hover {
     background: #ff008c;
