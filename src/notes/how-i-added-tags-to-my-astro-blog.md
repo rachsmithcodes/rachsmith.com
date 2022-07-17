@@ -24,6 +24,7 @@ excerpt:
 ```
 
 <br/>
+
 ### Tags on the note page
 
 When I'm rendering out the note page, I can use that frontmatter data to create a list of tags.
@@ -48,6 +49,7 @@ const {
 ```
 
 <br/>
+
 ### List of all the tags
 
 To render a list of all the tags, and how many notes are in the tag, I use <code>Astro.glob(`../notes/\*.md\`)</code> to get all the posts and their frontmatter. I then reduce the array of notes in to an object. The object has each tag as a key, and the posts with that tag as the value.
@@ -95,7 +97,9 @@ Then I can render out the tags with their post count in the footer of my pages.
 </figure>
 
 <br />
+
 ### Tag page
+
 Finally, I added a page to my Astro `pages/` directory: `pages/tag/[tag].astro`. I used the tags object from above to get
 the posts just for the tag, and passed it to the page via props.
 
