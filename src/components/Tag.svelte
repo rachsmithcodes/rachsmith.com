@@ -1,9 +1,11 @@
 <script>
   export let tag;
+  export let number;
+  export let small;
 </script>
 
-<a href={`/tag/${tag}/`} class={`tag ${tag} ${$$props.class}`}>
-  {tag}
+<a href={`/tag/${tag}/`} class={`tag ${tag} ${small ? 'small' : ''}`}>
+  {tag}{#if number}<span>{number}</span>{/if}
 </a>
 
 <style>
@@ -23,6 +25,10 @@
     transition: background-color 0.2s ease-in-out;
   }
 
+  .tag.small {
+    font-size: 0.7em;
+  }
+
   .tag::before {
     width: 100%;
     height: 100%;
@@ -33,6 +39,12 @@
     position: absolute;
     transition: transform 0.2s ease-in-out;
     box-sizing: content-box;
+  }
+
+  .tag span {
+    border-left: 2px solid #222;
+    padding-left: 0.3em;
+    margin-left: 0.3em;
   }
 
   .tag:hover::before {
