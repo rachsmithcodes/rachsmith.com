@@ -32,6 +32,14 @@ When I'm rendering out the note page, I can use that frontmatter data to create 
 ##### [slug].astro
 
 ```js
+export async function getStaticPaths() {
+  let posts = await Astro.glob(`../notes/*.md`);
+  return posts.map((post) => ({
+    params: { slug: post.frontmatter.slug },
+    props: { post: post },
+  }));
+}
+
 const { post } = Astro.props;
 const {
   Content,
