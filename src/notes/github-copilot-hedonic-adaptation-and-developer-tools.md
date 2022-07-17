@@ -1,6 +1,6 @@
 ---
-title: "GitHub copolit, hedonic adaptation and developer tools"
-slug: github-copolit-hedonic-adaptation-and-developer-tools
+title: "GitHub copilot, hedonic adaptation and developer tools"
+slug: github-copilot-hedonic-adaptation-and-developer-tools
 added: 2021-12-13 19:00
 updated: 2021-12-13 19:00
 tags: [work, development, productivity]
