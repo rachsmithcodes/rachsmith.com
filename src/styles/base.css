@@ -16,7 +16,7 @@ figure,
 blockquote,
 dl,
 dd {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -157,6 +157,15 @@ h4 {
   font-size: 1.2em;
 }
 
+h5 /* For code filenames */ {
+  margin: 0;
+  border-left: 6px solid #eee;
+  color: #555;
+  background: #FAFAFA;
+  padding-left: 1em;
+  padding-top: 0.3em;
+}
+
 p,
 ul,
 ol,
@@ -176,6 +185,23 @@ blockquote {
 
 img, video {
   max-width: 100%;
+}
+
+figure {
+  padding: 1em;
+  border: 5px solid #eee;
+}
+
+figcaption {
+  text-align: center;
+  color: #333;
+}
+
+pre {
+  padding: 0.3em 1em;
+  border-left: 6px solid #eee;
+  font-size: 1.2em;
+  margin-top: 0;
 }
 
 .container {
@@ -211,6 +237,10 @@ img, video {
 
 .note-content a:hover {
   background-size: 100% 0.4em;
+}
+
+.note-content p code {
+  color: #533863;
 }
 
 .footnotes {
