@@ -1,5 +1,5 @@
 ---
-title: Maybe I'm the sweet spot for GitHub Copilot
+title: Maybe I'm in the sweet spot for GitHub Copilot
 slug: maybe-im-in-the-sweet-spot
 added: 2022-07-19 06:12
 updated: 2022-07-19 06:12
