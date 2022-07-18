@@ -23,3 +23,5 @@ Because I have a lot of experience in the languages I’m writing in, figuring o
 Even though I am still a beginner at Go, I’ve been an Engineer long enough to know I can’t just blindly accept a snippet suggestion that I don’t understand from a robot. So I find copilot really assists me getting the syntax right, and if it suggests something I haven’t seen before I will go and Google it and make sure I understand what it’s doing before I commit.
 
 It seems to me, that when you’re in my position: very experienced with writing code, but using a new language or API - Copilot is the right amount of helpful with the least amount of harmful.
+
+<img class="webfeedsFeaturedVisual" src="https://rachsmith.com/feedly-nothing.png"/>
