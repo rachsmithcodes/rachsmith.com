@@ -8,9 +8,6 @@ const postsWithContent = await Promise.all(
   posts.map(async (post) => {
     const rawContent = await post.rawContent();
     let html = marked.parse(rawContent);
-    html =
-      `<img class="webfeedsFeaturedVisual" src="https://rachsmith.com/feedly-nothing.png" />` +
-      html;
 
     return {
       ...post,
@@ -30,7 +27,6 @@ export const get = () =>
       "Hi 👋🏼 I'm Rach. A developer building software for CodePen, wife, mother of two, productivity nerd and recovering screen addict. This is my digital garden.",
     site: import.meta.env.SITE,
     items: postsWithContent.map((post, i) => {
-      const contentTag = `<content:encoded><![CDATA[${post.htmlContent}]]></content:encoded>`;
       const categoryTags = post.frontmatter.tags
         .map((tag) => `<category><![CDATA[${tag}]]></category>`)
         .join('');
@@ -38,14 +34,12 @@ export const get = () =>
         link: post.frontmatter.slug,
         title: post.frontmatter.title,
         pubDate: post.frontmatter.added,
-        description: post.frontmatter.excerpt,
-        customData: contentTag + categoryTags,
+        description: post.htmlContent,
+        customData: categoryTags,
       };
     }),
     customData: `<atom:link href="https://rachsmith.com/rss/" rel="self" type="application/rss+xml" />`,
     xmlns: {
-      dc: 'http://purl.org/dc/elements/1.1/',
-      content: 'http://purl.org/rss/1.0/modules/content/',
       atom: 'http://www.w3.org/2005/Atom',
     },
   });
