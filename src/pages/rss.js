@@ -8,7 +8,9 @@ const postsWithContent = await Promise.all(
   posts.map(async (post) => {
     const rawContent = await post.rawContent();
     let html = marked.parse(rawContent);
-    // html = html.replace(/<img[^>]*>/g, '');
+    html =
+      `<img class="webfeedsFeaturedVisual" src="https://rachsmith.com/feedly-nothing.png" />` +
+      html;
 
     return {
       ...post,

@@ -7,11 +7,17 @@
 </script>
 
 <li>
-  <a href={`/${slug}/`} class:title>{title}</a>{' '}
-  {excerpt && `- ${excerpt} `}
-  {#each tags as tag}
-    <Tag {tag} class="smallTag" />&nbsp;
-  {/each}
+  <a href={`/${slug}/`} class:title>{title}</a><br />
+  {#if excerpt}
+    <span class:excerpt>{excerpt}</span>
+  {/if}
+  <ul>
+    {#each tags as tag}
+      <li class:tag>
+        <Tag {tag} small />
+      </li>
+    {/each}
+  </ul>
 </li>
 
 <style>
@@ -20,13 +26,28 @@
     color: #222;
     text-decoration: none;
   }
+  .title:hover {
+    text-decoration: underline;
+  }
+
+  .excerpt {
+    font-size: 0.9em;
+    line-height: 1;
+    color: #333;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 
   li {
     margin-bottom: 1.2em;
     list-style: none;
+    display: block;
   }
 
-  li :global(.smallTag) {
-    font-size: 0.9em;
+  .tag {
+    display: inline-block;
   }
 </style>
