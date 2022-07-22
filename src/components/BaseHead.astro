@@ -7,9 +7,6 @@ let metaImage = `https://rachsmith.com/twitter-image-${imageId || 1}.png`;
 
 ---
 
-{canonicalUrl &&
-<link rel="canonical" href={canonicalUrl} />}
-
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,22 +19,20 @@ let metaImage = `https://rachsmith.com/twitter-image-${imageId || 1}.png`;
 <meta name="theme-color" content="#ffffff">
 <link rel="alternate" type="application/rss+xml" title="RSS Feed for rachsmith.com" href="/rss/" />
 
-
 <!-- Primary Meta Tags -->
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content={permalink} />
+{canonicalUrl && (
+<link rel="canonical" href={canonicalUrl} />
+<meta property="og:type" content="article" />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-
-<!-- Twitter -->
-<meta property="twitter:url" content={permalink} />
-<meta property="twitter:title" content={title} />
-<meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={metaImage} />
+<meta property="og:url" content={permalink} />
+<meta property="og:site_name" content="Rach Smith's digital garden" />
+<meta property="og:image" content={metaImage} />
+<meta name="author" content="Rach Smith" />
 <meta name="twitter:label1" content="Written by" />
 <meta name="twitter:data1" content="Rach Smith" />
+)}
