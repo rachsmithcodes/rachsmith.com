@@ -256,3 +256,7 @@ pre {
   font-size: 1em;
   text-transform: uppercase;
 }
+
+.cp_embed_wrapper {
+  margin-bottom: 1em;
+}
