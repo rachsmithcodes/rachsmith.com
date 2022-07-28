@@ -4,7 +4,7 @@ slug: is-ryan-kaji-going-to-be-okay
 added: 2022-07-28 13:42
 updated: 2022-07-28 13:42
 tags: [miscellany, mothering]
-excerpt: 'how is he going to feel about all this when he’s 30'
+excerpt: 'How is he going to feel about all this when he’s 30'
 ---
 
 I’ve never watched one of _those_ [family vlogger YouTube channels](http://culture.affinitymagazine.us/family-vloggers-are-exploitative-and-must-be-stopped/amp/) because they creep me out. Parents exploiting their kids for views is so messed up, I won’t support it.
