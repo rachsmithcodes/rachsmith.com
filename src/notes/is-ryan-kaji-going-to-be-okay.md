@@ -3,7 +3,7 @@ title: Is Ryan Kaji going to be okay
 slug: is-ryan-kaji-going-to-be-okay
 added: 2022-07-28 13:42
 updated: 2022-07-28 13:42
-tags: [miscellaneous, mothering]
+tags: [miscellany, mothering]
 excerpt: 'how is he going to feel about all this when he’s 30'
 ---
 
