@@ -44,7 +44,7 @@ These two demos are both moving a square back and forth. The thing being animate
   moving square 1: HTML &amp; CSS</a> by Rachel Smith (<a href="https://codepen.io/rachsmith">@rachsmith</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://webpacker.codepen.io/assets/packs/ei.js"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 In these examples, the rate at which the square moves over time is consistent.
 
