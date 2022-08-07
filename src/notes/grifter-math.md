@@ -4,7 +4,7 @@ slug: grifter-math
 added: 2022-07-21 14:15
 updated: 2022-07-21 14:15
 tags: [miscellany]
-excerpt:
+excerpt: It doesn't add up
 ---
 
 I am partial to watching a bit of productivity and self development material on YouTube. I think that's why all my ads are get-rich-quick grifters.

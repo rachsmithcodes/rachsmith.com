@@ -21,5 +21,6 @@
 
   .tags li {
     display: inline-block;
+    margin-bottom: 0.5em;
   }
 </style>

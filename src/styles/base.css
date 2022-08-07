@@ -172,6 +172,9 @@ ol,
 li {
   font-size: 1.2rem;
   line-height: 1.5;
+}
+
+p, ul, ol {
   margin-bottom: 0.6em;
 }
 
@@ -255,4 +258,8 @@ pre {
 .footnotes h2 {
   font-size: 1em;
   text-transform: uppercase;
+}
+
+.cp_embed_wrapper {
+  margin-bottom: 1em;
 }

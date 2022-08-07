@@ -26,6 +26,9 @@ let metaImage = `https://rachsmith.com/twitter-image-${imageId || 1}.png`;
 
 {canonicalUrl && (
 <link rel="canonical" href={canonicalUrl} />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@rachsmithtweets" />
+<meta name="twitter:creator" content="@rachsmithtweets" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
