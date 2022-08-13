@@ -10,7 +10,8 @@ import Section from './Section.astro';
     width,
     height,
     textPixels,
-    motionBtn;
+    motionBtn,
+    heading;
   let motionOff = false;
   const padding = 200;
   const particles = [];
@@ -42,10 +43,10 @@ import Section from './Section.astro';
     particlesCanvas = document.createElement("canvas");
     document.body.appendChild(particlesCanvas);
     particlesCtx = particlesCanvas.getContext("2d");
-    const heading = document.getElementById("heading");
+    heading = document.getElementById("heading");
     textCanvas.style.position = "absolute";
     const rect = heading.getBoundingClientRect();
-    console.log(rect);
+    // console.log(rect);
     textCanvas.width = rect.width;
     textCanvas.height = rect.height;
     textCanvas.style.left = `${rect.x}px`;
@@ -125,7 +126,7 @@ import Section from './Section.astro';
     particlesCtx.clearRect(0, 0, width + padding * 2, width + padding * 2);
   }
 
-  function animate(t) {
+  function animate() {
     clearCanvas();
 
     for (var i = 0; i < particles.length; i++) {
@@ -208,33 +209,10 @@ import Section from './Section.astro';
       toggleMotion();
     })
   }
-
-
-
 </script>
 
-<div class="controls"><button id="motion">Turn motion off</button></div>
-
-<h1 id="heading">Rach Smith</h1>
-<Section>
-  <p>
-    Hi 👋🏼 &nbsp;I'm Rach. A{' '}
-    <a href="/full-stack-t-shaped-comb-shaped-developer-or-engineer/">
-      developer
-    </a>{' '}
-    building software for CodePen, wife, mother of two, productivity nerd and recovering
-    screen addict. This is my digital garden.
-  </p>
-  <p style="min-height: 80px;">
-    <a class="cta" href="/all-notes/"> See all the notes </a>&nbsp;
-    <a class="cta" href="https://feedly.com/i/subscription/feed/https://rachsmith.com/rss/">
-      Subscribe to RSS feed
-    </a>
-  </p>
-</Section>
-
 <style>
-  h1 {
+  h1.header {
     font-family: "Chivo", sans-serif;
     font-weight: 900;
     font-size: 100px;
@@ -340,3 +318,23 @@ import Section from './Section.astro';
     transform: translate3d(-4px, -4px, -1px);
   }
 </style>
+
+<div class="controls"><button id="motion">Turn motion off</button></div>
+
+<h1 id="heading" class="header">Rach Smith</h1>
+<Section>
+  <p>
+    Hi 👋🏼 &nbsp;I'm Rach. A{' '}
+    <a href="/full-stack-t-shaped-comb-shaped-developer-or-engineer/">
+      developer
+    </a>{' '}
+    building software for CodePen, wife, mother of two, productivity nerd and recovering
+    screen addict. This is my digital garden.
+  </p>
+  <p style="min-height: 80px;">
+    <a class="cta" href="/all-notes/"> See all the notes </a>&nbsp;
+    <a class="cta" href="https://feedly.com/i/subscription/feed/https://rachsmith.com/rss/">
+      Subscribe to RSS feed
+    </a>
+  </p>
+</Section>
