@@ -1,10 +1,10 @@
 ---
 import Layout from '../components/Layout.astro';
 import BaseHead from '../components/BaseHead.astro';
-import Tag from '../components/Tag.svelte';
+import Tag from '../components/Tag.astro';
 import { postsAndTags } from '../data/posts';
-import Section from '../components/Section.svelte';
-import OutlineHeading from '../components/OutlineHeading.svelte';
+import Section from '../components/Section.astro';
+import OutlineHeading from '../components/OutlineHeading.astro';
 
 export async function getStaticPaths() {
   let posts = await Astro.glob(`../notes/*.md`);

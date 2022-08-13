@@ -1,24 +1,8 @@
-<script>
-  import Tag from './Tag.svelte';
-  export let slug;
-  export let title;
-  export let tags;
-  export let excerpt;
-</script>
+---
+import Tag from './Tag.astro';
 
-<li>
-  <a href={`/${slug}/`} class:title>{title}</a><br />
-  {#if excerpt}
-    <span class:excerpt>{excerpt}</span>
-  {/if}
-  <ul>
-    {#each tags as tag}
-      <li class:tag>
-        <Tag {tag} small />
-      </li>
-    {/each}
-  </ul>
-</li>
+const { slug, title, tags, excerpt } = Astro.props;
+---  
 
 <style>
   .title {
@@ -26,6 +10,7 @@
     color: #222;
     text-decoration: none;
   }
+
   .title:hover {
     text-decoration: underline;
   }
@@ -51,3 +36,15 @@
     display: inline-block;
   }
 </style>
+
+<li>
+  <a href={`/${slug}/`} class="title">{title}</a><br />
+  {excerpt && <span class="excerpt">{excerpt}</span>}
+  <ul>
+    {tags.map(tag => (
+    <li class="tag">
+      <Tag {tag} small />
+    </li>
+    ))}
+  </ul>
+</li>

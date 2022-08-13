@@ -1,25 +1,27 @@
-<script>
-  import OutlineHeading from './OutlineHeading.svelte';
-  import Section from './Section.svelte';
-  import Tags from './Tags.svelte';
+---
+import OutlineHeading from './OutlineHeading.astro';
+import Section from './Section.astro';
+import Tags from './Tags.astro';
 
-  export let tags;
-</script>
+const { tags } = Astro.props;
+---  
 
 <footer>
   <section class="">
     <OutlineHeading>Browse Notes by tag</OutlineHeading>
-    <Section><Tags {tags} /></Section>
+    <Section>
+      <Tags {tags} />
+    </Section>
   </section>
   <section class="">
     <OutlineHeading>Acknowledgement of Country</OutlineHeading>
-    <Section
-      ><p>
+    <Section>
+      <p>
         I acknowledge the Gubbi Gubbi people, the Traditional Owners of the land
         and waterways where I live. I would like to pay my respects to Elders
         past, present and emerging.
-      </p></Section
-    >
+      </p>
+    </Section>
   </section>
   <section class="">
     <OutlineHeading>Get in touch</OutlineHeading>

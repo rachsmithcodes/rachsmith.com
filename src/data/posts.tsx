@@ -1,3 +1,5 @@
+import 'astro/jsx-runtime';
+
 export function postsAndTags(allPosts) {
   const posts = sortedPosts(allPosts);
   const tags = postTags(posts);

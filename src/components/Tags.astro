@@ -1,0 +1,26 @@
+---
+import Tag from './Tag.astro';
+
+const { tags } = Astro.props;
+const tagsSorted = tags ? Object.keys(tags).sort() : [];
+---  
+
+<style>
+  .tags {
+    text-align: center;
+    padding: 0;
+  }
+
+  .tags li {
+    display: inline-block;
+    margin-bottom: 0.5em;
+  }
+</style>
+
+<ul class="tags">
+  {tagsSorted.map(tag =>
+  <li>
+    <Tag {tag} number={tags[tag].length} />
+  </li>
+  )}
+</ul>

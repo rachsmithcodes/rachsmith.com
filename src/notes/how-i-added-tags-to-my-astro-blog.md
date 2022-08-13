@@ -80,22 +80,22 @@ const tagsWithPosts = posts.reduce((allTags, post) => {
 
 Then I can render out the tags with their post count in the footer of my pages.
 
-##### Tags.svelte
+##### Tags.astro
 
-```svelte
-<script>
-  import Tag from './Tag.svelte';
+```astro
+---
+import Tag from './Tag.astro';
 
-  export let tags;
-  let tagsSorted = tags ? Object.keys(tags).sort() : [];
-</script>
+const { tags } = Astro.props;
+const tagsSorted = tags ? Object.keys(tags).sort() : [];
+---
 
 <ul class="tags">
-  {#each tagsSorted as tag}
-    <li>
-      <Tag {tag} number={tags[tag].length} />
-    </li>
-  {/each}
+  {tagsSorted.map(tag =>
+  <li>
+    <Tag {tag} number={tags[tag].length} />
+  </li>
+  )}
 </ul>
 ```
 
