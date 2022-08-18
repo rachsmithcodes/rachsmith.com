@@ -8,8 +8,9 @@ import OutlineHeading from '../components/OutlineHeading.astro';
 
 export async function getStaticPaths() {
   let posts = await Astro.glob(`../notes/*.md`);
-  return posts.map(post => ({
-    params: { slug: post.frontmatter.slug }, props: { post: post }
+  return posts.map((post) => ({
+    params: { slug: post.frontmatter.slug },
+    props: { post: post },
   }));
 }
 
@@ -23,16 +24,20 @@ export function formatDate(date) {
 
 const { slug } = Astro.params;
 const { post } = Astro.props;
-const { Content, frontmatter: { title, added, updated, tags, excerpt } } = post;
+const {
+  Content,
+  frontmatter: { title, added, updated, tags, excerpt },
+} = post;
 const posts = await Astro.glob(`../notes/*.md`);
 const { allPosts, allTags } = postsAndTags(posts);
-const postIndex = [...allPosts].reverse().findIndex(p => p.frontmatter.slug === slug);
+const postIndex = [...allPosts]
+  .reverse()
+  .findIndex((p) => p.frontmatter.slug === slug);
 const imageId = (postIndex % 6) + 1;
 console.log(imageId);
 
 let description = excerpt;
 let permalink = `https://rachsmith.com/${slug}/`;
-
 ---
 
 <style>
@@ -50,11 +55,11 @@ let permalink = `https://rachsmith.com/${slug}/`;
     }
   }
 
-
   .meta {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 3em;
+    font-family: var(--mono-font);
   }
 
   .meta p {
@@ -72,28 +77,27 @@ let permalink = `https://rachsmith.com/${slug}/`;
   }
 </style>
 
-<html lang="en">
-
-<head>
-  <BaseHead {title} {description} {permalink} canonicalUrl={permalink} {imageId} />
-</head>
+<BaseHead {title} {description} {permalink} canonicalUrl={permalink} {imageId}
+/>
 
 <Layout page="note" tags={allTags}>
   <article>
     <h1 class="title">{title}</h1>
     <div class="meta">
       <p>
-        <em class="meta-label">Added:</em> {formatDate(added)}
+        <em class="meta-label">Added:</em>
+        {formatDate(added)}
       </p>
-      {updated !== added && (
-      <p>
-        <em class="meta-label">Updated:</em> {formatDate(updated)}
-      </p>
-      )}
+      {
+        updated !== added && (
+          <p>
+            <em class="meta-label">Updated:</em> {formatDate(updated)}
+          </p>
+        )
+      }
       <p>
         <em class="meta-label">Tags:</em>{' '}
-        {tags.map((tag) => (
-        <Tag tag={tag} />))}
+        {tags.map((tag) => <Tag tag={tag} />)}
       </p>
     </div>
     <Section>
@@ -117,17 +121,23 @@ let permalink = `https://rachsmith.com/${slug}/`;
   <section class="comments">
     <OutlineHeading>Comments</OutlineHeading>
     <Section>
-      <script is:inline>talkyardServerUrl='https://site-1hvw5pe7vn.talkyard.net';</script>
-      <script is:inline async defer src="https://cdn.talkyard.net/-/talkyard-comments.min.js"></script>
+      <script is:inline>
+        talkyardServerUrl = 'https://site-1hvw5pe7vn.talkyard.net';
+      </script>
+      <script
+        is:inline
+        async
+        defer
+        src="https://cdn.talkyard.net/-/talkyard-comments.min.js"
+      ></script>
       <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
       <div class="talkyard-comments" style="margin-top: 45px;">
         <noscript>Please enable Javascript to view comments.</noscript>
-        <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
+        <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">
+          Comments powered by
           <a href="https://www.talkyard.io">Talkyard</a>.
         </p>
       </div>
     </Section>
   </section>
 </Layout>
-
-</html>
