@@ -7,7 +7,7 @@ tags: [miscellany]
 excerpt: Some good things from August.
 ---
 
-*Side note: I'm having a "off" mental health day today so coming up with this list has been a bit hard. If I had to do it a week ago I probably could have listed 20. Brains are fickle things.*
+*Side note: I'm having an "off" mental health day today so coming up with this list has been a bit hard. If I had to do it a week ago I probably could have listed 20. Brains are fickle things.*
 
 ### TV: [Only Murders In The Building, Season 2](https://www.imdb.com/title/tt12851524/)
 Although I felt like the plot in this season was all over the place compared to season 1, it didn't matter because I watch for the comedic chemistry between Steve Martin and Martin Short. Also loved that we got to see a bigger cameo from Tina Fey this season. The finale episode was pure joy. I can't wait until season 3!
