@@ -21,4 +21,6 @@ So now I try to make a conscious effort of making my face light up whenever I'm 
 
 I think I first heard this advice on a [Brené Brown](https://brenebrown.com/) podcast episode? But here is the clip of Toni from the Oprah show where she first said it
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9Jw0Fu8nhOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-wrap">
+<iframe src="https://www.youtube.com/embed/9Jw0Fu8nhOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>

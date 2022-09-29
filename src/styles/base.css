@@ -20,8 +20,8 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
+ul[role='list'],
+ol[role='list'] {
   list-style: none;
 }
 
@@ -60,7 +60,7 @@ select {
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
   *,
   *::before,
@@ -93,11 +93,11 @@ select {
       url('../fonts/chivo-v17-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-
 :root {
   --off-white-color: #fdfdfc;
   --black-pearl-color: #1c232a;
-  --mono-font: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+  --mono-font: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
+    monospace;
   --rainbow-gradient-45: linear-gradient(
     45deg,
     hsl(6deg 100% 50%) 0%,
@@ -116,7 +116,6 @@ select {
   );
 }
 
-
 html,
 body {
   width: 100%;
@@ -130,7 +129,8 @@ body {
     sans-serif;
   background-color: var(--off-white-color);
   opacity: 1;
-  background-image:  linear-gradient(#eeece9 1.1px, transparent 1.1px), linear-gradient(to right, #eeece9 1.1px, var(--off-white-color) 1.1px);
+  background-image: linear-gradient(#eeece9 1.1px, transparent 1.1px),
+    linear-gradient(to right, #eeece9 1.1px, var(--off-white-color) 1.1px);
   background-size: 22px 22px;
 }
 
@@ -161,7 +161,7 @@ h5 /* For code filenames */ {
   margin: 0;
   border-left: 6px solid #eee;
   color: #555;
-  background: #FAFAFA;
+  background: #fafafa;
   padding-left: 1em;
   padding-top: 0.3em;
 }
@@ -174,7 +174,9 @@ li {
   line-height: 1.5;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
   margin-bottom: 1.2em;
 }
 
@@ -186,8 +188,20 @@ blockquote {
   color: #333;
 }
 
-img, video {
+img,
+video,
+iframe {
   max-width: 100%;
+}
+
+.video-wrap {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+}
+.video-wrap iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 figure {
