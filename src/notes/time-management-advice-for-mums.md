@@ -15,7 +15,7 @@ When you combine the traditional expectations that the wife and mother of a hete
 Suggestions to spend less time on the toilet or wake up earlier aren't going to cut it. The only way not to drown is to reduce the number of things you have to do and care about. You have to answer the tough questions:
 
 - Does it need to be done?
-- If it has to be done, do I have to be the one who does it?
+- If it has to be done, do you have to be the one who does it?
 - Who can do it instead?
 - How do you communicate your needs to the person/people who can do it?
 
