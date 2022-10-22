@@ -6,6 +6,7 @@ updated: 2022-07-15 06:10
 tags: [development]
 excerpt: "Keith Peters' post is a great explanation of why random might not be the best tool for your generative creations."
 imageId: '6'
+note: publish
 ---
 
 ### Link: [Letting go of random](https://www.bit-101.com/blog/2022/01/letting-go-of-random/)

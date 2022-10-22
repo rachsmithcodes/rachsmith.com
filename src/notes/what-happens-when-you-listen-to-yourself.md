@@ -5,6 +5,7 @@ added: 2021-09-21 07:00
 updated: 2021-09-21 07:00
 tags: [wellbeing]
 excerpt: A list of all the parenting My inner-voice is like an inneffective middle manager giving a negative performance review.
+note: publish
 ---
 
 What happens when you listen to yourself? When there isn't any external input happening to my brain via reading, watching or listening to other external inputs, I have a permanently running [internal monologue](https://en.wikipedia.org/wiki/Internal_monologue). When I was younger, my stream of consciousness involved a lot more daydreaming. Now, it almost always is just this voice. For the sake of this post, I'll call it The Mind.

@@ -5,6 +5,7 @@ added: 2021-02-17 20:35
 updated: 2021-02-17 20:35
 tags: [wellbeing, mothering]
 excerpt: The most effective things I can do for my own health and happiness are simple but not easy.
+note: publish
 ---
 
 My [word for the year](https://mountainmodernlife.com/word-of-the-year/) in 2021 is self. Self is a loaded word because people can take it to mean “self-absorbed” or “selfish”, so I first hesitated to choose it. Like all previous words of the year, this word kept forcing itself to the forefront of my consciousness until I realised it had to be the one for 2021.

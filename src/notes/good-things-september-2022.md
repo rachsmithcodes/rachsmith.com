@@ -5,12 +5,12 @@ added: 2022-10-06 11:11
 updated: 2022-10-06 11:11
 tags: [miscellany]
 excerpt: Some good things from September.
-note: draft
+note: publish
 ---
 
 ### Apps: [Readwise Reader](https://readwise.io/read) and [Obsidian](https://obsidian.md/)
 
-I've been using Obsidian [for a while now](/loving-right-now-obsidian-md/) as my note-taking app, but I've been writing more notes since I introduced Reader to my workflow. Reader lets me highlight the articles from the RSS feeds I subscribe to and add them to my Readwise account, and those highlights sync to my Obsidian vault. Then I have the highlights and links to the original article to reference when I'm coming up with my notes. I'm retaining more information from the posts and articles I read, rather than just thinking "wow, cool" and then forgetting it immediately.
+I've been using Obsidian [for a while now](/loving-right-now-obsidian-md) as my note-taking app, but I've been writing more notes since I introduced Reader to my workflow. Reader lets me highlight the articles from the RSS feeds I subscribe to and add them to my Readwise account, and those highlights sync to my Obsidian vault. Then I have the highlights and links to the original article to reference when I'm coming up with my notes. I'm retaining more information from the posts and articles I read, rather than just thinking "wow, cool" and then forgetting it immediately.
 
 ### Pop-culture podcasts
 

@@ -1,14 +1,14 @@
 ---
-title: "How to write a high-engagement tweet"
+title: How to write a high-engagement tweet
 slug: how-to-write-a-high-engagment-tweet
 added: 2021-11-24 22:00
 updated: 2021-11-24 22:00
 tags: [miscellany]
 excerpt: "Hint: make people mad"
+note: publish
 ---
 
 1. Pick a stance that that could be mistaken as contrarian, but in reality most people actually agree with.
-
 2. Posit your argument as if there are "people" who have been spreading the opposing view. You don't have to be specific about who it is. In fact, they don't actually have to exist.
 
 Some examples:
@@ -19,7 +19,5 @@ Some examples:
 
 *"It might not be cool to say so, but I think dark chocolate is actually very delicious."*
 
-3. Make the subject matter something that people get emotional about: gender inequality in tech, TypeScript vs. JavaScript, hiring processes, etc. 
-
-
+3. Make the subject matter something that people get emotional about: gender inequality in tech, TypeScript vs. JavaScript, hiring processes, etc.  
 4. Watch the engagement from people agreeing with you/bonding over your common enemy roll in.

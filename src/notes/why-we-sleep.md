@@ -5,6 +5,7 @@ added: 2022-07-22 13:30
 updated: 2022-07-22 13:30
 tags: [books, podcasts, wellbeing]
 excerpt: The next time someone quotes this book at you, you can tell them about this.
+note: publish
 ---
 
 I remember people's fervour for Matthew Walker's [Why We Sleep](https://en.wikipedia.org/wiki/Why_We_Sleep) in 2018 very well. I recall it so clearly because I was triggered by many of the claims in that book, as I was _not_ sleeping in 2018. I had a baby who did not sleep, and so I did not sleep.

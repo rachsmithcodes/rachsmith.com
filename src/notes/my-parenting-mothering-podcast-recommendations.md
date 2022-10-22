@@ -5,6 +5,7 @@ added: 2021-09-28 07:30
 updated: 2021-09-28 07:30
 tags: [podcasts, mothering]
 excerpt: A list of all the parenting podcasts that I have found useful at some point in my parenting journey.
+note: publish
 ---
 
 A good friend will have twins soon! She asked me for my parenting podcast recommendations. I decided to share the list here as well. 
@@ -73,4 +74,3 @@ Two mothers with a background in crunchy/conscious parenting discuss deeper them
 
 Two best friends trying to balance career and family do a weekly chat about whatever is on their minds. This one is just entertaining and good for a laugh. It is probably my favourite podcast right now.
 
- 

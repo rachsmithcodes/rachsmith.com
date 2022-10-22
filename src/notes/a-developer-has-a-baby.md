@@ -5,6 +5,7 @@ added: 2022-09-23 05:42
 updated: 2022-09-23 05:42
 tags: [mothering]
 excerpt: It turns out babies are not programmable.
+note: publish
 ---
 
 I read all the baby books when I was pregnant with my oldest child. These books tell you that if you do A, B and C things your baby will act in X, Y, and Z ways. They were all like: how to get your baby to sleep when you want, how to get your baby to cry less, how to make your baby a "good" baby. 

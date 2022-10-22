@@ -5,7 +5,7 @@ added: 2022-10-07 06:12
 updated: 2022-10-07 06:12
 tags: [productivity, mothering]
 excerpt: Unfortunately, the only good advice on this subject is the hardest to follow.
-note: draft
+note: publish
 ---
 
 One time, I clicked on one of these "tips to find more time in your day" style articles written for "busy mums". One of the suggestions was to consider spending less time on the toilet. It was seriously like: "consider spending less time in the bathroom; you could gain back up to 10 minutes in your day". It was not satire. It was bleak.

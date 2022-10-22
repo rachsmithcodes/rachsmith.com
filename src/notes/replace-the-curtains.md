@@ -5,6 +5,7 @@ added: 2022-09-19 20:41
 updated: 2022-09-19 20:41
 tags: [development]
 excerpt: Maybe it's time to replace the parts of the codebase that cause friction every day.
+note: publish
 ---
 
 The main bedroom of our house has large glass doors and windows that open onto a small balcony. When we moved in there were large curtains to cover the glass, but some of the tracks were broken. It was hard to open and shut them. 

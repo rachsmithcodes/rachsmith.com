@@ -1,10 +1,11 @@
 ---
-title: "I'm 35 - reflections, plans and wishes"
+title: I'm 35 - reflections, plans and wishes
 slug: im-35-reflections-plans-and-wishes
 added: 2021-08-09 06:11
 updated: 2021-08-09 06:11
 tags: [wellbeing]
 excerpt: Looking back and looking forward 5 years on this half-decade birthday.
+note: publish
 ---
 
 I turned 35 on Wednesday. For whatever reason, half-decade birthdays have always felt like a significant milestone to me.
@@ -30,27 +31,16 @@ I love my house and where I live. I love my job. It goes without saying I love m
 Although I don't actually believe I can [make things manifest](https://www.vox.com/the-goods/21524975/manifesting-does-it-really-work-meme) by simply requesting them from the universe. I do think writing what you want has some sort of effect on your subconscious efforts to attain those outcomes. So just for fun, here is a list for 40.
 
 I want:
-
 - a relationship with my kids based on connection, and for them to be enjoying their childhood. 
-
 - to be fit enough to keep up with my eldest - who is big, strong, incredibly energetic and loves to move.
-
 - my best friend, who has been battling with cancer in recent years, to be here with us and living her best life.
-
 - CodePen to be so successful that my bosses can retire, or at least not work nearly as hard as they have been lately.
-
 - to be more involved in my local community, most likely through the school community my kids go to.
-
 - to be going out to dinner and drinks with my husband again!
-
 - to take our kids to Disneyland in LA.
-
 - this pandemic and all the heartache caused by Covid-19 to be a distant memory.
-
 - to go on a little weekend away with my college girlfriends, all expenses paid, by me.
-
 - to own an electric car.
 
 Some of these wishes I have zero control over, some a little. It will be interesting to check in at 40 and see how many have come to be. In fact, I just thought of another one:
-
 - to still be writing on my blog.

@@ -5,6 +5,7 @@ added: 2021-09-07 20:49
 updated: 2021-09-07 20:49
 tags: [work, development]
 excerpt: What am I even.
+note: publish
 ---
 
 Whenever I come across a form field that asks for my occupation or profession, I hesitate before answering. I believe my official documented role title with CodePen and Active Theory is/was "Engineer", but I’m pretty sure that was just what it needed to be to satisfy the US Visa requirements they hired me under.
@@ -18,4 +19,3 @@ Recently I learnt about the concept of the [T-Shaped Developer](https://letslear
 So then after some more research on this topic, I discovered the [comb shaped developer](https://killalldefects.com/2020/02/22/specializing-vs-generalizing-careers/): who has "the breadth of a generalist and multiple specialisations that they’ve gravitated to throughout their career". Finally, this feels right. I am a comb. I am also, most definitely, overthinking this job title thing altogether. 
 
 I’m assuming as I'm thinking about this there’s a whole group of people walking out of 6 month dev boot camps, slapping on a full-stack software engineer title, and moving on their merry way, with nary a thought to whether that is appropriate. I should take a leaf out of their book. Instead, I’ll be here having an existential crisis the next time I’m asked to list my occupation on the patient intake form at the Dentist.
-

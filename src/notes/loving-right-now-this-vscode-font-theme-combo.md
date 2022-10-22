@@ -5,6 +5,7 @@ added: 2021-03-06 16:46
 updated: 2021-03-06 16:46
 tags: [development]
 excerpt: I recently changed my VSCode font and theme setup.
+note: publish
 ---
 
 ![A sample of React code with the In Bed By 7pm Theme](/images/react-sample.png)

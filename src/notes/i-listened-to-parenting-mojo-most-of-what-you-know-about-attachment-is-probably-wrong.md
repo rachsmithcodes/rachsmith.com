@@ -5,6 +5,7 @@ added: 2021-07-01 10:09
 updated: 2021-07-01 10:09
 tags: [podcasts, mothering]
 excerpt: Jen Lumanlan breaks down the context around and limitations of the studies that crafted the ideas behind attachment parenting theory.
+note: publish
 ---
 
 [138: Most of what you know about attachment is probably wrong](https://yourparentingmojo.com/captivate-podcast/attachmentresearch/).

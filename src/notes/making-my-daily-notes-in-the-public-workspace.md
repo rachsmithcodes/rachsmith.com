@@ -5,9 +5,11 @@ added: 2021-10-21 05:49
 updated: 2021-10-21 05:49
 tags: [work, productivity]
 excerpt: I've made my private daily notes public in an effort to increase communication with the team.
+note: publish
 ---
 
 I've been working remotely for over 5 years now. Something that you need to stay on top of as a remote worker is communicating about what you're working up to on the day-to-day. Especially in a team like CodePen. It is small. Members have their own zones of genius, and management is very light-handed. If you don't put in the effort in to keep people informed, you could go a long time "under the radar" with people not knowing what you've been doing.
+
 Last year I started up the habit of keeping "daily notes" for myself, where I would write things like my objectives/to-dos for the day, things I learnt, anything I needed to remember for later, etc. One day when I was thinking about how I could improve my communication with the team, it occurred to me I could move these notes from my private section in Notion to our public workspace.
 
 So now I have a table in Notion that contains a document for each week, and notes for each day I'm working. This has been a positive challenge for me because I struggle with sharing in-progress work or half-baked thoughts. My perfectionism wants everything to be "done" and wrapped in a bow before it sees the light of day. So the public daily notes have been a practice in sharing thoughts as they happen.

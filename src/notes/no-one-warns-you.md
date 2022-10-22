@@ -5,6 +5,7 @@ added: 2022-07-16 15:44
 updated: 2022-07-16 15:44
 tags: [mothering]
 excerpt: It turns out, that would have been helpful.
+note: publish
 ---
 
 It’s a common clickbait title for articles and YouTube videos: "the things NO ONE tells you about being a parent."
@@ -17,5 +18,4 @@ When my first-born was a baby his dad would do his bath every night, and I would
 
 Thankfully all that resulted was a lot of crying and a small bruise. But I felt like an idiot for not knowing that was going to happen. What I've discovered since then is that I’m not the only idiot. From conversations with other parents, parenting podcasts and Facebook Group posts I’ve discovered this is an extremely common manoeuvre and injury. I’ve even heard of kids teeth being *knocked out* from their heads flying in to the bath. 
 
-
-For a mistake that gets made so often, I’d never heard it mentioned before in parenting advice material. So I’ll give it here: don’t yank your child’s shirt off their head while they are standing next to the bath, unless you have a hand there to catch it. 
+For a mistake that gets made so often, I’d never heard it mentioned before in parenting advice material. So I’ll give it here: don’t yank your child’s shirt off their head while they are standing next to the bath, unless you have a hand there to catch it.

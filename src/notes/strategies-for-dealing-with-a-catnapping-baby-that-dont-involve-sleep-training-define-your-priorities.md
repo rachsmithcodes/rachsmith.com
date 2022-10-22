@@ -5,6 +5,7 @@ added: 2021-05-10 17:07
 updated: 2021-05-10 17:07
 tags: [mothering, productivity]
 excerpt: Defining your priorities will help reduce stress around having limited agency due to a baby that doesn't nap.
+note: publish
 ---
 
 This is the second post about dealing with a baby that only naps for 20-30 minutes at a time. The first and most important thing you'll need to do is [change your mindset](https://rachsmith.com/strategies-for-dealing-with-a-catnapping-baby-that-dont-involve-sleep-training-mindset-and-resetting-expectations/) so if you haven't, read that.

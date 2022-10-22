@@ -5,6 +5,7 @@ added: 2022-07-01 15:21
 updated: 2022-07-01 15:21
 tags: [productivity]
 excerpt: I think it is worth it to hand over money for software and apps that saves me time and effort, or improve my life in some way.
+note: publish
 ---
 
 I think it is worth it to hand over money for software and apps that saves me time and effort, or improve my life in some way. I have paid for one-off software, and have a number of ongoing subscriptions. Just off the top of my head, I can think of

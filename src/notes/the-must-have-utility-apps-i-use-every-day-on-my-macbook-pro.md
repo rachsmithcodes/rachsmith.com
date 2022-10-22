@@ -5,6 +5,7 @@ added: 2021-05-29 13:59
 updated: 2021-05-29 13:59
 tags:  [productivity, work]
 excerpt: A list of my must-have and nice-to-have apps and services.
+note: publish
 ---
 
 Recently I returned to work after 6 months of leave and as our Dev environment had changed dramatically since then, I formatted my computer. Whenever I have to start from scratch on a Mac, I am reminded just how much I rely on various utility Apps throughout my day. So here is the list of my must-have and nice-to-have apps and services.

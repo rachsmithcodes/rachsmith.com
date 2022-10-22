@@ -5,8 +5,8 @@ added: 2022-07-07 15:21
 updated: 2022-07-07 15:21
 tags: [development, work]
 excerpt: "I don't need git to tell me who's to blame for the complexity here."
+note: publish
 ---
-
 ### Link: [The Grug Brained Developer - A layman's guide to thinking like the self-aware smol brained](https://grugbrain.dev/)
 
 This made me laugh, multiple times, because of the dunks on "big brained" developers.

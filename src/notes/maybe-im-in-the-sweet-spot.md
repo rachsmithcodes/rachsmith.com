@@ -5,12 +5,12 @@ added: 2022-07-19 06:12
 updated: 2022-07-19 06:12
 tags: [development]
 excerpt: For me, it is far more useful than it is distracting.
+note: publish
 ---
 
 I think of GitHub Copilot as intellisense/autocomplete on steroids. Instead of completing words, it is completing entire statements.
 
 When I know what I want to write, copilot either
-
 - guesses exactly or near-exactly what I want
 - gets it a bit wrong, or completely wrong. I mean sometimes the suggestions are just batshit crazy.
 

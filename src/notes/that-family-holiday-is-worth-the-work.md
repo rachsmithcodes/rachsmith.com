@@ -5,6 +5,7 @@ added: 2021-02-27 11:24
 updated: 2021-02-27 11:24
 tags: [mothering, wellbeing]
 excerpt: Despite the effort and money required to make it happen, I never regret taking a trip away with the family.
+note: publish
 ---
 
 We’ve just got back from a 4 day stay at Sea World Resort (Australia). The amount of planning, effort and money required to do a holiday with a toddler and a baby is so immense I often wonder pre-holiday if going on a trip is even worth it. I’m a homebody at heart who has to psyche myself up to venture to the other side of town, let alone go on a full on family trip. There are so many reasons not to go, what with the thinking about packing, the actual packing, figuring out what food to take, the long car trip with a crying baby, and that’s before you’ve even arrived! Then there’s four people sharing one hotel room. The limited, junky and heinously expensive food options. Nap routines are disrupted and I run out of clean nursing bras. 
