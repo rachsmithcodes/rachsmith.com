@@ -77,7 +77,12 @@ let permalink = `https://rachsmith.com/${slug}/`;
   }
 </style>
 
-<BaseHead {title} {description} {permalink} canonicalUrl={permalink} {imageId}
+<BaseHead
+  {title}
+  {description}
+  {permalink}
+  canonicalUrl={permalink}
+  {imageId}
 />
 
 <Layout page="note" tags={allTags}>
@@ -95,10 +100,16 @@ let permalink = `https://rachsmith.com/${slug}/`;
           </p>
         )
       }
-      <p>
-        <em class="meta-label">Tags:</em>{' '}
-        {tags.map((tag) => <Tag tag={tag} />)}
-      </p>
+      {
+        tags.length > 0 && (
+          <p>
+            <em class="meta-label">Tags:</em>{' '}
+            {tags.map((tag) => (
+              <Tag tag={tag} />
+            ))}
+          </p>
+        )
+      }
     </div>
     <Section>
       <div class="note-content">
