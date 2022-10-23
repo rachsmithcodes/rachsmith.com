@@ -8,7 +8,7 @@ excerpt: On Kourosh Dini's idea of "being with" the work every day.
 note: publish
 ---
 
-Earlier in the year [I shared the 5 minute timer hack](https://rachsmith.com/the-5-minute-timer-hack-i-use-to-get-almost-anything-done/) for getting started on a task when activation energy is holding me back. Sometimes, the thought of spending even 5 minutes on something is too overwhelming. When I’m in this place, I find Kourosh Dini’s advice to “touch the keys” really helpful.
+Earlier in the year [I shared the 5 minute timer hack](/the-5-minute-timer-hack-i-use-to-get-almost-anything-done/) for getting started on a task when activation energy is holding me back. Sometimes, the thought of spending even 5 minutes on something is too overwhelming. When I’m in this place, I find Kourosh Dini’s advice to “touch the keys” really helpful.
 
 In his course [Being Productive: Simple Steps to Calm Focus](https://www.kouroshdini.com/course-books/), Dini emphasises the importance of taking a moment to “be with” the work every day (or however frequently you need to tackle a project). “Being with” your work is to be fully present and intentional about that activity and doing nothing else.
 

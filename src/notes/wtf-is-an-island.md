@@ -20,7 +20,7 @@ Frameworks like [Next.js](https://nextjs.org/) tried to fix this problem by usin
 
 Front end developers tried to do the client-side JavaScript framework thing, they tried the both-sides JavaScript framework thing, and now they're back to server-rendered HTML with JavaScript on top. An ungenerous take would be to call this an idiotic circle where we've ended up back in the beginning, but that's not what's actually happened. And that's why people are talking about "island's architecture" now.
 
-This is not like building websites in 2011. Modern frameworks have picked up the authoring features made popular by SPA frameworks and figured out how to include them in a system that still ends up serving HTML. So you can get a great developer experience while still building fast, accessible websites. Personally, [I'm a fan](https://rachsmith.com/initial-thoughts-on-astro/).
+This is not like building websites in 2011. Modern frameworks have picked up the authoring features made popular by SPA frameworks and figured out how to includes them in a system that still ends up serving HTML. So you can get a great developer experience while still building fast, accessible websites. Personally, [I'm a fan](/initial-thoughts-on-astro/).
 
 As someone who builds a full-on [web application](https://codepen.io), I'm interested to see how and if people use islands archicture frameworks to build their "intense" interactive applications. It seems like a no-brainer for blogs, documentation and other "content sites". But what happens if you have 120 "islands" on your page? And all those islands need to know about eachother's state? It may not be time to throw your SPA framework in the bin yet.
 

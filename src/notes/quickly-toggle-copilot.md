@@ -8,7 +8,7 @@ excerpt: I found a way to toggle copilot suggestions off and on with my keyboard
 note: publish
 ---
 
-Overall, [I'm a fan of GitHub Copilot](https://rachsmith.com/maybe-im-in-the-sweet-spot/). Sometimes I just want it to get out of the way. I wanted to figure out how to toggle it off and on again with my keyboard.
+Overall, [I'm a fan of GitHub Copilot](/maybe-im-in-the-sweet-spot/). Sometimes I just want it to get out of the way. I wanted to figure out how to toggle it off and on again with my keyboard.
 
 At first I figured I could assign the extension's enable/disable command to a [VSCode](https://code.visualstudio.com/) keyboard shortcut.
 

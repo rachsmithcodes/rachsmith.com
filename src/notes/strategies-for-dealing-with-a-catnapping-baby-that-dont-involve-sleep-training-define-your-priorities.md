@@ -8,7 +8,7 @@ excerpt: Defining your priorities will help reduce stress around having limited 
 note: publish
 ---
 
-This is the second post about dealing with a baby that only naps for 20-30 minutes at a time. The first and most important thing you'll need to do is [change your mindset](https://rachsmith.com/strategies-for-dealing-with-a-catnapping-baby-that-dont-involve-sleep-training-mindset-and-resetting-expectations/) so if you haven't, read that.
+This is the second post about dealing with a baby that only naps for 20-30 minutes at a time. The first and most important thing you'll need to do is [change your mindset](/strategies-for-dealing-with-a-catnapping-baby-that-dont-involve-sleep-training-mindset-and-resetting-expectations/) so if you haven't, read that.
 
 So, we've come to terms with the fact that we have very limited "free time" during the day. Our baby will not take a 2 hour nap twice a day, creating several hours for work, personal projects or self-care. So we need to forget about what the mothers we know with sleepers are doing and tackle the day with a strategy that suits our season.
 
