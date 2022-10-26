@@ -8,8 +8,9 @@ import { postsAndTags } from '../../data/posts';
 export async function getStaticPaths() {
   let posts = await Astro.glob(`../../notes/*.md`);
   const { allTags } = postsAndTags(posts);
-  return Object.keys(allTags).map(tag => ({
-    params: { tag: tag }, props: { posts: allTags[tag] }
+  return Object.keys(allTags).map((tag) => ({
+    params: { tag: tag },
+    props: { posts: allTags[tag] },
   }));
 }
 
@@ -25,40 +26,41 @@ const { tag } = Astro.params;
 const { posts } = Astro.props;
 const allPosts = await Astro.glob(`../../notes/*.md`);
 const { allTags } = postsAndTags(allPosts);
-const tagHeader = `${posts.length} post${posts.length === 1 ? '' : 's'
-  } tagged with "${tag}"`;
+const tagHeader = `${posts.length} post${
+  posts.length === 1 ? '' : 's'
+} tagged with "${tag}"`;
 const title = `${tagHeader} | Rach Smith's digital garden`;
 const description = tagHeader;
 const permalink = `https://rachsmith.com/tag/${tag}`;
-
-
 ---
 
 <html lang="en">
+  <head>
+    <BaseHead title={title} description={description} permalink={permalink} />
+  </head>
 
-<head>
-  <BaseHead {title} {description} {permalink} />
-</head>
+  <Layout page="page" tags={allTags}>
+    <div>
+      <h1>{tagHeader}</h1>
+      <Section>
+        <ul>
+          {
+            posts.map(
+              ({ url, frontmatter: { excerpt, slug, title, tags, added } }) => (
+                <NoteListItem {url} {excerpt} {slug} {title} {tags} {added} />
+              )
+            )
+          }
+        </ul>
+      </Section>
+    </div>
+  </Layout>
 
-<Layout page="page" tags={allTags}>
-  <div>
-    <h1>{tagHeader}</h1>
-    <Section>
-      <ul>
-        {posts.map(
-        ({url, frontmatter: { excerpt, slug, title, tags }}) => (
-        <NoteListItem {url} {excerpt} {slug} {title} {tags} />
-        ))}
-      </ul>
-    </Section>
-  </div>
-</Layout>
+  <style>
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+  </style>
 
 </html>
-
-<style>
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-</style>

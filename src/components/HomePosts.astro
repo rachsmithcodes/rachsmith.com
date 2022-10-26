@@ -5,19 +5,8 @@ import Section from './Section.astro';
 
 const { allPosts } = Astro.props;
 
-let homepageNoteSlugs = [
-  'learning-how-you-best-learn-some-questions-to-ask-yourself',
-  'we-confuse-visibility-with-competency',
-  'avoiding-when-then-thinking-versus-respecting-your-season',
-  'matching-pantry-containers',
-  'the-reason-caring-for-babies-and-toddlers-can-be-so-maddening',
-  'dont-ask-me-im-a-guesser',
-  'i-completely-ignored-the-front-end-development-scene-for-6-months',
-];
-let homepageNotes = homepageNoteSlugs.map((slug) =>
-  allPosts.find((note) => note.frontmatter.slug === slug)
-);
----  
+const recentNotes = allPosts.slice(0, 8);
+---
 
 <style>
   ul {
@@ -26,13 +15,21 @@ let homepageNotes = homepageNoteSlugs.map((slug) =>
 </style>
 
 <div class="">
-  <OutlineHeading>Try these</OutlineHeading>
+  <OutlineHeading>Recent Notes</OutlineHeading>
   <Section>
     <ul class="">
-      {homepageNotes.map((note) => (
-      <NoteListItem url={note.url} slug={note.frontmatter.slug} title={note.frontmatter.title}
-        tags={note.frontmatter.tags} excerpt={note.frontmatter.excerpt} />
-      ))}
+      {
+        recentNotes.map((note) => (
+          <NoteListItem
+            url={note.url}
+            slug={note.frontmatter.slug}
+            title={note.frontmatter.title}
+            added={note.frontmatter.added}
+            tags={note.frontmatter.tags}
+            excerpt={note.frontmatter.excerpt}
+          />
+        ))
+      }
     </ul>
   </Section>
 </div>

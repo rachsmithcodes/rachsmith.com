@@ -1,14 +1,27 @@
 ---
 import Tag from './Tag.astro';
 
-const { slug, title, tags, excerpt } = Astro.props;
----  
+const { slug, title, tags, added } = Astro.props;
+
+const addedSegments = added.split(' ')[0].split('-');
+const date =
+  addedSegments[2] + '·' + addedSegments[1] + '·' + addedSegments[0].slice(2);
+---
 
 <style>
+  .date {
+    display: block;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    color: #555;
+    font-family: var(--mono-font);
+  }
   .title {
     font-weight: bold;
     color: #222;
     text-decoration: none;
+    display: inline;
+    line-height: 1.6;
   }
 
   .title:hover {
@@ -24,6 +37,8 @@ const { slug, title, tags, excerpt } = Astro.props;
   ul {
     list-style: none;
     padding: 0;
+    display: inline;
+    vertical-align: top;
   }
 
   li {
@@ -39,13 +54,15 @@ const { slug, title, tags, excerpt } = Astro.props;
 </style>
 
 <li>
-  <a href={`/${slug}/`} class="title">{title}</a><br />
-  {excerpt && <span class="excerpt">{excerpt}</span>}
+  <span class="date">{date}</span>
+  <a href={`/${slug}/`} class="title">{title}</a>
   <ul>
-    {tags.map(tag => (
-    <li class="tag">
-      <Tag {tag} small />
-    </li>
-    ))}
+    {
+      tags.map((tag) => (
+        <li class="tag">
+          <Tag {tag} small />
+        </li>
+      ))
+    }
   </ul>
 </li>

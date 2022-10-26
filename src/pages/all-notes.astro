@@ -17,27 +17,31 @@ let page = 'page';
 ---
 
 <html lang="en">
+  <head>
+    <BaseHead title={title} description={description} permalink={permalink} />
+  </head>
 
-<head>
-  <BaseHead {title} {description} {permalink} />
-</head>
-
-<body>
-  <Layout {page} tags={allTags}>
-    <div>
-      <h1>All Notes</h1>
-      <Section>
-        <ul>
-          {allPosts.map(
-          ({url, frontmatter: { excerpt, slug, title, tags }}) => (
-          <NoteListItem {url} {excerpt} {slug} {title} {tags} />
-          ))}
-        </ul>
-      </Section>
-    </div>
-  </Layout>
-</body>
-
+  <body>
+    <Layout page={page} tags={allTags}>
+      <div>
+        <h1>All Notes</h1>
+        <Section>
+          <ul>
+            {
+              allPosts.map(
+                ({
+                  url,
+                  frontmatter: { excerpt, slug, title, tags, added },
+                }) => (
+                  <NoteListItem {url} {excerpt} {slug} {title} {tags} {added} />
+                )
+              )
+            }
+          </ul>
+        </Section>
+      </div>
+    </Layout>
+  </body>
 </html>
 
 <style>

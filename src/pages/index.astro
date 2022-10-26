@@ -18,15 +18,13 @@ let page = 'home';
 ---
 
 <html lang="en">
+  <head>
+    <BaseHead title={title} description={description} permalink={permalink} />
+  </head>
 
-<head>
-  <BaseHead {title} {description} {permalink} />
-</head>
-
-<body>
-  <Layout {page} tags={allTags} HeaderComponent={HomeHeader}>
-    <HomePosts {allPosts} />
-  </Layout>
-</body>
-
+  <body>
+    <Layout page={page} tags={allTags} HeaderComponent={HomeHeader}>
+      <HomePosts {allPosts} />
+    </Layout>
+  </body>
 </html>

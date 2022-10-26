@@ -17,34 +17,34 @@ import Section from './Section.astro';
   const particles = [];
   const increase = (Math.PI * 2) / 100;
   const colors = [
-    "#FF1900",
-    "#FF8800",
-    "#FFCC00",
-    "#FFFA00",
-    "#D8FF00",
-    "#B6FF00",
-    "#00FF2E",
-    "#00FFA5",
-    "#00FFE1",
-    "#00DDFF",
-    "#057DFF",
-    "#9800FF",
-    "#D400FF",
-    "#FF00E4",
-    "#FF008C"
+    '#FF1900',
+    '#FF8800',
+    '#FFCC00',
+    '#FFFA00',
+    '#D8FF00',
+    '#B6FF00',
+    '#00FF2E',
+    '#00FFA5',
+    '#00FFE1',
+    '#00DDFF',
+    '#057DFF',
+    '#9800FF',
+    '#D400FF',
+    '#FF00E4',
+    '#FF008C',
   ];
   let color = 0;
   const maxParticles = 5000;
 
   function addCanvases() {
-    textCanvas = document.createElement("canvas");
+    textCanvas = document.createElement('canvas');
     document.body.appendChild(textCanvas);
-    textCtx = textCanvas.getContext("2d");
-    particlesCanvas = document.createElement("canvas");
+    textCtx = textCanvas.getContext('2d');
+    particlesCanvas = document.createElement('canvas');
     document.body.appendChild(particlesCanvas);
-    particlesCtx = particlesCanvas.getContext("2d");
-    heading = document.getElementById("heading");
-    textCanvas.style.position = "absolute";
+    particlesCtx = particlesCanvas.getContext('2d');
+    heading = document.getElementById('heading');
+    textCanvas.style.position = 'absolute';
     const rect = heading.getBoundingClientRect();
     // console.log(rect);
     textCanvas.width = rect.width;
@@ -52,18 +52,19 @@ import Section from './Section.astro';
     textCanvas.style.left = `${rect.x}px`;
     textCanvas.style.top = `${rect.y}px`;
     textCanvas.style.opacity = 0;
-    textCanvas.style.pointerEvents = "none";
-    particlesCanvas.style.position = "absolute";
-    particlesCanvas.style.pointerEvents = "none";
-    textCtx.textAlign = "left";
-    textCtx.textBaseline = "top";
+    textCanvas.style.pointerEvents = 'none';
+    particlesCanvas.style.position = 'absolute';
+    particlesCanvas.style.pointerEvents = 'none';
+    textCtx.textAlign = 'left';
+    textCtx.textBaseline = 'top';
     textCtx.font = '900 100px Chivo';
-    textCtx.fillStyle = "red";
-    textCtx.fillText("RACH", 46, -7);
-    textCtx.fillText("SMITH", 15, 68);
+    textCtx.fillStyle = 'red';
+    textCtx.fillText('RACH', 46, -7);
+    textCtx.fillText('SMITH', 15, 68);
   }
 
   function positionCanvas() {
+    if (!heading) return;
     const rect = heading.getBoundingClientRect();
     width = rect.width;
     height = rect.height;
@@ -84,7 +85,7 @@ import Section from './Section.astro';
         if (x && x % 4 == 0 && y && y % 4 == 0)
           textPixels.push({
             x: x,
-            y: y
+            y: y,
           });
       }
     }
@@ -154,7 +155,6 @@ import Section from './Section.astro';
     setTimeout(changeColor, 700);
   }
 
-
   window.onload = function () {
     initMotionButton();
 
@@ -180,40 +180,40 @@ import Section from './Section.astro';
     positionCanvas();
   };
 
-  document.addEventListener("scroll", function () {
+  document.addEventListener('scroll', function () {
     positionCanvas();
   });
 
   function toggleMotion() {
     motionOff = !motionOff;
     if (motionOff) {
-      motionBtn.innerHTML = "Turn motion on";
+      motionBtn.innerHTML = 'Turn motion on';
     } else {
-      motionBtn.innerHTML = "Turn motion off";
+      motionBtn.innerHTML = 'Turn motion off';
       startAnimation();
     }
     if (window.localStorage) {
-      window.localStorage.setItem("motion", motionOff ? "off" : "on");
+      window.localStorage.setItem('motion', motionOff ? 'off' : 'on');
     }
   }
 
   function initMotionButton() {
-    motionBtn = document.getElementById("motion");
+    motionBtn = document.getElementById('motion');
     if (window.localStorage) {
-      if (window.localStorage.getItem("motion") == "off") {
+      if (window.localStorage.getItem('motion') == 'off') {
         motionOff = true;
-        motionBtn.innerHTML = "Turn motion on";
+        motionBtn.innerHTML = 'Turn motion on';
       }
     }
     motionBtn.addEventListener('click', () => {
       toggleMotion();
-    })
+    });
   }
 </script>
 
 <style>
   h1.header {
-    font-family: "Chivo", sans-serif;
+    font-family: 'Chivo', sans-serif;
     font-weight: 900;
     font-size: 100px;
     width: 6ch;
@@ -237,7 +237,6 @@ import Section from './Section.astro';
     border-radius: 0.317rem;
     background-color: #fff;
     color: #444767;
-    ;
     text-decoration: none;
   }
 
@@ -246,20 +245,22 @@ import Section from './Section.astro';
     display: inline-block;
     color: #000;
     text-decoration: none;
-    background-image: linear-gradient(90deg,
-        hsl(6deg 100% 50%) 0%,
-        hsl(29deg 100% 50%) 12%,
-        hsl(45deg 100% 50%) 20%,
-        hsl(59deg 100% 50%) 28%,
-        hsl(80deg 100% 64%) 35%,
-        hsl(117deg 100% 73%) 41%,
-        hsl(159deg 100% 50%) 48%,
-        hsl(183deg 100% 47%) 55%,
-        hsl(197deg 100% 50%) 62%,
-        hsl(211deg 100% 51%) 70%,
-        hsl(266deg 77% 66%) 78%,
-        hsl(310deg 70% 55%) 88%,
-        hsl(327deg 100% 50%) 100%);
+    background-image: linear-gradient(
+      90deg,
+      hsl(6deg 100% 50%) 0%,
+      hsl(29deg 100% 50%) 12%,
+      hsl(45deg 100% 50%) 20%,
+      hsl(59deg 100% 50%) 28%,
+      hsl(80deg 100% 64%) 35%,
+      hsl(117deg 100% 73%) 41%,
+      hsl(159deg 100% 50%) 48%,
+      hsl(183deg 100% 47%) 55%,
+      hsl(197deg 100% 50%) 62%,
+      hsl(211deg 100% 51%) 70%,
+      hsl(266deg 77% 66%) 78%,
+      hsl(310deg 70% 55%) 88%,
+      hsl(327deg 100% 50%) 100%
+    );
     background-repeat: no-repeat;
     background-size: 100% 0.15em;
     background-position: 0 88%;
@@ -303,7 +304,7 @@ import Section from './Section.astro';
     width: 100%;
     height: 100%;
     position: absolute;
-    content: "";
+    content: '';
     left: 0px;
     top: 0px;
     transform: translate3d(3px, 3px, -1px);
@@ -332,8 +333,11 @@ import Section from './Section.astro';
     screen addict. This is my digital garden.
   </p>
   <p style="min-height: 80px;">
-    <a class="cta" href="/all-notes/"> See all the notes </a>&nbsp;
-    <a class="cta" href="https://feedly.com/i/subscription/feed/https://rachsmith.com/rss/">
+    <a class="cta" href="/all-notes/"> See all the notes</a>&nbsp;
+    <a
+      class="cta"
+      href="https://feedly.com/i/subscription/feed/https://rachsmith.com/rss/"
+    >
       Subscribe to RSS feed
     </a>
   </p>
