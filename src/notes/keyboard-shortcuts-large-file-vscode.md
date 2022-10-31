@@ -1,8 +1,8 @@
 ---
 title: Keyboard shortcuts for navigating a large file in VSCode
 slug: keyboard-shortcuts-large-file-vscode
-added: 2022-10-31 06:00
-updated: 2022-10-31 06:00
+added: 2022-10-31 02:00
+updated: 2022-10-31 02:00
 tags: [development]
 excerpt: I use these shortcuts for moving around and finding what I need in a large file.
 note: publish
