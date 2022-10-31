@@ -3,8 +3,8 @@ title: Don't remove a fence until you know why it was put up in the first place
 slug: dont-remove-a-fence
 added:  2022-11-01 01:27
 updated: 2022-11-01 01:27
-tags: [develpopment, work]
-excerpt: Chesterton's Fence states: Don't move a fence until you know why it was put there in the first place.
+tags: [development, work]
+excerpt: "Chesterton's Fence states: Don't move a fence until you know why it was put there in the first place."
 note: publish
 ---
 
