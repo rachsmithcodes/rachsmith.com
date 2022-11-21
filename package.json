@@ -9,11 +9,11 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "^0.1.0",
-    "astro": "^1.0.1"
+    "@astrojs/sitemap": "^1.0.0",
+    "astro": "^1.6.10"
   },
   "dependencies": {
-    "@astrojs/rss": "^0.2.0",
+    "@astrojs/rss": "^1.0.3",
     "marked": "^4.0.17"
   }
 }
