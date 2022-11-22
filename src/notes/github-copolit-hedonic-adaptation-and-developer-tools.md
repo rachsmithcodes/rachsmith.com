@@ -1,5 +1,5 @@
 ---
-title: "GitHub copolit, hedonic adaptation and developer tools"
+title: "GitHub Copilot, hedonic adaptation and developer tools"
 slug: github-copolit-hedonic-adaptation-and-developer-tools
 added: 2021-12-13 19:00
 updated: 2021-12-13 19:00

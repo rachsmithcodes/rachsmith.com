@@ -227,7 +227,8 @@ pre {
   margin: 0 auto;
 }
 
-.note-content a {
+.note-content a,
+.thanks a {
   color: #000;
   text-decoration: none;
   background-image: linear-gradient(

@@ -34,10 +34,14 @@ const postIndex = [...allPosts]
   .reverse()
   .findIndex((p) => p.frontmatter.slug === slug);
 const imageId = (postIndex % 6) + 1;
-console.log(imageId);
 
 let description = excerpt;
 let permalink = `https://rachsmith.com/${slug}/`;
+
+const titleEncoded = encodeURIComponent(`re: ${title}`);
+const tweetTextEncoded = encodeURIComponent(
+  `re: https://rachsmith.com/${post.frontmatter.slug}`
+);
 ---
 
 <style>
@@ -116,6 +120,9 @@ let permalink = `https://rachsmith.com/${slug}/`;
         <Content />
       </div>
     </Section>
+    <Section>
+      <p class="thanks"><b>Thanks for reading!</b> If you'd like to share your thoughts you can <a href={`https://rachsmith.com/${post.frontmatter.slug}#comments`}>leave a comment</a>, <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}>send me an email</a>, <a href={`https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}`}>Tweet at me</a>, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues">add an issue on GitHub</a>.</p>
+    </Section>
   </article>
   <!-- {references.length > 0 && (
   <section className="p-5 border-b">
@@ -130,7 +137,7 @@ let permalink = `https://rachsmith.com/${slug}/`;
   </section>
   )} -->
   <section class="comments">
-    <OutlineHeading>Comments</OutlineHeading>
+    <OutlineHeading id="comments">Comments</OutlineHeading>
     <Section>
       <script is:inline>
         talkyardServerUrl = 'https://site-1hvw5pe7vn.talkyard.net';

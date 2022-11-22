@@ -1,3 +1,7 @@
+---
+  const {id} = Astro.props;
+---
+
 <style>
   h3 {
     font-size: 1.5rem;
@@ -13,6 +17,6 @@
   }
 </style>
 
-<h3>
+<h3 id={id}>
   <slot />
 </h3>
