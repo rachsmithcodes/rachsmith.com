@@ -4,7 +4,48 @@ import Section from './Section.astro';
 import Tags from './Tags.astro';
 
 const { tags } = Astro.props;
----  
+---
+
+<style>
+  .link {
+    color: inherit;
+  }
+
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .social-links li {
+    display: inline-block;
+    font-family: var(--mono-font);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+
+  .social-links li:not(:last-child) {
+    margin-right: 0.5rem;
+  }
+
+  .social-links li:not(:last-child)::after {
+    content: '•';
+    margin-left: 0.5rem;
+  }
+
+  .social-links li a {
+    text-decoration: none;
+    color: #057DFF;
+  }
+
+  .email {
+    margin-bottom: 0.2em;
+  }
+
+  .email a {
+    color: inherit;
+  }
+</style>
 
 <footer>
   <section class="">
@@ -17,7 +58,7 @@ const { tags } = Astro.props;
     <OutlineHeading>Acknowledgement of Country</OutlineHeading>
     <Section>
       <p>
-        I acknowledge the <a href="https://gubbigubbidyungungoo.com/gubbi-gubbi-people/">Gubbi Gubbi people</a>, the Traditional Owners of the land
+        I acknowledge the <a class="link" href="https://gubbigubbidyungungoo.com/gubbi-gubbi-people/">Gubbi Gubbi people</a>, the Traditional Owners of the land
         and waterways where I live. I would like to pay my respects to Elders
         past, present and emerging.
       </p>
@@ -26,10 +67,15 @@ const { tags } = Astro.props;
   <section class="">
     <OutlineHeading>Get in touch</OutlineHeading>
     <Section>
-      <p>
-        If you'd like to get in contact, feel free to email me at contact @
-        rachsmith dot com.
+      <p class="email">
+        Email me at: contact@rachsmith.com<br>
+        Open an issue on the <a href="https://github.com/rachsmithcodes/rachsmith.com/issues">GitHub repo</a> for this site.
       </p>
+      <ul class="social-links">
+        <li><a href="https://codepen.io/rachsmith">CodePen</a></li>
+        <li><a href="https://codepen.io/rachsmithtweets">Twitter</a></li>
+        <li><a href="https://front-end.social/@rachsmith">Mastodon</a></li>
+      </ul>
     </Section>
   </section>
   <section class="">

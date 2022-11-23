@@ -227,8 +227,12 @@ pre {
   margin: 0 auto;
 }
 
-.note-content a,
-.thanks a {
+a {
+  text-underline-offset: 0.15em;
+
+}
+
+.rainbow-links a {
   color: #000;
   text-decoration: none;
   background-image: linear-gradient(
@@ -253,7 +257,7 @@ pre {
   transition: background-size 0.2s ease-in-out;
 }
 
-.note-content a:hover {
+.rainbow-links a:hover {
   background-size: 100% 0.4em;
 }
 
