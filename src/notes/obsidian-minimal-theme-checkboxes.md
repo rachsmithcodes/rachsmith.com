@@ -1,5 +1,5 @@
 ---
-title: The minimal theme for Obsidian has custom checkboxes
+title: The Minimal theme for Obsidian has checkbox icons
 slug: obsidian-minimal-theme-checkboxes
 added: 2022-12-01 10:08
 updated:  2022-12-01 10:08
