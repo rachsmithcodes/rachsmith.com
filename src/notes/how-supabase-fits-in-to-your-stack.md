@@ -36,4 +36,4 @@ Anyway, I think I will use Supabase as the DB solution for my new project. Even 
 
 > Can't you hear that  
 Boom, badoom, boom, boom, badoom, boom, bass?  
-[He got that super bass]([https://genius.com/26716640/Nicki-minaj-super-bass/He-got-that-super-bass](https://www.youtube.com/watch?v=4JipHEz53sU))
+[He got that super bass](https://www.youtube.com/watch?v=4JipHEz53sU))
