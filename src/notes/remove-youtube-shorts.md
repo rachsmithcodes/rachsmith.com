@@ -2,7 +2,7 @@
 title: "Remove Shorts from your YouTube Subscriptions feed with :has()"
 slug: remove-youtube-shorts
 added: 2023-01-19 15:28
-updated: 2023-01-19 15:28
+updated: 2023-01-20 13:41
 tags: [development]
 excerpt: 
 note: publish
@@ -16,10 +16,19 @@ I'm using [Arc](https://arc.net/) as my browser, which has a CSS injection featu
 
 Here's the CSS to add to your extension (or Boost if you're using Arc ) to hide all the Shorts:
 
+**Update: [Jon Campbell](https://fosstodon.org/@healsdata/109719116763728009) pointed out the snippet I had here doesn't work on grid view of the subscriptions page, only the list view.** I've updated it so shorts are hidden on both views. To get a snippet that hid the correct things on list view *without* breaking grid view needed a combination of `:not()` and `:has()`. I've definitely learned some things about `:has()` during this process!
+
 ```css
-ytd-item-section-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"]) {
+/* Grid View */
+#items.ytd-grid-renderer>ytd-grid-video-renderer:has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"]) {
   display: none;
 }
+
+/* List View */
+ytd-item-section-renderer:not(:has(ytd-grid-renderer)):has(ytd-thumbnail-overlay-time-status-renderer[overlay-style="SHORTS"]) {
+  display: none; 
+} 
+
 ```
 
 Hooray for the [patchability of the Web](https://daverupert.com/2022/09/patchability-of-the-open-web/)!
