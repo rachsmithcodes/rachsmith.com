@@ -1,35 +1,110 @@
 ---
+import { getCollection } from 'astro:content';
 import NoteListItem from './NoteListItem.astro';
-import OutlineHeading from './OutlineHeading.astro';
-import Section from './Section.astro';
 
-const { allPosts } = Astro.props;
+const notes = await getCollection('notes');
+const years = [];
+const monthNames = [
+  'January',
+  'February',
+  'March',
+  'April',
+  'May',
+  'June',
+  'July',
+  'August',
+  'September',
+  'October',
+  'November',
+  'December',
+];
+notes.forEach((note) => {
+  const [yearDate, monthDate, dayDate] = note.data.added
+    .split(' ')[0]
+    .split('-');
 
-const recentNotes = allPosts.slice(0, 8);
+  let year = years.find((year) => year.date === yearDate);
+  if (!year) {
+    year = {
+      date: yearDate,
+      months: [],
+    };
+    years.push(year);
+  }
+
+  let month = year.months.find((month) => month.date === monthDate);
+  if (!month) {
+    const monthIndex = parseInt(monthDate) - 1;
+    const monthName = monthNames[monthIndex];
+    month = {
+      date: monthDate,
+      name: monthName,
+      notes: [],
+    };
+    year.months.push(month);
+  }
+
+  month.notes.push({
+    ...note,
+    date: dayDate,
+  });
+});
+
+years
+  .sort((a, b) => parseInt(b.date) - parseInt(a.date))
+  .forEach((year) => {
+    year.months
+      .sort((a, b) => parseInt(b.date) - parseInt(a.date))
+      .forEach((month) => {
+        month.notes.sort((a, b) => parseInt(b.date) - parseInt(a.date));
+      });
+  });
 ---
 
 <style>
-  ul {
+  .list {
+    list-style: none;
     padding: 0;
+  }
+
+  .list li {
+    margin: 0.5em 0;
+  }
+
+  .month {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+
+  .month span {
+    padding-right: 1em;
   }
 </style>
 
 <div class="">
-  <OutlineHeading>Recent Notes</OutlineHeading>
-  <Section>
-    <ul class="">
-      {
-        recentNotes.map((note) => (
-          <NoteListItem
-            url={note.url}
-            slug={note.frontmatter.slug}
-            title={note.frontmatter.title}
-            added={note.frontmatter.added}
-            tags={note.frontmatter.tags}
-            excerpt={note.frontmatter.excerpt}
-          />
-        ))
-      }
-    </ul>
-  </Section>
+  <ul class="list">
+    {
+      years.map((year) => (
+        <>
+          {year.months.map((month, i) => (
+            <>
+              <li class="month">
+                <span>{month.name}</span> <span>{i === 0 && year.date}</span>
+              </li>
+              {month.notes.map((note) => (
+                <NoteListItem
+                  slug={note.slug}
+                  title={note.data.title}
+                  added={note.data.added}
+                  tags={note.data.tags}
+                  excerpt={note.data.excerpt}
+                />
+              ))}
+            </>
+          ))}
+        </>
+      ))
+    }
+  </ul>
 </div>

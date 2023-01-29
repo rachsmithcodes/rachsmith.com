@@ -3,7 +3,6 @@
 import BaseHead from '../components/BaseHead.astro';
 import Layout from '../components/Layout.astro';
 import HomePosts from '../components/HomePosts.astro';
-import HomeHeader from '../components/HomeHeader.astro';
 import { postsAndTags } from '../data/posts';
 
 let title = `Home | Rach Smith's digital garden`;
@@ -23,7 +22,7 @@ let page = 'home';
   </head>
 
   <body>
-    <Layout page={page} tags={allTags} HeaderComponent={HomeHeader}>
+    <Layout page={page}>
       <HomePosts {allPosts} />
     </Layout>
   </body>

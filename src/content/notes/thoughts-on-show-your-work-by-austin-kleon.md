@@ -8,7 +8,7 @@ excerpt: This short, to the point book made quite an impact on me.
 note: publish
 ---
 
-![The cover of Show Your Work!](../images/show-your-work.png)
+![The cover of Show Your Work!](/images/show-your-work.png)
 
 I really enjoyed this book. It was short and to the point. Kleon said what he needed to say and moved on - rare in the personal development/business book genre. Usually, authors beat you over the head with endless examples or reiterating the same point repeatedly. It also had a fresh perspective that I hadn’t come across in other books and blogs. This book actually inspired me to start blogging again on [rachsmith.com](https://rachsmith.com/).
 

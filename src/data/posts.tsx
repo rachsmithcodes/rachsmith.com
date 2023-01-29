@@ -8,7 +8,7 @@ export function postsAndTags(allPosts) {
 
 function sortedPosts(allPosts) {
   allPosts = allPosts.sort((a, b) => {
-    return new Date(b.frontmatter.added) - new Date(a.frontmatter.added);
+    return new Date(b.frontmatter.added).getTime() - new Date(a.frontmatter.added).getTime();
   });
   return allPosts;
 }

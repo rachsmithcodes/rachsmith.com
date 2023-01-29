@@ -1,16 +1,14 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../components/Layout.astro';
 import BaseHead from '../components/BaseHead.astro';
 import Tag from '../components/Tag.astro';
-import { postsAndTags } from '../data/posts';
-import Section from '../components/Section.astro';
-import OutlineHeading from '../components/OutlineHeading.astro';
 
 export async function getStaticPaths() {
-  let posts = await Astro.glob(`../notes/*.md`);
-  return posts.map((post) => ({
-    params: { slug: post.frontmatter.slug },
-    props: { post: post },
+  const notes = await getCollection('notes');
+  return notes.map((note) => ({
+    params: { slug: note.slug },
+    props: { note },
   }));
 }
 
@@ -23,138 +21,88 @@ export function formatDate(date) {
 }
 
 const { slug } = Astro.params;
-const { post } = Astro.props;
+const { note } = Astro.props;
+const { Content } = await note.render();
 const {
-  Content,
-  frontmatter: { title, added, updated, tags, excerpt },
-} = post;
-const posts = await Astro.glob(`../notes/*.md`);
-const { allPosts, allTags } = postsAndTags(posts);
-const postIndex = [...allPosts]
-  .reverse()
-  .findIndex((p) => p.frontmatter.slug === slug);
-const imageId = (postIndex % 6) + 1;
+  data: { title, added, updated, tags, excerpt },
+} = note;
+
+// random imageId between 1 and 6
+const imageId = Math.floor(Math.random() * 6) + 1;
 
 let description = excerpt;
 let permalink = `https://rachsmith.com/${slug}/`;
 
 const titleEncoded = encodeURIComponent(`re: ${title}`);
 const tweetTextEncoded = encodeURIComponent(
-  `re: https://rachsmith.com/${post.frontmatter.slug}`
+  `re: https://rachsmith.com/${slug}`
 );
 ---
 
-<style>
-  .title {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    text-align: center;
-    line-height: 1.1em;
-  }
-
-  @media (max-width: 768px) {
-    .title {
-      font-size: 2.4rem;
-    }
-  }
-
-  .meta {
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 3em;
-    font-family: var(--mono-font);
-  }
-
-  .meta p {
-    font-size: 1rem;
-    margin: 0.1em;
-  }
-
-  .meta-label {
-    font-style: normal;
-  }
-
-  .comments {
-    margin-bottom: 4em;
-    margin-top: 4em;
-  }
-</style>
-
 <BaseHead
-  {title}
-  {description}
-  {permalink}
+  title={title}
+  description={description}
+  permalink={permalink}
   canonicalUrl={permalink}
-  {imageId}
+  imageId={imageId}
 />
 
-<Layout page="note" tags={allTags}>
+<Layout page="note">
   <article>
     <h1 class="title">{title}</h1>
     <div class="meta">
-      <p>
-        <em class="meta-label">Added:</em>
-        {formatDate(added)}
-      </p>
-      {
-        updated !== added && (
-          <p>
-            <em class="meta-label">Updated:</em> {formatDate(updated)}
-          </p>
-        )
-      }
+      Added: {formatDate(added)}
+      {updated !== added && `Updated: ${formatDate(updated)}`}
       {
         tags.length > 0 && (
-          <p>
-            <em class="meta-label">Tags:</em>{' '}
+          <>
+            Tags:
             {tags.map((tag) => (
               <Tag tag={tag} />
             ))}
-          </p>
+          </>
         )
       }
     </div>
-    <Section>
-      <div class="note-content rainbow-links">
-        <Content />
-      </div>
-    </Section>
-    <Section>
-      <p class="rainbow-links"><b>Thanks for reading!</b> If you'd like to share your thoughts you can <a href={`https://rachsmith.com/${post.frontmatter.slug}#comments`}>leave a comment</a>, <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}>send me an email</a>, <a href={`https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}`}>Tweet at me</a>, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues">add an issue on GitHub</a>.</p>
-    </Section>
+    <div>
+      <Content />
+    </div>
+    <p>
+      <b>Thanks for reading!</b> If you'd like to share your thoughts you can <a
+        href={`https://rachsmith.com/${slug}#comments`}>leave a comment</a
+      >, <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
+        >send me an email</a
+      >, <a
+        href={`https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}`}
+        >Tweet at me</a
+      >, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues"
+        >add an issue on GitHub</a
+      >.
+    </p>
   </article>
-  <!-- {references.length > 0 && (
-  <section className="p-5 border-b">
-    <h3 className="mb-3 uppercase tracking-wide">
-      Referenced by these notes
-    </h3>
-    <ul className="list-none">
-      {references.map(({ title, slug, excerpt, tags }) => (
-      <NoteListItem slug={slug} title={title} excerpt={excerpt} tags={tags} />
-      ))}
-    </ul>
-  </section>
-  )} -->
   <section class="comments">
-    <OutlineHeading id="comments">Comments</OutlineHeading>
-    <Section>
-      <script is:inline>
-        talkyardServerUrl = 'https://site-1hvw5pe7vn.talkyard.net';
-      </script>
-      <script
-        is:inline
-        async
-        defer
-        src="https://cdn.talkyard.net/-/talkyard-comments.min.js"
-      ></script>
-      <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
-      <div class="talkyard-comments" style="margin-top: 45px;">
-        <noscript>Please enable Javascript to view comments.</noscript>
-        <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">
-          The Comments system is powered by a third party service - <a href="https://www.talkyard.io">Talkyard</a>. Sometimes they don't load 😞. If you're having trouble leaving a comment you can <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}>send me an email</a>.
-        </p>
-      </div>
-    </Section>
+    <h3>Comments</h3>
+    <script is:inline>
+      talkyardServerUrl = 'https://site-1hvw5pe7vn.talkyard.net';
+    </script>
+    <script
+      is:inline
+      async
+      defer
+      src="https://cdn.talkyard.net/-/talkyard-comments.min.js"
+    ></script>
+    <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
+    <div class="talkyard-comments" style="margin-top: 45px;">
+      <noscript>Please enable Javascript to view comments.</noscript>
+      <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">
+        The Comments system is powered by a third party service - <a
+          href="https://www.talkyard.io">Talkyard</a
+        >. Sometimes they don't load 😞. If you're having trouble leaving a
+        comment you can <a
+          href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
+          >send me an email</a
+        >.
+      </p>
+    </div>
   </section>
 </Layout>

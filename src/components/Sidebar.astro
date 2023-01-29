@@ -1,0 +1,49 @@
+---
+type Props = {
+  page: string;
+};
+
+const { page } = Astro.props;
+---
+
+<style>
+  .sidebar {
+    position: fixed;
+    width: 20vw;
+    padding: 4em 1em 3em 2em;
+    text-align: right;
+    box-sizing: border-box;
+  }
+
+  .nav ul {
+    list-style: none;
+  }
+
+  .nav li {
+    text-transform: uppercase;
+    margin-bottom: 0.4em;
+  }
+
+  .lorikeet {
+    width: 120%;
+  }
+
+  h1 {
+    font-size: 1.8vw;
+    margin: 0;
+    margin-bottom: 1em;
+    text-align: right;
+  }
+</style>
+
+<div class="sidebar">
+  <img class="lorikeet" src="/images/lori.png" alt="Rach Smith" />
+  <h1>Rach Smith's digital garden</h1>
+  <nav class="nav">
+    <ul>
+      <li><a class:list={{ active: page === 'notes' }} href="/">Notes</a></li>
+      <li><a href="/tags">Tags</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </nav>
+</div>
