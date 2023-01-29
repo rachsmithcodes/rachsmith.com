@@ -2,7 +2,7 @@
 title: AR glasses are here?
 slug: ar-glasses-are-here
 added: 2022-09-29 19:46
-updated: 2022-09-29 19:46
+updated: 2023-01-28 16:00
 tags: [miscellany]
 excerpt: Maybe it won't be that long before augmented reality glasses are the new must-have device.
 note: publish
@@ -28,5 +28,7 @@ This week, my favourite tech review YouTuber [TechMeOut](https://www.youtube.com
 It makes me think Apple has to be working on tech like this behind the scenes, right? They can't just be putting a new camera in the iPhone every year.
 
 It's pretty wild to think about how a good set of glasses, [cloud development environments](https://dx.tips/the-end-of-localhost), and a fast internet connection could result in you *not needing a computer* to write code.
+
+**Update: [John Gruber](https://daringfireball.net/2023/01/the_billions-dollar_vr_ar_headset_question)** thinks we have "15 or so years" before the AR glasses I'm dreaming of will be available on the market 😭.
 
 [^1]: I'm pretty sure the main reason [Google Glass](https://en.wikipedia.org/wiki/Google_Glass) didn't do well with consumers is that they looked stupid.
