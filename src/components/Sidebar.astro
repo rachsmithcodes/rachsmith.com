@@ -17,6 +17,10 @@ const { page } = Astro.props;
 
   .nav ul {
     list-style: none;
+    display: grid;
+    align-items: right;
+    margin: 0;
+    padding: 0;
   }
 
   .nav li {
@@ -24,14 +28,47 @@ const { page } = Astro.props;
     margin-bottom: 0.4em;
   }
 
+  .nav li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    position: relative;
+    display: block;
+    transition: padding-right 0.3s ease-in-out;
+  }
+
+  .nav li a:hover {
+    padding-right: 12px;
+  }
+
+  .nav li a::after {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 0;
+    background: #000;
+    transition: width 0.3s;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    border-radius: 2px;
+    transition: height 0.2s ease-out, top 0.2s ease-out;
+  }
+
+  .nav li a:hover::after {
+    height: 17px;
+    top: 8px;
+    transition: height 0.3s ease-in, top 0.3s ease-in;
+  }
+
   .lorikeet {
     width: 120%;
   }
 
   h1 {
-    font-size: 1.8vw;
+    font-size: 2vw;
     margin: 0;
     margin-bottom: 1em;
+    line-height: 1.1;
     text-align: right;
   }
 </style>
