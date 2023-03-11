@@ -17,7 +17,7 @@ const postsWithContent = await Promise.all(
 
     html += `
       <hr />
-      <p>Thanks for reading this post via RSS! Let me know your thoughts by leaving a comment on the <a href="https://olek.works/${post.frontmatter.slug}">original post</a>, send <a href="mailto:hi@olek.works?subject=${titleEncoded}">me an email</a>, or <a href="https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}">Tweet at me</a>.</p>
+      <p>Thanks for reading this post via RSS! Let me know your thoughts by leaving a comment on the <a href="https://olek.works/${post.frontmatter.slug}">original post</a>, or send <a href="mailto:hi@olek.works?subject=${titleEncoded}">me an email</a>.</p>
       `;
 
     return {
@@ -35,9 +35,9 @@ const postsToRender = postsWithContent.slice(0, 20);
 
 export const get = () =>
   rss({
-    title: "Rach Smith's digital garden",
+    title: "My name is Olek. I write what matters to me.",
     description:
-      "Hi 👋🏼 I'm Rach. A developer building software for CodePen, wife, mother of two, productivity nerd and recovering screen addict. This is my digital garden.",
+      "Hi 👋🏼 I'm Olek. Here I write about what matters to me. I'm a co-founder of 2 kids 👨‍👩, married happily 💍, and 🍕 lover. My side-projects are: Difree a distraction-free writing app, and domowa.pizza a blog about home-made pizza.",
     site: import.meta.env.SITE,
     items: postsToRender.map((post, i) => {
       const categoryTags = post.frontmatter.tags
