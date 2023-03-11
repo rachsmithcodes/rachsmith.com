@@ -36,11 +36,11 @@ const postIndex = [...allPosts]
 const imageId = (postIndex % 6) + 1;
 
 let description = excerpt;
-let permalink = `https://rachsmith.com/${slug}/`;
+let permalink = `https://olek.works/${slug}/`;
 
 const titleEncoded = encodeURIComponent(`re: ${title}`);
 const tweetTextEncoded = encodeURIComponent(
-  `re: https://rachsmith.com/${post.frontmatter.slug}`
+  `re: https://olek.works/${post.frontmatter.slug}`
 );
 ---
 
@@ -121,7 +121,7 @@ const tweetTextEncoded = encodeURIComponent(
       </div>
     </Section>
     <Section>
-      <p class="rainbow-links"><b>Thanks for reading!</b> If you'd like to share your thoughts you can <a href={`https://rachsmith.com/${post.frontmatter.slug}#comments`}>leave a comment</a>, <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}>send me an email</a>, <a href={`https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}`}>Tweet at me</a>, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues">add an issue on GitHub</a>.</p>
+      <p class="rainbow-links"><b>Thanks for reading!</b> If you'd like to share your thoughts you can <a href={`https://olek.works/${post.frontmatter.slug}#comments`}>leave a comment</a>, <a href={`mailto:hi@olek.works?subject=${titleEncoded}`}>, or send me an email</a>.</p>
     </Section>
   </article>
   <!-- {references.length > 0 && (
@@ -152,7 +152,7 @@ const tweetTextEncoded = encodeURIComponent(
       <div class="talkyard-comments" style="margin-top: 45px;">
         <noscript>Please enable Javascript to view comments.</noscript>
         <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">
-          The Comments system is powered by a third party service - <a href="https://www.talkyard.io">Talkyard</a>. Sometimes they don't load 😞. If you're having trouble leaving a comment you can <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}>send me an email</a>.
+          The Comments system is powered by a third party service - <a href="https://www.talkyard.io">Talkyard</a>. Sometimes they don't load 😞. If you're having trouble leaving a comment you can <a href={`mailto:hi@olek.works?subject=${titleEncoded}`}>send me an email</a>.
         </p>
       </div>
     </Section>

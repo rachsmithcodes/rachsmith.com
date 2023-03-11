@@ -1,4 +1,4 @@
-# The code for rachsmith.com - built on [Astro](https://astro.build)
+# The code for olek.works - built on [Astro](https://astro.build)
 
 
 

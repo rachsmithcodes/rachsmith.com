@@ -10,14 +10,14 @@ const postsWithContent = await Promise.all(
 
     const titleEncoded = encodeURIComponent(`re: ${post.frontmatter.title}`);
     const tweetTextEncoded = encodeURIComponent(
-      `re: https://rachsmith.com/${post.frontmatter.slug}`
+      `re: https://olek.works/${post.frontmatter.slug}`
     );
 
     let html = marked.parse(rawContent);
 
     html += `
       <hr />
-      <p>Thanks for reading this post via RSS! Let me know your thoughts by leaving a comment on the <a href="https://rachsmith.com/${post.frontmatter.slug}">original post</a>, send <a href="mailto:contact@rachsmith.com?subject=${titleEncoded}">me an email</a>, or <a href="https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}">Tweet at me</a>.</p>
+      <p>Thanks for reading this post via RSS! Let me know your thoughts by leaving a comment on the <a href="https://olek.works/${post.frontmatter.slug}">original post</a>, send <a href="mailto:hi@olek.works?subject=${titleEncoded}">me an email</a>, or <a href="https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}">Tweet at me</a>.</p>
       `;
 
     return {
@@ -51,7 +51,7 @@ export const get = () =>
         customData: categoryTags,
       };
     }),
-    // customData: `<atom:link href="https://rachsmith.com/rss/" rel="self" type="application/rss+xml" />`,
+    // customData: `<atom:link href="https://olek.works/rss/" rel="self" type="application/rss+xml" />`,
     xmlns: {
       // atom: 'http://www.w3.org/2005/Atom',
     },
