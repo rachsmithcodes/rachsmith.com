@@ -25,8 +25,8 @@ export function formatDate(date) {
 
 const { tag } = Astro.params;
 const { notes } = Astro.props;
-const notes = await getCollection('notes');
-const { allTags } = notesAndTags(notes);
+const allNotes = await getCollection('notes');
+const { allTags } = notesAndTags(allNotes);
 const tagHeader = `${notes.length} note${
   notes.length === 1 ? '' : 's'
 } tagged with "${tag}"`;
