@@ -1,18 +1,24 @@
 ---
+import { InferGetStaticParamsType, InferGetStaticPropsType } from 'astro';
+
 import Layout from '../components/Layout.astro';
 import BaseHead from '../components/BaseHead.astro';
 import Tag from '../components/Tag.astro';
-import { postsAndTags } from '../data/posts';
+import { notesAndTags } from '../data/notes';
 import Section from '../components/Section.astro';
 import OutlineHeading from '../components/OutlineHeading.astro';
+import { getCollection, getEntryBySlug } from 'astro:content';
 
 export async function getStaticPaths() {
-  let posts = await Astro.glob(`../notes/*.md`);
-  return posts.map((post) => ({
-    params: { slug: post.frontmatter.slug },
-    props: { post: post },
+  const notes = await getCollection('notes');
+  return notes.map((note) => ({
+    params: { slug: note.slug },
+    props: { note: note },
   }));
 }
+
+type Params = InferGetStaticParamsType<typeof getStaticPaths>;
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 export function formatDate(date) {
   return new Date(date.replace(/-/g, '/')).toLocaleDateString('en-US', {
@@ -23,24 +29,29 @@ export function formatDate(date) {
 }
 
 const { slug } = Astro.params;
-const { post } = Astro.props;
+const { note } = Astro.props;
+
+if (slug === undefined) return;
+
+const entry = await getEntryBySlug('notes', slug);
+if (!entry) return;
+
+const { Content } = await entry.render();
+
 const {
-  Content,
-  frontmatter: { title, added, updated, tags, excerpt },
-} = post;
-const posts = await Astro.glob(`../notes/*.md`);
-const { allPosts, allTags } = postsAndTags(posts);
-const postIndex = [...allPosts]
-  .reverse()
-  .findIndex((p) => p.frontmatter.slug === slug);
-const imageId = (postIndex % 6) + 1;
+  data: { title, added, updated, tags, excerpt },
+} = note;
+const notes = await getCollection('notes');
+const { allNotes, allTags } = notesAndTags(notes);
+const noteIndex = [...allNotes].reverse().findIndex((p) => p.slug === slug);
+const imageId = (noteIndex % 6) + 1;
 
 let description = excerpt;
 let permalink = `https://rachsmith.com/${slug}/`;
 
 const titleEncoded = encodeURIComponent(`re: ${title}`);
 const tweetTextEncoded = encodeURIComponent(
-  `re: https://rachsmith.com/${post.frontmatter.slug}`
+  `re: https://rachsmith.com/${note.slug}`
 );
 ---
 
@@ -82,11 +93,11 @@ const tweetTextEncoded = encodeURIComponent(
 </style>
 
 <BaseHead
-  {title}
-  {description}
-  {permalink}
+  title={title}
+  description={description}
+  permalink={permalink}
   canonicalUrl={permalink}
-  {imageId}
+  imageId={imageId}
 />
 
 <Layout page="note" tags={allTags}>
@@ -121,7 +132,19 @@ const tweetTextEncoded = encodeURIComponent(
       </div>
     </Section>
     <Section>
-      <p class="rainbow-links"><b>Thanks for reading!</b> If you'd like to share your thoughts you can <a href={`https://rachsmith.com/${post.frontmatter.slug}#comments`}>leave a comment</a>, <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}>send me an email</a>, <a href={`https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}`}>Tweet at me</a>, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues">add an issue on GitHub</a>.</p>
+      <p class="rainbow-links">
+        <b>Thanks for reading!</b> If you'd like to share your thoughts you can <a
+          href={`https://rachsmith.com/${note.slug}#comments`}
+          >leave a comment</a
+        >, <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
+          >send me an email</a
+        >, <a
+          href={`https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}`}
+          >Tweet at me</a
+        >, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues"
+          >add an issue on GitHub</a
+        >.
+      </p>
     </Section>
   </article>
   <!-- {references.length > 0 && (
@@ -152,7 +175,13 @@ const tweetTextEncoded = encodeURIComponent(
       <div class="talkyard-comments" style="margin-top: 45px;">
         <noscript>Please enable Javascript to view comments.</noscript>
         <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">
-          The Comments system is powered by a third party service - <a href="https://www.talkyard.io">Talkyard</a>. Sometimes they don't load 😞. If you're having trouble leaving a comment you can <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}>send me an email</a>.
+          The Comments system is powered by a third party service - <a
+            href="https://www.talkyard.io">Talkyard</a
+          >. Sometimes they don't load 😞. If you're having trouble leaving a
+          comment you can <a
+            href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
+            >send me an email</a
+          >.
         </p>
       </div>
     </Section>

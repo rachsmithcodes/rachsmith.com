@@ -4,14 +4,15 @@ import BaseHead from '../components/BaseHead.astro';
 import Layout from '../components/Layout.astro';
 import NoteListItem from '../components/NoteListItem.astro';
 import Section from '../components/Section.astro';
-import { postsAndTags } from '../data/posts';
+import { getCollection } from 'astro:content';
+import { notesAndTags } from '../data/notes';
 
 let title = `All Notes | Rach Smith's digital garden`;
 let description = 'See all of my notes in my digital garden.';
 let permalink = 'https://rachsmith.com/all-notes/';
 
-let posts = await Astro.glob(`../notes/*.md`);
-const { allPosts, allTags } = await postsAndTags(posts);
+const notes = await getCollection('notes');
+const { allNotes, allTags } = notesAndTags(notes);
 
 let page = 'page';
 ---
@@ -28,11 +29,8 @@ let page = 'page';
         <Section>
           <ul>
             {
-              allPosts.map(
-                ({
-                  url,
-                  frontmatter: { excerpt, slug, title, tags, added },
-                }) => (
+              allNotes.map(
+                ({ url, slug, data: { excerpt, title, tags, added } }) => (
                   <NoteListItem {url} {excerpt} {slug} {title} {tags} {added} />
                 )
               )
@@ -41,12 +39,11 @@ let page = 'page';
         </Section>
       </div>
     </Layout>
+    <style>
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+    </style>
   </body>
 </html>
-
-<style>
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-</style>

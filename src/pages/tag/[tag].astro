@@ -3,14 +3,15 @@ import BaseHead from '../../components/BaseHead.astro';
 import Layout from '../../components/Layout.astro';
 import NoteListItem from '../../components/NoteListItem.astro';
 import Section from '../../components/Section.astro';
-import { postsAndTags } from '../../data/posts';
+import { notesAndTags } from '../../data/notes';
+import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  let posts = await Astro.glob(`../../notes/*.md`);
-  const { allTags } = postsAndTags(posts);
+  const notes = await getCollection('notes');
+  const { allTags } = notesAndTags(notes);
   return Object.keys(allTags).map((tag) => ({
     params: { tag: tag },
-    props: { posts: allTags[tag] },
+    props: { notes: allTags[tag] },
   }));
 }
 
@@ -23,11 +24,11 @@ export function formatDate(date) {
 }
 
 const { tag } = Astro.params;
-const { posts } = Astro.props;
-const allPosts = await Astro.glob(`../../notes/*.md`);
-const { allTags } = postsAndTags(allPosts);
-const tagHeader = `${posts.length} post${
-  posts.length === 1 ? '' : 's'
+const { notes } = Astro.props;
+const allNotes = await getCollection('notes');
+const { allTags } = notesAndTags(allNotes);
+const tagHeader = `${notes.length} note${
+  notes.length === 1 ? '' : 's'
 } tagged with "${tag}"`;
 const title = `${tagHeader} | Rach Smith's digital garden`;
 const description = tagHeader;
@@ -45,8 +46,8 @@ const permalink = `https://rachsmith.com/tag/${tag}`;
       <Section>
         <ul>
           {
-            posts.map(
-              ({ url, frontmatter: { excerpt, slug, title, tags, added } }) => (
+            notes.map(
+              ({ url, slug, data: { excerpt, title, tags, added } }) => (
                 <NoteListItem {url} {excerpt} {slug} {title} {tags} {added} />
               )
             )
@@ -62,5 +63,4 @@ const permalink = `https://rachsmith.com/tag/${tag}`;
       padding: 0;
     }
   </style>
-
 </html>
