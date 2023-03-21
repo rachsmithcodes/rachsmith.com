@@ -1,5 +1,5 @@
 ---
-title: Using regex with make find-and-replace in VS Code
+title: Using regex with find-and-replace in VS Code
 slug: using-regex-with-and-find-and-replace
 added: 2023-03-21 20:20
 updated: 2023-03-21 20:20
