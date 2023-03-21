@@ -11,7 +11,7 @@ note: publish
 
 Even though it was 12 years ago, I still remember what the most stressful part of being a junior developer was. I was reminded of it when I saw this meme in my Twitter timeline yesterday:
 
-![The "Draw 25" meme. In the first pane there is a Uno card with "Attempt to solve problem before asking for help OR draw 25". In the second pane there is a person holding 25 cards labeled "jr developer"](../images/IMG_4181.jpg)
+![The "Draw 25" meme. In the first pane there is a Uno card with "Attempt to solve problem before asking for help OR draw 25". In the second pane there is a person holding 25 cards labeled "jr developer"](/images/IMG_4181.jpg)
 
 In my first developer job, I had no previous experience - just some basic front-end coding and design classes at Uni. I had been hired by an advertising agency to animate flash banners and code marketing emails. The work atmosphere was fast-paced but I enjoyed the challenge. There was a lot to learn but I was loving everything I was learning. A lot of the people who worked there - 'ad people' were intense personalities but I grew used to working with them.
 

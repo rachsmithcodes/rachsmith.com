@@ -97,7 +97,7 @@ dv.table(
 
 Here's what my table looks like today:
 
-![My habits dashboard](../images/habits-dashboard.png)
+![My habits dashboard](/images/habits-dashboard.png)
 
 
 

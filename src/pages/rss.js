@@ -1,7 +1,7 @@
 import rss from '@astrojs/rss';
 import * as marked from 'marked';
 
-const postImportResult = import.meta.globEager('../notes/**/*.md');
+const postImportResult = import.meta.globEager('../content/notes/**/*.md');
 const posts = Object.values(postImportResult);
 
 const postsWithContent = await Promise.all(
