@@ -2,16 +2,12 @@
 // Component Imports
 import BaseHead from '../components/BaseHead.astro';
 import Layout from '../components/Layout.astro';
-import HomePosts from '../components/HomePosts.astro';
-import { postsAndTags } from '../data/posts';
+import HomeNotes from '../components/HomeNotes.astro';
 
 let title = `Home | Rach Smith's digital garden`;
 let description = `Hi 👋🏼 I'm Rach. A developer building software for CodePen, wife, mother of two,
   productivity nerd and recovering screen addict. This is my digital garden.`;
 let permalink = 'https://rachsmith.com';
-
-let posts = await Astro.glob(`../notes/*.md`);
-const { allPosts, allTags } = await postsAndTags(posts);
 
 let page = 'home';
 ---
@@ -23,7 +19,7 @@ let page = 'home';
 
   <body>
     <Layout page={page}>
-      <HomePosts {allPosts} />
+      <HomeNotes />
     </Layout>
   </body>
 </html>

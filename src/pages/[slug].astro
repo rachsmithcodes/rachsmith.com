@@ -12,6 +12,9 @@ export async function getStaticPaths() {
   }));
 }
 
+type Params = InferGetStaticParamsType<typeof getStaticPaths>;
+type Props = InferGetStaticPropsType<typeof getStaticPaths>;
+
 export function formatDate(date) {
   return new Date(date.replace(/-/g, '/')).toLocaleDateString('en-US', {
     month: 'long',

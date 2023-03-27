@@ -1,9 +1,24 @@
 ---
-import { getCollection } from 'astro:content';
+import { CollectionEntry, getCollection } from 'astro:content';
 import NoteListItem from './NoteListItem.astro';
 
+type Year = {
+  date: string;
+  months: Month[];
+};
+
+type Month = {
+  date: string;
+  name: string;
+  notes: Note[];
+};
+
+type Note = CollectionEntry<'notes'> & {
+  date: string;
+};
+
 const notes = await getCollection('notes');
-const years = [];
+const years: Year[] = [];
 const monthNames = [
   'January',
   'February',
@@ -23,7 +38,7 @@ notes.forEach((note) => {
     .split(' ')[0]
     .split('-');
 
-  let year = years.find((year) => year.date === yearDate);
+  let year: Year | undefined = years.find((year) => year.date === yearDate);
   if (!year) {
     year = {
       date: yearDate,
