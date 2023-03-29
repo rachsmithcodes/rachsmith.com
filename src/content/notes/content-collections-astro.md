@@ -1,18 +1,18 @@
 ---
 title: Content Collections are a welcome addition to my Astro setup
 slug: content-collections-astro
-added: 2023-03-28 14:00
-updated: 2023-03-28 14:00
+added: 2023-03-29 13:15
+updated: 2023-03-29 13:15
 tags: [development]
-excerpt: 
+excerpt: "All of the notes on this site are built from markdown files in an Astro static site. As of Astro 2.0, you can effectively add type validation to your markdown files, via a feature called Content Collections."
 note: publish
 ---
 
-All of the notes on this site are built from markdown files in an Astro static site. As of Astro 2.0, you can effectively add type validation to your markdown files, via a feature called Content Collections.
+All of the notes on this site are built from markdown files in an [Astro](Astro.build) static site. As of [Astro 2.0](https://astro.build/blog/astro-2/), you can effectively add type validation to your markdown files, via a feature called Content Collections.
 
-I must confess, I don't enjoy TypeScript all that much. I can see how and why it is useful in certain circumstances, but I'm definitely not in the "make everything TypeScript because *TyPeScRiPt iS tHe fUtUre*" demographic. 
+I must confess I don't enjoy TypeScript all that much. I can see how and why it is helpful in certain circumstances, but I'm not in the "make everything TypeScript because *TyPeScRiPt iS tHe fUtUre*" demographic. 
 
-For this usecase, of improving the experience of debugging issues in your markdown files, it definitely makes sense. I'm currently working on a little redesign of this site, and having the note content typed has made working on it faster and easier.
+It makes sense for this usecase of improving the experience of debugging issues in your markdown files. I'm currently working on a little redesign of this site, and having the note content typed has made working on it faster and easier.
 
 ## How I upgraded my site to use Content Collections
 
