@@ -147,6 +147,7 @@ h1 {
 
 h2 {
   font-size: 2em;
+  line-height: 1.2;
 }
 
 h3 {
@@ -229,7 +230,6 @@ pre {
 
 a {
   text-underline-offset: 0.15em;
-
 }
 
 .rainbow-links a {
