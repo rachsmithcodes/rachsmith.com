@@ -98,6 +98,7 @@ select {
   --black-pearl-color: #1c232a;
   --mono-font: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console,
     monospace;
+  --quote-font: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
   --rainbow-gradient-45: linear-gradient(
     45deg,
     hsl(6deg 100% 50%) 0%,
@@ -182,6 +183,8 @@ ol {
 }
 
 blockquote {
+  font-family: var(--quote-font);
+  font-style: italic;
   background: #fdfdfd;
   border-left: 6px solid #ccc;
   margin: 1.5em 10px;
