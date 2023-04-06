@@ -285,3 +285,9 @@ a {
 .cp_embed_wrapper {
   margin-bottom: 1em;
 }
+
+.callout {
+  background: hsl(266deg 77% 97%);
+  font-style: italic;
+  padding: 1em;
+}
