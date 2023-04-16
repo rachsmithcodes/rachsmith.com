@@ -12,7 +12,7 @@ When I was 17, I started a degree in Software Engineering. The first programming
 
 Then there was another language. I think it might have been [C](https://en.wikipedia.org/wiki/C_(programming_language))? The assessments were all command-line based. You would write a little program, and then try to execute it. I remember spending hours trying to get the damn things to compile, but it just wasn't happening for me.
 
-The only real web tech I came across in that course was [JSP](https://en.wikipedia.org/wiki/Jakarta_Server_Pages) (it was 2004). Again, I remember spending so much time trying to get a login form working with JSP. I don't recall there being much error feedback either. It was like the thing worked or... blank page.
+The only real web tech I came across in that course was [JSP](https://en.wikipedia.org/wiki/Jakarta_Server_Pages) (it was 2005). Again, I remember spending so much time trying to get a login form working with JSP. I don't recall there being much error feedback either. It was like the thing worked or... blank page.
 
 Needless to say, I didn't like the Software Engineering degree. I found it very difficult and found little joy in it. My takeaway at 19 was that I wasn't smart enough to be a programmer. I put my class credits towards a 3 year IT degree and enrolled in Business Management. 
 
