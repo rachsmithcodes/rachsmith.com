@@ -1,0 +1,155 @@
+---
+import { CollectionEntry, getCollection } from 'astro:content';
+import NoteListItem from './NoteListItem.astro';
+
+const notes = await getCollection('notes');
+type Tag = {
+  name: string;
+  notes: CollectionEntry<'notes'>[];
+};
+const tags: Tag[] = [];
+
+for (const note of notes) {
+  if (note.data.tags) {
+    for (const tag of note.data.tags) {
+      if (!tags.find((t) => t.name === tag)) {
+        tags.push({
+          name: tag,
+          notes: [note],
+        });
+      } else {
+        const t = tags.find((t) => t.name === tag);
+        if (t) t.notes.push(note);
+      }
+    }
+  }
+}
+
+tags.sort((a, b) => {
+  if (a.name < b.name) {
+    return -1;
+  }
+  if (a.name > b.name) {
+    return 1;
+  }
+  return 0;
+});
+
+for (const tag of tags) {
+  tag.notes.sort((a, b) => {
+    if (a.data.added < b.data.added) {
+      return 1;
+    }
+    if (a.data.added > b.data.added) {
+      return -1;
+    }
+    return 0;
+  });
+}
+---
+
+<style>
+  .notes-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .notes-list li {
+    margin: 0.5em 0;
+  }
+
+  .tag-name {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: var(--font-mono);
+    font-size: 1em;
+  }
+
+  .tags-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .tags-list li {
+    margin: 0 1em 0 0;
+    font-weight: normal;
+    font-size: 0.8em;
+    font-family: var(--font-mono);
+  }
+
+  .tags-list li a {
+    text-decoration: none;
+  }
+
+  .tags-list li a:hover {
+    text-decoration: underline;
+  }
+
+  .tag-name:nth-of-type(7n + 1) a,
+  h3:nth-of-type(7n + 1) {
+    color: var(--red);
+  }
+  .tag-name:nth-of-type(7n + 2) a,
+  h3:nth-of-type(7n + 2) {
+    color: var(--orange);
+  }
+  .tag-name:nth-of-type(7n + 3) a,
+  h3:nth-of-type(7n + 3) {
+    color: var(--pink);
+  }
+  .tag-name:nth-of-type(7n + 4) a,
+  h3:nth-of-type(7n + 4) {
+    color: var(--green);
+  }
+  .tag-name:nth-of-type(7n + 5) a,
+  h3:nth-of-type(7n + 5) {
+    color: var(--light-blue);
+  }
+  .tag-name:nth-of-type(7n + 6) a,
+  h3:nth-of-type(7n + 6) {
+    color: var(--purple);
+  }
+  .tag-name:nth-of-type(7n + 7) a,
+  h3:nth-of-type(7n + 7) {
+    color: var(--blue);
+  }
+</style>
+
+<div class="">
+  <ul class="tags-list">
+    {
+      tags.map((tag) => (
+        <li class="tag-name">
+          <a href={`#${tag.name}`}>#{tag.name}</a>
+        </li>
+      ))
+    }
+  </ul>
+
+  {
+    tags.map((tag) => (
+      <>
+        <h3 id={tag.name} class="tag-name">
+          #{tag.name}
+        </h3>
+        <ul class="notes-list">
+          {tag.notes.map((note) => (
+            <NoteListItem
+              slug={note.slug}
+              title={note.data.title}
+              added={note.data.added}
+              tags={note.data.tags}
+              excerpt={note.data.excerpt}
+              includeDate={false}
+            />
+          ))}
+        </ul>
+      </>
+    ))
+  }
+</div>

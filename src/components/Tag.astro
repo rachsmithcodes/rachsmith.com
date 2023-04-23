@@ -1,7 +1,14 @@
---- 
+---
 const { tag, number, small } = Astro.props;
 ---
 
-<a href={`/tag/${tag}/`} class={`tag ${tag} ${small ? 'small' : '' }`}>
-  {tag}{number && <span>{number}</span>}
+<style>
+  a {
+    font-family: var(--font-mono);
+    font-size: 0.8em;
+    margin-right: 0.6em;
+  }
+</style>
+<a href={`/tag/${tag}/`} class={`tag ${tag} ${small ? 'small' : ''}`}>
+  #{tag}{number && <span>{number}</span>}
 </a>

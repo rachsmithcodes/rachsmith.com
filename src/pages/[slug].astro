@@ -1,8 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../components/Layout.astro';
-import BaseHead from '../components/BaseHead.astro';
+import DocumentHead from '../components/DocumentHead.astro';
 import Tag from '../components/Tag.astro';
+import { InferGetStaticParamsType, InferGetStaticPropsType } from 'astro';
 
 export async function getStaticPaths() {
   const notes = await getCollection('notes');
@@ -42,70 +43,103 @@ const tweetTextEncoded = encodeURIComponent(
 );
 ---
 
-<BaseHead
-  title={title}
-  description={description}
-  permalink={permalink}
-  canonicalUrl={permalink}
-  imageId={imageId}
-/>
+<style>
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    line-height: 1;
+  }
 
-<Layout page="note">
-  <article>
-    <h1 class="title">{title}</h1>
-    <div class="meta">
-      Added: {formatDate(added)}
-      {updated !== added && `Updated: ${formatDate(updated)}`}
-      {
-        tags.length > 0 && (
-          <>
-            Tags:
-            {tags.map((tag) => (
-              <Tag tag={tag} />
-            ))}
-          </>
-        )
-      }
-    </div>
-    <div>
-      <Content />
-    </div>
-    <p>
-      <b>Thanks for reading!</b> If you'd like to share your thoughts you can <a
-        href={`https://rachsmith.com/${slug}#comments`}>leave a comment</a
-      >, <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
-        >send me an email</a
-      >, <a
-        href={`https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}`}
-        >Tweet at me</a
-      >, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues"
-        >add an issue on GitHub</a
-      >.
-    </p>
-  </article>
-  <section class="comments">
-    <h3>Comments</h3>
-    <script is:inline>
-      talkyardServerUrl = 'https://site-1hvw5pe7vn.talkyard.net';
-    </script>
-    <script
-      is:inline
-      async
-      defer
-      src="https://cdn.talkyard.net/-/talkyard-comments.min.js"
-    ></script>
-    <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
-    <div class="talkyard-comments" style="margin-top: 45px;">
-      <noscript>Please enable Javascript to view comments.</noscript>
-      <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">
-        The Comments system is powered by a third party service - <a
-          href="https://www.talkyard.io">Talkyard</a
-        >. Sometimes they don't load 😞. If you're having trouble leaving a
-        comment you can <a
-          href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
-          >send me an email</a
-        >.
-      </p>
-    </div>
-  </section>
-</Layout>
+  .meta {
+    margin: 2em 0;
+    padding: 0.5em 0;
+    border-top: 1px dashed var(--text-color);
+    color: var(--second-text-color);
+  }
+
+  .meta .tags {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .meta .added-updated {
+    font-size: 0.9em;
+    text-transform: uppercase;
+  }
+</style>
+
+<html lang="en">
+  <DocumentHead
+    title={title}
+    description={description ?? ''}
+    permalink={permalink}
+    canonicalUrl={permalink}
+    imageId={imageId}
+  />
+  <body>
+    <Layout page="note">
+      <article>
+        <h1 class="title">{title}</h1>
+        <div class="meta">
+          <span class="added-updated"
+            >Added: {formatDate(added)}{
+              updated !== added && `, Updated: ${formatDate(updated)}`
+            }</span
+          >
+
+          <ul class="tags">
+            {
+              tags.map((tag) => (
+                <li>
+                  <Tag tag={tag} />
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+        <div>
+          <Content />
+        </div>
+        <p>
+          <b>Thanks for reading!</b> If you'd like to share your thoughts you can
+          <a href={`https://rachsmith.com/${slug}#comments`}>leave a comment</a
+          >, <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
+            >send me an email</a
+          >, <a
+            href={`https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}`}
+            >Tweet at me</a
+          >, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues"
+            >add an issue on GitHub</a
+          >.
+        </p>
+      </article>
+      <section class="comments">
+        <h3>Comments</h3>
+        <script is:inline>
+          talkyardServerUrl = 'https://site-1hvw5pe7vn.talkyard.net';
+        </script>
+        <script
+          is:inline
+          async
+          defer
+          src="https://cdn.talkyard.net/-/talkyard-comments.min.js"
+        ></script>
+        <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
+        <div class="talkyard-comments" style="margin-top: 45px;">
+          <noscript>Please enable Javascript to view comments.</noscript>
+          <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">
+            The Comments system is powered by a third party service - <a
+              href="https://www.talkyard.io">Talkyard</a
+            >. Sometimes they don't load 😞. If you're having trouble leaving a
+            comment you can <a
+              href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
+              >send me an email</a
+            >.
+          </p>
+        </div>
+      </section>
+    </Layout>
+  </body>
+</html>
