@@ -117,11 +117,48 @@ console.log(page);
   input[type='checkbox']:checked::before {
     transform: scale(1);
   }
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    transform: skew(-10deg) rotate(-10deg);
+    margin-right: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 span {
+    display: inline-block;
+    position: relative;
+  }
+
+  h1 span::after {
+    content: '';
+    display: block;
+    position:absolute;
+    width: 104%;
+    left: -2%;
+    height: 130%;
+    top: -5%;
+    z-index: -1;
+  }
+
+  h1 span:nth-child(1)::after {
+    background: hsla(18, 87%, 53%, 0.5);
+  }
+  h1 span:nth-child(2)::after {
+    background: hsla(49, 93%, 51%, 0.5)
+  }
+  h1 span:nth-child(3)::after {
+    background: hsla(253, 45%, 47%, 0.5)
+  }
+
 </style>
 
 <div class="sidebar">
   <img class="lorikeet" src="/images/lori.png" alt="Rach Smith" />
-  <h1>Rach Smith's <br />digital garden</h1>
+  <h1><span>Rach Smith's</span><span>digital</span><span>garden</span></h1>
   <nav class="nav">
     <ul>
       <li><a class:list={{ active: page === 'notes' }} href="/">Notes</a></li>
