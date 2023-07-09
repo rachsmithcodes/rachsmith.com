@@ -4,17 +4,17 @@ slug: i-made-some-fireworks
 added: 2023-07-09 14:42
 updated: 2023-07-09 14:42
 tags: [development]
-excerpt: I'm challenging myself to follow up any Pen I create with some notes on I did it.
+excerpt: I'm challenging myself to follow up any Pen I create with some notes on how I did it.
 note: publish
 ---
-I'm challenging myself to follow up any [Pen](https://codepen.io) I create with some notes on I did it. The only way that is going to work is if I take the pressure off and let go of the idea that I have to write a comprehensive tutorial. So you can think of this as less of a "how to make fireworks with JavaScript" and more of a "how I made fireworks with JavaScript" post.
+I'm challenging myself to follow up any [Pen](https://codepen.io) I create with some notes on how I did it. The only way that is ever going to happen is if I take the pressure off and let go of the idea that I have to write a comprehensive tutorial. So you can think of this as less of a "how to make fireworks with JavaScript" and more of a "how I made fireworks with JavaScript" post.
 
 Planning this out, I'm thinking I want to create an array of fireworks that can be launched, explode, "burn out" and then be ready to be launched again. So each firework will have a single particle that shoots up in to "the air" and explodes in to many (say, 200) particles.
 
 I could do this sort of animation [with a few difference tools](/how-to-get-started-with-animating-on-the-web/) but I decide to go with my favourite, WebGL with [PixiJS](https://pixijs.com/). 
 
 First I want to set up a stage, and give it a dark blue background.
-```JS
+```js
 // set up Pixi stage and container
   app = new PIXI.Application({
     width,
@@ -45,7 +45,7 @@ canvas {
 ```
 Each particle in the fireworks is going to be a [Pixi Sprite](https://pixijs.download/dev/docs/PIXI.Sprite.html). A Sprite is an object that get rendered in the Pixi stage, and you can control its properties such as size, position, colour etc. I want all the Sprites to use the same circle shape, so I draw a circle using [Pixi Graphics](https://pixijs.download/dev/docs/PIXI.Graphics.html). This graphic can then be re-used for every sprite I create.
 
-```JS
+```js
 // create a circle graphic for the sprites
   const gr = new PIXI.Graphics();
   gr.beginFill(0xffffff);
