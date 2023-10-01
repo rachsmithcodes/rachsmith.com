@@ -4,31 +4,93 @@ type Props = {
 };
 
 const { page } = Astro.props;
-
-console.log(page);
 ---
 
 <style>
   .sidebar {
-    position: fixed;
-    width: 20vw;
     min-width: 220px;
-    padding: 4em 1em 3em 2em;
     text-align: right;
     box-sizing: border-box;
+    padding: 10% 10% 0 10%;
+    position: relative;
+  }
+
+  @media (min-width: 640px) {
+    .sidebar {
+      position: fixed;
+      width: 20vw;
+      padding: 4em 1em 3em 2em;
+    }
+  }
+
+  h1 {
+    font-size: 8vw;
+    margin: 0;
+    margin-bottom: 1em;
+    margin-right: -30%;
+    line-height: 1.1;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: normal;
+    transform: skew(-10deg) rotate(-10deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (min-width: 640px) {
+    h1 {
+      font-size: 1.5rem;
+      margin-right: -20px;
+    }
+  }
+
+  h1 span {
+    display: inline-block;
+    position: relative;
+  }
+
+  h1 span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 104%;
+    left: -2%;
+    height: 130%;
+    top: -5%;
+    z-index: -1;
+  }
+
+  h1 span:nth-child(1)::after {
+    background: hsla(18, 87%, 53%, 0.5);
+  }
+  h1 span:nth-child(2)::after {
+    background: hsla(49, 93%, 51%, 0.5);
+  }
+  h1 span:nth-child(3)::after {
+    background: hsla(253, 45%, 47%, 0.5);
   }
 
   .nav ul {
     list-style: none;
-    display: grid;
     align-items: right;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  @media (min-width: 640px) {
+    .nav ul {
+      grid-template-columns: none;
+      display: grid;
+    }
   }
 
   .nav li {
     text-transform: uppercase;
     margin-bottom: 0.4em;
+    padding-left: 1em;
   }
 
   .nav li a {
@@ -40,42 +102,67 @@ console.log(page);
     line-height: 1.2;
   }
 
-  .nav li a:hover,
-  .nav li a.active {
-    padding-right: 10px;
-  }
+  @media (min-width: 640px) {
+    .nav li a:hover,
+    .nav li a.active {
+      padding-right: 10px;
+    }
 
-  .nav li a::after {
-    content: '';
-    display: block;
-    width: 4px;
-    height: 0;
-    background: var(--gradient-color);
-    transition: width 0.3s;
-    position: absolute;
-    right: 0;
-    top: 13px;
-    border-radius: 2px;
-    transition: height 0.1s ease-out, top 0.1s ease-out;
-  }
+    .nav li a::after {
+      content: '';
+      display: block;
+      width: 4px;
+      height: 0;
+      background: var(--accent-color);
+      transition: width 0.3s;
+      position: absolute;
+      right: 0;
+      top: 13px;
+      border-radius: 2px;
+      transition: height 0.1s ease-out, top 0.1s ease-out;
+    }
 
-  .nav li a:hover::after,
-  .nav a.active::after {
-    height: 17px;
-    top: 5px;
-    transition: height 0.2s ease-in, top 0.2s ease-in;
+    :global(.rainbows) .nav li a::after {
+      background: var(--gradient-color);
+    }
+
+    .nav li a:hover::after,
+    .nav a.active::after {
+      height: 17px;
+      top: 5px;
+      transition: height 0.2s ease-in, top 0.2s ease-in;
+    }
   }
 
   .lorikeet {
-    width: 120%;
+    position: absolute;
+    width: 60vw;
+    left: -24vw;
+    top: -2vw;
+    transform: rotate(20deg);
   }
 
-  h1 {
-    font-size: 1.5rem;
-    margin: 0;
-    margin-bottom: 1em;
-    line-height: 1.1;
-    text-align: right;
+  @media (min-width: 640px) {
+    .lorikeet {
+      position: unset;
+      width: 120%;
+      transform: rotate(0deg);
+      left: unset;
+      top: unset;
+    }
+  }
+
+  .settings {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+  }
+
+  @media (min-width: 640px) {
+    .settings {
+      display: block;
+      margin-top: 1em;
+    }
   }
 
   .settings li {
@@ -87,12 +174,13 @@ console.log(page);
     font-family: var(--font-mono);
     line-height: 1;
     margin-bottom: 0.8em;
+    margin-left: 0.6em;
+    align-items: center;
   }
 
   input[type='checkbox'] {
     -webkit-appearance: none;
     appearance: none;
-    var(--background-color);
     margin: 0;
     font: inherit;
     color: currentColor;
@@ -111,49 +199,20 @@ console.log(page);
     height: 0.65em;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
+    background-image: linear-gradient(
+      45deg,
+      var(--accent-color),
+      var(--accent-color)
+    );
+  }
+
+  :global(.rainbows) input[type='checkbox']::before {
     background-image: var(--gradient-color);
   }
 
   input[type='checkbox']:checked::before {
     transform: scale(1);
   }
-
-  h1 {
-    text-transform: uppercase;
-    font-weight: normal;
-    transform: skew(-10deg) rotate(-10deg);
-    margin-right: -20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  h1 span {
-    display: inline-block;
-    position: relative;
-  }
-
-  h1 span::after {
-    content: '';
-    display: block;
-    position:absolute;
-    width: 104%;
-    left: -2%;
-    height: 130%;
-    top: -5%;
-    z-index: -1;
-  }
-
-  h1 span:nth-child(1)::after {
-    background: hsla(18, 87%, 53%, 0.5);
-  }
-  h1 span:nth-child(2)::after {
-    background: hsla(49, 93%, 51%, 0.5)
-  }
-  h1 span:nth-child(3)::after {
-    background: hsla(253, 45%, 47%, 0.5)
-  }
-
 </style>
 
 <div class="sidebar">
@@ -162,18 +221,14 @@ console.log(page);
   <nav class="nav">
     <ul>
       <li><a class:list={{ active: page === 'notes' }} href="/">Notes</a></li>
-      <li><a class:list={{ active: page === 'tags' }} href="/tags/">Tags</a></li>
+      <li>
+        <a class:list={{ active: page === 'tags' }} href="/tags/">Tags</a>
+      </li>
       <li><a href="/about">About</a></li>
     </ul>
   </nav>
 
   <ul class="settings">
-    <li>
-      <label for="dark-mode">dark mode</label><input
-        id="dark-mode"
-        type="checkbox"
-      />
-    </li>
     <li>
       <label for="rainbows">rainbows</label><input
         id="rainbows"
@@ -181,8 +236,14 @@ console.log(page);
       />
     </li>
     <li>
-      <label for="mouse-trails">mouse trails</label><input
-        id="mouse-trails"
+      <label for="cursor-trails">cursor trails</label><input
+        id="cursor-trails"
+        type="checkbox"
+      />
+    </li>
+    <li>
+      <label for="dark-mode">dark mode</label><input
+        id="dark-mode"
         type="checkbox"
       />
     </li>

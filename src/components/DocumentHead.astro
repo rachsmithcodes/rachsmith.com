@@ -55,70 +55,7 @@ let metaImage = `https://rachsmith.com/twitter-image-${imageId || 1}.png`;
     )
   }
 
-  <script>
-    const COOKIE_NAME = 'darkmode';
-
-    // Variable to prepare for unchecking the checkbox if the user prefers light mode.
-    let checked = false;
-    function disableDarkMode() {
-      document.documentElement.classList.remove('dark-mode');
-      document.documentElement.style.colorScheme = 'light';
-      document.cookie = `${COOKIE_NAME}=false; expires=Fri, 31 Dec 9999 23:59:59 GMT;"`;
-    }
-    function enableDarkMode() {
-      document.documentElement.classList.add('dark-mode');
-      document.documentElement.style.colorScheme = 'dark';
-      document.cookie = `${COOKIE_NAME}=true; expires=Fri, 31 Dec 9999 23:59:59 GMT;"`;
-    }
-
-    // If the user has the dark mode cookie, respect the cookie.
-    if (
-      document.cookie
-        .split(';')
-        .some((item) => item.trim().startsWith(`${COOKIE_NAME}=true`))
-    ) {
-      enableDarkMode();
-      checked = true;
-
-      // If the user has the light mode cookie, respect the cookie.
-    } else if (
-      document.cookie
-        .split(';')
-        .some((item) => item.trim().startsWith(`${COOKIE_NAME}=false`))
-    ) {
-      disableDarkMode();
-      checked = false;
-    } else {
-      if (
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches
-      ) {
-        enableDarkMode();
-      } else {
-        disableDarkMode();
-      }
-    }
-    // Gotta wait to do DOM stuff until DOM is ready
-    addEventListener('DOMContentLoaded', (event) => {
-      const darkmodeCheckbox = document.getElementById(
-        'dark-mode'
-      ) as HTMLInputElement;
-      // window.darkMode is the <input type="checkbox" />
-      if (darkmodeCheckbox) {
-        darkmodeCheckbox.addEventListener('click', () => {
-          if (darkmodeCheckbox.checked) {
-            enableDarkMode();
-          } else {
-            disableDarkMode();
-          }
-        });
-      }
-      // Make sure the UI reflects the current state.
-      if (checked) {
-        darkmodeCheckbox.checked = true;
-      }
-    });
-  </script>
+  <script src="./siteOptions.ts"></script>
 
   <style is:global>
     /* barlow-regular - latin */
@@ -225,7 +162,7 @@ let metaImage = `https://rachsmith.com/twitter-image-${imageId || 1}.png`;
       --light-blue: #1b81b4;
       --purple: #5741ac;
       --blue: #393f85;
-      --accent-color: var(--pink);
+      --accent-color: var(--purple);
       --gradient-color: linear-gradient(
         45deg,
         hsl(3deg 97% 45%) 0%,
@@ -256,6 +193,11 @@ let metaImage = `https://rachsmith.com/twitter-image-${imageId || 1}.png`;
       --background-color: #181b3a;
       --text-color: #f2f0e9;
       --second-text-color: #c9c6d1;
+      --accent-color: var(--pink);
+      --red: #db5c55;
+      --pink: #c76399;
+      --blue: #548ab7;
+      --purple: #867cc0;
     }
 
     h1,
@@ -284,6 +226,37 @@ let metaImage = `https://rachsmith.com/twitter-image-${imageId || 1}.png`;
 
     a:hover {
       text-decoration: underline;
+    }
+
+    .styled-link-underlines a {
+      text-decoration: none;
+      background-repeat: no-repeat;
+      background-size: 100% 0.24em;
+      background-position: 0 110%;
+      background-image: linear-gradient(
+        45deg,
+        var(--accent-color),
+        var(--accent-color)
+      );
+    }
+
+    .styled-link-underlines a:hover {
+      color: var(--accent-color);
+    }
+
+    .rainbows .styled-link-underlines a {
+      background-image: var(--gradient-color);
+    }
+
+    canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: none;
+    }
+
+    .cursor-trails canvas {
+      display: block;
     }
   </style>
 </head>

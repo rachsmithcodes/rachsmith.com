@@ -4,6 +4,7 @@ import Layout from '../components/Layout.astro';
 import DocumentHead from '../components/DocumentHead.astro';
 import Tag from '../components/Tag.astro';
 import { InferGetStaticParamsType, InferGetStaticPropsType } from 'astro';
+import TagsList from '../components/TagsList.astro';
 
 export async function getStaticPaths() {
   const notes = await getCollection('notes');
@@ -89,20 +90,12 @@ const tweetTextEncoded = encodeURIComponent(
             }</span
           >
 
-          <ul class="tags">
-            {
-              tags.map((tag) => (
-                <li>
-                  <Tag tag={tag} />
-                </li>
-              ))
-            }
-          </ul>
+          <TagsList tags={tags.map((t) => ({ name: t }))} />
         </div>
-        <div>
+        <div class="styled-link-underlines">
           <Content />
         </div>
-        <p>
+        <p class="styled-link-underlines">
           <b>Thanks for reading!</b> If you'd like to share your thoughts you can
           <a href={`https://rachsmith.com/${slug}#comments`}>leave a comment</a
           >, <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
@@ -117,15 +110,15 @@ const tweetTextEncoded = encodeURIComponent(
       </article>
       <section class="comments">
         <h3>Comments</h3>
-        <script is:inline>
+        <pixiScript is:inline>
           talkyardServerUrl = 'https://site-1hvw5pe7vn.talkyard.net';
-        </script>
-        <script
+        </pixiScript>
+        <pixiScript
           is:inline
           async
           defer
           src="https://cdn.talkyard.net/-/talkyard-comments.min.js"
-        ></script>
+        ></pixiScript>
         <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
         <div class="talkyard-comments" style="margin-top: 45px;">
           <noscript>Please enable Javascript to view comments.</noscript>

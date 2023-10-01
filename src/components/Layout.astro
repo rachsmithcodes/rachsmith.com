@@ -13,8 +13,15 @@ const { page } = Astro.props;
   .container {
     max-width: 59ch;
     grid-column-start: 2;
-    padding: 1em 1em 1em 2em;
     box-sizing: border-box;
+    padding: 0 1em;
+    position: relative;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding: 1em 1em 1em 2em;
+    }
   }
 
   @media (min-width: 930px) {
@@ -23,9 +30,11 @@ const { page } = Astro.props;
     }
   }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: minmax(220px, 20vw) 1fr;
+  @media (min-width: 640px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: minmax(220px, 20vw) 1fr;
+    }
   }
 </style>
 
@@ -39,9 +48,8 @@ const { page } = Astro.props;
   </div>
 </div>
 
-<script
+<pixiScript
   async
   defer
   data-domain="rachsmith.com"
-  src="https://plausible.io/js/plausible.js"
-></script>
+  src="https://plausible.io/js/plausible.js"></pixiScript>

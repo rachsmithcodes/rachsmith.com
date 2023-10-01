@@ -1,6 +1,7 @@
 ---
 import { CollectionEntry, getCollection } from 'astro:content';
 import NoteListItem from './NoteListItem.astro';
+import TagsList from './TagsList.astro';
 
 const notes = await getCollection('notes');
 type Tag = {
@@ -49,6 +50,13 @@ for (const tag of tags) {
 ---
 
 <style>
+  .tag-name {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: var(--font-mono);
+    font-size: 1em;
+  }
+
   .notes-list {
     list-style: none;
     padding: 0;
@@ -60,77 +68,37 @@ for (const tag of tags) {
     margin: 0.5em 0;
   }
 
-  .tag-name {
-    margin-bottom: 0;
-    font-weight: bold;
-    font-family: var(--font-mono);
-    font-size: 1em;
-  }
-
-  .tags-list {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-  }
-
-  .tags-list li {
-    margin: 0 1em 0 0;
-    font-weight: normal;
-    font-size: 0.8em;
-    font-family: var(--font-mono);
-  }
-
-  .tags-list li a {
-    text-decoration: none;
-  }
-
-  .tags-list li a:hover {
-    text-decoration: underline;
-  }
-
-  .tag-name:nth-of-type(7n + 1) a,
   h3:nth-of-type(7n + 1) {
     color: var(--red);
   }
-  .tag-name:nth-of-type(7n + 2) a,
+
   h3:nth-of-type(7n + 2) {
     color: var(--orange);
   }
-  .tag-name:nth-of-type(7n + 3) a,
+
   h3:nth-of-type(7n + 3) {
     color: var(--pink);
   }
-  .tag-name:nth-of-type(7n + 4) a,
+
   h3:nth-of-type(7n + 4) {
     color: var(--green);
   }
-  .tag-name:nth-of-type(7n + 5) a,
+
   h3:nth-of-type(7n + 5) {
     color: var(--light-blue);
   }
-  .tag-name:nth-of-type(7n + 6) a,
+
   h3:nth-of-type(7n + 6) {
     color: var(--purple);
   }
-  .tag-name:nth-of-type(7n + 7) a,
+
   h3:nth-of-type(7n + 7) {
     color: var(--blue);
   }
 </style>
 
 <div class="">
-  <ul class="tags-list">
-    {
-      tags.map((tag) => (
-        <li class="tag-name">
-          <a href={`#${tag.name}`}>#{tag.name}</a>
-        </li>
-      ))
-    }
-  </ul>
-
+  <TagsList tags={tags} />
   {
     tags.map((tag) => (
       <>
