@@ -8,7 +8,6 @@ let spritesheet,
 const colors = [
   0xe31104, 0xef5f1f, 0xc80e84, 0x48a71e, 0x1b81b4, 0x5741ac, 0x393f85,
 ];
-let spinning = true;
 
 function resize() {
   width = window.innerWidth;
@@ -35,7 +34,7 @@ async function setup() {
 
   const spriteData = {
     meta: {
-      image: 'https://assets.codepen.io/53148/paint.png',
+      image: '/assets/paint.png',
       size: { w: 480, h: 480 },
       scale: 1,
     },
@@ -57,8 +56,6 @@ async function setup() {
   );
 
   await spritesheet.parse();
-  console.log(spritesheet);
-
   for (let i = 0; i < 3000; i++) {
     particles.push(new Particle(i));
   }
@@ -135,11 +132,6 @@ function animate(t) {
 
   for (let i = 0; i < particles.length; i++) {
     particles[i].update();
-  }
-
-  if (spinning) {
-    mouse.x = width / 2 + (Math.cos(t / 1000) * width) / 4;
-    mouse.y = height / 2 + (Math.sin(t / 1000) * height) / 4;
   }
 
   requestAnimationFrame(animate);
