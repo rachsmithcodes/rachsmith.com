@@ -6,7 +6,7 @@ const { tags } = Astro.props;
   {
     tags.map((tag) => (
       <li class="tag-name">
-        <a href={`/tags#${tag.name}`}>#{tag.name}</a>
+        <a href={`/tags/#${tag.name}`}>#{tag.name}</a>
       </li>
     ))
   }
