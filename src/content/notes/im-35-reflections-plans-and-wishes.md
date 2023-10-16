@@ -5,7 +5,7 @@ added: 2021-08-09 06:11
 updated: 2021-08-09 06:11
 tags: [wellbeing]
 excerpt: Looking back and looking forward 5 years on this half-decade birthday.
-note: publish
+publish: true
 ---
 
 I turned 35 on Wednesday. For whatever reason, half-decade birthdays have always felt like a significant milestone to me.

@@ -5,7 +5,7 @@ added: 2021-10-13 07:42
 updated: 2021-10-13 07:42
 tags: [books, productivity]
 excerpt: This free website has some great self development content.
-note: publish
+publish: true
 ---
 
 I’m currently working on a technical post, which takes longer than my usual weekly observations. So I’ll share a loving right now recommendation this week.

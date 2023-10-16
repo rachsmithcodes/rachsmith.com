@@ -5,7 +5,7 @@ added: 2022-02-04 14:11
 updated: 2022-02-04 14:11
 tags: [wellbeing, productivity]
 excerpt: Some new soundtracks I'm telling myself when it comes to creativity and my time.
-note: publish
+publish: true
 ---
 
 One of the things I tend to overthink about is whether I’m getting the consuming vs. creating balance right.

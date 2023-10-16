@@ -5,7 +5,7 @@ added: 2022-12-31 07:05
 updated: 2022-12-31 07:05
 tags: [productivity]
 excerpt: Recently I wrote how I got comfortable with writing and publishing more frequently on this website. I thought I would share some specific things I did to make writing happen for me this year.
-note: publish
+publish: true
 ---
 
 Recently I wrote about getting comfortable with [writing and publishing more frequently on this website](/2022-was-the-year-i-published/). A few people have expressed that they would like to do the same, so I thought I would share some specific things I did to make writing happen for me this year.

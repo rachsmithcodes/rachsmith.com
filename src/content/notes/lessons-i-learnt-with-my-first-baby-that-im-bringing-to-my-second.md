@@ -5,7 +5,7 @@ added: 2020-12-30 14:00
 updated: 2020-12-30 14:00
 tags: [mothering, productivity]
 excerpt: Things feel different this time around.
-note: publish
+publish: true
 ---
 
 I am experiencing the postpartum/newborn experience for the second time. Things feel different this time around. I feel far more relaxed about everything, so much so that I wonder if I had a mild case of postpartum anxiety for the first six months of my firstborn’s life. Perhaps it is just due to being more experienced this time. I find that remembering the lessons I learnt from my first baby when things get challenging is very comforting. So I thought I would share a few of them here.

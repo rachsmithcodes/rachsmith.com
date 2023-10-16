@@ -5,7 +5,7 @@ added: 2022-08-08 06:03
 updated: 2022-08-08 06:03
 tags: [wellbeing, books]
 excerpt: Happy birthday to me.
-note: publish
+publish: true
 ---
 
 At some point between turning 30 and now, my birthday turned from a reason to celebrate and go on a bender to a stressful reminder of my own mortality. My Dad died when he was 51 and my mum when she was 56. Both happened due to illness. I turned 36 last week. If I last as long as mum did that means my life is already 64% over! 

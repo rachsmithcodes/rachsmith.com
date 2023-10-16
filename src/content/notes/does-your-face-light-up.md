@@ -6,7 +6,7 @@ updated: 2022-07-03 21:28
 tags: [mothering]
 excerpt: The best parenting advice I've ever heard.
 imageId: '3'
-note: publish
+publish: true
 ---
 
 The best parenting advice I've ever heard was from the novelist [Toni Morrison](https://en.wikipedia.org/wiki/Toni_Morrison) on an episode of Oprah.

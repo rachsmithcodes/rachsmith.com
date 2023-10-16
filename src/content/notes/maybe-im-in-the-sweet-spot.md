@@ -5,7 +5,7 @@ added: 2022-07-19 06:12
 updated: 2022-07-19 06:12
 tags: [development]
 excerpt: For me, it is far more useful than it is distracting.
-note: publish
+publish: true
 ---
 
 I think of GitHub Copilot as intellisense/autocomplete on steroids. Instead of completing words, it is completing entire statements.

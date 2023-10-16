@@ -5,7 +5,7 @@ added: 2023-04-24 13:48
 updated: 2023-04-24 13:48
 tags: [productivity]
 excerpt: "I've tried limits on iOS Screen Time settings, but as soon as I'm drained and seeking distraction, I'll hit \"Ignore Limit\" and get back into it."
-note: publish
+publish: true
 ---
 
 As [previously mentioned](/screen-time/), I have been battling a phone addiction for like, 14 years now. I go through periods of strong willpower and then fall off the wagon again. 

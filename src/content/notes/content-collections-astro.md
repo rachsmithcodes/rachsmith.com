@@ -5,7 +5,7 @@ added: 2023-03-29 13:15
 updated: 2023-03-29 13:15
 tags: [development]
 excerpt: "All of the notes on this site are built from markdown files in an Astro static site. As of Astro 2.0, you can effectively add type validation to your markdown files, via a feature called Content Collections."
-note: publish
+publish: true
 ---
 
 All of the notes on this site are built from markdown files in an [Astro](Astro.build) static site. As of [Astro 2.0](https://astro.build/blog/astro-2/), you can effectively add type validation to your markdown files, via a feature called Content Collections.

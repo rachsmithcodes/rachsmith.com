@@ -5,7 +5,7 @@ added: 2023-05-01 05:53
 updated: 2023-05-01 05:53
 tags: [mothering]
 excerpt: my most recent prompts
-note: publish
+publish: true
 ---
 
 *make up a short children’s story about a 2 year old called Ted[^1] who is in a real life game of Mario kart.*

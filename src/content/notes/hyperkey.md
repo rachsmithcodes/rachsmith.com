@@ -5,7 +5,7 @@ added: 2022-12-15 20:27
 updated: 2022-12-15 20:27
 tags: [productivity]
 excerpt: 
-note: publish
+publish: true
 ---
 
 [Another](/brett-terpstras-searchlink/) piece of productivity gold from [this Automators podcast episode](https://www.relay.fm/automators/116): the concept of a hyper key.

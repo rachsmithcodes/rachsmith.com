@@ -5,7 +5,7 @@ added: 2022-08-05 21:08
 updated: 2022-08-05 21:08
 tags: [miscellany]
 excerpt: Stuff I was digging in July.
-note: publish
+publish: true
 ---
 
 ### Music: ["True" by Solange](https://open.spotify.com/album/3r9UTfGCgZLCOhV7cz99YC?si=AcdohijOTxurUZZhHas-dg)

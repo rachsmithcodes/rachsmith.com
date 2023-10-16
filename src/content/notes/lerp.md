@@ -5,7 +5,7 @@ added: 2023-04-06 20:12
 updated: 2023-04-06 20:12
 tags: [development]
 excerpt: Lerp is the nickname for Linear Interpolation between two points. It's a fairly simple effect to implement but can really improve the look of your animations if you're moving an object from a point A to point B.
-note: publish
+publish: true
 ---
 
 <p class="callout">

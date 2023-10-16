@@ -5,7 +5,7 @@ added: 2022-08-23 20:40
 updated: 2022-08-23 20:40
 tags: [development, work, productivity]
 excerpt: "A mental strategy I use to get through the tough days at work 🏔"
-note: publish
+publish: true
 ---
 
 ### Link: [# Dr. Emily Balcetis: Tools for Setting & Achieving Goals | Huberman Lab Podcast #83](https://youtu.be/7YGZZcXqKxE?t=700)

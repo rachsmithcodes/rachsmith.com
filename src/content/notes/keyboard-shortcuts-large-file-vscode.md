@@ -5,7 +5,7 @@ added: 2022-10-31 02:00
 updated: 2022-10-31 02:00
 tags: [development]
 excerpt: I use these shortcuts for moving around and finding what I need in a large file.
-note: publish
+publish: true
 ---
 
 When writing the code gets a bit dull at my job, I try to make things more interesting by setting myself a challenge in other ways. Currently, I am training myself to use the keyboard to get around VSCode instead of a mouse. I'll list a few of my favourites (on macOS).

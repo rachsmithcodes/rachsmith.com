@@ -5,7 +5,7 @@ added: 2022-09-09 06:18
 updated: 2022-09-09 06:18
 tags: [work]
 excerpt:
-note: publish
+publish: true
 ---
 
 Often I'll say something in a meeting or in Slack and then later realise, people don't use that phrase in the USA. Here's a non-exhaustive list of things my CodePen colleagues have probably had to Google at some point.

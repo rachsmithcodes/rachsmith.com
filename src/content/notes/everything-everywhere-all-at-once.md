@@ -5,7 +5,7 @@ added: 2023-01-31 11:09
 updated: 2023-01-31 11:09
 tags: [miscellany]
 excerpt: "When I was in year 9, I had to watch The Matrix for a school assignment. We watched many movies when I was a kid, including some sci-fi, but it wasn't really my thing."
-note: publish
+publish: true
 ---
 
 When I was in year 9, I had to watch [The Matrix](https://en.wikipedia.org/wiki/The_Matrix) for a school assignment. We watched many movies when I was a kid, including some sci-fi, but it wasn't really my thing. The Matrix stands out in my memory because I remember having the thought after I watched it:

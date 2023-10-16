@@ -5,7 +5,7 @@ added: 2023-05-07 14:20
 updated: 2023-05-07 14:20
 tags: [development]
 excerpt: "I've been interested in the p5.js project for years, and watched Daniel Shiffman use it in many a Coding Trai video, but I've never actually picked it up and used it myself until now!"
-note: publish
+publish: true
 ---
 
 I've been interested in the [p5.js](https://p5js.org/) project for years, and watched Daniel Shiffman use it in many a [Coding Train](https://thecodingtrain.com/) video, but I've never actually picked it up and used it myself until now! 

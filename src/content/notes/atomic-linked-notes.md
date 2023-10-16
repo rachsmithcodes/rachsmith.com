@@ -5,7 +5,7 @@ added:  2022-10-23 20:44
 updated: 2022-10-23 20:44
 tags: []
 excerpt: Despite my desire to publish more, I've had trouble with not treating every note with the gravity of a "finished", polished blog post. 
-note: publish 
+publish: true
 ---
 
 After discovering the idea of a [digital garden](https://joelhooks.com/digital-garden), [I declared this website is no longer a blog](/my-blog-is-dead/). I've still had trouble with changing my mindset around the individual notes on this site, and not treating every note with the gravity of a "finished", polished blog post. 

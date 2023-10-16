@@ -5,7 +5,7 @@ added: 2021-07-05 21:07
 updated: 2021-07-05 21:07
 tags: [miscellany]
 excerpt: I had forgotten how much I love these shoes.
-note: publish
+publish: true
 ---
 
 ![My Ugg Boots](/images/uggs.jpg)

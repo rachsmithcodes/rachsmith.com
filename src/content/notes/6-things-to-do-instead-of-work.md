@@ -5,7 +5,7 @@ added: 2023-01-07 19:52
 updated: 2023-01-07 19:52
 tags: [work]
 excerpt: Look, coding is hard. Every time you start to solve a problem or fix a bug you run the risk of not being able to do it and then feeling like you aren't as smart as you thought you were.
-note: publish
+publish: true
 ---
 
 Look, coding is hard. Every time you start to solve a problem or fix a bug you run the risk of not being able to do it and then feeling like you aren't as smart as you thought you were. That sucks! Here are some things you can do instead.

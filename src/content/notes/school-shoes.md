@@ -5,7 +5,7 @@ added: 2023-01-09 06:33
 updated: 2023-01-09 06:33
 tags: [mothering]
 excerpt: My oldest kid is starting school this year. As Andy and I have pretty flexible remote work schedules, this is the first time we've had a real deadline as to when have to be somewhere on a weekday morning.
-note: publish
+publish: true
 ---
 
 My oldest kid is starting school this year. As Andy and I have pretty flexible remote work schedules, this is the first time we've had a real deadline as to when have to be somewhere on a weekday morning. It isn't like childcare where the drop off can happen any time before 9. So we're coming up with a before-school routine to try and minimize "running late" stress that will crop up with this new schedule. 

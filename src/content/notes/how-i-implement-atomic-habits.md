@@ -5,7 +5,7 @@ added: 2021-02-03 13:50
 updated: 2021-02-03 13:50
 tags: [productivity, books]
 excerpt: My takeaways from Atomic Habits by James Clear.
-note: publish
+publish: true
 ---
 
 I first read [Atomic Habits by James Clear](https://jamesclear.com/atomic-habits)  in December 2018. I thought it was a good book and had helpful advice. Still, I didn’t really implement it because I wasn’t convinced that little daily habits would really amount to anything impressive. For most of my life, once I’d decided I was going to do something, I would just go hard at it and make it happen with a bunch of discipline and willpower. I’d achieved most things I really wanted to in my life until that point using that method.   

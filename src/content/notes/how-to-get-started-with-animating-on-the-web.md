@@ -5,7 +5,7 @@ added: 2022-07-25 15:03
 updated: 2022-07-25 15:03
 tags: [development]
 excerpt: Pick a medium, choose your tools, have fun.
-note: publish
+publish: true
 ---
 
 You've seen something cool on the web and you want to start making your own animations? Sometimes when you're getting started with web animation it can be overwhelming to pull apart all the methods and tools and techniques.

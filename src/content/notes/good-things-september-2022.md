@@ -5,7 +5,7 @@ added: 2022-10-06 11:11
 updated: 2022-10-06 11:11
 tags: [miscellany]
 excerpt: Some good things from September.
-note: publish
+publish: true
 ---
 
 ### Apps: [Readwise Reader](https://readwise.io/read) and [Obsidian](https://obsidian.md/)

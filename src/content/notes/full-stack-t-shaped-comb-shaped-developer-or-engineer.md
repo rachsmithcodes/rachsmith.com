@@ -5,7 +5,7 @@ added: 2021-09-07 20:49
 updated: 2021-09-07 20:49
 tags: [work, development]
 excerpt: What am I even.
-note: publish
+publish: true
 ---
 
 Whenever I come across a form field that asks for my occupation or profession, I hesitate before answering. I believe my official documented role title with CodePen and Active Theory is/was "Engineer", but I’m pretty sure that was just what it needed to be to satisfy the US Visa requirements they hired me under.

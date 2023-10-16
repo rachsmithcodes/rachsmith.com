@@ -5,7 +5,7 @@ added: 2021-01-19 21:04
 updated: 2021-01-19 21:04
 tags: [development]
 excerpt: Understanding Ask Culture vs. Guess culture helped me feel less annoyed at people asking me for things.
-note: publish
+publish: true
 ---
 
 Back in the days when I was [making CodePens](https://codepen.io/rachsmith/pens/popular) rather than making CodePen, speaking at conferences and building a Twitter following, I would get many emails from strangers asking me for things. The requests ranged from asking me to adapt my Pen code in some way or helping them to build their website, to full-on mentoring. These emails used to bother me. In my mind, cold emailing someone you don’t know personally to ask if they would do things for you (for free) was presumptuous, entitled and borderline rude. I certainly had *never* made such requests of people I didn’t work with or was friends with.

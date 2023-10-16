@@ -5,7 +5,7 @@ added: 2023-03-27 06:49
 updated: 2023-03-27 06:49
 tags: [podcasts]
 excerpt: "I listen to a podcast called I Will Teach You To Be Rich. Finance expert Remit Sethi sits down with a couple and helps them with their financial situation and relationship with each other (as it pertains to money)."
-note: publish
+publish: true
 ---
 
 I listen to a podcast called I Will Teach You To Be Rich. My husband listens to it too, and we often discuss it afterwards. It is like our version of watching reality TV.

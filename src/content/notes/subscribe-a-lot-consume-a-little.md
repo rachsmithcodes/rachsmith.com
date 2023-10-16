@@ -5,7 +5,7 @@ added: 2023-01-23 20:14
 updated: 2023-01-30 07:24
 tags: []
 excerpt: The way I like to do content consumption is to subscribe to many different sources and then be ruthless about which content I actually choose to consume. 
-note: publish
+publish: true
 ---
 
 The way I like to do content consumption is to subscribe to many different sources and then be ruthless about which content I actually choose to consume. 

@@ -5,7 +5,7 @@ added: 2023-01-03 14:43
 updated: 2023-01-03 14:43
 tags: [development]
 excerpt: If you're looking for some personal site inspiration, look no further than lynnandtonic.com.
-note: publish
+publish: true
 ---
 
 ### Link: [Lynn Fisher's website](https://lynnandtonic.com/)

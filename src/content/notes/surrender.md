@@ -5,7 +5,7 @@ added: 2023-05-22 06:42
 updated: 2023-05-22 06:42
 tags: [productivity, wellbeing]
 excerpt: "Regular readers of my notes might have picked up that I have a little bit of trouble being okay with wasting time"
-note: publish
+publish: true
 ---
 
 Regular readers of my notes might have noticed that I have a little trouble being okay with *wasting time*. Ever since having kids, my time anxiety has driven me to look at every week as a puzzle to be solved. What is the most optimal way to cram all the pieces in? 

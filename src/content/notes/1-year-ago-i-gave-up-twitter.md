@@ -5,7 +5,7 @@ added: 2021-01-02 13:10
 updated: 2021-01-02 13:10
 tags: [wellbeing, productivity]
 excerpt: It was the best decision I could have made.
-note: publish
+publish: true
 ---
 
 I don’t need to publish another lengthy essay about quitting social media, the internet has enough of those. In bullet points:

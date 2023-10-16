@@ -5,7 +5,7 @@ added: 2021-02-08 20:30
 updated: 2021-02-08 20:30
 tags: [mothering, wellbeing]
 excerpt: My productivity doesn’t determine my worth.
-note: publish
+publish: true
 ---
 
 *My productivity doesn’t determine my worth.*

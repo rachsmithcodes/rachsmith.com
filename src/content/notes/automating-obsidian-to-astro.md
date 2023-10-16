@@ -2,10 +2,10 @@
 title: Automating the process for moving notes from my Obsidian vault to my Astro site
 slug: automating-obsidian-to-astro
 added: 2022-10-26 08:13
-updated: 2022-10-26 08:13
+updated: 2023-10-16 20:07
 tags: [development]
 excerpt: I wrote a script to copy notes from my private vault to my public site.
-note: publish
+publish: true
 ---
 
 Lately, I've been writing the drafts of the notes on this site in my [Obsidian vault](https://obsidian.md/). When I want to publish them, I would copy the contents over to the src directory of my [Astro site code](/initial-thoughts-on-astro/), use the [VSCode Grammarly extension](https://marketplace.visualstudio.com/items?itemName=znck.grammarly) to proof read, add some more frontmatter and push to GitHub. 
@@ -18,119 +18,6 @@ After processing the notes, the script copies them to the `src` location in this
 
 At first I tried to get fancy and convert the notes in to a markdown syntax tree with [mdast-util-from-markdown](https://github.com/syntax-tree/mdast-util-from-markdown) and do the processing with that. But I ended up just using a series of `indexOf` checks, `split` calls and a little regex to achieve what I need. 
 
-It is a pretty rudimentary script but I'll share here incase you would like to do something similar with your vault.
+The first version of the script just copied all the notes and images over when you ran it. Then I updated it to use [chokidar](https://www.npmjs.com/package/chokidar) to watch for changes in the vault, and sync any notes that were updated.
 
-##### index.js
-```javascript
-import { promises as fsp } from "fs";
-import { homedir } from "os";
-
-const vaultImagesPath = homedir() + "/Obsidian/vault/images";
-const vaultNotesPath = homedir() + "/Obsidian/vault/notes";
-const siteImagesPath = homedir() + "/Development/rachsmith.com/public/images";
-const siteNotesPath = homedir() + "/Development/rachsmith.com/src/notes";
-
-async function getNote(fileName) {
-  const noteContent = await fsp.readFile(
-    vaultNotesPath + "/" + fileName,
-    "utf-8"
-  );
-
-  if (noteContent.indexOf("---") != 0) return null;
-
-  const frontmatterText = noteContent.split("---")[1];
-  // convert frontmatter to object
-  const frontmatter = frontmatterText.split("\n").reduce((object, line) => {
-    const [key, value] = line.split(":");
-    if (key && value) {
-      // some yaml strings are quoted
-      if (value.trim().indexOf('"') == 0) {
-        object[key.trim()] = value.trim().slice(1, -1);
-      } else {
-        object[key.trim()] = value.trim();
-      }
-    }
-    return object;
-  }, {});
-
-  if (!frontmatter.slug) return null;
-  if (frontmatter.note !== "publish") return null;
-
-  return {
-    vaultTitle: fileName.split(".md")[0],
-    slug: frontmatter.slug,
-    content: noteContent,
-  };
-}
-
-async function readNotes() {
-  let noteFileNames = await fsp.readdir(vaultNotesPath);
-  noteFileNames = noteFileNames.filter((fileName) => fileName.endsWith(".md"));
-  const notes = await Promise.all(
-    noteFileNames.map((noteFileName) => getNote(noteFileName))
-  );
-  // filter out null values
-  return notes.filter((note) => note);
-}
-
-function processNotes(notes) {
-  const regex = /\[\[(.+?)\]\]/g;
-  return notes.map((note) => {
-    // check for wikilinks
-    const matches = note.content.match(regex);
-    if (matches) {
-      matches.forEach((match) => {
-        const link = match.slice(2, -2);
-        const linkParts = link.split("|");
-        const linkText = linkParts[1] || linkParts[0];
-        const linkedNote = notes.find(
-          (note) => note.vaultTitle === linkParts[0]
-        );
-        // if there is a linked note, replace with markdown link
-        if (linkedNote) {
-          note.content = note.content.replace(
-            match,
-            `[${linkText}](/${linkedNote.slug}/)`
-          );
-        } else {
-          // if there is no linked note, remove wikilink
-          note.content = note.content.replace(match, linkText);
-        }
-      });
-    }
-    return note;
-  });
-}
-
-async function writeNotes() {
-  const notes = await readNotes();
-  const processedNotes = processNotes(notes);
-
-  return Promise.all(
-    processedNotes.map((note) =>
-      fsp.writeFile(siteNotesPath + "/" + note.slug + ".md", note.content)
-    )
-  );
-}
-
-async function copyImages() {
-  const images = await fsp.readdir(vaultImagesPath);
-  return Promise.all(images.map((image) => copyImage(image)));
-}
-
-async function copyImage(image) {
-  return fsp.copyFile(
-    vaultImagesPath + "/" + image,
-    siteImagesPath + "/" + image
-  );
-}
-
-console.log("writing notes...");
-await writeNotes();
-console.log("done writing notes.");
-
-console.log("copying images...");
-await copyImages();
-console.log("done copying images.");
-
-```
+I've shared the script in this [GitHub Repository](https://github.com/rachsmithcodes/obsidian-to-astro-sync/tree/main).

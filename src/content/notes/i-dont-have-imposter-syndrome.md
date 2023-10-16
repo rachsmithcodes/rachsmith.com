@@ -5,7 +5,7 @@ added: 2017-10-16 06:59
 updated: 2017-10-16 06:59
 tags: [work, development]
 excerpt: Doubting yourself occasionally is part of being a web developer.
-note: publish
+publish: true
 ---
 
 In the course of my day at work I will often wonder if the next bug is the bug that will finish me. I am acutely aware of and could instantly list for you 15 things about the CodePen codebase that I should probably know more about to do a better job of my role. Sometimes people write in questions about Vue.js, and I feel bad about not being able to answer them straight away because I’ve never really used it. The second conference I gave a talk at I wondered how the hell I was sharing a stage with Chris Coyier.

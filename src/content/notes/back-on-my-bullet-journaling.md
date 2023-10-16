@@ -5,7 +5,7 @@ added: 2023-02-15 10:03
 updated: 2023-02-15 10:03
 tags: [productivity]
 excerpt: I got really into bullet journaling in 2016, along with everyone else. What got me hooked was the beautiful spreads people shared on Pinterest and Instagram.
-note: publish
+publish: true
 ---
 
 I got really into bullet journaling in 2016, along with everyone else. What got me hooked was the [beautiful spreads](https://www.pinterest.com.au/emmastudiess/bullet-journal-spreads/) people shared on Pinterest and Instagram. I like lettering and neat layouts, and I will take any excuse to buy new highlighters. 

@@ -5,7 +5,7 @@ added: 2021-01-12 21:20
 updated: 2021-01-12 21:20
 tags: [books]
 excerpt: This short, to the point book made quite an impact on me.
-note: publish
+publish: true
 ---
 
 ![The cover of Show Your Work!](/images/show-your-work.png)

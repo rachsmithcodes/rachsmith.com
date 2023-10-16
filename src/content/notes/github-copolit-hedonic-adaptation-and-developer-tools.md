@@ -5,7 +5,7 @@ added: 2021-12-13 19:00
 updated: 2021-12-13 19:00
 tags: [work, development, productivity]
 excerpt: Some developer tools that reset my expectations to a new level.
-note: publish
+publish: true
 ---
 
 A little while ago, I signed up for the technical preview of [GitHub Copilot](https://copilot.github.com/). I spent one full workday with it running in [vscode](https://code.visualstudio.com/) on my work machine. That weekend I went to work on this site on my personal machine, and I had already got so used to the bot writing code for me I couldn't stand not having it. I installed it on that computer.

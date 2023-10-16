@@ -5,7 +5,7 @@ added: 2022-08-28 14:06
 updated: 2022-08-28 14:06
 tags: [development]
 excerpt: Read the docs. No really.
-note: publish
+publish: true
 ---
 
 [Apollo Client](https://www.apollographql.com/docs/react/) has been a crucial part of [CodePen's](https://codepen.io) frontend code from the moment we started using a GraphQL API on the backend. Before we had Apollo Client we had to handle the caching of state an request management ourselves. That was a lot of code to write.
