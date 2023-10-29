@@ -24,7 +24,7 @@ const { page } = Astro.props;
     }
   }
 
-  h1 {
+  .site-name {
     font-size: 8vw;
     margin: 0;
     margin-bottom: 1em;
@@ -40,18 +40,18 @@ const { page } = Astro.props;
   }
 
   @media (min-width: 640px) {
-    h1 {
+    .site-name {
       font-size: 1.5rem;
       margin-right: -20px;
     }
   }
 
-  h1 span {
+  .site-name span {
     display: inline-block;
     position: relative;
   }
 
-  h1 span::after {
+  .site-name span::after {
     content: '';
     display: block;
     position: absolute;
@@ -62,13 +62,13 @@ const { page } = Astro.props;
     z-index: -1;
   }
 
-  h1 span:nth-child(1)::after {
+  .site-name span:nth-child(1)::after {
     background: hsla(18, 87%, 53%, 0.5);
   }
-  h1 span:nth-child(2)::after {
+  .site-name span:nth-child(2)::after {
     background: hsla(49, 93%, 51%, 0.5);
   }
-  h1 span:nth-child(3)::after {
+  .site-name span:nth-child(3)::after {
     background: hsla(253, 45%, 47%, 0.5);
   }
 
@@ -230,7 +230,9 @@ const { page } = Astro.props;
 
 <div class="sidebar">
   <img class="lorikeet" src="/images/lori.png" alt="Rach Smith" />
-  <h1><span>Rach Smith's</span><span>digital</span><span>garden</span></h1>
+  <div class="site-name">
+    <span>Rach Smith's</span><span>digital</span><span>garden</span>
+  </div>
   <nav class="nav">
     <ul>
       <li>

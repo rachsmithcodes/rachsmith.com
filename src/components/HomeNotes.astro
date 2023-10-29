@@ -90,6 +90,8 @@ years
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+    font-size: 1em;
+    margin: 0;
   }
 
   .month span {
@@ -104,8 +106,10 @@ years
         <>
           {year.months.map((month, i) => (
             <>
-              <li class="month">
-                <span>{month.name}</span> <span>{i === 0 && year.date}</span>
+              <li>
+                <h2 class="month">
+                  <span>{month.name}</span> <span>{i === 0 && year.date}</span>
+                </h2>
               </li>
               {month.notes.map((note) => (
                 <NoteListItem
