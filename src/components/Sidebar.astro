@@ -1,4 +1,5 @@
 ---
+import RSSIcon from './RSSIcon.astro';
 type Props = {
   page: string;
 };
@@ -102,13 +103,21 @@ const { page } = Astro.props;
     line-height: 1.2;
   }
 
+  .nav li a.rss-link {
+    display: flex;
+  }
+
+  .nav li a.rss-link span {
+    display: none;
+  }
+
   @media (min-width: 640px) {
-    .nav li a:hover,
-    .nav li a.active {
+    .nav li a.nav-link:hover,
+    .nav li a.nav-link.active {
       padding-right: 10px;
     }
 
-    .nav li a::after {
+    .nav li a.nav-link::after {
       content: '';
       display: block;
       width: 4px;
@@ -122,15 +131,19 @@ const { page } = Astro.props;
       transition: height 0.1s ease-out, top 0.1s ease-out;
     }
 
-    :global(.rainbows) .nav li a::after {
+    :global(.rainbows) .nav li a.nav-link::after {
       background: var(--gradient-color);
     }
 
-    .nav li a:hover::after,
-    .nav a.active::after {
+    .nav li a.nav-link:hover::after,
+    .nav a.nav-link.active::after {
       height: 17px;
       top: 5px;
       transition: height 0.2s ease-in, top 0.2s ease-in;
+    }
+
+    .nav li a.rss-link span {
+      display: inherit;
     }
   }
 
@@ -220,11 +233,28 @@ const { page } = Astro.props;
   <h1><span>Rach Smith's</span><span>digital</span><span>garden</span></h1>
   <nav class="nav">
     <ul>
-      <li><a class:list={{ active: page === 'notes' }} href="/">Notes</a></li>
       <li>
-        <a class:list={{ active: page === 'tags' }} href="/tags/">Tags</a>
+        <a class:list={{ active: page === 'notes', 'nav-link': true }} href="/"
+          >Notes</a
+        >
       </li>
-      <li><a href="/about">About</a></li>
+      <li>
+        <a
+          class:list={{ active: page === 'tags', 'nav-link': true }}
+          href="/tags/">Tags</a
+        >
+      </li>
+      <li>
+        <a
+          class:list={{ active: page === 'about', 'nav-link': true }}
+          href="/about">About</a
+        >
+      </li>
+      <li>
+        <a href="/feed.xml" class="rss-link"
+          ><span class="text">Subscribe</span><RSSIcon />
+        </a>
+      </li>
     </ul>
   </nav>
 

@@ -26,7 +26,7 @@ function enableOption(option) {
     var pixiScript = document.createElement('script');
     pixiScript.onload = function () {
       const trailsScript = document.createElement('script');
-      trailsScript.src = './assets/cursorTrails.js';
+      trailsScript.src = '/assets/cursorTrails.js';
       document.head.appendChild(trailsScript);
       trailsScriptsInjected = true;
     };
@@ -81,7 +81,6 @@ for (const option of Object.values(siteOptions)) {
 addEventListener('DOMContentLoaded', (event) => {
   for (const option of Object.values(siteOptions)) {
     const checkbox = document.getElementById(option) as HTMLInputElement;
-    console.log(checkbox);
     if (checkbox) {
       checkbox.addEventListener('click', () => {
         if (checkbox.checked) {

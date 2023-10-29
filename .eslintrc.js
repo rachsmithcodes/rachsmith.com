@@ -1,5 +1,6 @@
 module.exports = {
   // ...
+  parser: 'babel-eslint',
   extends: [
     // ...
     'plugin:astro/recommended',
