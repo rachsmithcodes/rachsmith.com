@@ -5,7 +5,7 @@ added: 2022-11-09 05:46
 updated: 2022-11-09 05:46
 tags: [wellbeing]
 excerpt: "How does any millennial woman feel okay about themselves after spending their brain-forming teen years in the late 90s/early 2000s?"
-note: publish
+publish: true
 ---
 
 - [The Swan](<https://en.wikipedia.org/wiki/The_Swan_(TV_series)>)

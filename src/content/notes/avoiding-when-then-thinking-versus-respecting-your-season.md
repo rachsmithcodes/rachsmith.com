@@ -5,7 +5,7 @@ added: 2021-06-21 20:56
 updated: 2021-06-21 20:56
 tags: [mothering, productivity, wellbeing]
 excerpt: "Two themes of mothering advice that are useful yet seem in conflict with eachother."
-note: publish
+publish: true
 ---
 
 I listen to a lot of podcasts and read blog posts about motherhood and parenting. I come across two themes of advice that are useful yet seem in conflict with each other. 

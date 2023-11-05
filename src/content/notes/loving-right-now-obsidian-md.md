@@ -5,7 +5,7 @@ added: 2021-04-12 20:41
 updated: 2021-04-12 20:41
 tags: [productivity]
 excerpt: My new favourite note-taking app
-note: publish
+publish: true
 ---
 
 As a regular consumer of [productivity porn](https://medium.com/thinking-about-thinking/the-trap-of-productivity-porn-7173d1cc6f95) I first noticed [Personal Knowledge Management Systems](https://en.wikipedia.org/wiki/Personal_knowledge_management) last year when they were moving from a niche interest to a full-on internet trend. Sometimes referred to as "a second brain", the idea behind a PKMS is that it is a place where you store all the knowledge and information you gain as you move through the world, via reading, listening, having conversations etc. and saving that information in one location where you can easily retrieve them from.

@@ -5,7 +5,7 @@ added: 2021-02-08 20:32
 updated: 2021-02-08 20:32
 tags: [mothering, wellbeing, productivity]
 excerpt: My tips for adjusting to a baby who does not sleep.
-note: publish
+publish: true
 ---
 
 I think this will be the first in a series of posts about dealing with a baby who prefers to be awake for most of the day.

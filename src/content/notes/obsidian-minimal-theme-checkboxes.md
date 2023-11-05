@@ -5,7 +5,7 @@ added: 2022-12-01 10:08
 updated:  2022-12-01 10:08
 tags: []
 excerpt: I've been using the fantastic Minimal theme Obsidian for months but I only recently discovered that it supports checkbox icons.
-note: publish
+publish: true
 ---
 
 I've been using the fantastic [Minimal theme](https://github.com/kepano/obsidian-minimal) for [Obsidian](https://obsidian.md/) for months but I only recently discovered that it supports checkbox icons.

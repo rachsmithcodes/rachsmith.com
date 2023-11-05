@@ -5,7 +5,7 @@ added: 2022-08-15 07:08
 updated: 2022-08-15 07:08
 tags: [miscellany]
 excerpt: 💜
-note: publish
+publish: true
 ---
 
 ### Link: [Love Loving Things](https://birchtree.me/blog/love-loving-things/)

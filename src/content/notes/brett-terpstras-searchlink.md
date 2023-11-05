@@ -5,7 +5,7 @@ added: 2022-12-15 05:37
 updated: 2022-12-15 05:37
 tags: [productivity, podcasts]
 excerpt: 
-note: publish
+publish: true
 ---
 
 I listened to the [Automators podcast](https://www.relay.fm/automators/116) with [Brett Terpstra](https://brettterpstra.com/). There's lots of automating and productivity gold in this episode but there was one thing in particular that piqued my interest.

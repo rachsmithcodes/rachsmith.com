@@ -5,7 +5,7 @@ added: 2023-01-04 14:41
 updated: 2023-01-04 14:41
 tags: [wellbeing, productivity]
 excerpt: Today was a regular day. I had to work, cook and clean, and look after my kids just like any normal weekday. But it went about as well as a regular day can. 
-note: publish
+publish: true
 ---
 
 Today was an amazing regular day. I add regular because it wasn't a truly amazing day. A few weeks ago I had a day where I had the day off work while the kids were in childcare and I was able to have a long lunch with two of my very best friends who live a long drive away. That was a truly amazing day. 

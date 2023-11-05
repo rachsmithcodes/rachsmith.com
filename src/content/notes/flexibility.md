@@ -5,7 +5,7 @@ added: 2023-07-17 07:32
 updated: 2023-07-17 07:32
 tags: [work]
 excerpt: I worked in a cafe that was a family run business. The mother of the owner would come in and tell us employees how to mop the floor.
-note: publish
+publish: true
 ---
 
 I worked in a cafe that was a family-run business. The owner's mother would tell us, the employees, how to mop the floor. It wasn't the most efficient way to do it, but she insisted this particular set of steps was THE way to clean the floor. My coworkers would roll their eyes and do it the way they thought was right, but I didn't. I used the "special" method even though I disagreed that it was the best way. 

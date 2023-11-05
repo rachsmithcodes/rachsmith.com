@@ -5,7 +5,7 @@ added: 2023-02-12 14:47
 updated: 2023-02-12 14:47
 tags: [productivity]
 excerpt: I wanted to add a note about what left such an impression on me, and I struggled to articulate it.
-note: publish
+publish: true
 ---
 
 Recently I listened to [The Practicing Mind](https://www.goodreads.com/en/book/show/335864), and I felt like I learnt something new and had a few little revelations during the process - [a rare event](/the-diminishing-returns-of-self-dev-content/) with "personal development" books these days.

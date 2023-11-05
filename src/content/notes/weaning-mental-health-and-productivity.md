@@ -5,7 +5,7 @@ added: 2021-12-09 09:11
 updated: 2021-12-09 09:11
 tags: [wellbeing, productivity]
 excerpt: No self improvement book is gonna help me with this.
-note: publish
+publish: true
 ---
 
 You can add this to the list of my losing tickets in the biological lottery: hormone shifts from weaning.

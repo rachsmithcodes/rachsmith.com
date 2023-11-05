@@ -5,7 +5,7 @@ added: 2021-01-14 14:50
 updated: 2021-01-14 14:50
 tags: [work, development]
 excerpt: I have been working for CodePen for 5 years.
-note: publish
+publish: true
 ---
 
 I have been working for [CodePen](https://codepen.io) for 5 years, a long time for a millennial developer to stay in the same job. I thought I would take a minute to reflect on my time with the company.

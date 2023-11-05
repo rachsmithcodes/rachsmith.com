@@ -5,7 +5,7 @@ added: 2021-09-01 06:52
 updated: 2021-09-01 06:52
 tags: [development]
 excerpt: Some of the email newsletters I've found useful for keeping up with Front End news.
-note: publish
+publish: true
 ---
 
 There are very few things I missed when I quit spending time on Twitter, but one of them was keeping up with the latest news and links from the JavaScript/Front-End world. 

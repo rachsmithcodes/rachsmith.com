@@ -5,7 +5,7 @@ added: 2023-09-04 20:19
 updated: 2023-09-04 20:19
 tags: [wellbeing, podcasts]
 excerpt: "I listened to a clip of Will McMahon on The Imperfects podcast, describing how to speak to a friend who is going through something really difficult."
-note: publish
+publish: true
 ---
 
 

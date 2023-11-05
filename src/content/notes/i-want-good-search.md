@@ -5,7 +5,7 @@ added: 2023-03-03 14:29
 updated: 2023-03-03 14:29
 tags: [productivity]
 excerpt: We use Notion for the bulk of our knowledge management at CodePen. I have no use for an AI that can write for me.
-note: publish
+publish: true
 ---
 
 Notion released its [AI features](https://www.notion.so/product/ai). Like most AI-powered-document tools, the value proposition is that the AI can generate content for you. 

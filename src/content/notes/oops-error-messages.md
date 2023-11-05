@@ -5,7 +5,7 @@ added: 2022-11-02 05:37
 updated: 2022-11-02 05:37
 tags: [development]
 excerpt: "link: When life gives you lemons, write better error messages"
-note: publish
+publish: true
 ---
 
 ### Link: [When life gives you lemons, write better error messages](https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f?gi=c5f8ea262a30)

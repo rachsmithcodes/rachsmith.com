@@ -5,7 +5,7 @@ added: 2021-03-24 21:01
 updated: 2021-03-24 21:01
 tags: [productivity]
 excerpt: Notion's performance isn't great. This trick can help speed things up.
-note: publish
+publish: true
 ---
 
 There are many reasons I love Notion, and I plan to share my setup for weekly and monthly reviews on this blog in the future. One thing that has really been bugging me lately is how bad the performance has gotten. Maybe my location (Australia) exacerbates this, but Notion has been *so slow* lately.

@@ -5,7 +5,7 @@ added: 2022-11-21 07:35
 updated: 2022-11-21 07:35
 tags: []
 excerpt: On Christmas day, 1997 I was delighted to receive a CD from my parents.
-note: publish
+publish: true
 ---
 
 On Christmas day, 1997 I was delighted to receive a CD from my parents: Hanson's "Snowed In". I've played it (the album, not the CD lol) every Christmas since. It is my go-to Christmas morning soundtrack. Of course, there is sentimental value in the album for me but it is genuinely a very good Christmas pop record!

@@ -5,7 +5,7 @@ added: 2022-09-04 14:28
 updated: 2022-09-04 14:28
 tags: [miscellany]
 excerpt: Some good things from August.
-note: publish
+publish: true
 ---
 
 *Side note: I'm having a "off" mental health day today so coming up with this list has been a bit hard. If I had to do it a week ago I probably could have listed 20. Brains are fickle things.*

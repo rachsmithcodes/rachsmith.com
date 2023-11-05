@@ -5,7 +5,7 @@ added: 2023-01-02 16:34
 updated: 2023-01-02 16:34
 tags: [development]
 excerpt: I finally dug into doing something with the habits data I'd been tracking in my daily notes, using the Dataview JS API.
-note: publish
+publish: true
 ---
 
 I've been tracking habits and other personal stats in my [Obsidian daily notes](https://help.obsidian.md/Plugins/Daily+notes) for a few months now, using the [Dataview Plugin's inline field syntax](https://blacksmithgu.github.io/obsidian-dataview/).

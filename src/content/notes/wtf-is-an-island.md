@@ -5,7 +5,7 @@ added: 2022-09-13 05:56
 updated: 2022-09-13 05:56
 tags: [development]
 excerpt: Wrapping my head around Islands Architecture.
-note: publish
+publish: true
 ---
 
 The newest website frameworks[^1] keep referencing this thing called islands architecture. Which had me asking: what is an island? And how is it architected?

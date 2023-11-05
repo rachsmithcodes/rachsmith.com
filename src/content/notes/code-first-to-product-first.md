@@ -5,7 +5,7 @@ added: 2021-10-05 13:17
 updated: 2021-10-05 13:17
 tags: [development]
 excerpt: My thoughts on Zach Lloyd's description on "two kinds of programmers".
-note: publish
+publish: true
 ---
 
 Recently I discovered [this article on Zach Lloyd's website](https://thezbook.com/code-first-vs-product-first/) in which he describes two kinds of programmers:

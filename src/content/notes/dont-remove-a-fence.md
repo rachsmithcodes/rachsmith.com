@@ -5,7 +5,7 @@ added:  2022-11-01 01:27
 updated: 2022-11-01 01:27
 tags: [development, work]
 excerpt: "Chesterton's Fence states: Don't move a fence until you know why it was put there in the first place."
-note: publish
+publish: true
 ---
 
 Recently I learnt about [Chesterton's Fence](https://fs.blog/chestertons-fence/), a mental shortcut to help when you're deciding whether to change something in a system. 

@@ -5,7 +5,7 @@ added: 2021-01-25 15:20
 updated: 2021-01-25 15:20
 tags: [development, work, productivity] 
 excerpt: Resulting and how we view our technology choices.
-note: publish
+publish: true
 ---
 
 Today I was listening to [an episode of the Productivityist Podcast](https://productivityist.com/podcast354/), an interview with Annie Duke. Annie talked about a mental model/cognitive bias where people think the result of a decision is an indicator of that decision’s quality. Put simply, it is the assumption that a positive result indicates that a good decision was made, and a bad result indicates a poor decision was made. In reality, the result of the decision may have nothing to do with the quality of the decision made. 

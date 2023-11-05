@@ -5,7 +5,7 @@ added: 2022-10-10 06:26
 updated: 2022-10-10 06:26
 tags: [development]
 excerpt: "Geoff Graham: Look it up!"
-note: publish
+publish: true
 ---
 
 ### Link: [Look it up!](https://geoffgraham.me/look-it-up/)

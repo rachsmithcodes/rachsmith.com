@@ -5,7 +5,7 @@ added: 2022-12-29 06:58
 updated: 2022-12-29 06:58
 tags: [productivity]
 excerpt: 2022 was the year I got over myself and pressed publish.
-note: publish
+publish: true
 ---
 
 2022 was the year I got over myself and pressed publish.

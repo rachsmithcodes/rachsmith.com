@@ -5,7 +5,7 @@ added: 2022-12-06 14:18
 updated: 2022-12-14 10:06
 tags: []
 excerpt: "I already had the Lensa app on my phone, so I paid $9.99 AUD for 100 of their AI generated \"magic avatars\" just to see what would happen."
-note: publish
+publish: true
 ---
 
 I already had the Lensa app on my phone, so I paid $9.99 AUD for 100 of their AI generated "magic avatars" just to see what would happen.

@@ -5,7 +5,7 @@ added: 2022-08-18 20:10
 updated: 2022-08-18 20:10
 tags: [miscellany]
 excerpt: One I am pretty good at, the other I need to work on.
-note: publish
+publish: true
 ---
 
 I like the idea of being a minimalist.

@@ -6,7 +6,7 @@ updated: 2022-07-08 14:19
 tags: [miscellany]
 excerpt: Every time a podcast goes Spotify exclusive, an angel loses its wings
 imageId: '4'
-note: publish
+publish: true
 ---
 
 I listen to a lot of podcasts. Over the years I've tried lots of different great podcast player apps. I was an avid [Overcast](https://overcast.fm/) user but I've recently gotten in to [Castro](https://castro.fm/).

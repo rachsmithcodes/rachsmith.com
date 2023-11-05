@@ -5,7 +5,7 @@ added: 2022-09-29 19:46
 updated: 2023-01-28 16:00
 tags: [miscellany]
 excerpt: Maybe it won't be that long before augmented reality glasses are the new must-have device.
-note: publish
+publish: true
 ---
 
 I was listening to [Cal Newport's Deep Questions](https://www.calnewport.com/podcast/) podcast a while ago, and I was struck by his predictions for AR technology.

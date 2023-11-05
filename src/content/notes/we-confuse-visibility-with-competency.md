@@ -5,7 +5,7 @@ added: "2021-08-12 06:43"
 updated: "2021-08-12 06:43"
 tags: [work, development, productivity]
 excerpt: A strong social media presence doesn't necessarily mean a person is any good at their job.
-note: publish
+publish: true
 ---
 
 Perhaps there is a bit of a remote hiring boom at the moment, but I have noticed a massive uptick in the amount of solicitations from people wanting to "have a conversation" about hiring me in 2021. Almost always, people find their way to my inbox because they remember me from Twitter. I have a modest 16K+ following after all. I used to have more.

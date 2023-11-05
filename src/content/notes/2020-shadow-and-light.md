@@ -5,7 +5,7 @@ added: 2021-01-01 14:21
 updated: 2021-01-01 14:21
 tags: [wellbeing, work, mothering]
 excerpt: My yearly review.
-note: publish
+publish: true
 ---
 
 I can’t review 2020 without first acknowledging the immense amount of privilege I have benefitted from, in this year that has been challenging for so many. I live in Queensland, Australia, which has had some of the best outcomes re COVID-19 in the entire world. We had proper social restrictions in place for 2 months only. We don’t need to wear masks and can mostly enjoy our usual lifestyles. We currently have 13 active cases in the entire State. Andy and I kept our jobs this year, with a small decrease in income. I do not take my good fortune for granted, and I am so grateful for the blessing of living where I am and working in the industry I do.

@@ -5,7 +5,7 @@ added: 2022-07-17 14:28
 updated: 2022-07-17 14:28
 tags: [development]
 excerpt:
-note: publish
+publish: true
 ---
 
 I store all my note files in a directory in my Astro project called `/notes`.

@@ -5,7 +5,7 @@ added: 2023-08-30 19:39
 updated: 2023-08-30 19:39
 tags: [development, work]
 excerpt: Whenever I return to some code I wrote six or more months ago, the ways to improve it immediately jump out. Not just little improvements either, vast improvements.
-note: publish
+publish: true
 ---
 
 From [Baldur Bjarnason](https://www.baldurbjarnason.com/2023/disinterest/)

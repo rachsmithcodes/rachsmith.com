@@ -5,7 +5,7 @@ added: 2021-09-10 08:00
 updated: 2021-09-10 08:00
 tags: [development]
 excerpt: "This generative code artist's blog is seriously good."
-note: publish
+publish: true
 ---
 
 A long time ago, creating generative code art was my favourite hobby. Then life happened: I moved countries, bought a house, adopted a dog and grew and birthed and raised two tiny humans. I felt like I didn't have the time or energy to make art.

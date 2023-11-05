@@ -5,7 +5,7 @@ added: 2022-08-31 20:20
 updated: 2022-08-31 20:20
 tags: [mothering]
 excerpt: There's something about those tiny t-shirts.
-note: publish
+publish: true
 ---
 
 I don't get very sentimental about my kids getting older. If anything I welcome their maturing with enthusiasm. I don't love the babies-and-toddlers stage of parenting. The older my kids get and the more I get to see their own unique personalities, the more I like spending time with them.

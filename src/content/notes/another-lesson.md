@@ -5,7 +5,7 @@ added: 2021-04-26 20:59
 updated: 2021-04-26 20:59
 tags: [mothering]
 excerpt: A timely reminder from my youngest child.
-note: publish
+publish: true
 ---
 
 My baby likes to fiddle with my Apple Watch while they sit on my lap, using my arm for support as they can’t sit up on their own yet. This leads to unintentional workout starting, timer setting, and sometimes getting into the Things Watch app. Yesterday I opened Things to find that my long list of todos had been removed and replaced with a smiley face.

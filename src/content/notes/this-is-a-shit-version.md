@@ -5,7 +5,7 @@ added: 2023-02-02 15:59
 updated: 2023-02-02 15:59
 tags: [podcasts]
 excerpt: 
-note: publish
+publish: true
 ---
 
 I had someone recommend I check out the [Rich Roll podcast](https://www.richroll.com/all-episodes/), so I listened to a couple of recent episodes, including the one with [Steven Pressfield](https://www.google.com/search?q=steven+pressfield&oq=steven+pressfield&sourceid=chrome&ie=UTF-8).

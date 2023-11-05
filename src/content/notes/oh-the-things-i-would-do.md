@@ -5,7 +5,7 @@ added: 2022-12-19 00:01
 updated: 2022-12-19 00:41
 tags: [productivity, mothering]
 excerpt: I find myself thinking about what I would do with my free time if I just had some of it back. Here's some of what I've come up with
-note: publish
+publish: true
 ---
 
 When you become a parent, the "free time" gets sucked out of your life in a way that you couldn't anticipate or comprehend when you were child-free. 

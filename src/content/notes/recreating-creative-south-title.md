@@ -5,7 +5,7 @@ added: 2023-04-09 20:35
 updated: 2023-04-09 20:35
 tags: [development]
 excerpt: "I am just so impressed with the design of the website for Creative South '23. What a gorgeous site! One neat detail is the mouse-aware \"3D\" effect on the title text. I decided to see if I could recreate it."
-note: publish
+publish: true
 ---
 
 I am just so impressed with the design of [the website for Creative South '23](https://www.creativesouth.com/) . What a gorgeous site! One neat detail is the mouse-aware "3D" effect on the title text. I decided to see if I could recreate it.

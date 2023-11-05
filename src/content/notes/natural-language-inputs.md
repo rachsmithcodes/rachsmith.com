@@ -5,7 +5,7 @@ added: 2022-11-24 16:30
 updated: 2022-11-24 16:30
 tags: [development]
 excerpt: As I read this it occurred to me that I definitely gravitate towards applications that support natural language input.
-note: publish
+publish: true
 ---
 ### Link: [Natural Language Inputs](https://blog.jim-nielsen.com/2022/natural-language-inputs/)
 

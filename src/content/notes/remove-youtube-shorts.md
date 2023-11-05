@@ -5,7 +5,7 @@ added: 2023-01-19 15:28
 updated: 2023-01-20 13:41
 tags: [development]
 excerpt: 
-note: publish
+publish: true
 ---
 
 I have nothing against short-form video content. TikTok is a lot of fun! YouTube shorts are... not it. I hate having them show up in my subscriptions feed! Today I figured out how to remove them from the feed with one line of CSS.

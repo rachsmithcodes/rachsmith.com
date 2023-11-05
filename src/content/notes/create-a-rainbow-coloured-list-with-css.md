@@ -5,7 +5,7 @@ added: 2023-02-20 20:03
 updated: 2023-02-20 20:03
 tags: [development]
 excerpt: "This is my favourite thing to do with the `:nth-of-type()` selector."
-note: publish
+publish: true
 ---
 
 This is my favourite thing to do with the `:nth-of-type()` selector:

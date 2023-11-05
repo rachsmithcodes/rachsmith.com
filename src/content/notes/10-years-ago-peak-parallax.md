@@ -5,7 +5,7 @@ added: 2023-06-18 06:35
 updated: 2023-06-18 06:35
 tags: [development]
 excerpt: "It was ten years ago when it felt like half the internet’s marketing websites had text and images sliding all around the page when you scroll. Ten years!"
-note: publish
+publish: true
 ---
 It was ten years ago when it felt like half the internet’s marketing websites had text and images sliding all around the page when you scroll. Ten years! 
 

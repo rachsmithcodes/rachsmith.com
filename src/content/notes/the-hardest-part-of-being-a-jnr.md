@@ -5,7 +5,7 @@ added:  2023-01-16 05:49
 updated:  2023-01-16 05:49
 tags: [work, development]
 excerpt: Even though it was 12 years ago, I still remember what the most stressful part of being a junior developer was.
-note: publish
+publish: true
 ---
 
 

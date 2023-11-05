@@ -5,7 +5,7 @@ added: 2023-09-23 07:13
 updated: 2023-09-23 07:13
 tags: []
 excerpt: I share some reasons why I decided to give up on my self-hosted mastodon instance.
-note: publish
+publish: true
 ---
 
 My experiment with running my own Mastodon instance is over. I've decided to move on for a few different reasons, but the **tldr is that it was costing me too much money**.

@@ -5,7 +5,7 @@ added: 2022-07-16 15:44
 updated: 2022-07-16 15:44
 tags: [mothering]
 excerpt: It turns out, that would have been helpful.
-note: publish
+publish: true
 ---
 
 It’s a common clickbait title for articles and YouTube videos: "the things NO ONE tells you about being a parent."

@@ -5,7 +5,7 @@ added: 2023-07-16 06:09
 updated: 2023-07-16 06:09
 tags: [development]
 excerpt: The Mere Exposure effect is used to describe our tendency to develop preferences for things simply because we are familiar with them.
-note: publish
+publish: true
 ---
 
 The [Mere Exposure](https://www.simplypsychology.org/mere-exposure-effect.html) effect describes our tendency to develop preferences for things simply because we are familiar with them.

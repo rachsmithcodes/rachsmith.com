@@ -5,7 +5,7 @@ added: 2021-11-24 22:00
 updated: 2021-11-24 22:00
 tags: [miscellany]
 excerpt: "Hint: make people mad"
-note: publish
+publish: true
 ---
 
 1. Pick a stance that that could be mistaken as contrarian, but in reality most people actually agree with.
