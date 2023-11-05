@@ -6,7 +6,7 @@
       "html": "<p>I haven't done anything with that yet no. Just thinking about it... microblog does have APIs to get at my posts, so technically I could pull from that during the build and copy them to my astro src to be rendered along with my regular posts. My site is fully static though, a build gets triggered when I add a new post, so if I wanted to get the microblogs regularly added I'd need to either run some sort of cron via github actions or create some sort of automation where an update to the microblog rss feed would trigger a build of the main site... It's definitely possible. Don't know if I'd bother though. I think I might just style <a href=\"https://status.rachsmith.com\" rel=\"nofollow\">https://status.rachsmith.com</a> to look like the main site and then link to it from here.</p>\n",
       "createdBy": {
         "id": 100,
-        "fullName": "Rachel Smith"
+        "fullName": "Rach Smith"
       },
       "createdAt": 1695680035730,
       "replies": []

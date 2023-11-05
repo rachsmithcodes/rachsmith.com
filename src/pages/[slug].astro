@@ -118,8 +118,8 @@ const tweetTextEncoded = encodeURIComponent(
         </p>
       </article>
       <section class="comments">
-        <h3>Comments</h3>
-        <CommentsList parentId={null} allComments={comments} />
+        <h2>Comments</h2>
+        <CommentsList parentId={null} allComments={comments} startIndex={Math.floor(Math.random() * 6)} />
       </section>
     </Layout>
   </body>

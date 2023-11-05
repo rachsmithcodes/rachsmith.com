@@ -1,19 +1,25 @@
 ---
 import CommentIcon from './CommentIcon.astro';
-let { parentId, allComments } = Astro.props;
+let { parentId, allComments, startIndex } = Astro.props;
 
 const comments = allComments.filter((comment) => comment.parentId === parentId);
+
+
 ---
 
 {
   comments.length > 0 && (
     <ul>
       {comments.map((comment, i) => {
+        const commentHasReplies = allComments.some((c) => c.parentId === comment.id);
         const { createdBy, createdAt, html } = comment;
+        const index = (startIndex + i) % 6;
+        const myComment = createdBy.fullName === 'Rach Smith';
         return (
           <li class="comment">
-            <CommentIcon index={i} />
-            <p class="comment-name">{createdBy.fullName}</p>
+            <CommentIcon index={index} />
+            <a href={`#comment-${comment.id}`} class="comment-link">
+            <p class="comment-name">{createdBy.fullName}{' '}{myComment && <span class="op">OP</span>}</p>
             <p class="comment-date">
               {new Date(createdAt).toLocaleString(undefined, {
                 year: 'numeric',
@@ -23,11 +29,84 @@ const comments = allComments.filter((comment) => comment.parentId === parentId);
                 minute: 'numeric',
               })}
             </p>
-            <p class="comment-content" set:html={html} />
-            <Astro.self parentId={comment.id} allComments={allComments} />
+            </a>
+            <div class:list={{"comment-content": true, 'has-replies': commentHasReplies}} set:html={html} />
+            <div class="replies">
+              <Astro.self parentId={comment.id} allComments={allComments} startIndex={index+1} />
+            </div>
           </li>
         );
       })}
     </ul>
   )
 }
+
+<style>
+  ul {
+    list-style: none;
+    position: relative;
+    padding-left: 0.6rem;
+  }
+
+  .comment-link {
+    text-decoration: none;
+  }
+
+  .comment {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .comment-name {
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+    padding-left: 1.2rem;
+  }
+
+  .op {
+    font-size: 1rem;
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip:  text;
+  }
+
+  .comment-date {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    padding-left: 1.2rem;
+    border-left: 1px solid black;
+  }
+
+  .comment-content {
+    margin: 0;
+    line-height: 1.2;
+    padding-left: 1.2rem;
+    border-left: 1px solid black;
+    margin-bottom: 1em;
+  }
+
+  .comment-content.has-replies {
+    margin-bottom: 0;
+  }
+
+  .comment-content.has-replies::after {
+    content: '';
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    position: absolute;
+    left: 0.6rem;
+    border-radius: 0.1rem;
+  }
+
+  .replies {
+    padding-left: 1rem;
+  }
+</style>

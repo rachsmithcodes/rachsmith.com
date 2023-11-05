@@ -8,7 +8,10 @@ export default defineConfig({
   trailingSlash: 'always',
   markdown: {
     shikiConfig: {
-      theme: 'material-lighter',
+      theme: 'material-theme-lighter',
+      langs: [],
+      // Enable word wrap to prevent horizontal scrolling
+      wrap: true,
     },
   },
 });

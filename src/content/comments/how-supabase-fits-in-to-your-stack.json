@@ -17,7 +17,7 @@
       "html": "<p>Hey Kelsey, thanks for your kind words about the site. I didn't end up pursuing a comments solution with supabase. I'm actually working on just using a Netlify form for comment submission and adding the comments to my Astro site as a JSON <a href=\"https://docs.astro.build/en/guides/content-collections/\" rel=\"nofollow\">content collection</a>. But I have been trying out Supabase with Sveltekit in a little habits app project I'm building for myself. I am loving that combination of tech, they make the data side of getting a web app working really fast.</p>\n",
       "createdBy": {
         "id": 100,
-        "fullName": "Rachel Smith"
+        "fullName": "Rach Smith"
       },
       "createdAt": 1697073139319,
       "replies": []
@@ -50,7 +50,7 @@
       "html": "<p>I'll share updates here. Instead of making a whole comments system first I'm going to build some &quot;reaction buttons&quot; as a proof of concept and see how that goes.</p>\n",
       "createdBy": {
         "id": 100,
-        "fullName": "Rachel Smith"
+        "fullName": "Rach Smith"
       },
       "createdAt": 1670622516694,
       "replies": []

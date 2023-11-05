@@ -29,8 +29,39 @@ const { index } = Astro.props;
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    margin-right: 0.5rem;
     vertical-align: middle;
     fill: var(--color-text);
+    position: absolute;
+    left: 0;
   }
+
+  .comment-icon[data-index="0"] {
+    fill: var(--red);
+  }
+
+  .comment-icon[data-index="1"] {
+    fill: var(--orange);
+  }
+
+  .comment-icon[data-index="2"] {
+    fill: var(--pink);
+  }
+
+  .comment-icon[data-index="3"] {
+    fill: var(--green);
+  }
+
+  .comment-icon[data-index="4"] {
+    fill: var(--light-blue);
+  }
+
+  .comment-icon[data-index="5"] {
+    fill: var(--purple);
+  }
+
+  .comment-icon[data-index="6"] {
+    fill: var(--blue);
+  }
+
+
 </style>
