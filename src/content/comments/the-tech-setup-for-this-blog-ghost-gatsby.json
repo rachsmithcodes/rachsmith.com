@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": "21a110e4-f242-4789-a82e-964ac24eea76",
+      "parentId": null,
+      "html": "<p>Thank you Rachel for sharing this. I was very curious about your writing process and tools involved but wasn't feeling confident to ask.</p>\n<p>You have inspired me to start writing as well. So keep it going! 💪</p>\n",
+      "createdBy": {
+        "id": 103,
+        "fullName": "Rodrigo Villalba"
+      },
+      "createdAt": 1613950356890,
+      "replies": []
+    },
+    {
+      "id": "7e0ff54e-761d-48ff-b2fe-8156e126142d",
+      "parentId": "21a110e4-f242-4789-a82e-964ac24eea76",
+      "html": "<p>Hey Rodrigo, thanks very much for your comment. You should definitely start writing! Every day I have thoughts along the lines of &quot;why bother? who even wants to read this?&quot; but as I enjoy the process of writing itself and wish to get better at writing, I just keep going with it. Cheers.</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rachel Smith"
+      },
+      "createdAt": 1614388583693,
+      "replies": []
+    }
+  ]
+}

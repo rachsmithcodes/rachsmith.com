@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": "20cf3c30-d914-4230-933d-fc832632b611",
+      "parentId": null,
+      "html": "<p>Great post Rach. ❤️If you're taking requests, I'd love to hear more about how y'all manage finances and consistently work towards financial freedom. I didn't get a lot of modeling on that front growing up so it'd be great to hear from a professional adult.</p>\n",
+      "createdBy": {
+        "id": 104,
+        "fullName": "Dee Vazquez"
+      },
+      "createdAt": 1629342114322,
+      "replies": []
+    },
+    {
+      "id": "85e5a7e2-a1c3-4626-bd67-b13434bb1016",
+      "parentId": "20cf3c30-d914-4230-933d-fc832632b611",
+      "html": "<p>We can chat finance any time Dee! I knew absolutely nothing about any of that before marrying Andy, but since educated myself with podcasts etc. after he filled me in on the basics.</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rachel Smith"
+      },
+      "createdAt": 1630753832457,
+      "replies": []
+    }
+  ]
+}

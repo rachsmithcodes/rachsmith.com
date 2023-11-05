@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": "4d4c6ac3-dde8-4975-a2d7-0bcb734bd4ff",
+      "parentId": null,
+      "html": "<p>I'm always amused by the cycle of server side rendering becoming client side rendering. I started the process back in the IE4 days when we realised that client-side rendering was a possibility (back then in a online-learning system). Users would need to fill in forms a lot and the full-page-refresh technique meant carrying a LOT of data over the wire - and back in those days the students were dialled in on 33k or 56k modems and the web app had hundred if not thousands of pages. Pretty poor user experience. So we 'islanded' portions of the page after its initial render: First we'd wait until the user interacted with a portion of a page (click), then using server side session states, databases and iframe/javascript based communication we'd render the users data as partial html complete with their saved data and send that back down the wire. Different areas of the page would either be aware of the state of other forms or interactive elements (e.g. the input in one might influence the output of another); or the pages were multi-user aware for live classroom scenarios. That system ran microsoft's ASP which COULD run javascript on the server, so we would develop code that could run both server and client side (lots of limitations, wasn't a great time, worked). As better client-side technologies have come along like the xmlhttprequest object, json and js libraries/frameworks we adapted to templating/rendering client side because it was pushing less data and the bandwidth was getting better. I think now people have forgotten the long legacy very-low bandwidth enforced on the web (and in many places around the world still exists) as shown by the disregard some frameworks and developers have for how much javascript gets sent to the client before the page can run. pushing 12MB of javascript over a 3G connection isn't fun for any involved. Now with this 'new' technique for rendering html at the server and sending that, it feels to me like we are coming back to the same point on the turning wheel of web development and calling it new.</p>\n",
+      "createdBy": {
+        "id": 130,
+        "fullName": "TIm St.Clair"
+      },
+      "createdAt": 1663191550579,
+      "replies": []
+    },
+    {
+      "id": "485f32de-4cef-4c79-a8fb-7f6c30d454e4",
+      "parentId": null,
+      "html": "<p>What next ? Realizing rendering javascript on the server makes you run through that sweet investor money 25 times faster and making a new programming language better for templating... something like... let's call it jhj</p>\n",
+      "createdBy": {
+        "id": 135,
+        "fullName": "Edward"
+      },
+      "createdAt": 1671402319566,
+      "replies": []
+    }
+  ]
+}

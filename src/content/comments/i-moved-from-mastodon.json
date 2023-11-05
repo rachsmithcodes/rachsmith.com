@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": "a1ea96dd-5cd6-4099-8548-5bba902dc5d7",
+      "parentId": "4a06a27d-5658-48f8-b1ae-def1233f8d5f",
+      "html": "<p>I haven't done anything with that yet no. Just thinking about it... microblog does have APIs to get at my posts, so technically I could pull from that during the build and copy them to my astro src to be rendered along with my regular posts. My site is fully static though, a build gets triggered when I add a new post, so if I wanted to get the microblogs regularly added I'd need to either run some sort of cron via github actions or create some sort of automation where an update to the microblog rss feed would trigger a build of the main site... It's definitely possible. Don't know if I'd bother though. I think I might just style <a href=\"https://status.rachsmith.com\" rel=\"nofollow\">https://status.rachsmith.com</a> to look like the main site and then link to it from here.</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rachel Smith"
+      },
+      "createdAt": 1695680035730,
+      "replies": []
+    },
+    {
+      "id": "4a06a27d-5658-48f8-b1ae-def1233f8d5f",
+      "parentId": null,
+      "html": "<p>Have you ever played around with importing your Microblog posts into your site more directly? IIRC you're using Astro to power your site—could Microblog posts be brought in some way to have that as a timeline alongside your more fleshed out blog posts? (He asks selfishly thinking about his own blog.)</p>\n",
+      "createdBy": {
+        "id": 161,
+        "fullName": "Chris Enns"
+      },
+      "createdAt": 1695676252946,
+      "replies": []
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "comments": [
+    {
+      "id": "06526e5d-3aae-4a93-aab6-0e2d0b026e54",
+      "parentId": null,
+      "html": "<p>There is this quote, unfortunately I don't remember by whom: &quot;When the world around us falls silent, it becomes all the louder within us&quot; ....<br>\nI think the world can still be so seductive with all its gadgets and its possibilities of procrastination. I think one is well advised to listen to oneself from time to time ... The world around us seems to prove it right</p>\n",
+      "createdBy": {
+        "id": 110,
+        "fullName": "anon"
+      },
+      "createdAt": 1632219513693,
+      "replies": []
+    },
+    {
+      "id": "6a33be98-b3e6-4632-bdbd-67bcd3ac443a",
+      "parentId": null,
+      "html": "<p>Like you, my consciousness constantly reminds me all the things I need to do, but not the small things, but the things I need to do the achieve greater goals like being more successful in certain domains. Also, I noticed that at night, when a conversation I had during didn't go well, my mind will replay the scene in a loop, until I say the things I should have in that conservation to make it a good one.</p>\n",
+      "createdBy": {
+        "id": -17,
+        "fullName": "Dan Lupescu"
+      },
+      "createdAt": 1632663585856,
+      "replies": []
+    },
+    {
+      "id": "2d093d61-d22f-41fd-a3d3-c86c50f931a4",
+      "parentId": null,
+      "html": "<p>Right now, I'm at work, listening to music, my manager has a football game on the TV behind me... So when I drive home, it's very likely I'll drive home in silence. It's taken me a while to appreciate the wisdom in this, but you're right: even if I am alone with my thoughts, it doesn't mean I have to blindly accept everything &quot;Bruno&quot; has to say. (Luca reference, for those unaware.) However, I've also learned sometimes Bruno does have wisdom to share, things I missed throughout the day, and if I'm drowning him out, who knows what I'd end up passing over!</p>\n",
+      "createdBy": {
+        "id": 116,
+        "fullName": "David Marshall"
+      },
+      "createdAt": 1632590843039,
+      "replies": []
+    },
+    {
+      "id": "02325266-fd12-4f69-ad7a-b7e49afccde5",
+      "parentId": "6a33be98-b3e6-4632-bdbd-67bcd3ac443a",
+      "html": "<p>I do that too! (Replay conversations/interactions that didn't go well)</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rachel Smith"
+      },
+      "createdAt": 1632823308668,
+      "replies": []
+    }
+  ]
+}

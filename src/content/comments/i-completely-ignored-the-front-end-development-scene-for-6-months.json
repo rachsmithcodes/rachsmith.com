@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": "6df6cd9e-a5e1-4e8b-a384-8da240134e83",
+      "parentId": null,
+      "html": "<p>your letter has opened my eyes thatI I have to be ready to learn new things and if necessary old ones too</p>\n",
+      "createdBy": {
+        "id": 124,
+        "fullName": "Osopaile Olufemi"
+      },
+      "createdAt": 1644402806100,
+      "replies": []
+    },
+    {
+      "id": "2083cda4-5e61-45e0-9f03-3290406e41fd",
+      "parentId": null,
+      "html": "<p>That's so right! After my first contact with VueJs, it seemed a little bit tough to grasp.<br>\nThen I was worrying: how can it be hard for me while everybody claims it's easy?<br>\nNow with time learning here and there and dealing with other frameworks (I learned AlpineJS and actually used it to build a SPA in one day), the most important skill I want to develop is getting better at learning aka metalearning, learning fast.</p>\n",
+      "createdBy": {
+        "id": 126,
+        "fullName": "Jean"
+      },
+      "createdAt": 1653780760854,
+      "replies": []
+    }
+  ]
+}

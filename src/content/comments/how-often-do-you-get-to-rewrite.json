@@ -1,0 +1,37 @@
+{
+  "comments": [
+    {
+      "id": "dad100ef-699c-491e-9b06-f18170b59215",
+      "parentId": null,
+      "html": "<p>I love refactoring code, but unfortunately I don't get to do it often.</p>\n<p>My old team lead used to say that the most permanent solution at our company is a temporary one; usually your first implementation is the only one youre given time for (barring a massive bug in the feature down the line).</p>\n<p>Things have gotten better over the last year in that regard (I took over for the aforementioned team lead, fought for scheduled code reviews, sneak in little refactors in my spare time, and helped setup better monitoring to pick out problem code) but I still dont get to think about things long-term as much as I would like. Maybe one day!</p>\n",
+      "createdBy": {
+        "id": -27,
+        "fullName": "Mykal Machon"
+      },
+      "createdAt": 1693548658856,
+      "replies": []
+    },
+    {
+      "id": "510460f6-fcb6-4e6d-be04-12eeb1d3ea05",
+      "parentId": null,
+      "html": "<p>Yes, where I work now I’m the first JavaScript developer in approximately a year. Around 80% of my time is rebovating or rebuilding code. Admittedly it’s not my own code, but I’ve learned that I actually love refactoring code, establishing and following standards so that (I hope) other developers who come into the codebase can know what to expect, and find their way around, without too many mental gymnastics. Very refreshing from a lot of things I’ve done before. Thanks for your article!</p>\n",
+      "createdBy": {
+        "id": -42,
+        "fullName": "Ben Read"
+      },
+      "createdAt": 1693427270170,
+      "replies": []
+    },
+    {
+      "id": "46780cbe-e6a6-492e-8d19-dde69c01dc0b",
+      "parentId": null,
+      "html": "<p>I think I tend to be in the minority when I work at companies with regard to this type of thing. Bjarnason's commentary rings very true. The number of times i've ignored management telling me to implement a new feature so that i can rework something to be better OR fought tooth and nail to make rewriting something a priority is very high.</p>\n<p>An anecdote I have for this as well comes from when I was working at a 13,000 seat arena. We needed to upgrade the guts of the video system to go from it being an SD system to an HD system. All of the internal components needed to be replaced, all of the cameras, all of the wiring to get signals around the building. it was going to be expensive. At the end of that project, there wouldn't be some shiny new thing that people would be able to really see. it would ultimately look the same. So it kept getting put off, and put off, and put off.... until we brought in a new sports team, and we were contractually obligated to have an HD system. Suddenly we had the funds. we had to do a very fast RFP and install. I was hotwiring patches for certain events because the system wasn't fully finished. BUT, we did get it.</p>\n<p>You don't get promoted for invisible fixes. You get promoted for big, new, and shiny.</p>\n",
+      "createdBy": {
+        "id": 105,
+        "fullName": "Alex Riviere"
+      },
+      "createdAt": 1693407421782,
+      "replies": []
+    }
+  ]
+}

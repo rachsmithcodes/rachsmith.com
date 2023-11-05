@@ -1,0 +1,70 @@
+{
+  "comments": [
+    {
+      "id": "4716f143-b39c-4404-b232-e9bc2f4c7a65",
+      "parentId": null,
+      "html": "<p>I’m with you on that. At Kailua Labs we’ve been building a search API for developers that want something that deeply understands your content and  “just works”. LMK if you’d like to try it out.</p>\n",
+      "createdBy": {
+        "id": 145,
+        "fullName": "Pablo Mendes"
+      },
+      "createdAt": 1678311652006,
+      "replies": []
+    },
+    {
+      "id": "1b784cdb-6f10-4280-a7d1-f5704b8f1218",
+      "parentId": null,
+      "html": "<p>i have an idea for that that i’m <a href=\"https://github.com/alexmshepherd/owdex\" rel=\"nofollow\">working on</a>. unfortunately i’m a shit programmer so it’s taking some time.</p>\n",
+      "createdBy": {
+        "id": -32,
+        "fullName": "alex"
+      },
+      "createdAt": 1678289326164,
+      "replies": []
+    },
+    {
+      "id": "2381e84c-61a0-4f17-a27a-074213badd78",
+      "parentId": null,
+      "html": "<p>argh completely agree! but as always, we come up against a wall with the challenge being access to private data to be able to even build such tools, and then there's preserving that privacy for people...<br>\nhave succeeded in solving the data privacy problem, and have started with a little less daunting semantic search on your own data before getting to fine tuning an LLM on your data. ping me if you want to try it out.<br>\nbut still, dealing with the strong imagination of LLMs is an issue to overcome...<br>\nbut we have some promising projects in the pipeline - stay tuned ;)</p>\n",
+      "createdBy": {
+        "id": -34,
+        "fullName": "aglaia"
+      },
+      "createdAt": 1678343518866,
+      "replies": []
+    },
+    {
+      "id": "de20a8fc-e552-4a79-be9f-1451adc881d3",
+      "parentId": null,
+      "html": "<p>I litterally started building <a href=\"http://gerev.ai\" rel=\"nofollow\">gerev.ai</a> because of notion and confluence search feature. Everything is public on <a href=\"http://twitter.com/yuvalsteuer\" rel=\"nofollow\">twitter.com/yuvalsteuer</a>.</p>\n",
+      "createdBy": {
+        "id": 147,
+        "fullName": "Yuval Steuer"
+      },
+      "createdAt": 1678357355994,
+      "replies": []
+    },
+    {
+      "id": "52c9fbb2-4055-46b7-91ad-196fcad5965b",
+      "parentId": null,
+      "html": "<p>Neeva  (<a href=\"https://neeva.com/\" rel=\"nofollow\">https://neeva.com/</a> ) and Gibiru ( <a href=\"https://gibiru.com/\" rel=\"nofollow\">https://gibiru.com/</a> ) and swisscows ( <a href=\"https://swisscows.com/en\" rel=\"nofollow\">https://swisscows.com/en</a> ) and Qwant ( <a href=\"https://www.qwant.com/\" rel=\"nofollow\">https://www.qwant.com/</a> ) are all good choices imo.</p>\n",
+      "createdBy": {
+        "id": 149,
+        "fullName": "3ch0"
+      },
+      "createdAt": 1678411094703,
+      "replies": []
+    },
+    {
+      "id": "93a86d72-ec6d-4843-a1db-763dd1a0d563",
+      "parentId": null,
+      "html": "<p>You're spot on. I think content retrieval is a more interesting problem to solve than content creation - but of course, I'm biased.</p>\n<p>We're working on exactly this with <a href=\"https://eesel.app\" rel=\"nofollow\">https://eesel.app</a>. It plugs into your knowledge base and automatically organises it. We were Fast Company's top new apps of 2022.</p>\n<p>We're now adding an AI layer on top so you can chat with your company knowledge. That's in pilot now :)</p>\n",
+      "createdBy": {
+        "id": 150,
+        "fullName": "Amogh Sarda"
+      },
+      "createdAt": 1678751729144,
+      "replies": []
+    }
+  ]
+}

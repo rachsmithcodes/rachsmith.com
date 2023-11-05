@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": "67581b15-8a85-4e60-afe9-a94fc3a0327d",
+      "parentId": null,
+      "html": "<p>Thanks again, Miss S.  This is the second of your articles that I've read.  Pithy.  You say a lot in so few words.  🙂</p>\n",
+      "createdBy": {
+        "id": 120,
+        "fullName": "anon"
+      },
+      "createdAt": 1633681511232,
+      "replies": []
+    },
+    {
+      "id": "e410192c-62ef-4baf-b457-0a230e8b3721",
+      "parentId": "67581b15-8a85-4e60-afe9-a94fc3a0327d",
+      "html": "<p>I'll take that as a compliment! Thank you!!</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rachel Smith"
+      },
+      "createdAt": 1634079580929,
+      "replies": []
+    }
+  ]
+}

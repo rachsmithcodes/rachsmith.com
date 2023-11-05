@@ -1,0 +1,59 @@
+{
+  "comments": [
+    {
+      "id": "cd8f435f-5c94-4bf5-9351-3c403708034d",
+      "parentId": null,
+      "html": "<p>Great point!</p>\n<p>If you're after something cross-platform, the now open-source Pocket Casts (Automattic bought them some time ago) also has a nifty &quot;New Releases&quot; list which you can quickly scan through, adding stuff to your listening list. It does a particularly good job of syncing everything across my iPhone, Android phone, and desktop. So I can queue stuff up on my laptop, and it'll be ready when I need it on my phones.</p>\n<p>I've also just switched over to Inoreader which has a great free tier and also has a &quot;read later&quot; feature (hit f on the keyboard).</p>\n<p>Finally, <a href=\"https://kill-the-newsletter.com/\" rel=\"nofollow\">https://kill-the-newsletter.com/</a> is a great way to convert email newsletters into into a feed you can add to your feedreader of choice. Very handy!</p>\n",
+      "createdBy": {
+        "id": 138,
+        "fullName": "Charles Roper"
+      },
+      "createdAt": 1674475357064,
+      "replies": []
+    },
+    {
+      "id": "5aa0de31-24e1-4bd9-b741-6dbf364791a9",
+      "parentId": null,
+      "html": "<p>I love this! I just found your blog and I was looking for posts like yours. The blogging world is so much bigger than one expects. And then you're also on Mastodon!</p>\n<p>I personally use AntennaPod for podcasts since its an open source project, although its not on iOS they recently added that same Inbox feature where you swipe to add to the queue or to ignore them!</p>\n<p>Same for RSS, I got my own FreshRSS instance, which has APIs for many apps, I use Readrops for it on my phone though.</p>\n<p>Awesome blog, yet another one for my list :P</p>\n",
+      "createdBy": {
+        "id": 141,
+        "fullName": "anon"
+      },
+      "createdAt": 1674834661419,
+      "replies": []
+    },
+    {
+      "id": "dbb7a4b8-b545-4270-90e8-460247ae7258",
+      "parentId": "d77477d6-4c22-45eb-9844-a45f5dd6d74e",
+      "html": "<p>Thanks Wesley, I did not know YouTube offered RSS feeds for their channels, until I made this note and helpful people such as yourself told me about this. I'm definitely going to try to add my favourite channels' feeds to Readwise Reader. Thanks!</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rachel Smith"
+      },
+      "createdAt": 1674963108305,
+      "replies": []
+    },
+    {
+      "id": "d77477d6-4c22-45eb-9844-a45f5dd6d74e",
+      "parentId": null,
+      "html": "<blockquote>\n<p>I wish that the YouTube UI could do this sort of thing. Then I would be set! You can &quot;hide&quot; videos and &quot;add to watch later&quot; from the subscriptions feed page, but those actions require multiple clicks, and it is slow and clunky.</p>\n</blockquote>\n<p>It's admittedly not the YouTube UI but one way you could pull this off is: Subscribe to channels in your RSS reader (amazingly they actually have feeds), then triage them in your reader as you do posts.</p>\n",
+      "createdBy": {
+        "id": -24,
+        "fullName": "Wesley Moore"
+      },
+      "createdAt": 1674626855729,
+      "replies": []
+    },
+    {
+      "id": "72db8a0a-3c5d-4b3e-8fbd-a6e08062e1c3",
+      "parentId": null,
+      "html": "<p>I'm looking into both of these apps, they look great! I operate the same way, saving my reading/listening lists for later. I've been doing this mostly by hand in a markdown file, like a cave person! Thanks for the recommendations!</p>\n",
+      "createdBy": {
+        "id": -28,
+        "fullName": "Chris Padilla"
+      },
+      "createdAt": 1676070794712,
+      "replies": []
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": "2c2357c7-526f-4d21-8c59-a949824b50e8",
+      "parentId": null,
+      "html": "<p>Great post; I agree with a lot of the sentiment here.</p>\n<h3>Mastodon</h3>\n<p>When I first got on Mastodon I instantly followed 20-30 hashtags that interested me and every webdev/gamedev I could find (200+). <strong>That ended up being the wrong choice</strong>.</p>\n<p>Since then I've pulled back to 5-6 hashtags, and 20-30 people that I follow. It's made things more meaningful, but can still feel like I'm &quot;shaking my little plan in a stream of information&quot; at times. I'm not sure if I'll stick around but it's mostly been a fun experiment.</p>\n<h3>RSS and Blogging</h3>\n<p>I've been getting into RSS over the last year and love that I get to <em>choose</em> what content I consume, but miss the ease of interaction in general (Your blog has been one of my favourites since I found it a few months back actually.🙂). Maybe something new will come along and bridge the gap? I've looked into webmentions but they seem way too technically complicated to get mass adoption.</p>\n<p>I'm relatively new to the whole blogging thing and have been treating it a bit like my own knowledge base; no real direction. Topics include coffee, cooking, coding, technobabble, video games, and a whole bunch of other things I'm interested in. Here's the RSS feed if you're interested: <a href=\"https://mykal.codes/rss.xml\" rel=\"nofollow\">https://mykal.codes/rss.xml</a></p>\n<p>Thanks for the post!</p>\n",
+      "createdBy": {
+        "id": 134,
+        "fullName": "Mykal Machon"
+      },
+      "createdAt": 1668473531606,
+      "replies": []
+    },
+    {
+      "id": "381fdd74-c4d6-42f9-ba11-11ef7a297307",
+      "parentId": "2c2357c7-526f-4d21-8c59-a949824b50e8",
+      "html": "<p>Hi Mykal, thanks for sharing your feed with me, I've added it to my list. Your post on taking screenshots of your work is a reminder I needed. I'm bad at doing this and then I get sad when I think about how I don't have a visual record of anything I've done! Especially from my agency days.</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rachel Smith"
+      },
+      "createdAt": 1668485747315,
+      "replies": []
+    }
+  ]
+}
