@@ -1,10 +1,10 @@
 ---
-import { getCollection } from 'astro:content';
 import Layout from '../components/Layout.astro';
 import DocumentHead from '../components/DocumentHead.astro';
-import Tag from '../components/Tag.astro';
 import { InferGetStaticParamsType, InferGetStaticPropsType } from 'astro';
 import TagsList from '../components/TagsList.astro';
+import { getCollection, getEntry } from 'astro:content';
+import CommentsList from '../components/CommentsList.astro';
 
 export async function getStaticPaths() {
   const notes = await getCollection('notes');
@@ -27,7 +27,16 @@ export function formatDate(date) {
 
 const { slug } = Astro.params;
 const { note } = Astro.props;
+
+if (slug === undefined) return;
+
+const commentsEntry = await getEntry('comments', slug);
+const comments = commentsEntry?.data?.comments || [];
+
+console.log(comments);
+
 const { Content } = await note.render();
+
 const {
   data: { title, added, updated, tags, excerpt },
 } = note;
@@ -110,28 +119,7 @@ const tweetTextEncoded = encodeURIComponent(
       </article>
       <section class="comments">
         <h3>Comments</h3>
-        <pixiScript is:inline>
-          talkyardServerUrl = 'https://site-1hvw5pe7vn.talkyard.net';
-        </pixiScript>
-        <pixiScript
-          is:inline
-          async
-          defer
-          src="https://cdn.talkyard.net/-/talkyard-comments.min.js"
-        ></pixiScript>
-        <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
-        <div class="talkyard-comments" style="margin-top: 45px;">
-          <noscript>Please enable Javascript to view comments.</noscript>
-          <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">
-            The Comments system is powered by a third party service - <a
-              href="https://www.talkyard.io">Talkyard</a
-            >. Sometimes they don't load 😞. If you're having trouble leaving a
-            comment you can <a
-              href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
-              >send me an email</a
-            >.
-          </p>
-        </div>
+        <CommentsList parentId={null} allComments={comments} />
       </section>
     </Layout>
   </body>

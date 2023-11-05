@@ -1,0 +1,33 @@
+---
+import CommentIcon from './CommentIcon.astro';
+let { parentId, allComments } = Astro.props;
+
+const comments = allComments.filter((comment) => comment.parentId === parentId);
+---
+
+{
+  comments.length > 0 && (
+    <ul>
+      {comments.map((comment, i) => {
+        const { createdBy, createdAt, html } = comment;
+        return (
+          <li class="comment">
+            <CommentIcon index={i} />
+            <p class="comment-name">{createdBy.fullName}</p>
+            <p class="comment-date">
+              {new Date(createdAt).toLocaleString(undefined, {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: 'numeric',
+                minute: 'numeric',
+              })}
+            </p>
+            <p class="comment-content" set:html={html} />
+            <Astro.self parentId={comment.id} allComments={allComments} />
+          </li>
+        );
+      })}
+    </ul>
+  )
+}
