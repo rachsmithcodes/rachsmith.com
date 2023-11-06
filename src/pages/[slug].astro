@@ -3,7 +3,7 @@ import Layout from '../components/Layout.astro';
 import DocumentHead from '../components/DocumentHead.astro';
 import TagsList from '../components/TagsList.astro';
 import { getCollection, getEntry } from 'astro:content';
-import CommentsList from '../components/CommentsList.astro';
+import Comments from '../components/Comments.astro';
 
 export async function getStaticPaths() {
   const notes = await getCollection('notes');
@@ -25,11 +25,6 @@ const { slug } = Astro.params;
 const { note } = Astro.props;
 
 if (slug === undefined) return;
-
-const commentsEntry = await getEntry('comments', slug);
-const comments = commentsEntry?.data?.comments || [];
-
-console.log(comments);
 
 const { Content } = await note.render();
 
@@ -75,34 +70,13 @@ const tweetTextEncoded = encodeURIComponent(
     text-transform: uppercase;
   }
 
-  form p {
-    margin: 0;
-    margin-bottom: 0.5rem;
-  }
-
-  form label {
-    display: block;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.1rem;
-    color: var(--text-color);
-    opacity: 0.8;
-  }
-
-  form input,
-  form textarea {
-    display: block;
-    width: 100%;
+  :global(#footnote-label) {
     font-size: 1.2rem;
-    font-family: var(--font-family);
-    padding: 0.2rem 0.5rem;
-    background-color: rgba(255, 255, 255, 0.7);
-    outline: none;
-    border: none;
+    text-transform: uppercase;
   }
 
-  form textarea {
-    height: 10em;
+  .thanks-for-reading {
+    margin: 4rem 0;
   }
 </style>
 
@@ -130,54 +104,20 @@ const tweetTextEncoded = encodeURIComponent(
         <div class="styled-link-underlines">
           <Content />
         </div>
-        <p class="styled-link-underlines">
-          <b>Thanks for reading!</b> If you'd like to share your thoughts you
-          can
-          <a href={`/${slug}#comments`}>leave a comment</a>, <a
-            href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
-            >send me an email</a
-          >, <a
-            href={`https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}`}
-            >Tweet at me</a
-          >, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues"
-            >add an issue on GitHub</a
-          >.
-        </p>
       </article>
-      <section class="comments">
-        <h2 id="comments">Comments</h2>
-        <CommentsList
-          parentId={null}
-          allComments={comments}
-          startIndex={Math.floor(Math.random() * 6)}
-        />
-        <h3>Leave a Comment</h3>
-        <form name="comment" method="POST" data-netlify="true">
-          <input type="hidden" name="slug" value={slug} />
-          <p>
-            <label for="comment">Comment</label>
-            <textarea name="comment" id="comment"></textarea>
-          </p>
-          <p>
-            <label for="name">Name</label><input
-              type="text"
-              name="name"
-              id="name"
-            />
-          </p>
-          <p>
-            <label for="url">Website</label><input
-              type="url"
-              name="url"
-              id="url"
-            />
-          </p>
-
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
+      <section class="styled-link-underlines thanks-for-reading">
+        <b>Thanks for reading!</b> If you'd like to share your thoughts you can
+        <a href={`/${slug}/#comments`}>leave a comment</a>, <a
+          href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
+          >send me an email</a
+        >, <a
+          href={`https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}`}
+          >Tweet at me</a
+        >, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues"
+          >add an issue on GitHub</a
+        >.
       </section>
+      <Comments slug={slug} />
     </Layout>
   </body>
 </html>

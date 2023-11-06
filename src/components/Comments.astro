@@ -1,0 +1,124 @@
+---
+const { slug } = Astro.props;
+
+import { getEntry } from 'astro:content';
+import CommentsList from './CommentsList.astro';
+
+const commentsEntry = await getEntry('comments', slug);
+const comments = commentsEntry?.data?.comments || [];
+---
+
+<style>
+  form p {
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  form label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    opacity: 0.8;
+  }
+
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: var(--font-family);
+    padding: 0.2rem 0.5rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    outline: none;
+    border: none;
+  }
+
+  form textarea {
+    height: 10em;
+  }
+
+  .comment-submitted {
+    display: none;
+  }
+
+  .submit-button {
+    background: var(--accent-color);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+
+  :global(.rainbows) .submit-button {
+    background: var(--gradient-color);
+  }
+</style>
+
+<section class="comments">
+  <h2 id="comments">Comments</h2>
+  <CommentsList
+    parentId={null}
+    allComments={comments}
+    startIndex={Math.floor(Math.random() * 6)}
+  />
+  <h3>Leave a Comment</h3>
+  <p id="comment-submitted" class="comment-submitted">
+    💯 Thanks for submitting your comment! It will appear here after it has been
+    approved.
+  </p>
+  <form name="comment" method="POST" data-netlify="true" id="comment-form">
+    <input type="hidden" name="slug" value={slug} />
+    <p>
+      <label for="comment">Comment</label>
+      <textarea name="comment" id="comment" required></textarea>
+    </p>
+    <p>
+      <label for="name">Name</label><input
+        type="text"
+        name="name"
+        id="name"
+        required
+      />
+    </p>
+    <p>
+      <label for="url">Website</label><input type="url" name="url" id="url" />
+    </p>
+
+    <p>
+      <button type="submit" class="submit-button">Submit</button>
+    </p>
+  </form>
+  <script>
+    // @ts-nocheck
+    const handleSubmit = (event) => {
+      event.preventDefault();
+
+      const myForm = event.target;
+      const formData = new FormData(myForm);
+
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData.entries()).toString(),
+      })
+        .then(() => {
+          myForm.reset();
+          const commentSubmittedMessage =
+            document.querySelector('#comment-submitted');
+          commentSubmittedMessage.style.display = 'block';
+          commentSubmittedMessage.scrollIntoView();
+        })
+        .catch((error) => alert(error));
+    };
+
+    // @ts-ignore
+    document
+      .querySelector('#comment-form')
+      .addEventListener('submit', handleSubmit);
+  </script>
+</section>
