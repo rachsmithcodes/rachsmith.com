@@ -1,7 +1,6 @@
 ---
 import Layout from '../components/Layout.astro';
 import DocumentHead from '../components/DocumentHead.astro';
-import { InferGetStaticParamsType, InferGetStaticPropsType } from 'astro';
 import TagsList from '../components/TagsList.astro';
 import { getCollection, getEntry } from 'astro:content';
 import CommentsList from '../components/CommentsList.astro';
@@ -13,9 +12,6 @@ export async function getStaticPaths() {
     props: { note },
   }));
 }
-
-type Params = InferGetStaticParamsType<typeof getStaticPaths>;
-type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 export function formatDate(date) {
   return new Date(date.replace(/-/g, '/')).toLocaleDateString('en-US', {
@@ -49,7 +45,7 @@ let permalink = `https://rachsmith.com/${slug}/`;
 
 const titleEncoded = encodeURIComponent(`re: ${title}`);
 const tweetTextEncoded = encodeURIComponent(
-  `re: https://rachsmith.com/${slug}`
+  `re: https://rachsmith.com/${slug}`,
 );
 ---
 
@@ -105,7 +101,8 @@ const tweetTextEncoded = encodeURIComponent(
           <Content />
         </div>
         <p class="styled-link-underlines">
-          <b>Thanks for reading!</b> If you'd like to share your thoughts you can
+          <b>Thanks for reading!</b> If you'd like to share your thoughts you
+          can
           <a href={`https://rachsmith.com/${slug}#comments`}>leave a comment</a
           >, <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
             >send me an email</a
@@ -119,7 +116,25 @@ const tweetTextEncoded = encodeURIComponent(
       </article>
       <section class="comments">
         <h2>Comments</h2>
-        <CommentsList parentId={null} allComments={comments} startIndex={Math.floor(Math.random() * 6)} />
+        <CommentsList
+          parentId={null}
+          allComments={comments}
+          startIndex={Math.floor(Math.random() * 6)}
+        />
+        <form name="comment" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Website: <input type="url" name="url" /></label>
+          </p>
+          <p>
+            <label>Comment: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
       </section>
     </Layout>
   </body>
