@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": "f44dd542-4087-4938-8824-1516b2db53e1",
+      "parentId": null,
+      "html": "<p>This is incredibly helpful! Thanks!</p>\n",
+      "createdBy": {
+        "id": 107,
+        "fullName": "Paul_Killian"
+      },
+      "createdAt": 1630721619609,
+      "replies": []
+    },
+    {
+      "id": "c2a50cdc-82d6-4e65-a523-113f05f741a2",
+      "parentId": "f44dd542-4087-4938-8824-1516b2db53e1",
+      "html": "<p>No worries, thanks for reading!</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1630753709849,
+      "replies": []
+    }
+  ]
+}

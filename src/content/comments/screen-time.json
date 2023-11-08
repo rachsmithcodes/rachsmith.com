@@ -1,0 +1,70 @@
+{
+  "comments": [
+    {
+      "id": "9a4f0383-0316-423c-ac1c-28e29336d2da",
+      "parentId": null,
+      "html": "<p>I definitely struggle with this as well and my screen time story is similar to yours. I have no good solutions to limit my screen time. I would be interested to see if you find any path to help with this.</p>\n",
+      "createdBy": {
+        "id": 105,
+        "fullName": "Alex Riviere"
+      },
+      "createdAt": 1630159242186,
+      "replies": []
+    },
+    {
+      "id": "f79ebc69-2fa5-4461-a976-22e309fa5488",
+      "parentId": "9a4f0383-0316-423c-ac1c-28e29336d2da",
+      "html": "<p>I will definitely post an update if I make any progress!</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1630405645352,
+      "replies": []
+    },
+    {
+      "id": "a73d4d86-61c6-4e83-98ee-10891c18ebd3",
+      "parentId": null,
+      "html": "<p>Came cross this blog randomly , thanks to Reddit. Initially it was a post about front-end development, as I am going through a coding bootcamp at the moment. However, I can relate to this one, as someone who has been more and more critical of digital technology and the ways our devices and tools deform us. It really hit home the older my kids have gotten. My son, who is almost six, can do a few things with the iPad, but mostly just watches shows on TV. However, my daughter, a year and a half old, learned how to open up the camera app on my wife's phone, and we didn't even show her. It's...disturbing. All of that to say, thanks for sharing this. Hope it encourages others to make the proper steps to reclaim their lives!</p>\n",
+      "createdBy": {
+        "id": 116,
+        "fullName": "David Marshall"
+      },
+      "createdAt": 1631302255568,
+      "replies": []
+    },
+    {
+      "id": "c1b93bbc-96ca-4e7c-adb7-0b7416901b64",
+      "parentId": "a73d4d86-61c6-4e83-98ee-10891c18ebd3",
+      "html": "<p>Thanks for reading!</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1631506389221,
+      "replies": []
+    },
+    {
+      "id": "fcac967f-3c02-4df3-89e9-550abac8053a",
+      "parentId": null,
+      "html": "<p>Everyone has a different relationship with screens, and some peoples' are downright healthy. Mine is not. &quot;Keeping a lid on my screen usage is a constant suck of my energy&quot; -- I can totally relate. Spending &quot;way too much time on screens ignoring my friends, ignoring my family, ignoring my life&quot; -- me too.</p>\n<p>I've recently made a lot of progress on my technology issue by doing almost exactly the opposite of what you propose in your last paragraph, interestingly enough. Part of what was keeping me in the vicious cycle, I think, was minimizing my problem and keeping it to myself. Especially easy to do that when everyone will reply &quot;yeah, I'm totally addicted to Netflix too&quot; without really understanding how much of an impact it is having for you.</p>\n<p>So what has helped me is accepting the label of &quot;internet addict&quot; and attending a support group for tech addiction. Talking to other people who have also been seriously sidetracked in life by screens is so, so helpful for constantly reminding me that just because other people can use certain websites moderately, doesn't mean I can. I guess I have the &quot;screen gene.&quot;</p>\n<p>YMMV, of course. Wishing you the best of luck on your journey through this.</p>\n",
+      "createdBy": {
+        "id": -14,
+        "fullName": "Zeb"
+      },
+      "createdAt": 1631816009106,
+      "replies": []
+    },
+    {
+      "id": "48c66c30-ffc4-4dd8-ae2f-36fc587fb971",
+      "parentId": "fcac967f-3c02-4df3-89e9-550abac8053a",
+      "html": "<p>That's interesting! Thanks for sharing and I'm glad you're finding  a way forward.</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1632394124771,
+      "replies": []
+    }
+  ]
+}

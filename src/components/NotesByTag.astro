@@ -1,0 +1,123 @@
+---
+import { CollectionEntry, getCollection } from 'astro:content';
+import NoteListItem from './NoteListItem.astro';
+import TagsList from './TagsList.astro';
+
+const notes = await getCollection('notes');
+type Tag = {
+  name: string;
+  notes: CollectionEntry<'notes'>[];
+};
+const tags: Tag[] = [];
+
+for (const note of notes) {
+  if (note.data.tags) {
+    for (const tag of note.data.tags) {
+      if (!tags.find((t) => t.name === tag)) {
+        tags.push({
+          name: tag,
+          notes: [note],
+        });
+      } else {
+        const t = tags.find((t) => t.name === tag);
+        if (t) t.notes.push(note);
+      }
+    }
+  }
+}
+
+tags.sort((a, b) => {
+  if (a.name < b.name) {
+    return -1;
+  }
+  if (a.name > b.name) {
+    return 1;
+  }
+  return 0;
+});
+
+for (const tag of tags) {
+  tag.notes.sort((a, b) => {
+    if (a.data.added < b.data.added) {
+      return 1;
+    }
+    if (a.data.added > b.data.added) {
+      return -1;
+    }
+    return 0;
+  });
+}
+---
+
+<style>
+  .tag-name {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: var(--font-mono);
+    font-size: 1em;
+  }
+
+  .notes-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .notes-list li {
+    margin: 0.5em 0;
+  }
+
+  h3:nth-of-type(7n + 1) {
+    color: var(--red);
+  }
+
+  h3:nth-of-type(7n + 2) {
+    color: var(--orange);
+  }
+
+  h3:nth-of-type(7n + 3) {
+    color: var(--pink);
+  }
+
+  h3:nth-of-type(7n + 4) {
+    color: var(--green);
+  }
+
+  h3:nth-of-type(7n + 5) {
+    color: var(--light-blue);
+  }
+
+  h3:nth-of-type(7n + 6) {
+    color: var(--purple);
+  }
+
+  h3:nth-of-type(7n + 7) {
+    color: var(--blue);
+  }
+</style>
+
+<div class="">
+  <TagsList tags={tags} />
+  {
+    tags.map((tag) => (
+      <>
+        <h3 id={tag.name} class="tag-name">
+          #{tag.name}
+        </h3>
+        <ul class="notes-list">
+          {tag.notes.map((note) => (
+            <NoteListItem
+              slug={note.slug}
+              title={note.data.title}
+              added={note.data.added}
+              tags={note.data.tags}
+              excerpt={note.data.excerpt}
+              includeDate={false}
+            />
+          ))}
+        </ul>
+      </>
+    ))
+  }
+</div>

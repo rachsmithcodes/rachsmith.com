@@ -1,0 +1,114 @@
+{
+  "comments": [
+    {
+      "id": "d3f946d9-b63c-4ffb-8854-b203fe5219ea",
+      "parentId": null,
+      "html": "<p>This is awesome!</p>\n",
+      "createdBy": {
+        "id": 143,
+        "fullName": "Spencer"
+      },
+      "createdAt": 1676902452976,
+      "replies": []
+    },
+    {
+      "id": "a76582ae-c4d1-4696-9d58-0276c49e0da4",
+      "parentId": null,
+      "html": "<p>Hi there!</p>\n<p>Thank you for sharing this code and fantastic example of :nth-of-type(). It's my favorite use, too, as well as my only use as of now :).  Regarding the <li>, on CodePen as well as this page, the dots for the </li><li> do not appear, but when I copy and pasted the code, the </li><li> dots do appear.  I am wondering why they show up locally for me, but do not in your above or CodePen pages?</li></p>\n<p>Thank you very much.</p>\n",
+      "createdBy": {
+        "id": -30,
+        "fullName": "Sir Sally"
+      },
+      "createdAt": 1677595906766,
+      "replies": []
+    },
+    {
+      "id": "040aa0e9-30a1-4026-a5ef-542257599a75",
+      "parentId": "a76582ae-c4d1-4696-9d58-0276c49e0da4",
+      "html": "<p>The list dots.  l i</p>\n",
+      "createdBy": {
+        "id": -30,
+        "fullName": "Sir Sally"
+      },
+      "createdAt": 1677595942954,
+      "replies": []
+    },
+    {
+      "id": "127ab70c-49db-4690-a0eb-0ea8cc9df0de",
+      "parentId": "040aa0e9-30a1-4026-a5ef-542257599a75",
+      "html": "<p>Figured it out. Thanks again for the delightful design!  style=&quot;list-style-type:none&quot;</p>\n",
+      "createdBy": {
+        "id": -30,
+        "fullName": "Sir Sally"
+      },
+      "createdAt": 1677597593150,
+      "replies": []
+    },
+    {
+      "id": "1b6ec9c9-45f1-49b1-86bd-d312f1c150a1",
+      "parentId": null,
+      "html": "<p>this is emily!!!<br>\ni am a nerd.</p>\n",
+      "createdBy": {
+        "id": -31,
+        "fullName": "emily"
+      },
+      "createdAt": 1677684352323,
+      "replies": []
+    },
+    {
+      "id": "10469189-81b5-42d0-bb1a-11363c8beac8",
+      "parentId": null,
+      "html": "<p>Very pretty.... much prettier than the version I have at <a href=\"https://musingsofacodegorilla.wordpress.com/2020/11/27/tables-with-banded-rows/\" rel=\"nofollow\">https://musingsofacodegorilla.wordpress.com/2020/11/27/tables-with-banded-rows/</a></p>\n",
+      "createdBy": {
+        "id": 144,
+        "fullName": "Ian Stuart"
+      },
+      "createdAt": 1677586214907,
+      "replies": []
+    },
+    {
+      "id": "33efc35f-3847-4db8-a83d-6186d0e641e6",
+      "parentId": "127ab70c-49db-4690-a0eb-0ea8cc9df0de",
+      "html": "<p>hi. Yes sorry, the code in this post just shows how to colour the <code>&lt;li&gt;</code> elements. But he styles for the rest of it are in the CodePen embedded above.</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1677713658463,
+      "replies": []
+    },
+    {
+      "id": "0f3b85b3-113f-43c2-8d78-42e476fd04b1",
+      "parentId": "1b6ec9c9-45f1-49b1-86bd-d312f1c150a1",
+      "html": "<p>girl same</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1677713676740,
+      "replies": []
+    },
+    {
+      "id": "b0327932-9b60-4121-8f07-4b45139afdee",
+      "parentId": null,
+      "html": "<p><em>oh oh love love. brainy brilliant and beautiful!</em></p>\n",
+      "createdBy": {
+        "id": -29,
+        "fullName": "evan"
+      },
+      "createdAt": 1677577195303,
+      "replies": []
+    },
+    {
+      "id": "0d4a302c-7e98-40a4-9313-376991deae06",
+      "parentId": null,
+      "html": "<p>Gorgeous!</p>\n",
+      "createdBy": {
+        "id": 151,
+        "fullName": "Meiwah"
+      },
+      "createdAt": 1679973210849,
+      "replies": []
+    }
+  ]
+}

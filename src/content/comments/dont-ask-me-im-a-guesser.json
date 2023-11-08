@@ -1,0 +1,37 @@
+{
+  "comments": [
+    {
+      "id": "9a1e9cc6-cec6-4597-a359-d8a339152c51",
+      "parentId": null,
+      "html": "<p>Thanks for the article.  I'm more of a guesser myself.  I never want to make my problems someone else's.  On the flip side I've made it a point not to make other people's problems mine.</p>\n",
+      "createdBy": {
+        "id": -10,
+        "fullName": "Matt Holovach"
+      },
+      "createdAt": 1612455732482,
+      "replies": []
+    },
+    {
+      "id": "5b019c78-110f-44c0-a3f4-7c8f759d57e1",
+      "parentId": null,
+      "html": "<p>Ruby (3) is really into this show (apparently it's a book, I only know the show) &quot;If You Give A Mouse a Cookie&quot;. There is an aspect about the show that really bugs me, but I wasn't able to put my finger on it until you shared this. IT'S SUPER ASK-CULTURE HEAVY. The mouse dude on the show will walk into a literal store with his broken skateboard and be like &quot;can I have a new wheel for this?&quot; and it's like uhhhh, mouse dude, you could BUY a new wheel and PAY for the employees time to put it on for you, ya little jerk. But sometimes that's actually what happens. Sometimes people just give him what he asks for, sometimes they don't, and I guess that's why ask-culture exists... sometimes it works, and when it doesn't there isn't much of a downside (except people like me thinking you're kind of a jerk).</p>\n",
+      "createdBy": {
+        "id": 101,
+        "fullName": "Chris Coyier"
+      },
+      "createdAt": 1611082286876,
+      "replies": []
+    },
+    {
+      "id": "3c26bf52-0894-423b-b175-a08d353e409b",
+      "parentId": "9a1e9cc6-cec6-4597-a359-d8a339152c51",
+      "html": "<p>This is very much what I’m like as well. It means I’m very self sufficient and independent but sometimes I miss out on connecting with people because I’m being too independent.</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1612479394434,
+      "replies": []
+    }
+  ]
+}

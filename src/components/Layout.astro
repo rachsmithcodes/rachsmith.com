@@ -1,17 +1,55 @@
 ---
-import Header from "./Header.astro";
-import Footer from "./Footer.astro";
+type Props = {
+  page: string;
+};
 
-const { page, tags, HeaderComponent } = Astro.props;
+import Sidebar from './Sidebar.astro';
+import Footer from './Footer.astro';
 
+const { page } = Astro.props;
 ---
 
-<div class="container">
-  <Header {page} {HeaderComponent} />
-  <main class="">
-    <slot />
-  </main>
-  <Footer {tags} />
+<style>
+  .container {
+    max-width: 59ch;
+    grid-column-start: 2;
+    box-sizing: border-box;
+    padding: 0 1em;
+    position: relative;
+  }
+
+  @media (min-width: 640px) {
+    .container {
+      padding: 1em 1em 1em 2em;
+    }
+  }
+
+  @media (min-width: 930px) {
+    .container {
+      padding: 1em 1em 1em 3em;
+    }
+  }
+
+  @media (min-width: 640px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: minmax(220px, 20vw) 1fr;
+    }
+  }
+</style>
+
+<Sidebar page={page} />
+<div class="grid-container">
+  <div class="container">
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </div>
 </div>
 
-<script async defer data-domain="rachsmith.com" src="https://plausible.io/js/plausible.js"></script>
+<pixiScript
+  async
+  defer
+  data-domain="rachsmith.com"
+  src="https://plausible.io/js/plausible.js"></pixiScript>

@@ -1,0 +1,37 @@
+{
+  "comments": [
+    {
+      "id": "18133a19-1075-4c2f-ab6a-7b673e8a240f",
+      "parentId": null,
+      "html": "<p>Cal Newport has been instrumental in helping a lot of us realize how unhelpful social media can really be. I deleted my personal account back in...February? And just deleted my podcast account here recently. It'll cost us listeners, but it's for fun, and it's MORE fun not worrying about pointless metrics.</p>\n<p>The issue, in my opinion, is once you dive deeper into thinkers like Albert Borgmann, Neil Postman, Ivan Illich, and really start rethinking your relationship with technological tools in general. hah. But that's another can of worms in itself.</p>\n<p>Really enjoying your blog!</p>\n",
+      "createdBy": {
+        "id": 116,
+        "fullName": "David Marshall"
+      },
+      "createdAt": 1631395325943,
+      "replies": []
+    },
+    {
+      "id": "73a0db8a-0300-4a51-b278-2aa9589e72fe",
+      "parentId": "18133a19-1075-4c2f-ab6a-7b673e8a240f",
+      "html": "<p>&quot;Amusing ourselves to death&quot; is on my to-read list. Thanks for reading and for your thoughtful comment.</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1631507220876,
+      "replies": []
+    },
+    {
+      "id": "cbb5c663-9d7d-4041-806d-ef3a9c2ac4d5",
+      "parentId": "73a0db8a-0300-4a51-b278-2aa9589e72fe",
+      "html": "<p>Absolutely! I've really enjoyed going through your blog. It's encouraging me to stick with my coding bootcamp!</p>\n",
+      "createdBy": {
+        "id": 116,
+        "fullName": "David Marshall"
+      },
+      "createdAt": 1631544810817,
+      "replies": []
+    }
+  ]
+}

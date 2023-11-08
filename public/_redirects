@@ -1,9 +1,20 @@
 # Netlify redirects file, edit with your domain
 # https://www.netlify.com/docs/redirects/
 
-https://gatsby-starter-ghost.netlify.com/*      https://gatsby.ghost.org/:splat    301!
-http://gatsby-starter-ghost.netlify.com/*       https://gatsby.ghost.org/:splat    301!
-
 /2017/i-dont-have-imposter-syndrome/  /i-dont-have-imposter-syndrome/
 /i-completely-ignored-the-front-end-development-scene-for-6-months-it-was-fine/ /i-completely-ignored-the-front-end-development-scene-for-6-months/
-/rss.xml /rss/
+
+# old old RSS link redirect
+/rss.xml /feed.xml 
+# old RSS redirect
+/rss/ /feed.xml 
+
+# old tag pages
+/tag/books/ /tags/#books
+/tag/development/ /tags/#development
+/tag/miscellany/ /tags/#miscellany
+/tag/mothering/ /tags/#mothering
+/tag/podcasts/ /tags/#podcasts
+/tag/productivity/ /tags/#productivity
+/tag/wellbeing/ /tags/#wellbeing
+/tag/work/ /tags/#work

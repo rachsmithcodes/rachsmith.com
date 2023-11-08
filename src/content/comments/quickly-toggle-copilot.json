@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": "c4494b31-b108-4144-a2c4-74bfc42b7929",
+      "parentId": "27b91479-ff94-4454-b245-a8e892bfc549",
+      "html": "<p>ooooh. Sometimes I find myself wondering if it is on or off... toggling the cursor is a great idea! Thanks!</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1662719522099,
+      "replies": []
+    },
+    {
+      "id": "27b91479-ff94-4454-b245-a8e892bfc549",
+      "parentId": null,
+      "html": "<p>Thanks Rach! This is great, and Settings Cycler is very cool. I ended up having it toggle my cursor shape too so I have a visual indication of whether Copilot is on or off.</p>\n",
+      "createdBy": {
+        "id": 127,
+        "fullName": "Daniel Worthington"
+      },
+      "createdAt": 1662707648576,
+      "replies": []
+    }
+  ]
+}

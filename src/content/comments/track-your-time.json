@@ -1,0 +1,37 @@
+{
+  "comments": [
+    {
+      "id": "20c0b8bd-b8bc-419a-880a-47fcd359de78",
+      "parentId": null,
+      "html": "<blockquote>\n<p>But I soon realised that tracking hours for yourself is totally different to tracking for an employer. For one, you can be completely honest, no fudging or padding required. It is low pressure and you can be as detailed or as vague as you wish.</p>\n</blockquote>\n<p>Totally understand where you are coming from and I agree that it helps to feel like you actually did something, but regarding the quote, aren't you tracking for the employer and not for yourself so that you can bill the hours you worked?</p>\n",
+      "createdBy": {
+        "id": -20,
+        "fullName": "Martin"
+      },
+      "createdAt": 1659443180256,
+      "replies": []
+    },
+    {
+      "id": "3b816d3a-87a4-47b0-bde2-329955eecb4a",
+      "parentId": "20c0b8bd-b8bc-419a-880a-47fcd359de78",
+      "html": "<p>hi Martin. I don't really consider this as tracking for my employer, compared to when I used to have track in an agency environment, where every minute had to be tracked and keeping your billable hours up was a real concern. I don't actually have to send any details to CodePen, all they need from me is a number at the end of the month. I choose to use daily tracking to come up with that number for my own peace of mind but theoretically I could just make a number up. Thanks for your comment!</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1659484996595,
+      "replies": []
+    },
+    {
+      "id": "223712df-87cc-4686-8e78-bb5746da7997",
+      "parentId": "3b816d3a-87a4-47b0-bde2-329955eecb4a",
+      "html": "<p>Okay, yeah, that makes sense. Happy that it works so well for you! :)</p>\n",
+      "createdBy": {
+        "id": -20,
+        "fullName": "Martin"
+      },
+      "createdAt": 1659510182527,
+      "replies": []
+    }
+  ]
+}

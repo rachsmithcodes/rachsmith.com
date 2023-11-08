@@ -1,24 +1,17 @@
 ---
-import { InferGetStaticParamsType, InferGetStaticPropsType } from 'astro';
-
 import Layout from '../components/Layout.astro';
-import BaseHead from '../components/BaseHead.astro';
-import Tag from '../components/Tag.astro';
-import { notesAndTags } from '../data/notes';
-import Section from '../components/Section.astro';
-import OutlineHeading from '../components/OutlineHeading.astro';
-import { getCollection, getEntryBySlug } from 'astro:content';
+import DocumentHead from '../components/DocumentHead.astro';
+import TagsList from '../components/TagsList.astro';
+import { getCollection, getEntry } from 'astro:content';
+import Comments from '../components/Comments.astro';
 
 export async function getStaticPaths() {
   const notes = await getCollection('notes');
   return notes.map((note) => ({
     params: { slug: note.slug },
-    props: { note: note },
+    props: { note },
   }));
 }
-
-type Params = InferGetStaticParamsType<typeof getStaticPaths>;
-type Props = InferGetStaticPropsType<typeof getStaticPaths>;
 
 export function formatDate(date) {
   return new Date(date.replace(/-/g, '/')).toLocaleDateString('en-US', {
@@ -33,110 +26,89 @@ const { note } = Astro.props;
 
 if (slug === undefined) return;
 
-const entry = await getEntryBySlug('notes', slug);
-if (!entry) return;
-
-const { Content } = await entry.render();
+const { Content } = await note.render();
 
 const {
   data: { title, added, updated, tags, excerpt },
 } = note;
-const notes = await getCollection('notes');
-const { allNotes, allTags } = notesAndTags(notes);
-const noteIndex = [...allNotes].reverse().findIndex((p) => p.slug === slug);
-const imageId = (noteIndex % 6) + 1;
+
+// random imageId between 1 and 6
+const imageId = Math.floor(Math.random() * 6) + 1;
 
 let description = excerpt;
 let permalink = `https://rachsmith.com/${slug}/`;
 
 const titleEncoded = encodeURIComponent(`re: ${title}`);
 const tweetTextEncoded = encodeURIComponent(
-  `re: https://rachsmith.com/${note.slug}`
+  `re: https://rachsmith.com/${slug}`,
 );
 ---
 
 <style>
-  .title {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    text-align: center;
-    line-height: 1.1em;
-  }
-
-  @media (max-width: 768px) {
-    .title {
-      font-size: 2.4rem;
-    }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    line-height: 1;
   }
 
   .meta {
-    text-align: center;
+    margin: 2em 0;
+    padding: 0.5em 0;
+    border-top: 1px dashed var(--text-color);
+    color: var(--second-text-color);
+  }
+
+  .meta .tags {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .meta .added-updated {
+    font-size: 0.9em;
     text-transform: uppercase;
-    margin-bottom: 3em;
-    font-family: var(--mono-font);
   }
 
-  .meta p {
-    font-size: 1rem;
-    margin: 0.1em;
+  :global(#footnote-label) {
+    font-size: 1.2rem;
+    text-transform: uppercase;
   }
 
-  .meta-label {
-    font-style: normal;
-  }
-
-  .comments {
-    margin-bottom: 4em;
-    margin-top: 4em;
+  .thanks-for-reading {
+    margin: 4rem 0;
   }
 </style>
 
-<BaseHead
-  title={title}
-  description={description}
-  permalink={permalink}
-  canonicalUrl={permalink}
-  imageId={imageId}
-/>
+<html lang="en">
+  <DocumentHead
+    title={title}
+    description={description ?? ''}
+    permalink={permalink}
+    canonicalUrl={permalink}
+    imageId={imageId}
+  />
+  <body>
+    <Layout page="note">
+      <article>
+        <h1 class="title">{title}</h1>
+        <div class="meta">
+          <span class="added-updated"
+            >Added: {formatDate(added)}{
+              updated !== added && `, Updated: ${formatDate(updated)}`
+            }</span
+          >
 
-<Layout page="note" tags={allTags}>
-  <article>
-    <h1 class="title">{title}</h1>
-    <div class="meta">
-      <p>
-        <em class="meta-label">Added:</em>
-        {formatDate(added)}
-      </p>
-      {
-        updated !== added && (
-          <p>
-            <em class="meta-label">Updated:</em> {formatDate(updated)}
-          </p>
-        )
-      }
-      {
-        tags.length > 0 && (
-          <p>
-            <em class="meta-label">Tags:</em>{' '}
-            {tags.map((tag) => (
-              <Tag tag={tag} />
-            ))}
-          </p>
-        )
-      }
-    </div>
-    <Section>
-      <div class="note-content rainbow-links">
-        <Content />
-      </div>
-    </Section>
-    <Section>
-      <p class="rainbow-links">
-        <b>Thanks for reading!</b> If you'd like to share your thoughts you can <a
-          href={`https://rachsmith.com/${note.slug}#comments`}
-          >leave a comment</a
-        >, <a href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
+          <TagsList tags={tags.map((t) => ({ name: t }))} />
+        </div>
+        <div class="styled-link-underlines">
+          <Content />
+        </div>
+      </article>
+      <section class="styled-link-underlines thanks-for-reading">
+        <b>Thanks for reading!</b> If you'd like to share your thoughts you can
+        <a href={`/${slug}/#comments`}>leave a comment</a>, <a
+          href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
           >send me an email</a
         >, <a
           href={`https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}`}
@@ -144,46 +116,8 @@ const tweetTextEncoded = encodeURIComponent(
         >, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues"
           >add an issue on GitHub</a
         >.
-      </p>
-    </Section>
-  </article>
-  <!-- {references.length > 0 && (
-  <section className="p-5 border-b">
-    <h3 className="mb-3 uppercase tracking-wide">
-      Referenced by these notes
-    </h3>
-    <ul className="list-none">
-      {references.map(({ title, slug, excerpt, tags }) => (
-      <NoteListItem slug={slug} title={title} excerpt={excerpt} tags={tags} />
-      ))}
-    </ul>
-  </section>
-  )} -->
-  <section class="comments">
-    <OutlineHeading id="comments">Comments</OutlineHeading>
-    <Section>
-      <script is:inline>
-        talkyardServerUrl = 'https://site-1hvw5pe7vn.talkyard.net';
-      </script>
-      <script
-        is:inline
-        async
-        defer
-        src="https://cdn.talkyard.net/-/talkyard-comments.min.js"
-      ></script>
-      <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
-      <div class="talkyard-comments" style="margin-top: 45px;">
-        <noscript>Please enable Javascript to view comments.</noscript>
-        <p style="margin-top: 25px; opacity: 0.9; font-size: 96%">
-          The Comments system is powered by a third party service - <a
-            href="https://www.talkyard.io">Talkyard</a
-          >. Sometimes they don't load 😞. If you're having trouble leaving a
-          comment you can <a
-            href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
-            >send me an email</a
-          >.
-        </p>
-      </div>
-    </Section>
-  </section>
-</Layout>
+      </section>
+      <Comments slug={slug} />
+    </Layout>
+  </body>
+</html>

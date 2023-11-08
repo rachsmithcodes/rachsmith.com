@@ -1,0 +1,15 @@
+{
+  "comments": [
+    {
+      "id": "ebb27caf-8766-4bff-9157-9b16e0347464",
+      "parentId": null,
+      "html": "<p>cPanel or PhpMyAdmin has a loading message telling users to be patient. I've always disliked that. Tell me things are loading, and I'll decide for myself if I want to be patient or not thanks.</p>\n",
+      "createdBy": {
+        "id": 131,
+        "fullName": "Mike Healy"
+      },
+      "createdAt": 1667350291187,
+      "replies": []
+    }
+  ]
+}

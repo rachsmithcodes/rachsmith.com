@@ -3,109 +3,12 @@ const { tag, number, small } = Astro.props;
 ---
 
 <style>
-  .tag {
-    color: #000;
-    text-decoration: none;
-    position: relative;
-    text-transform: lowercase;
-    display: inline-block;
-    border: 2px solid #222;
-    margin-right: 0.5em;
-    font-family: var(--mono-font);
-    font-size: 0.9em;
-    padding: 0 0.3em;
-    transform-style: preserve-3d;
-    background: var(--off-white-color);
-    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  }
-
-  .tag.small {
-    font-size: 0.7em;
-  }
-
-  .tag span {
-    border-left: 2px solid #222;
-    padding-left: 0.3em;
-    margin-left: 0.3em;
-  }
-
-  .tag:hover {
-    box-shadow: none;
-  }
-
-  .tag.books {
-    box-shadow: 4px 4px 0px 0px #ff1900;
-  }
-
-  .tag.books:hover {
-    background: #ff1900;
-    box-shadow: none;
-  }
-
-  .tag.development {
-    box-shadow: 4px 4px 0px 0px #ff8800;
-  }
-
-  .tag.development:hover {
-    background: #ff8800;
-    box-shadow: none;
-  }
-
-  .tag.miscellany {
-    box-shadow: 4px 4px 0px 0px #d8ff00;
-  }
-
-  .tag.miscellany:hover {
-    background: #d8ff00;
-    box-shadow: none;
-  }
-
-  .tag.mothering {
-    box-shadow: 4px 4px 0px 0px #00ff2e;
-  }
-
-  .tag.mothering:hover {
-    background: #00ff2e;
-    box-shadow: none;
-  }
-
-  .tag.podcasts {
-    box-shadow: 4px 4px 0px 0px #00ddff;
-  }
-
-  .tag.podcasts:hover {
-    background: #00ddff;
-    box-shadow: none;
-  }
-
-  .tag.productivity {
-    box-shadow: 4px 4px 0px 0px #057dff;
-  }
-
-  .tag.productivity:hover {
-    background: #057dff;
-    box-shadow: none;
-  }
-
-  .tag.wellbeing {
-    box-shadow: 4px 4px 0px 0px #d400ff;
-  }
-
-  .tag.wellbeing:hover {
-    background: #d400ff;
-    box-shadow: none;
-  }
-
-  .tag.work {
-    box-shadow: 4px 4px 0px 0px #ff008c;
-  }
-
-  .tag.work:hover {
-    background: #ff008c;
-    box-shadow: none;
+  a {
+    font-family: var(--font-mono);
+    font-size: 0.8em;
+    margin-right: 0.6em;
   }
 </style>
-
 <a href={`/tag/${tag}/`} class={`tag ${tag} ${small ? 'small' : ''}`}>
-  {tag}{number && <span>{number}</span>}
+  #{tag}{number && <span>{number}</span>}
 </a>

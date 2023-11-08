@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": "e9bace01-a20f-4428-9bb6-592c675a0f48",
+      "parentId": null,
+      "html": "<p>This rings so true. I consider myself &quot;well read&quot; but I am a terrible note taker. As a result, I'm pretty lousy at recalling what I've read. <em>However</em>, I've found ChatGPT and the new Bing equivalent to be a great way to have a &quot;discussion&quot; about a book, ask questions of it, and even combine ideas from multiple sources (e.g., how can I apply this principle to <em>x</em>). Really useful if you lack your own notes, or just want to brainstorm ideas.</p>\n<p>Usually I start with a question like &quot;Are you familiar with The Practising Mind by Thomas Sterner&quot; and take it from there. I got into a conversation about how the ideas in this book could be combined with Kaizen principles, and how the suggestion might be modified to be more accessible to someone with ADHD. It's like having an instant book club discussion. Fun stuff, definitely helps improve understanding, and quite creatively generative.</p>\n<p>P.S. Bing's new AI chat gives quite markedly different answers and provides many reference links out to sites.</p>\n",
+      "createdBy": {
+        "id": 138,
+        "fullName": "Charles Roper"
+      },
+      "createdAt": 1676469807672,
+      "replies": []
+    },
+    {
+      "id": "b964e983-28b1-4bff-90e6-4ae0c6415427",
+      "parentId": "e9bace01-a20f-4428-9bb6-592c675a0f48",
+      "html": "<p>I'll have to try that out! I am no good at coming up with ways to make chat AI useful, just collect other people's suggestions (like this one).</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1676504600046,
+      "replies": []
+    }
+  ]
+}

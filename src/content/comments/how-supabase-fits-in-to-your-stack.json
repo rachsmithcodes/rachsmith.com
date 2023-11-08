@@ -1,0 +1,70 @@
+{
+  "comments": [
+    {
+      "id": "d10786da-61bf-4379-8dfb-e8f3d9f7d72a",
+      "parentId": "70526843-7af6-463a-a4d3-280ff8b304e1",
+      "html": "<p>Got it, thanks! I haven't heard of Sveltekit before but will check it out along with Supabase.</p>\n",
+      "createdBy": {
+        "id": -43,
+        "fullName": "Kelsey W"
+      },
+      "createdAt": 1697084301456,
+      "replies": []
+    },
+    {
+      "id": "70526843-7af6-463a-a4d3-280ff8b304e1",
+      "parentId": "4494bbdf-8bda-4810-b997-01cbd45d5e52",
+      "html": "<p>Hey Kelsey, thanks for your kind words about the site. I didn't end up pursuing a comments solution with supabase. I'm actually working on just using a Netlify form for comment submission and adding the comments to my Astro site as a JSON <a href=\"https://docs.astro.build/en/guides/content-collections/\" rel=\"nofollow\">content collection</a>. But I have been trying out Supabase with Sveltekit in a little habits app project I'm building for myself. I am loving that combination of tech, they make the data side of getting a web app working really fast.</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1697073139319,
+      "replies": []
+    },
+    {
+      "id": "4494bbdf-8bda-4810-b997-01cbd45d5e52",
+      "parentId": null,
+      "html": "<p>Hi Rach! I discovered your blog while searching for ways to use Supabase with a project I'm working on. I'm so glad I found it! I love your writing and am grateful you're sharing all your learnings -- technical and otherwise -- with us. This is also simply a beautiful website and a pleasure to scroll through 💜<br>\nAbout this post in particular: I see the comments are still hosted with Talkyard. Were you able to try out Supabase and what was your experience with it? I personally have used Firebase for some past projects but am thinking of using Supabase to try something new. Thanks!</p>\n",
+      "createdBy": {
+        "id": -43,
+        "fullName": "Kelsey W"
+      },
+      "createdAt": 1697059482372,
+      "replies": []
+    },
+    {
+      "id": "dd402f99-1ee3-4c54-a1ed-d796dac0621b",
+      "parentId": null,
+      "html": "<blockquote>\n<p>Recently I considered replacing the Talkyard comments solution on my notes here with something I’ve built myself.</p>\n</blockquote>\n<p>I have the same inner fight every third day!</p>\n<p>Looking forward to see how Supabase will work for you, because I also had a brief look already and was on the exact same path. 🫣</p>\n",
+      "createdBy": {
+        "id": -22,
+        "fullName": "Stefan Judis"
+      },
+      "createdAt": 1670571810677,
+      "replies": []
+    },
+    {
+      "id": "a189c7f9-1d0d-4f4e-9f96-733a179e3e7c",
+      "parentId": "dd402f99-1ee3-4c54-a1ed-d796dac0621b",
+      "html": "<p>I'll share updates here. Instead of making a whole comments system first I'm going to build some &quot;reaction buttons&quot; as a proof of concept and see how that goes.</p>\n",
+      "createdBy": {
+        "id": 100,
+        "fullName": "Rach Smith"
+      },
+      "createdAt": 1670622516694,
+      "replies": []
+    },
+    {
+      "id": "4339c71c-10fa-4071-abb2-9233369788cb",
+      "parentId": "a189c7f9-1d0d-4f4e-9f96-733a179e3e7c",
+      "html": "<p>Looking forward! Unsurprisingly, I'm playing with this idea, too! 🫣</p>\n",
+      "createdBy": {
+        "id": -22,
+        "fullName": "Stefan Judis"
+      },
+      "createdAt": 1670623249543,
+      "replies": []
+    }
+  ]
+}

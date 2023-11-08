@@ -1,31 +1,22 @@
 ---
 // Component Imports
-import BaseHead from '../components/BaseHead.astro';
+import DocumentHead from '../components/DocumentHead.astro';
 import Layout from '../components/Layout.astro';
 import HomeNotes from '../components/HomeNotes.astro';
-import HomeHeader from '../components/HomeHeader.astro';
-import { notesAndTags } from '../data/notes';
-import { getCollection } from 'astro:content';
 
 let title = `Home | Rach Smith's digital garden`;
 let description = `Hi 👋🏼 I'm Rach. A developer building software for CodePen, wife, mother of two,
   productivity nerd and recovering screen addict. This is my digital garden.`;
 let permalink = 'https://rachsmith.com';
 
-const notes = await getCollection('notes');
-const { allNotes, allTags } = notesAndTags(notes);
-
-let page = 'home';
+let page = 'notes';
 ---
 
 <html lang="en">
-  <head>
-    <BaseHead title={title} description={description} permalink={permalink} />
-  </head>
-
+  <DocumentHead title={title} description={description} permalink={permalink} />
   <body>
-    <Layout page={page} tags={allTags} HeaderComponent={HomeHeader}>
-      <HomeNotes {allNotes} />
+    <Layout page={page}>
+      <HomeNotes />
     </Layout>
   </body>
 </html>

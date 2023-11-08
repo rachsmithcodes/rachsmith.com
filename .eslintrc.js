@@ -1,61 +1,28 @@
 module.exports = {
-  parser: 'babel-eslint',
-  parserOptions: {
-    ecmaVersion: 6,
-    ecmaFeatures: {
-      jsx: true,
-      experimentalObjectRestSpread: true,
-    },
-  },
-  plugins: ['ghost', 'react'],
+  // ...
+  parser: '@babel/eslint-parser',
   extends: [
-    'plugin:ghost/node',
-    'plugin:ghost/ember',
-    'plugin:react/recommended',
+    // ...
+    'plugin:astro/recommended',
   ],
-  settings: {
-    react: {
-      createClass: 'createReactClass',
-      pragma: 'React',
-      version: '16.0',
-      flowVersion: '0.53',
+  // ...
+  overrides: [
+    {
+      // Define the configuration for `.astro` file.
+      files: ['*.astro'],
+      // Allows Astro components to be parsed.
+      parser: 'astro-eslint-parser',
+      // Parse the script in `.astro` as TypeScript by adding the following configuration.
+      // It's the setting you need when using TypeScript.
+      parserOptions: {
+        parser: '@typescript-eslint/parser',
+        extraFileExtensions: ['.astro'],
+      },
+      rules: {
+        // override/add rules settings here, such as:
+        // "astro/no-set-html-directive": "error"
+      },
     },
-    propWrapperFunctions: ['forbidExtraProps'],
-  },
-  rules: {
-    'ghost/sort-imports-es6-autofix/sort-imports-es6': 'off',
-    'ghost/ember/use-ember-get-and-set': 'off',
-    'no-console': 'off',
-    'no-inner-declarations': 'off',
-    'valid-jsdoc': 'off',
-    'require-jsdoc': 'off',
-    quotes: ['error', 'single'],
-    'consistent-return': ['error'],
-    'arrow-body-style': [
-      'error',
-      'as-needed',
-      { requireReturnForObjectLiteral: true },
-    ],
-    'jsx-quotes': ['error', 'prefer-double'],
-    'object-curly-spacing': ['error', 'always'],
-    'curly': ['igonre'],
-    'comma-dangle': [
-      'error',
-      {
-        arrays: 'always-multiline',
-        objects: 'always-multiline',
-        imports: 'always-multiline',
-        exports: 'always-multiline',
-        functions: 'ignore',
-      },
-    ],
-    'react/prop-types': [
-      'error',
-      {
-        ignore: ['children'],
-      },
-    ],
-    indent: ['error', 2],
-    'arrow-parens': ['error', 'always'],
-  },
+    // ...
+  ],
 };

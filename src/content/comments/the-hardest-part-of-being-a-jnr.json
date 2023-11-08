@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "id": "396df71d-1c2c-4265-b64f-1b9b13788a2c",
+      "parentId": null,
+      "html": "<p>This is a simple but a very powerful advice. For me, this timing aspect given by a manager allows the junior to be more autonomous. In agile, the dailies meetings are there to identify blocking points, but with this input (which is more precise), it makes it even faster!</p>\n",
+      "createdBy": {
+        "id": 139,
+        "fullName": "anon"
+      },
+      "createdAt": 1673954451218,
+      "replies": []
+    },
+    {
+      "id": "5a22a14e-1d9b-4cf7-b54f-f6966baeebf2",
+      "parentId": null,
+      "html": "<p>I wish I got this kind of talk at every single job I've ever had from my managers.</p>\n",
+      "createdBy": {
+        "id": -23,
+        "fullName": "Zach"
+      },
+      "createdAt": 1673924039447,
+      "replies": []
+    }
+  ]
+}
