@@ -132,7 +132,9 @@ const { page } = Astro.props;
       right: 0;
       top: 13px;
       border-radius: 2px;
-      transition: height 0.1s ease-out, top 0.1s ease-out;
+      transition:
+        height 0.1s ease-out,
+        top 0.1s ease-out;
     }
 
     :global(.rainbows) .nav li a.nav-link::after {
@@ -143,7 +145,9 @@ const { page } = Astro.props;
     .nav li a.nav-link.active::after {
       height: 17px;
       top: 5px;
-      transition: height 0.2s ease-in, top 0.2s ease-in;
+      transition:
+        height 0.2s ease-in,
+        top 0.2s ease-in;
     }
 
     .nav li a.rss-link span {
@@ -157,6 +161,7 @@ const { page } = Astro.props;
     left: -24vw;
     top: -2vw;
     transform: rotate(20deg);
+    min-height: 200px;
   }
 
   @media (min-width: 640px) {
@@ -233,10 +238,14 @@ const { page } = Astro.props;
 </style>
 
 <div class="sidebar">
-  <a href="/"><img class="lorikeet" src="/images/lori.png" alt="Rach Smith" /></a>
-  <a href="/" class="site-name-link"><div class="site-name">
-    <span>Rach Smith's</span><span>digital</span><span>garden</span>
-  </div></a>
+  <a href="/"
+    ><img class="lorikeet" src="/images/lori.png" alt="Rach Smith" /></a
+  >
+  <a href="/" class="site-name-link"
+    ><div class="site-name">
+      <span>Rach Smith's</span><span>digital</span><span>garden</span>
+    </div></a
+  >
   <nav class="nav">
     <ul>
       <li>
@@ -253,7 +262,7 @@ const { page } = Astro.props;
       <li>
         <a
           class:list={{ active: page === 'about', 'nav-link': true }}
-          href="/about">About</a
+          href="/about/">About</a
         >
       </li>
       <li>

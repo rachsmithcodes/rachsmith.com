@@ -8,3 +8,13 @@
 /rss.xml /feed.xml 
 # old RSS redirect
 /rss/ /feed.xml 
+
+# old tag pages
+/tag/books/ /tags/#books
+/tag/development/ /tags/#development
+/tag/miscellany/ /tags/#miscellany
+/tag/mothering/ /tags/#mothering
+/tag/podcasts/ /tags/#podcasts
+/tag/productivity/ /tags/#productivity
+/tag/wellbeing/ /tags/#wellbeing
+/tag/work/ /tags/#work

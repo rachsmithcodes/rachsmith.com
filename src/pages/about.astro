@@ -1,0 +1,22 @@
+---
+// Component Imports
+import DocumentHead from '../components/DocumentHead.astro';
+import Layout from '../components/Layout.astro';
+import AboutPage from '../components/AboutPage.astro';
+
+let title = `About | Rach Smith's digital garden`;
+let description = `Hi 👋🏼 I'm Rach. A developer building software for CodePen, wife, mother of two,
+  productivity nerd and recovering screen addict. This is my digital garden.`;
+let permalink = 'https://rachsmith.com';
+
+let page = 'notes';
+---
+
+<html lang="en">
+  <DocumentHead title={title} description={description} permalink={permalink} />
+  <body>
+    <Layout page={page}>
+      <AboutPage />
+    </Layout>
+  </body>
+</html>
