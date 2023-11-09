@@ -36,6 +36,12 @@ const { page } = Astro.props;
       grid-template-columns: minmax(220px, 20vw) 1fr;
     }
   }
+
+  @media (min-width: 1440px) {
+    .grid-container {
+      grid-template-columns: 286px 1fr;
+    }
+  }
 </style>
 
 <Sidebar page={page} />
