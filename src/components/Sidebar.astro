@@ -82,6 +82,10 @@ const { page } = Astro.props;
     background: hsla(253, 45%, 47%, 0.5);
   }
 
+  .nav {
+    font-size: 1.34rem;
+  }
+
   .nav ul {
     list-style: none;
     align-items: right;
@@ -92,6 +96,10 @@ const { page } = Astro.props;
   }
 
   @media (min-width: 640px) {
+    .nav {
+      font-size: 1.2rem;
+    }
+
     .nav ul {
       grid-template-columns: none;
       display: grid;
@@ -198,12 +206,16 @@ const { page } = Astro.props;
     display: grid;
     grid-template-columns: 1fr 1.2em;
     column-gap: 0.5em;
-    font-size: 0.7em;
+    font-size: 1.1rem;
     font-family: var(--font-mono);
     line-height: 1;
     margin-bottom: 0.8em;
     margin-left: 0.6em;
     align-items: center;
+  }
+
+  .settings li.cursor-trails-setting {
+    display: none;
   }
 
   input[type='checkbox'] {
@@ -240,6 +252,16 @@ const { page } = Astro.props;
 
   input[type='checkbox']:checked::before {
     transform: scale(1);
+  }
+
+  @media (min-width: 640px) {
+    .settings li.cursor-trails-setting {
+      display: grid;
+    }
+
+    .settings li {
+      font-size: 0.8rem;
+    }
   }
 </style>
 
@@ -286,7 +308,7 @@ const { page } = Astro.props;
         type="checkbox"
       />
     </li>
-    <li>
+    <li class="cursor-trails-setting">
       <label for="cursor-trails">cursor trails</label><input
         id="cursor-trails"
         type="checkbox"

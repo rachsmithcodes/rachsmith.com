@@ -260,8 +260,10 @@ let metaImage = `https://rachsmith.com/socials.jpg`;
       display: none;
     }
 
-    .cursor-trails canvas {
-      display: block;
+    @media (min-width: 640px) {
+      .cursor-trails canvas {
+        display: block;
+      }
     }
   </style>
 </head>

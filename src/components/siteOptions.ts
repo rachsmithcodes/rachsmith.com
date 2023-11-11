@@ -23,6 +23,8 @@ function enableOption(option) {
     document.documentElement.style.colorScheme = 'dark';
   window.localStorage.setItem(option, 'true');
   if (option === siteOptions.cursorTrails && !trailsScriptsInjected) {
+    // No trails on small screens
+    if (document.documentElement.clientWidth < 640) return;
     var pixiScript = document.createElement('script');
     pixiScript.onload = function () {
       const trailsScript = document.createElement('script');

@@ -10,8 +10,8 @@ const colors = [
 ];
 
 function resize() {
-  width = window.innerWidth;
-  height = window.innerHeight;
+  width = document.documentElement.clientWidth;
+  height = document.documentElement.clientHeight;
   if (app) app.renderer.resize(width, height);
 }
 
@@ -52,7 +52,7 @@ async function setup() {
 
   spritesheet = new PIXI.Spritesheet(
     PIXI.BaseTexture.from(spriteData.meta.image),
-    spriteData
+    spriteData,
   );
 
   await spritesheet.parse();
@@ -68,7 +68,7 @@ class Particle {
     this.sprite = new PIXI.Sprite(spritesheet.textures[i % 36]);
     this.sprite.alpha = 0;
     this.sprite.tint = new PIXI.Color(
-      colors[Math.floor(Math.random() * colors.length)]
+      colors[Math.floor(Math.random() * colors.length)],
     );
     this.sprite.width = 80;
     this.sprite.height = 80;
