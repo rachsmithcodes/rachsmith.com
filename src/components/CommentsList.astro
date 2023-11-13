@@ -24,7 +24,7 @@ const comments = allComments
             <CommentIcon index={index} />
             <a href={`#comment-${comment.id}`} class="comment-link">
               <p class="comment-name">
-                {createdBy.fullName} {myComment && <span class="op">OP</span>}
+                {createdBy.fullName} {myComment && <span class="op"> OP</span>}
               </p>
               <p class="comment-date">
                 {new Date(createdAt).toLocaleString(undefined, {
