@@ -2,16 +2,20 @@
 import CommentIcon from './CommentIcon.astro';
 let { parentId, allComments, startIndex } = Astro.props;
 
-const comments = allComments.filter((comment) => comment.parentId === parentId);
-
-
+const comments = allComments
+  .filter((comment) => comment.parentId === parentId)
+  .sort((a, b) => {
+    return new Date(a.createdAt) - new Date(b.createdAt);
+  });
 ---
 
 {
   comments.length > 0 && (
     <ul>
       {comments.map((comment, i) => {
-        const commentHasReplies = allComments.some((c) => c.parentId === comment.id);
+        const commentHasReplies = allComments.some(
+          (c) => c.parentId === comment.id,
+        );
         const { createdBy, createdAt, html } = comment;
         const index = (startIndex + i) % 6;
         const myComment = createdBy.fullName === 'Rach Smith';
@@ -19,20 +23,32 @@ const comments = allComments.filter((comment) => comment.parentId === parentId);
           <li class="comment">
             <CommentIcon index={index} />
             <a href={`#comment-${comment.id}`} class="comment-link">
-            <p class="comment-name">{createdBy.fullName}{' '}{myComment && <span class="op">OP</span>}</p>
-            <p class="comment-date">
-              {new Date(createdAt).toLocaleString(undefined, {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric',
-                hour: 'numeric',
-                minute: 'numeric',
-              })}
-            </p>
+              <p class="comment-name">
+                {createdBy.fullName} {myComment && <span class="op">OP</span>}
+              </p>
+              <p class="comment-date">
+                {new Date(createdAt).toLocaleString(undefined, {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric',
+                  hour: 'numeric',
+                  minute: 'numeric',
+                })}
+              </p>
             </a>
-            <div class:list={{"comment-content": true, 'has-replies': commentHasReplies}} set:html={html} />
+            <div
+              class:list={{
+                'comment-content': true,
+                'has-replies': commentHasReplies,
+              }}
+              set:html={html}
+            />
             <div class="replies">
-              <Astro.self parentId={comment.id} allComments={allComments} startIndex={index+1} />
+              <Astro.self
+                parentId={comment.id}
+                allComments={allComments}
+                startIndex={index + 1}
+              />
             </div>
           </li>
         );
@@ -69,7 +85,7 @@ const comments = allComments.filter((comment) => comment.parentId === parentId);
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip:  text;
+    background-clip: text;
   }
 
   .comment-date {

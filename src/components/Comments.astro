@@ -57,6 +57,10 @@ const comments = commentsEntry?.data?.comments || [];
   :global(.rainbows) .submit-button {
     background: var(--gradient-color);
   }
+
+  .info {
+    font-weight: normal;
+  }
 </style>
 
 <section class="comments">
@@ -74,7 +78,13 @@ const comments = commentsEntry?.data?.comments || [];
   <form name="comment" method="POST" data-netlify="true" id="comment-form">
     <input type="hidden" name="slug" value={slug} />
     <p>
-      <label for="comment">Comment</label>
+      <label for="comment"
+        >Comment <span class="info"
+          >(You can use <a href="https://www.markdownguide.org/basic-syntax/"
+            >Markdown syntax</a
+          > if you wish)</span
+        ></label
+      >
       <textarea name="comment" id="comment" required></textarea>
     </p>
     <p>
