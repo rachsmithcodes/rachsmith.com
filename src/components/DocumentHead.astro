@@ -219,7 +219,6 @@ let metaImage = `https://rachsmith.com/socials.jpg`;
       height: 100%;
       margin: 0px;
       padding: 0px;
-      overflow-x: hidden;
     }
 
     body {
@@ -278,6 +277,7 @@ let metaImage = `https://rachsmith.com/socials.jpg`;
       top: 0;
       left: 0;
       display: none;
+      pointer-events: none;
     }
 
     article img {
@@ -285,11 +285,14 @@ let metaImage = `https://rachsmith.com/socials.jpg`;
     }
 
     @media (min-width: 640px) {
-      html, body {
-        overflow-x: auto;
-      }
       .cursor-trails canvas {
         display: block;
+      }
+    }
+
+    @media (max-width: 640px) {
+      html, body {
+        overflow-x: hidden;
       }
     }
 
