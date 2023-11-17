@@ -35,6 +35,12 @@ const comments = commentsEntry?.data?.comments || [];
     border: none;
   }
 
+  :global(.dark-mode) form input,
+  :global(.dark-mode) form textarea {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+  }
+
   form textarea {
     height: 10em;
   }
