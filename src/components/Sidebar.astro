@@ -22,6 +22,12 @@ const { page } = Astro.props;
       width: 20vw;
       padding: 4em 1em 3em 2em;
     }
+
+    @media (max-height: 630px) {
+      .sidebar {
+        position: absolute;
+      }
+    }
   }
 
   @media (min-width: 1440px) {
