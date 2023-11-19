@@ -3,7 +3,7 @@ title: Automating the process for moving notes from my Obsidian vault to my Astr
 slug: automating-obsidian-to-astro
 added: 2022-10-26 08:13
 updated: 2023-10-16 20:07
-tags: [development]
+tags: [development, astro]
 excerpt: I wrote a script to copy notes from my private vault to my public site.
 publish: true
 ---

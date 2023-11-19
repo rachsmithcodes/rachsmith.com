@@ -3,7 +3,7 @@ title: Wtf is an island and why is it in my website?
 slug: wtf-is-an-island
 added: 2022-09-13 05:56
 updated: 2022-09-13 05:56
-tags: [development]
+tags: [development, astro]
 excerpt: Wrapping my head around Islands Architecture.
 publish: true
 ---

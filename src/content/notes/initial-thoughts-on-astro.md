@@ -3,7 +3,7 @@ title: Initial thoughts on Astro
 slug: initial-thoughts-on-astro
 added: 2022-07-11 07:42
 updated: 2022-07-11 07:42
-tags: [development]
+tags: [development, astro]
 excerpt: In short, I love it.
 imageId: '5'
 publish: true
