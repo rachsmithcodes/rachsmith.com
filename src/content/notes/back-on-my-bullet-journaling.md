@@ -3,7 +3,7 @@ title: Back on my bullet journaling
 slug: back-on-my-bullet-journaling
 added: 2023-02-15 10:03
 updated: 2023-02-15 10:03
-tags: [productivity]
+tags: [productivity, obsidian]
 excerpt: I got really into bullet journaling in 2016, along with everyone else. What got me hooked was the beautiful spreads people shared on Pinterest and Instagram.
 publish: true
 ---

@@ -3,7 +3,7 @@ title: Good things September 2022
 slug: good-things-september-2022
 added: 2022-10-06 11:11
 updated: 2022-10-06 11:11
-tags: [miscellany]
+tags: [miscellany, obsidian]
 excerpt: Some good things from September.
 publish: true
 ---

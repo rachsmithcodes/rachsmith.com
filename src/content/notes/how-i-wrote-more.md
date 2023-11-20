@@ -3,7 +3,7 @@ title: "How I achieved my goal of \"writing more\""
 slug: how-i-wrote-more
 added: 2022-12-31 07:05
 updated: 2022-12-31 07:05
-tags: [productivity]
+tags: [productivity, obsidian]
 excerpt: Recently I wrote how I got comfortable with writing and publishing more frequently on this website. I thought I would share some specific things I did to make writing happen for me this year.
 publish: true
 ---

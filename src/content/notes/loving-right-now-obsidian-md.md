@@ -3,7 +3,7 @@ title: "Loving right now: Obsidian.md"
 slug: loving-right-now-obsidian-md
 added: 2021-04-12 20:41
 updated: 2021-04-12 20:41
-tags: [productivity]
+tags: [productivity, obsidian]
 excerpt: My new favourite note-taking app
 publish: true
 ---

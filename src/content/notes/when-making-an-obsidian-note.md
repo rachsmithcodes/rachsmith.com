@@ -3,7 +3,7 @@ title: Use command+o to make new notes in Obsidian
 slug: when-making-an-obsidian-note
 added: 2022-11-02 05:45
 updated: 2022-11-02 05:45
-tags: []
+tags: [obsidian]
 excerpt: This is the command to open the "quick switcher" find and open an existing file, and also provides the option to create a new file if you don't want to select an existing one.
 publish: true
 ---

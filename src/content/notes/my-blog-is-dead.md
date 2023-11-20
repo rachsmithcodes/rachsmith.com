@@ -3,7 +3,7 @@ title: "My blog is dead. Long live my digital garden"
 slug: my-blog-is-dead
 added: 2021-11-22 15:00
 updated: 2021-11-22 15:00
-tags: [development]
+tags: [development, obsidian]
 excerpt: The same content, a different perspective on publishing.
 publish: true
 ---

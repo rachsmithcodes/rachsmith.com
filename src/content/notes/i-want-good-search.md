@@ -3,7 +3,7 @@ title: AI is making it easier to create more noise, when all I want is good sear
 slug: i-want-good-search
 added: 2023-03-03 14:29
 updated: 2023-03-03 14:29
-tags: [productivity]
+tags: [productivity, obsidian]
 excerpt: We use Notion for the bulk of our knowledge management at CodePen. I have no use for an AI that can write for me.
 publish: true
 ---
