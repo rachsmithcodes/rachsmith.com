@@ -3,7 +3,7 @@ title: How I implement Atomic Habits
 slug: how-i-implement-atomic-habits
 added: 2021-02-03 13:50
 updated: 2021-02-03 13:50
-tags: [productivity, books]
+tags: [productivity, books, journaling]
 excerpt: My takeaways from Atomic Habits by James Clear.
 publish: true
 ---

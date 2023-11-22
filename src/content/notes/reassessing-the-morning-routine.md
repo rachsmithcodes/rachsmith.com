@@ -3,7 +3,7 @@ title: Reassessing the morning routine in 2023
 slug: reassessing-the-morning-routine
 added:  2023-07-10 05:40
 updated: 2023-07-10 05:40
-tags: [wellbeing, podcasts]
+tags: [wellbeing, podcasts, journaling]
 excerpt: Remember when productivity YouTube was all about the morning routine? It remains to be an engagement-generating video topic today, but back in 2016 it was a hot HOT topic.
 publish: true
 ---
@@ -22,7 +22,7 @@ As for me, I want to end my morning routine feeling energetic. I want to feel li
 
 The easiest way for me to achieve this is through movement—either a walk or a workout. I love the warmer half of the year just because the sun is already up at 5 am, and I can walk first thing in the morning. In winter, I have to stay in and make do with some strength training or yoga, as I like to save my daily walk for when the sun is out. 
 
-I've also dabbled in journalling and meditation. Some days journalling feels like the right thing; others, I've got nothing to write, just staring at a blank page, feeling like I'm wasting my time. 
+I've also dabbled in journaling and meditation. Some days journaling feels like the right thing; others, I've got nothing to write, just staring at a blank page, feeling like I'm wasting my time. 
 
 It still isn't clear to me whether meditation benefits me or not. I'm not guaranteed to feel that much better from doing it. Some days, I wake up, and it feels like I can't stand to be with my thoughts, so I seek stimulation all day long. Meditation can help stop that behaviour from escalating somewhat. It certainly doesn't feel life-changing, as others have said. 
 
