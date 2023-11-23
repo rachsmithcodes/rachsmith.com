@@ -10,21 +10,21 @@ const postsWithContent = await Promise.all(
 
     const titleEncoded = encodeURIComponent(`re: ${post.frontmatter.title}`);
     const tweetTextEncoded = encodeURIComponent(
-      `re: https://rachsmith.com/${post.frontmatter.slug}`
+      `re: https://rachsmith.com/${post.frontmatter.slug}`,
     );
 
     let html = marked.parse(rawContent);
 
     html += `
       <hr />
-      <p>Thanks for reading this post via RSS! Let me know your thoughts by leaving a comment on the <a href="https://rachsmith.com/${post.frontmatter.slug}">original post</a>, send <a href="mailto:contact@rachsmith.com?subject=${titleEncoded}">me an email</a>, or <a href="https://twitter.com/intent/tweet?screen_name=rachsmithtweets&text=${tweetTextEncoded}">Tweet at me</a>.</p>
+      <p>Thanks for reading this post via RSS! Let me know your thoughts by leaving a comment on the <a href="https://rachsmith.com/${post.frontmatter.slug}">original post</a> or send <a href="mailto:contact@rachsmith.com?subject=${titleEncoded}">me an email</a>.</p>
       `;
 
     return {
       ...post,
       htmlContent: html,
     };
-  })
+  }),
 );
 
 postsWithContent.sort((a, b) => {
