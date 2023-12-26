@@ -3,8 +3,8 @@ title: "My goal for 2024: to remember it"
 slug: my-goal-for-2024
 added: 2023-12-16 14:03
 updated: 2023-12-16 14:03
-tags: []
-excerpt:  
+tags: [journaling]
+excerpt: I am always impressed by people's ability to recount the various achievements and happenings of the year, especially those who can go into detail. This is because I would struggle to recount what happened last week, let alone in March.
 note: publish
 publish: true
 ---
