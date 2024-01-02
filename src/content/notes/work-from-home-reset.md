@@ -11,7 +11,7 @@ publish: true
 
 Whenever I tell people (IRL) about my job, the first comments/questions I get are about how hard it is to get anything done when you don't have a boss and/or colleagues in the same building keeping you accountable.
 
-I've been working remotely for so long now I'm mostlygood at staying productive. Things sometimes slip though, especially at the end of the year when kids leave school, and everything in home life intensifies as the silly season approaches. Work habits get... messy.
+I've been working remotely for so long now I'm mostly good at staying productive. Things sometimes slip though, especially at the end of the year when kids leave school, and everything in home life intensifies as the silly season approaches. Work habits get... messy.
 
 That's why I like starting the year with a little work-from-home refresh. 
 
