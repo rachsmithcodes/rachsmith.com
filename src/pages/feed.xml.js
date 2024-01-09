@@ -9,9 +9,6 @@ const postsWithContent = await Promise.all(
     let rawContent = await post.rawContent();
 
     const titleEncoded = encodeURIComponent(`re: ${post.frontmatter.title}`);
-    const tweetTextEncoded = encodeURIComponent(
-      `re: https://rachsmith.com/${post.frontmatter.slug}`,
-    );
 
     let html = marked.parse(rawContent);
 
