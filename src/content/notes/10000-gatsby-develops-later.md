@@ -3,7 +3,7 @@ title: 10,000 gatsby develops later
 slug: 10000-gatsby-develops-later
 added: 2021-11-22 19:00
 updated: 2022-07-11 07:51
-tags: [development]
+tags: [development, meta]
 excerpt: I love gatsby, I hate gatsby.
 publish: true
 ---

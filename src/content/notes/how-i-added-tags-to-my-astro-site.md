@@ -3,7 +3,7 @@ title: How I added tags to my Astro site
 slug: how-i-added-tags-to-my-astro-site
 added: 2022-07-17 14:28
 updated: 2022-07-17 14:28
-tags: [development, astro]
+tags: [development, astro, meta]
 excerpt:
 publish: true
 ---
