@@ -3,7 +3,7 @@ title: A redesign
 slug: a-redesign
 added: 2023-11-12 14:32
 updated: 2023-11-12 14:32
-tags: [development]
+tags: [development, meta]
 excerpt: A while ago I had an idea for a redesign of this website. Since then, I've been pottering away on it and finally sent it live last week.
 publish: true
 note: publish

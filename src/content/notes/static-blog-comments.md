@@ -3,7 +3,7 @@ title: My simple 16 step system for adding comments to my static site built with
 slug: static-blog-comments
 added: 2023-11-20 08:10
 updated: 2023-11-20 08:10
-tags: [development, astro]
+tags: [development, astro, meta]
 excerpt: How I replaced my third-party comments system with a form and some JSON files.
 note: publish
 publish: true
