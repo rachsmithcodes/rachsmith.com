@@ -1,56 +1,53 @@
 import rss from '@astrojs/rss';
+import { getCollection } from 'astro:content';
 import * as marked from 'marked';
 
-const postImportResult = import.meta.globEager('../content/notes/**/*.md');
-const posts = Object.values(postImportResult);
+const notes = await getCollection('notes');
 
-const postsWithContent = await Promise.all(
-  posts.map(async (post) => {
-    let rawContent = await post.rawContent();
+const notesWithContent = await Promise.all(
+  notes.map(async (note) => {
+    let rawContent = note.body;
 
-    const titleEncoded = encodeURIComponent(`re: ${post.frontmatter.title}`);
+    const titleEncoded = encodeURIComponent(`re: ${note.data.title}`);
 
     let html = marked.parse(rawContent);
 
     html += `
       <hr />
-      <p>Thanks for reading this post via RSS! Let me know your thoughts by leaving a comment on the <a href="https://rachsmith.com/${post.frontmatter.slug}">original post</a> or send <a href="mailto:contact@rachsmith.com?subject=${titleEncoded}">me an email</a>.</p>
+      <p>Thanks for reading this post via RSS! Let me know your thoughts by leaving a comment on the <a href="https://rachsmith.com/${note.slug}">original post</a> or send <a href="mailto:contact@rachsmith.com?subject=${titleEncoded}">me an email</a>.</p>
       `;
 
     return {
-      ...post,
+      ...note,
       htmlContent: html,
     };
   }),
 );
 
-postsWithContent.sort((a, b) => {
-  return new Date(b.frontmatter.added) - new Date(a.frontmatter.added);
+notesWithContent.sort((a, b) => {
+  return new Date(b.data.added) - new Date(a.data.added);
 });
 
-const postsToRender = postsWithContent.slice(0, 20);
+const notesToRender = notesWithContent.slice(0, 20);
 
-export const get = () =>
-  rss({
+export function GET(context) {
+  return rss({
     title: "Rach Smith's digital garden",
     description:
       "Hi 👋🏼 I'm Rach. A developer building software for CodePen, wife, mother of two, productivity nerd and recovering screen addict. This is my digital garden.",
-    site: import.meta.env.SITE,
-    items: postsToRender.map((post, i) => {
-      const categoryTags = post.frontmatter.tags
+    site: context.site,
+    items: notesToRender.map((note) => {
+      const categoryTags = note.data.tags
         .map((tag) => `<category><![CDATA[${tag}]]></category>`)
         .join('');
       return {
-        link: post.frontmatter.slug,
-        title: post.frontmatter.title,
-        pubDate: post.frontmatter.added,
-        description: post.htmlContent,
+        link: `/${note.slug}`,
+        title: note.data.title,
+        pubDate: note.data.added,
+        description: note.htmlContent,
         customData: categoryTags,
       };
     }),
-    // customData: `<atom:link href="https://rachsmith.com/rss/" rel="self" type="application/rss+xml" />`,
-    xmlns: {
-      // atom: 'http://www.w3.org/2005/Atom',
-    },
     stylesheet: '/rss-styles.xsl',
   });
+}
