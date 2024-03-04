@@ -17,7 +17,7 @@ I am now two months in to my attempt to [journal every day](/my-goal-for-2024/),
 
 A side-effect of all this focus on home life is that I've **published shit-all on this site**. Oh well.
 
-[Last month](/mnnm-1/), I went hard on working out and running, and finished with a hamstring injury. I went to the physio and she told me (in a much nicer way) that **I had absolutely no business running those distances on my weak-ass glutes** (weak-ass ass?). So I've been doing the rehab exercises. It's like **everyday is leg day** with the same boring routine, but I am seeing an improvement and should be back to running soon.
+[Last month](/mnnm-1/), I went hard on working out and running, and finished with a hamstring injury. I went to the physio and she told me (in a much nicer way) that **I had absolutely no business running those distances on my weak-ass glutes** (weak-ass ass?). So I've been doing the rehab exercises. It's like **every day is leg day** with the same boring routine, but I am seeing an improvement and should be back to running soon.
 
 **I made a real effort to read more and scroll less**, after noting my abysmal reading count in last month's numbers. I ended up finishing three books. I plan to post a little review of the books I read this year, I just need to finish adding a custom note type for book reviews. 
 
