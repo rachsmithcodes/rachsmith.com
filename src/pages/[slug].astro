@@ -4,6 +4,7 @@ import DocumentHead from '../components/DocumentHead.astro';
 import TagsList from '../components/TagsList.astro';
 import { getCollection, getEntry } from 'astro:content';
 import Comments from '../components/Comments.astro';
+import StarRating from '../components/StarRating.astro';
 
 export async function getStaticPaths() {
   const notes = await getCollection('notes');
@@ -29,7 +30,7 @@ if (slug === undefined) return;
 const { Content } = await note.render();
 
 const {
-  data: { title, added, updated, tags, excerpt },
+  data: { title, added, updated, tags, excerpt, type },
 } = note;
 
 // random imageId between 1 and 6
@@ -102,6 +103,11 @@ const tweetTextEncoded = encodeURIComponent(
           <TagsList tags={tags.map((t) => ({ name: t }))} />
         </div>
         <div class="styled-link-underlines">
+          {
+            type === 'book' && 'rating' in note.data && note.data.rating && (
+              <StarRating rating={note.data.rating} />
+            )
+          }
           <Content />
         </div>
       </article>
@@ -110,8 +116,7 @@ const tweetTextEncoded = encodeURIComponent(
         <a href={`/${slug}/#comments`}>leave a comment</a>, <a
           href={`mailto:contact@rachsmith.com?subject=${titleEncoded}`}
           >send me an email</a
-        >, hit me up <a
-          href={'https://mastodon.social/@rachsmith'}
+        >, hit me up <a href={'https://mastodon.social/@rachsmith'}
           >on Mastodon</a
         >, or <a href="https://github.com/rachsmithcodes/rachsmith.com/issues"
           >add an issue on GitHub</a

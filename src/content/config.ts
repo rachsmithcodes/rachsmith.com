@@ -1,13 +1,17 @@
 import { z, defineCollection } from 'astro:content';
 
+const note = z.object({
+  type: z.enum(['note', 'book']).optional(),
+  title: z.string(),
+  tags: z.array(z.string()),
+  added: z.string(),
+  updated: z.string(),
+  excerpt: z.string().optional().nullable(),
+  rating: z.number().optional().nullable(),
+});
+
 const notesCollection = defineCollection({
-  schema: z.object({
-    title: z.string(),
-    tags: z.array(z.string()),
-    added: z.string(),
-    updated: z.string(),
-    excerpt: z.string().nullable(),
-  }),
+  schema: note,
 });
 
 const comment = z.object({

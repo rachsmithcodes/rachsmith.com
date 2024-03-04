@@ -6,6 +6,8 @@ updated: 2021-03-26 10:31
 tags: [books, productivity]
 excerpt: The main takeaway from this book is helpful, but there are other authors who do a better job at writing about it.
 publish: true
+type: book
+rating: 2
 ---
 
 ![The Slight Edge book cover](/images/the-slight-edge.jpg)

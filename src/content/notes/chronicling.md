@@ -9,7 +9,7 @@ note: publish
 publish: true
 ---
 
-I wouldn't really call it a goal for the year, because it is too vague, but I had set an *intention* for 2024 that I would spend more of my free time in creative practice - whether that be writing, lettering, drawing, creative coding or piano.
+I wouldn't really call it a goal for the year, because it is too vague, but I had set an *intention* for 2024 that I would spend more of my free time in creative practice - whether that be writing, lettering, drawing, creative coding or [piano](/roland-f701/).
 
 I figured I should probably keep track of when I followed through on my intention, and I was doing so in my [planner](/hobonichi-techo-cousin/), but I was looking for a digital format to store the data as well.
 

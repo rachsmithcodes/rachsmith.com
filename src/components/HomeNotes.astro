@@ -1,5 +1,6 @@
 ---
-import { CollectionEntry, getCollection } from 'astro:content';
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
 import NoteListItem from './NoteListItem.astro';
 
 type Year = {
@@ -117,6 +118,7 @@ years
                   title={note.data.title}
                   added={note.data.added}
                   tags={note.data.tags}
+                  type={note.data.type}
                   excerpt={note.data.excerpt}
                 />
               ))}
