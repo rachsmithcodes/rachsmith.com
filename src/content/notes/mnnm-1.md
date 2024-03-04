@@ -14,7 +14,7 @@ This is a new series which is very much inspired by Dave Rupert's [Vibe Checks](
 
 **I absolutely smashed it in the fitness department this month**. It was definitely giving "January". I wasn't sick once all month - truly a miracle when a family member attends daycare - and so my workout schedule went uninterrupted. Unfortunately I overdid the running and I now have tendonitis in my hamstring. 
 
-**We are loving the addition of the piano.** My husband and I are doing a bit of practice every day, and my oldest is truly obsessed. He practices for over an hour after school.
+**We are loving the addition of [the piano](/roland-f701/).** My husband and I are doing a bit of practice every day, and my oldest is truly obsessed. He practices for over an hour after school.
 
 **Speaking of school, we're back**. The Australian school year starts in January, so we're in a new grade. There are lots of emotions and disregulation with any big transition, but things are starting to settle.
 
@@ -36,7 +36,7 @@ I'm in a spot where I can't share too much about work, because everything I'm wo
 
 ## The numbers
 
-My counts from Chronicling.
+My counts from [Chronicling](/chronicling/).
 
 <h3 style="margin-bottom: 0.2rem; font-size: 1.2rem;">Fitness</h3>
 <ul style="list-style: none; margin: 0; padding: 0;">
