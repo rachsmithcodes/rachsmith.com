@@ -1,5 +1,5 @@
 ---
-const { slug, title, added, includeDate = true } = Astro.props;
+const { slug, title, added, type, includeDate = true } = Astro.props;
 
 const addedSegments = added.split(' ')[0].split('-');
 const day = addedSegments[2];
@@ -49,9 +49,14 @@ const day = addedSegments[2];
   li a:hover {
     text-decoration: underline;
   }
+
+  :global(li a.book::before) {
+    content: '📘 ';
+    text-decoration: none;
+  }
 </style>
 
 <li class="note">
   {includeDate && <span class="date">{day}</span>}
-  <a href={`/${slug}/`}>{title}</a>
+  <a class={type} href={`/${slug}/`}>{title}</a>
 </li>

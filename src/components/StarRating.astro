@@ -1,0 +1,30 @@
+---
+import StarRatingStar from './StarRatingStar.astro';
+import type { StarType } from './StarRatingStar.astro';
+type Props = {
+  rating: number;
+};
+
+const { rating } = Astro.props;
+
+console.log(rating);
+
+const stars = Array.from({ length: Math.floor(rating) }).map(() => 'full');
+console.log(stars);
+if (rating % 1 > 0.5) {
+  stars.push('half');
+}
+for (let i = stars.length; i < 5; i++) {
+  stars.push('empty');
+}
+---
+
+<svg
+  height="32"
+  viewBox="0 0 175 32"
+  width="175"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <title>{`Rating: ${rating} out of 5 stars`}</title>
+  {stars.map((type: StarType, i) => <StarRatingStar type={type} x={i * 34} />)}
+</svg>

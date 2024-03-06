@@ -1,5 +1,6 @@
 ---
-import { CollectionEntry, getCollection } from 'astro:content';
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
 import NoteListItem from './NoteListItem.astro';
 import TagsList from './TagsList.astro';
 
@@ -114,6 +115,7 @@ for (const tag of tags) {
               tags={note.data.tags}
               excerpt={note.data.excerpt}
               includeDate={false}
+              type={note.data.type}
             />
           ))}
         </ul>
