@@ -3,7 +3,7 @@ title: Why write?
 slug: why-write
 added: 2021-06-13 21:23
 updated: 2021-06-13 21:23
-tags: [wellbeing, journaling]
+tags: [wellbeing, journaling, writing]
 excerpt: Why do I want to dedicate my precious time to writing?
 publish: true
 ---
