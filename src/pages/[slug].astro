@@ -30,7 +30,7 @@ if (slug === undefined) return;
 const { Content } = await note.render();
 
 const {
-  data: { title, added, updated, tags, excerpt, type },
+  data: { title, added, updated, tags, excerpt, type, noComments },
 } = note;
 
 // random imageId between 1 and 6
@@ -122,7 +122,7 @@ const tweetTextEncoded = encodeURIComponent(
           >add an issue on GitHub</a
         >.
       </section>
-      <Comments slug={slug} />
+      <Comments slug={slug} noComments={noComments} />
     </Layout>
   </body>
 </html>

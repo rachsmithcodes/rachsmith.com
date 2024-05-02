@@ -1,5 +1,5 @@
 ---
-const { slug } = Astro.props;
+const { slug, noComments } = Astro.props;
 
 import { getEntry } from 'astro:content';
 import CommentsList from './CommentsList.astro';
@@ -75,7 +75,9 @@ const comments = commentsEntry?.data?.comments || [];
 
 <section class="comments">
   <h2 id="comments">Comments</h2>
-  <CommentsList
+  { noComments ? (
+    <p>Comments are turned off for this note because for some reason, spammers love it 🤷🏻‍♀️</p>
+  ) : (<CommentsList
     parentId={null}
     allComments={comments}
     startIndex={Math.floor(Math.random() * 6)}
@@ -154,4 +156,5 @@ const comments = commentsEntry?.data?.comments || [];
       .querySelector('#comment-form')
       .addEventListener('submit', handleSubmit);
   </script>
+  )}
 </section>

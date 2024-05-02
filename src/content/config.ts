@@ -8,6 +8,7 @@ const note = z.object({
   updated: z.string(),
   excerpt: z.string().optional().nullable(),
   rating: z.number().optional().nullable(),
+  noComments: z.boolean().optional().nullable(),
 });
 
 const notesCollection = defineCollection({
