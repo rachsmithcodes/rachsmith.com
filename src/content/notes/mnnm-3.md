@@ -13,7 +13,7 @@ The end of March came around while we were on our big US trip. Then I was really
 
 ## Notable
 
-**We went to Disneyland!!** Most  of the month was spent preparing for a 2 week holiday in the USA. We survived the 13 hour overnight flight. It turns out our youngest fella is a dream traveller. All the work and cost of the trip was worth it just for the Disney part. The boys had the time of their life and the oldest one will have memories to last a lifetime. 
+**We went to Disneyland!!** Most of the month was spent preparing for a 2 week holiday in the USA. We survived the 13 hour overnight flight. It turns out our youngest fella is a dream traveller. All the work and cost of the trip was worth it just for the Disney part. The boys had the time of their life and the oldest one will have memories to last a lifetime. 
 
 **I sold our double stroller.** Some people get a bit emotional about no longer needing the baby stuff, but I toss it from the house with glee!
 
