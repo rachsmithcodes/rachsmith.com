@@ -21,3 +21,5 @@ pnpm-debug.log*
 .DS_Store
 .vscode
 .astro
+src/data/numbers.json
+src/pages/numbers.astro
