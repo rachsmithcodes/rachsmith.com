@@ -6,11 +6,16 @@ updated: 2023-01-28 16:00
 tags: [miscellany]
 excerpt: Maybe it won't be that long before augmented reality glasses are the new must-have device.
 publish: true
+includeYTResources: true
 ---
 
 I was listening to [Cal Newport's Deep Questions](https://www.calnewport.com/podcast/) podcast a while ago, and I was struck by his predictions for AR technology.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q1S99ACBGVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<lite-youtube videoid="Q1S99ACBGVQ" style="background-image: url('https://i.ytimg.com/vi/Q1S99ACBGVQ/hqdefault.jpg');" title="Cal Newport On the Technology Trends that Matter Most | Deep Questions Podcast">
+  <a href="https://youtube.com/watch?v=Q1S99ACBGVQ" class="lty-playbtn" title="Play Video">
+    <span class="lyt-visually-hidden">Play Video: Cal Newport On the Technology Trends that Matter Most | Deep Questions Podcast</span>
+  </a>
+</lite-youtube>
 
 Cal describes a future where we end up with a set of AR glasses that:
 - are unobtrusive and look good enough for people to be willing to wear them[^1]
@@ -23,7 +28,11 @@ This idea was so compelling to me. I am not interested in VR (the headsets make 
 
 This week, my favourite tech review YouTuber [TechMeOut](https://www.youtube.com/techme0ut) shared a video reviewing a set of glasses that enables you to watch movies and shows without a screen.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mIpsswns-bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<lite-youtube videoid="mIpsswns-bs" style="background-image: url('https://i.ytimg.com/vi/mIpsswns-bs/hqdefault.jpg');" title="Home Theater built in my Glasses! 😱">
+  <a href="https://youtube.com/watch?v=mIpsswns-bs" class="lty-playbtn" title="Play Video">
+    <span class="lyt-visually-hidden">Play Video: Home Theater built in my Glasses! 😱</span>
+  </a>
+</lite-youtube>
 
 It makes me think Apple has to be working on tech like this behind the scenes, right? They can't just be putting a new camera in the iPhone every year.
 

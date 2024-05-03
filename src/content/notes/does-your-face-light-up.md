@@ -7,6 +7,7 @@ tags: [mothering]
 excerpt: The best parenting advice I've ever heard.
 imageId: '3'
 publish: true
+includeYTResources: true
 ---
 
 The best parenting advice I've ever heard was from the novelist [Toni Morrison](https://en.wikipedia.org/wiki/Toni_Morrison) on an episode of Oprah.
@@ -23,4 +24,8 @@ So now I try to make a conscious effort of making my face light up whenever I'm 
 
 I think I first heard this advice on a [Brené Brown](https://brenebrown.com/) podcast episode? But here is the clip of Toni from the Oprah show where she first said it  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9Jw0Fu8nhOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<lite-youtube videoid="_HAFtuJEgKk" style="background-image: url('https://i.ytimg.com/vi/_HAFtuJEgKk/hqdefault.jpg');" title="Does Your Face Light Up? Toni Morrison - Oprah's Lifeclass">
+  <a href="https://youtube.com/watch?v=_HAFtuJEgKk" class="lty-playbtn" title="Play Video">
+    <span class="lyt-visually-hidden">Play Video: Does Your Face Light Up? Toni Morrison - Oprah's Lifeclass</span>
+  </a>
+</lite-youtube>

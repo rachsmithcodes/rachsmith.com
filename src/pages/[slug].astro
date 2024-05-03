@@ -5,6 +5,7 @@ import TagsList from '../components/TagsList.astro';
 import { getCollection, getEntry } from 'astro:content';
 import Comments from '../components/Comments.astro';
 import StarRating from '../components/StarRating.astro';
+import YouTubeScript from '../components/YouTubeScript.astro';
 
 export async function getStaticPaths() {
   const notes = await getCollection('notes');
@@ -30,7 +31,16 @@ if (slug === undefined) return;
 const { Content } = await note.render();
 
 const {
-  data: { title, added, updated, tags, excerpt, type, noComments },
+  data: {
+    added,
+    excerpt,
+    includeYTResources,
+    noComments,
+    tags,
+    title,
+    type,
+    updated,
+  },
 } = note;
 
 // random imageId between 1 and 6
@@ -85,6 +95,7 @@ const titleEncoded = encodeURIComponent(`re: ${title}`);
     permalink={permalink}
     canonicalUrl={permalink}
     imageId={imageId}
+    includeYTResources={includeYTResources}
   />
   <body>
     <Layout page="note">
@@ -121,5 +132,6 @@ const titleEncoded = encodeURIComponent(`re: ${title}`);
       </section>
       <Comments slug={slug} noComments={noComments} />
     </Layout>
+    {includeYTResources && <YouTubeScript />}
   </body>
 </html>

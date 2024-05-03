@@ -5,9 +5,17 @@ interface Props {
   permalink: string;
   imageId?: number;
   canonicalUrl?: string;
+  includeYTResources?: boolean | null;
 }
 
-let { title, description, permalink, imageId, canonicalUrl } = Astro.props;
+let {
+  title,
+  description,
+  permalink,
+  imageId,
+  canonicalUrl,
+  includeYTResources,
+} = Astro.props;
 
 let metaImage = `https://rachsmith.com/socials.jpg`;
 ---
@@ -60,7 +68,12 @@ let metaImage = `https://rachsmith.com/socials.jpg`;
     )
   }
 
-  <script src="./siteOptions.ts"></script>
+  <script src="./siteOptions.ts"></script>}
+  {
+    includeYTResources && (
+      <link rel="stylesheet" href="/assets/lite-yt-embed.css" />
+    )
+  }
 
   <style is:global>
     /* barlow-regular - latin */
@@ -257,7 +270,7 @@ let metaImage = `https://rachsmith.com/socials.jpg`;
       padding: 1rem;
     }
 
-    .styled-link-underlines a {
+    .styled-link-underlines a:not(.lty-playbtn) {
       text-decoration: none;
       background-repeat: no-repeat;
       background-size: 100% 0.24em;
@@ -273,7 +286,7 @@ let metaImage = `https://rachsmith.com/socials.jpg`;
       color: var(--accent-color);
     }
 
-    .rainbows .styled-link-underlines a {
+    .rainbows .styled-link-underlines a:not(.lty-playbtn) {
       background-image: var(--gradient-color);
     }
 

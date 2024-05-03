@@ -9,6 +9,7 @@ const note = z.object({
   excerpt: z.string().optional().nullable(),
   rating: z.number().optional().nullable(),
   noComments: z.boolean().optional().nullable(),
+  includeYTResources: z.boolean().optional().nullable(),
 });
 
 const notesCollection = defineCollection({

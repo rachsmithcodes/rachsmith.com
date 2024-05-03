@@ -6,6 +6,7 @@ updated: 2022-07-20 10:30
 tags: [miscellany]
 excerpt:
 publish: true
+includeYTResources: true
 ---
 
 I remember watching the movie [Drive](https://www.imdb.com/title/tt0780504/) in 2012 and being absolutely obsessed with the song [Nightcall](https://www.youtube.com/watch?v=MV_3Dpw-BRY) by Kavinsky. I listened to that song about 2000 times while I caught the tube to and from work in London.
@@ -15,7 +16,10 @@ There is something about modern-music-that-sounds-reminiscent-of-the-80s that se
 Anyway, recently another song came along that inspired extreme repeat-listening in the same way Nightcall did: [Lovewave](https://www.youtube.com/watch?v=X_XjmZ7YG-E) by The 1-800. Only since Lovewave did it occur to me that this genre of modern electronic music that sounds like the 80s might have its own name. So I googled and found it: Synthwave.
 
 <div class="video-wrap">
-<iframe src="https://www.youtube.com/embed/K9tqKh_-itM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+<lite-youtube videoid="K9tqKh_-itM" style="background-image: url('https://i.ytimg.com/vi/K9tqKh_-itM/hqdefault.jpg');" title="The 1-800 - Lovewave (Official Music Video)">
+  <a href="https://youtube.com/watch?v=K9tqKh_-itM" class="lty-playbtn" title="Play Video">
+    <span class="lyt-visually-hidden">Play Video: The 1-800 - Lovewave (Official Music Video)</span>
+  </a>
+</lite-youtube>
 
 Finding out the actual name of this genre has unlocked a whole bunch of amazing spotify playlists to work to. I am having an excellent time.
