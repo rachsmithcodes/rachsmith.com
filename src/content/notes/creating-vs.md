@@ -3,7 +3,10 @@ title: Creating vs. Consuming
 slug: creating-vs
 added: 2022-02-04 14:11
 updated: 2022-02-04 14:11
-tags: [wellbeing, productivity]
+tags:
+  - wellbeing
+  - productivity
+  - creativity
 excerpt: Some new soundtracks I'm telling myself when it comes to creativity and my time.
 publish: true
 ---

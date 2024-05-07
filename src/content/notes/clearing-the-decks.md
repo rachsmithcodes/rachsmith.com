@@ -3,8 +3,11 @@ title: I could spend the rest of my life clearing the decks, if I'm not careful
 slug: clearing-the-decks
 added: 2023-04-02 14:40
 updated: 2023-04-02 14:40
-tags: [productivity, books]
-excerpt: "I've been feeling called to make more art lately. I can't stop thinking about potential ideas for animated Pens, that have no other purpose than to be looked at/and or hovered over. I'm being held back from following through on my ideas not only by my lack of time, but the feeling that I need to \"clear the decks\" before I can engage in such an activity."
+tags:
+  - productivity
+  - books
+  - creativity
+excerpt: I've been feeling called to make more art lately. I can't stop thinking about potential ideas for animated Pens, that have no other purpose than to be looked at/and or hovered over. I'm being held back from following through on my ideas not only by my lack of time, but the feeling that I need to "clear the decks" before I can engage in such an activity.
 publish: true
 ---
 

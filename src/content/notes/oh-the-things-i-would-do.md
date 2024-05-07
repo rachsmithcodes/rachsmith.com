@@ -3,7 +3,10 @@ title: Oh, the things I would do with the time I do not have!
 slug: oh-the-things-i-would-do
 added: 2022-12-19 00:01
 updated: 2022-12-19 00:41
-tags: [productivity, mothering]
+tags:
+  - productivity
+  - mothering
+  - creativity
 excerpt: I find myself thinking about what I would do with my free time if I just had some of it back. Here's some of what I've come up with
 publish: true
 ---
