@@ -19,3 +19,7 @@ I watched [a new tutorial from iPad Lettering with Karin Newport](https://www.yo
 
 Love that I'm only 7 days in to this challenge and I'm already thinking about the next one. Like, calm down 😂. Let's see if I can complete May first! 
 
+
+<hr>
+
+This has been post no. 7 for #WeblogPoMo2024 and it is what I was interested in today.
