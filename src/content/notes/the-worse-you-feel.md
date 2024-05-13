@@ -29,5 +29,8 @@ My guy needs to calm down re: his use of all caps but he does have a point. I’
 
 Today threatened to be one of those days where I spiral down: day 2 of a menstrual phase coinciding with a head cold and the end of a very busy week. But! I ate well, I went on a nice long walk after lunch and I am writing this now instead of TikToking until bedtime. I’d say that’s a pretty good effort at following the “protocol”. Here’s hoping I feel better tomorrow.
 
+<hr>
+
+This has been post no. 10 for #WeblogPoMo2024 and it is what I was interested in today.
 
 [^1]: Michael Hobbs and Peter Shamshiri from [If Books Could Kill](https://en.wikipedia.org/wiki/If_Books_Could_Kill) have a “one book theory” - that all self-help books just end up saying the same thing. Well, I would posit this is the *actual* one book.

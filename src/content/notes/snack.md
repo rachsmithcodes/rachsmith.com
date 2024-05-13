@@ -24,3 +24,7 @@ The amount of each doesn't matter. I probably go overboard on the blueberries be
 4. Dump the hot blueberries on the peanut butter
 
 I have a nutrition goal at the moment to include protein, fibre and colour (via plants), and healthy fats in every snack/meal. This meets that requirement and tastes like a sweet & salty dessert. I'm obsessed!
+
+<hr>
+
+This has been post no. 9 for #WeblogPoMo2024 and it is what I was interested in today.
