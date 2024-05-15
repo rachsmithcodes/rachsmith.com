@@ -5,6 +5,7 @@ added: 2024-05-14 20:05
 updated: 2024-05-14 20:05
 tags:
   - development
+  - astro
 excerpt: I've been meaning to try out Astro DB and I have a little project I need to make for our school, but I don't have a lot of time. Here's a real-time live blog of my progress.
 note: published
 publish: true
