@@ -27,3 +27,8 @@ I tried running `npx astro db push` but the astro cli said I needed to login fir
 The data/ops part of the project is now sorted! I just need to make it look nice now 😊.
 
 To only take 70 mins total from go to woah is pretty impressive. In terms of documentation and tooling (cli etc), Astro remains top of the game in my opinion. Granted, I have previous experience with database ORMs, deployments and serverless functions, so can probably get going quicker than a beginner coder. But really, it was a pretty smooth experience!
+
+
+<hr>
+
+This has been post no. 15 for #WeblogPoMo2024 and it is what I was interested in today.
