@@ -21,6 +21,7 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.5",
     "lite-youtube-embed": "^0.3.2",
-    "marked": "^4.0.17"
+    "marked": "^4.0.17",
+    "rehype-external-links": "^3.0.0"
   }
 }

@@ -246,13 +246,18 @@ let metaImage = `https://rachsmith.com/socials.jpg`;
       font-family: 'Barlow', sans-serif;
       background: var(--background-color);
       color: var(--text-color);
-      /* letter-spacing: 0.05ch; */
     }
 
     a {
       color: inherit;
-      /* text-decoration: none; */
-      text-underline-offset: 0.15em;
+      text-underline-offset: 0.16em;
+    }
+
+    a.external::after {
+      content: url('/assets/external-arrow.svg');
+      display: inline-block;
+      background-size: 0 0;
+      vertical-align: middle;
     }
 
     a:hover {
@@ -274,12 +279,16 @@ let metaImage = `https://rachsmith.com/socials.jpg`;
       text-decoration: none;
       background-repeat: no-repeat;
       background-size: 100% 0.24em;
-      background-position: 0 110%;
+      background-position: 0 114%;
       background-image: linear-gradient(
         45deg,
         var(--accent-color),
         var(--accent-color)
       );
+    }
+
+    .styled-link-underlines a.external {
+      background-size: calc(100% - 15px) 0.24em;
     }
 
     .styled-link-underlines a:hover {
