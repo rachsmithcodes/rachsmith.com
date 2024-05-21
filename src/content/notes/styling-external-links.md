@@ -23,6 +23,8 @@ Now I've styled the external links, I'm thinking about adding a "peek" functiona
 
 What do you think about that feature? Would it be cool? Or annoying? Sound off in the comments/my inbox/on Mastodon.
 
+<hr>
 
+This has been post no. 18 for #WeblogPoMo2024 and it is what I was interested in today.
 
 

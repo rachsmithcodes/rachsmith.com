@@ -17,3 +17,8 @@ My main goal for this year was to [journal something about my day](/my-goal-for-
 - Perhaps it is because I can't reliably recall what actually happened, that my brain makes up entirely incorrect stories about the week or month. For example, I'll be walking around with the thought "I got nothing done this week", only to review my journal and discover I did in fact get a lot done. Similarly, I will think something happened "ages ago" when it was only 15 days ago. 
 - This practice has "slowed time down". Rather than having the year fly past, suddenly arriving in November and wondering what the hell happened and how I got here, I feel like I'm "living" every day, every week and every month. The sensation of time slipping away is gone. It's been a long, full, wonderful year so far.
 - I love my [Hobonichi Techo Cousin](/hobonichi-techo-cousin/). Will definitely be repurchasing for 2025, or perhaps the Avec version (the same book split in two).
+
+
+<hr>
+
+This has been post no. 20 for #WeblogPoMo2024 and it is what I was interested in today.
