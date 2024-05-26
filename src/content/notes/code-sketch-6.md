@@ -5,7 +5,7 @@ added: 2024-05-25 19:02
 updated: 2024-05-25 19:02
 tags:
   - development
-excerpt: 
+excerpt: "This one was a throwback to an animated background headers inspiration post I made for Codrops just under 10(!!!) years ago."
 note: published
 publish: true
 ---
