@@ -16,10 +16,8 @@ There is something about modern-music-that-sounds-reminiscent-of-the-80s that se
 Anyway, recently another song came along that inspired extreme repeat-listening in the same way Nightcall did: [Lovewave](https://www.youtube.com/watch?v=X_XjmZ7YG-E) by The 1-800. Only since Lovewave did it occur to me that this genre of modern electronic music that sounds like the 80s might have its own name. So I googled and found it: Synthwave.
 
 <div class="video-wrap">
-<lite-youtube videoid="K9tqKh_-itM" style="background-image: url('https://i.ytimg.com/vi/K9tqKh_-itM/hqdefault.jpg');" title="The 1-800 - Lovewave (Official Music Video)">
-  <a href="https://youtube.com/watch?v=K9tqKh_-itM" class="lty-playbtn" title="Play Video">
-    <span class="lyt-visually-hidden">Play Video: The 1-800 - Lovewave (Official Music Video)</span>
-  </a>
+  <lite-youtube videoid="K9tqKh_-itM" style="background-image: url('https://i.ytimg.com/vi/K9tqKh_-itM/hqdefault.jpg');" title="The 1-800 - Lovewave (Official Music Video)">
+  <a href="https://youtube.com/watch?v=K9tqKh_-itM" class="lty-playbtn" title="Play Video"><span class="lyt-visually-hidden">Play Video: The 1-800 - Lovewave (Official Music Video)</span></a>
 </lite-youtube>
 
 Finding out the actual name of this genre has unlocked a whole bunch of amazing spotify playlists to work to. I am having an excellent time.
