@@ -26,3 +26,7 @@ My favourite creator is [Earth & Owl](https://www.youtube.com/@EarthOwl), which 
 Rebounding feels like it falls in to one of those niche exercise options that doesn't have mainstream popularity, but the people who do do it are borderline fanatical and make it part of their identity. Like rock climbing or the early days of CrossFit. 
 
 At the risk of sounding like one of these people, I'm absolutely loving it, and would highly recommend if you're looking for an interesting way to move more.
+
+<hr>
+
+This has been post no. 27 for #WeblogPoMo2024 and it is what I was interested in today.
