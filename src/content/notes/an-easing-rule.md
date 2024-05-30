@@ -38,6 +38,10 @@ Of course, there are exceptions, but this helps with keeping animations from loo
 		border: 2px solid black;
 		overflow: hidden;
 	}
+	
+	.dark-mode .box {
+		border: 2px solid white;
+	}
 
 	.object {
 		width: 40px;
