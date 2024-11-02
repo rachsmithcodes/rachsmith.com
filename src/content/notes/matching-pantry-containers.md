@@ -3,7 +3,9 @@ title: Matching pantry containers
 slug: matching-pantry-containers
 added: 2021-04-04 16:00
 updated: 2021-04-04 16:00
-tags: [wellbeing]
+tags:
+  - wellbeing
+  - home
 excerpt: I want matching pantry containers, even though I shouldn't.
 publish: true
 ---
