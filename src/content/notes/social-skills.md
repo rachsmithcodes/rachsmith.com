@@ -9,7 +9,7 @@ excerpt: "A conversation about the day's playground shenanigans with my one of m
 note: published
 publish: true
 ---
-A conversation about the day's playground shenanigans with my one of my kids had me asking him: "do you know what social skills are?".
+A conversation about the day's playground shenanigans with one of my kids had me asking him: "do you know what social skills are?".
 
 He replied "no, what's that?". 
 
