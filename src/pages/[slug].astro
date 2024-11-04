@@ -103,10 +103,10 @@ const titleEncoded = encodeURIComponent(`re: ${title}`);
         <h1 class="title">{title}</h1>
         <div class="meta">
           <span class="added-updated"
-            >Added: {formatDate(added)}{
-              updated !== added && `, Updated: ${formatDate(updated)}`
-            }</span
-          >
+            >Added: {formatDate(added)}
+            {updated !== added && <br />}
+            {updated !== added && `Updated: ${formatDate(updated)}`}
+          </span>
 
           <TagsList tags={tags.map((t) => ({ name: t }))} />
         </div>
