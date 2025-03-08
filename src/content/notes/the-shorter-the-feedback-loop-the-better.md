@@ -6,6 +6,7 @@ updated: 2022-10-27 06:32
 tags: [development]
 excerpt: The time between making a change to the code and seeing the result can make or break the experience of using a tool.
 publish: true
+noComments: true
 ---
 
 When it comes to web developer experience, few things impact satisfaction levels as significantly as the length of the feedback loop.
