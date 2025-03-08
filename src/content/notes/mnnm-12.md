@@ -28,7 +28,7 @@ Fixing final bugs and issues for the CodePen Editor private beta. We're so close
 
 - [Severance](https://www.imdb.com/title/tt11280740/) Season 1 & 2: Fully obsessed at this point. 
 - [Sex Lives of College Girls](https://www.imdb.com/title/tt11212276/) Season 3: it was fine
-- [The Newsreader] Final Season: Maybe not as good as Seasons 1 and 2, but still a great Australian show with absolute top-tier acting.
+- [The Newsreader](https://www.imdb.com/title/tt13925142/) Final Season: Maybe not as good as Seasons 1 and 2, but still a great Australian show with absolute top-tier acting.
 
 
 
