@@ -14,7 +14,7 @@ publish: true
 
 February is always the month of getting settled back in to the school routine, and so it flies past and yet feels like nothing much happened? 
 
-**My experiment of avoiding too much sugar** has largely been a success. I've been feeling much more stable mood and mental health wise. I feel like the final disruptive dopamine-chasing behaviour to be conquered is consuming too much shit on my phone. I've dabbled with strings of [no input days](/no-inputs-day/) but always and up back on a binge. This is like, the final boss in my unhealthy coping mechanisms.
+**My experiment of avoiding too much sugar** has largely been a success. I've been feeling much more stable mood and mental health wise. I feel like the final disruptive dopamine-chasing behaviour to be conquered is consuming too much shit on my phone. I've dabbled with strings of [no input days](/no-inputs-day/) but always end up back on a binge. This is like, the final boss in my unhealthy coping mechanisms.
 
 **My kid loves school**. He's in his third year now and I often reflect on how lucky we are this is the case. I was an absolute frother for primary school: give me all the gold stars, I'll show you what a good student I can be. Our oldest is exactly the same and it makes sending him off so easy. Shoutout to parents who have to deal with morning battles or the stressful all-out school refusal. 
 
