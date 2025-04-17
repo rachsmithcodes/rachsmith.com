@@ -4,7 +4,7 @@ slug: home-cooked-web-apps
 added: 2024-10-13 14:10
 updated: 2024-10-13 14:10
 tags:
-  - code
+  - development
 excerpt: Recently, my attention has been focused on building web apps to suit my very specific needs.
 note: published
 publish: true
