@@ -1,0 +1,12 @@
+content:
+  - name: nuggets
+    label: Nuggets
+    path: src/content/nuggets
+    type: collection
+    filename: {year}-{month}-{day}-{hour}-{minute}.md
+    fields:
+      title:
+        name: post
+        type: text
+        required: true
+      
