@@ -2,7 +2,7 @@
 import Layout from '../components/Layout.astro';
 import DocumentHead from '../components/DocumentHead.astro';
 import TagsList from '../components/TagsList.astro';
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection, getEntry, render } from 'astro:content';
 import Comments from '../components/Comments.astro';
 import StarRating from '../components/StarRating.astro';
 import YouTubeScript from '../components/YouTubeScript.astro';
@@ -10,7 +10,7 @@ import YouTubeScript from '../components/YouTubeScript.astro';
 export async function getStaticPaths() {
   const notes = await getCollection('notes');
   return notes.map((note) => ({
-    params: { slug: note.slug },
+    params: { slug: note.id },
     props: { note },
   }));
 }
@@ -28,7 +28,7 @@ const { note } = Astro.props;
 
 if (slug === undefined) return;
 
-const { Content } = await note.render();
+const { Content } = await render(note);
 
 const {
   data: {

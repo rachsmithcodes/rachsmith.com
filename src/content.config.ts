@@ -1,4 +1,5 @@
 import { z, defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
 
 const note = z.object({
   type: z.enum(['note', 'book']).optional(),
@@ -13,6 +14,10 @@ const note = z.object({
 });
 
 const notesCollection = defineCollection({
+  loader: glob({
+    pattern: '*.md',
+    base: './src/content/notes',
+  }),
   schema: note,
 });
 
@@ -27,7 +32,10 @@ const comment = z.object({
 });
 
 const commentsCollection = defineCollection({
-  type: 'data',
+  loader: glob({
+    pattern: '*.json',
+    base: './src/content/comments',
+  }),
   schema: z.object({
     comments: z.array(comment),
   }),
