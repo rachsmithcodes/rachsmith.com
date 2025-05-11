@@ -18,7 +18,8 @@ The best parenting advice I've ever heard was from the novelist [Toni Morrison](
 <p>And so, you think your affection and deep love is on display because you're caring for them... it's not. When they see you they see the critical face. "What's wrong now?". But then, if you let your, as I tried from then on to let your face speak what's in your heart... because when they walked in the room, I was glad to see them. It's as simple as that.</p>
 
 </blockquote>
-I think I first heard this when my oldest was a tiny baby. I am so glad I did. I just naturally look like [I am pissed off all the time](https://en.wikipedia.org/wiki/Resting_bitch_face). I inherited my face with it's perma-frown from my mum, who passed away when I was 25, long before I became a mum myself. Upon hearing this advice I remembered.... my mum's sunny smile when she picked me up from school. Her cheerful greeting of "good morning!" when she had to drag me out of bed as a teenager. My mum lived this advice, and I realise now how loved and appreciated I felt as a result.
+I think I first heard this when my oldest was a tiny baby. I am so glad I did. I just naturally look like <a href="https://en.wikipedia.org/wiki/Resting_bitch_face">I am pissed off all the time</a>. I inherited my face with it's perma-frown from my mum, who passed away when I was 25, long before I became a mum myself. Upon hearing this advice I remembered.... my mum's sunny smile when she picked me up from school. Her cheerful greeting of "good morning!" when she had to drag me out of bed as a teenager. My mum lived this advice, and I realise now how loved and appreciated I felt as a result.
+
 
 So now I try to make a conscious effort of making my face light up whenever I'm reunited with my kids. It doesn't always come easily (like when they wake up an hour earlier than usual 🫠) but I try my best.
 

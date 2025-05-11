@@ -16,3 +16,5 @@ The second one (I just finished) was a digital recreation of the weekly layout f
 I'd share screenshots of these things, but one of the primary reasons I've been enjoying myself so much while making them is because they are literally only for me to see or use. I've gone through creative periods where I'm coding outside of work but in the end it has always been shared to some kind of audience - whether that be the designing and coding of this site or my [CodePens](https://codepen.io/rachsmith/). This is different.
 
 Robin Sloan coined these type of apps as [home-cooked](https://www.robinsloan.com/notes/home-cooked-app/). Following his analogy, technically I am a professional chef but at home I'm creating dishes that no one else has to like. All the stuff I have to care about at work - UX best practices, what our Community wants, or even the preferences of my bosses and colleagues re: code style and organisation can be left behind. I'm free to make my own messed-up version of an apricot chicken toasted sandwich, and it's delicious.
+
+[^1]: 
