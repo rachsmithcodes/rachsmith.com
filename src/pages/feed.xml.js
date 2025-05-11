@@ -14,7 +14,7 @@ const notesWithContent = await Promise.all(
 
     html += `
       <hr />
-      <p>Thanks for reading this post via RSS! Let me know your thoughts by leaving a comment on the <a href="https://rachsmith.com/${note.slug}">original post</a> or send <a href="mailto:contact@rachsmith.com?subject=${titleEncoded}">me an email</a>.</p>
+      <p>Thanks for reading this post via RSS! Let me know your thoughts by leaving a comment on the <a href="https://rachsmith.com/${note.id}">original post</a> or send <a href="mailto:contact@rachsmith.com?subject=${titleEncoded}">me an email</a>.</p>
       `;
 
     return {
@@ -41,7 +41,7 @@ export function GET(context) {
         .map((tag) => `<category><![CDATA[${tag}]]></category>`)
         .join('');
       return {
-        link: `/${note.slug}`,
+        link: `/${note.id}`,
         title: note.data.title,
         pubDate: note.data.added,
         description: note.htmlContent,
