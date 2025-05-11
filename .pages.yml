@@ -3,10 +3,9 @@ content:
     label: Nuggets
     path: src/content/nuggets
     type: collection
-    filename: {year}-{month}-{day}-{hour}-{minute}.md
+    filename: '{year}-{month}-{day}-{hour}-{minute}.md'
     fields:
-      title:
-        name: post
+      - title: Nugget
+        name: nugget
         type: text
         required: true
-      
