@@ -5,7 +5,9 @@ content:
     type: collection
     filename: '{year}-{month}-{day}-{hour}-{minute}.md'
     fields:
-      - title: Nugget
-        name: nugget
+      - name: nugget
         type: text
         required: true
+      - label: Nugget
+        name: body
+        type: text
