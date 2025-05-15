@@ -31,6 +31,16 @@ const comment = z.object({
   }),
 });
 
+const nuggetsCollection = defineCollection({
+  loader: glob({
+    pattern: '*.md',
+    base: './src/content/nuggets',
+  }),
+  schema: z.object({
+    excerpt: z.string(),
+  }),
+});
+
 const commentsCollection = defineCollection({
   loader: glob({
     pattern: '*.json',
@@ -46,4 +56,5 @@ const commentsCollection = defineCollection({
 export const collections = {
   notes: notesCollection,
   comments: commentsCollection,
+  nuggets: nuggetsCollection,
 };
