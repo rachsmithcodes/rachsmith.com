@@ -9,3 +9,7 @@ content:
         name: body
         type: text
         required: true
+      - label: Excerpt
+        name: excerpt
+        type: text
+        required: true
