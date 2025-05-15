@@ -6,13 +6,21 @@ import { getCollection, getEntry, render } from 'astro:content';
 import Comments from '../components/Comments.astro';
 import StarRating from '../components/StarRating.astro';
 import YouTubeScript from '../components/YouTubeScript.astro';
+import { makeNoteFromNugget } from '../data/notes';
 
 export async function getStaticPaths() {
   const notes = await getCollection('notes');
-  return notes.map((note) => ({
-    params: { slug: note.id },
-    props: { note },
-  }));
+  const nuggets = await getCollection('nuggets');
+  return [
+    ...notes.map((note) => ({
+      params: { slug: note.id },
+      props: { note },
+    })),
+    ...nuggets.map((nugget) => ({
+      params: { slug: nugget.id },
+      props: { note: makeNoteFromNugget(nugget) },
+    })),
+  ];
 }
 
 export function formatDate(date) {

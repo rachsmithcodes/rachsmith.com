@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import NoteListItem from './NoteListItem.astro';
+import { makeNoteFromNugget, monthNames } from '../data/notes';
 
 type Year = {
   date: string;
@@ -14,21 +15,6 @@ type Month = {
   notes: Note[];
 };
 
-const monthNames = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-  'August',
-  'September',
-  'October',
-  'November',
-  'December',
-];
-
 type Note = CollectionEntry<'notes'> & {
   date: string;
 };
@@ -36,37 +22,10 @@ type Note = CollectionEntry<'notes'> & {
 const notes = await getCollection('notes');
 const nuggets = await getCollection('nuggets');
 
-const makeTitle = (id: string) => {
-  const [year, month, day, hour, minute] = id
-    .split('-')
-    .map((n) => parseInt(n));
-  const monthName = monthNames[month - 1];
-  const isPM = hour >= 12;
-  const hour12 = hour % 12 || 12;
-  const minutePadded = minute.toString().padStart(2, '0');
-  const period = isPM ? 'pm' : 'am';
-
-  return `${day} ${monthName} ${year}, ${hour12}:${minutePadded} ${period}`;
-};
-
-const makeAdded = (id: string) => {
-  const [year, month, day, hour, minute] = id.split('-');
-  return `${year}-${month}-${day} ${hour}:${minute}`;
-};
-
 for (const nugget of nuggets) {
   // add nugget to notes
 
-  notes.push({
-    id: nugget.id,
-    collection: 'notes',
-    data: {
-      title: makeTitle(nugget.id),
-      added: makeAdded(nugget.id),
-      updated: makeAdded(nugget.id),
-      tags: [],
-    },
-  });
+  notes.push(makeNoteFromNugget(nugget));
 }
 const years: Year[] = [];
 
