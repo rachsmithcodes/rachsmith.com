@@ -1,11 +1,13 @@
 ---
 title: Just a big brain developer trying to be a grug brain
 slug: just-a-big-brain-dev
-added: 2022-07-07 15:21
-updated: 2022-07-07 15:21
-tags: [development, work]
-excerpt: "I don't need git to tell me who's to blame for the complexity here."
+added: 2022-07-07T05:21:00.000Z
+updated: 2022-07-07T05:21:00.000Z
+excerpt: I don't need git to tell me who's to blame for the complexity here.
 publish: true
+tags:
+  - development
+  - work
 ---
 ### Link: [The Grug Brained Developer - A layman's guide to thinking like the self-aware smol brained](https://grugbrain.dev/)
 

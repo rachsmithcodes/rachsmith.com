@@ -1,11 +1,12 @@
 ---
 title: (Almost) no one cares
 slug: 2022-was-the-year-i-published
-added: 2022-12-29 06:58
-updated: 2022-12-29 06:58
-tags: [productivity]
+added: 2022-12-28T20:58:00.000Z
+updated: 2022-12-28T20:58:00.000Z
 excerpt: 2022 was the year I got over myself and pressed publish.
 publish: true
+tags:
+  - productivity
 ---
 
 2022 was the year I got over myself and pressed publish.

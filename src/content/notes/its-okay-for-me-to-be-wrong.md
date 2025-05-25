@@ -1,12 +1,14 @@
 ---
 title: It's okay for me to be wrong
 slug: its-okay-for-me-to-be-wrong
-added: 2022-06-28 11:17
-updated: 2022-06-28 11:17
-tags: [development, wellbeing]
-excerpt: "If I keep repeating it then maybe one day I'll internalise it."
-imageId: "2"
+added: 2022-06-28T01:17:00.000Z
+updated: 2022-06-28T01:17:00.000Z
+excerpt: If I keep repeating it then maybe one day I'll internalise it.
+imageId: '2'
 publish: true
+tags:
+  - development
+  - wellbeing
 ---
 
 I'm trying to repeat this one until I believe it:

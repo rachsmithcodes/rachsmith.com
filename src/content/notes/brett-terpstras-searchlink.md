@@ -1,11 +1,13 @@
 ---
-title: "Where has Brett Terpstra's SearchLink been all my life?"
+title: Where has Brett Terpstra's SearchLink been all my life?
 slug: brett-terpstras-searchlink
-added: 2022-12-15 05:37
-updated: 2022-12-15 05:37
-tags: [productivity, podcasts]
-excerpt: 
+added: 2022-12-14T19:37:00.000Z
+updated: 2022-12-14T19:37:00.000Z
+excerpt: null
 publish: true
+tags:
+  - productivity
+  - podcasts
 ---
 
 I listened to the [Automators podcast](https://www.relay.fm/automators/116) with [Brett Terpstra](https://brettterpstra.com/). There's lots of automating and productivity gold in this episode but there was one thing in particular that piqued my interest.

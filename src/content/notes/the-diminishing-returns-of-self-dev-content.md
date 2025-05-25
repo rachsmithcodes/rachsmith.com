@@ -1,11 +1,13 @@
 ---
 title: The diminishing returns of self development content
 slug: the-diminishing-returns-of-self-dev-content
-added: 2022-08-16 20:27
-updated: 2022-08-16 20:27
-tags: [productivity, books]
-excerpt: I could get my shit together, or I could read this new book I bought.
+added: 2022-08-16T10:27:00.000Z
+updated: 2022-08-16T10:27:00.000Z
+excerpt: 'I could get my shit together, or I could read this new book I bought.'
 publish: true
+tags:
+  - productivity
+  - books
 ---
 
 The first "self help" book I read rocked my world. It was [The Life-Changing Magic of Tidying Up](https://www.goodreads.com/book/show/22318578-the-life-changing-magic-of-tidying-up). This book taught me how to be tidy. More importantly, it taught me something else: that I could change the way I behaved if I wanted to.

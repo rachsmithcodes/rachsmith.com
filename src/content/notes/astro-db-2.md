@@ -1,14 +1,17 @@
 ---
 title: How quickly can I make an Astro DB project? (part 2)
 slug: astro-db-2
-added: 2024-05-15 20:05
-updated: 2024-05-15 20:05
+added: 2024-05-15T10:05:00.000Z
+updated: 2024-05-15T10:05:00.000Z
+excerpt: >-
+  I don't have by-the-minute updates today. But I can tell you that I spent
+  another 40 minutes on this and I have something that writes to the database,
+  reads from the database and works on production.
+note: published
+publish: true
 tags:
   - development
   - astro
-excerpt: I don't have by-the-minute updates today. But I can tell you that I spent another 40 minutes on this and I have something that writes to the database, reads from the database and works on production.
-note: published
-publish: true
 ---
 [See part 1](/astro-db-1/).
 

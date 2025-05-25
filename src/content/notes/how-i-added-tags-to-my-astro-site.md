@@ -1,11 +1,14 @@
 ---
 title: How I added tags to my Astro site
 slug: how-i-added-tags-to-my-astro-site
-added: 2022-07-17 14:28
-updated: 2022-07-17 14:28
-tags: [development, astro, meta]
-excerpt:
+added: 2022-07-17T04:28:00.000Z
+updated: 2022-07-17T04:28:00.000Z
+excerpt: null
 publish: true
+tags:
+  - development
+  - astro
+  - meta
 ---
 
 I store all my note files in a directory in my Astro project called `/notes`.

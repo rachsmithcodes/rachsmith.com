@@ -1,12 +1,16 @@
 ---
 title: A not so casual gamer
 slug: a-not-so-casual-gamer
-added: 2024-01-27 07:11
-updated: 2024-01-27 07:11
-tags: [productivity, wellbeing]
-excerpt: "On a recent evening I was feeling very tired. What I should have done was get in to bed, read my book, and turn out the lights early."
+added: 2024-01-26T21:11:00.000Z
+updated: 2024-01-26T21:11:00.000Z
+excerpt: >-
+  On a recent evening I was feeling very tired. What I should have done was get
+  in to bed, read my book, and turn out the lights early.
 note: publish
 publish: true
+tags:
+  - productivity
+  - wellbeing
 ---
 On a recent evening I was feeling very tired. It had been a big day and I was just... busted. What I should have done was get in to bed, read my book, and turn out the lights early. I instead went to my go-to salve for feeling worn out, a screen. Not just one screen, two screens.  I wanted to watch an easy show and play some games on my phone.
 

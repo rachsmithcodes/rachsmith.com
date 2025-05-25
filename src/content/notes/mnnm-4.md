@@ -1,13 +1,13 @@
 ---
 title: Month notes & numbers №4
 slug: mnnm-4
-added: 2024-05-01 18:44
-updated: 2024-05-01 18:44
-tags:
-  - mn&n
+added: 2024-05-01T08:44:00.000Z
+updated: 2024-05-01T08:44:00.000Z
 excerpt: Notable things from April 2024
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 
 A small update as I spent around half of the month sick (since when do adults get ear infections?).

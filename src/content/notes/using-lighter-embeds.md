@@ -1,13 +1,14 @@
 ---
 title: Using lighter YouTube embeds on the site
 slug: using-lighter-embeds
-added: 2024-05-03 19:05
-updated:  2024-05-03 19:05
-tags: [meta, development]
+added: 2024-05-03T09:05:00.000Z
+updated: 2024-05-03T09:05:00.000Z
 excerpt: I replaced the regular YouTube embeds with a lighter version
 note: published
 publish: true
-includeYTResources: true
+tags:
+  - meta
+  - development
 ---
 
 In [yesterday's note](/djs-that-wear-things/) I added a bunch of YouTube embeds. I remembered that I've been meaning to use a better alternative for a while now. I didn't have time for that yesterday so I swapped them out today.

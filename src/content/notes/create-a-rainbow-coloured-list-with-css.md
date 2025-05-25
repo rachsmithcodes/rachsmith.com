@@ -1,11 +1,12 @@
 ---
-title: "Create a rainbow-coloured list with :nth-of-type()"
+title: 'Create a rainbow-coloured list with :nth-of-type()'
 slug: create-a-rainbow-coloured-list-with-css
-added: 2023-02-20 20:03
-updated: 2023-02-20 20:03
-tags: [development]
-excerpt: "This is my favourite thing to do with the `:nth-of-type()` selector."
+added: 2023-02-20T10:03:00.000Z
+updated: 2023-02-20T10:03:00.000Z
+excerpt: 'This is my favourite thing to do with the `:nth-of-type()` selector.'
 publish: true
+tags:
+  - development
 ---
 
 This is my favourite thing to do with the `:nth-of-type()` selector:

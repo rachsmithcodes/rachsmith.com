@@ -1,13 +1,16 @@
 ---
 title: Big black trash bag energy
 slug: trash-bag
-added: 2024-11-03 06:11
-updated: 2024-11-03 06:11
-tags:
-  - home
-excerpt: Sometimes I've just gotta clear the house of extra stuff. When the energy hits I go through every area in the house and bin, give away or sell anything we're not using anymore.
+added: 2024-11-02T20:11:00.000Z
+updated: 2024-11-02T20:11:00.000Z
+excerpt: >-
+  Sometimes I've just gotta clear the house of extra stuff. When the energy hits
+  I go through every area in the house and bin, give away or sell anything we're
+  not using anymore.
 note: published
 publish: true
+tags:
+  - home
 ---
 Sometimes I've just gotta clear the house of extra stuff. When the energy hits I go through every area in the house and bin, give away or sell anything we're not using anymore.
 

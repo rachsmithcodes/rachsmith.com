@@ -1,12 +1,16 @@
 ---
 title: The difference between programs and products
 slug: the-difference-between-programs-and-products
-added: 2025-04-18 09:04
-updated: 2025-04-18 09:04
-tags: ["development", "work"]
-excerpt: "The whole “vibe coding” thing is another reminder that quite a lot of people working in tech don’t understand the difference between programs and products."
+added: 2025-04-17T23:04:00.000Z
+updated: 2025-04-17T23:04:00.000Z
+excerpt: >-
+  The whole “vibe coding” thing is another reminder that quite a lot of people
+  working in tech don’t understand the difference between programs and products.
 note: published
 publish: true
+tags:
+  - development
+  - work
 ---
 
 <blockquote>The whole “vibe coding” thing is another reminder that quite a lot of people working in tech don’t understand the difference between programs and products -- <cite>Dylan Beattie in <a href="https://dylanbeattie.net/2025/04/11/the-problem-with-vibe-coding.html">The Problem with “Vibe Coding”</a></cite></blockquote>

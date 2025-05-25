@@ -1,13 +1,15 @@
 ---
 title: I need your quotes
 slug: i-need-quotes
-added: 2024-05-24 19:05
-updated: 2024-05-24 19:05
-tags:
-  - creativity
-excerpt: I will be hand lettering one word or phrase every day for the month of June. I need some quotes and phrases to letter.
+added: 2024-05-24T09:05:00.000Z
+updated: 2024-05-24T09:05:00.000Z
+excerpt: >-
+  I will be hand lettering one word or phrase every day for the month of June. I
+  need some quotes and phrases to letter.
 note: published
 publish: true
+tags:
+  - creativity
 ---
 This is day and post 24 of the #WeblogPoMo2024 challenge. I think I'm going to make it to the end of the month with a note for every day![^1]
 

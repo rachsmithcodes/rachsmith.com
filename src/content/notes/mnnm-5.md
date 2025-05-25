@@ -1,13 +1,13 @@
 ---
 title: Month notes & numbers №5
 slug: mnnm-5
-added: 2024-05-31 18:44
-updated: 2024-05-31 18:44
-tags:
-  - mn&n
+added: 2024-05-31T08:44:00.000Z
+updated: 2024-05-31T08:44:00.000Z
 excerpt: Notable things from May 2024
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 
 ## Notable

@@ -1,12 +1,15 @@
 ---
-title: The shorter the feedback loop, the better
+title: 'The shorter the feedback loop, the better'
 slug: the-shorter-the-feedback-loop-the-better
-added: 2022-10-27 06:32
-updated: 2022-10-27 06:32
-tags: [development]
-excerpt: The time between making a change to the code and seeing the result can make or break the experience of using a tool.
+added: 2022-10-26T20:32:00.000Z
+updated: 2022-10-26T20:32:00.000Z
+excerpt: >-
+  The time between making a change to the code and seeing the result can make or
+  break the experience of using a tool.
 publish: true
 noComments: true
+tags:
+  - development
 ---
 
 When it comes to web developer experience, few things impact satisfaction levels as significantly as the length of the feedback loop.

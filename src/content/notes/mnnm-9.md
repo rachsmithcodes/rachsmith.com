@@ -1,13 +1,13 @@
 ---
-title: "Month notes & numbers №9: bankruptcy"
+title: 'Month notes & numbers №9: bankruptcy'
 slug: mnnm-9
-added: 2024-11-03 07:03
-updated: 2024-11-03 07:03
-tags:
-  - mn&n
+added: 2024-11-02T21:03:00.000Z
+updated: 2024-11-02T21:03:00.000Z
 excerpt: Notable things from September & October 2024
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 
 Life has been life-ing. With everything going on I fell off the habit of tracking my activities in [Chronicling](/chronicling/), (as well as doing a lot of activites, see below). And then I totally missed the September month note. The completionist in me is absolutely \*triggered\* by this. So the only way to move forward is to declare bankruptcy on the numbers front and resolve to get back on track in November. 

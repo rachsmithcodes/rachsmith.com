@@ -1,12 +1,13 @@
 ---
 title: An easing rule of thumb
 slug: an-easing-rule
-added: 2024-05-29 20:05
-updated:  2024-05-29 20:05
-tags: [development]
+added: 2024-05-29T10:05:00.000Z
+updated: 2024-05-29T10:05:00.000Z
 excerpt: Some suggestions for which ease to use when.
 note: published
 publish: true
+tags:
+  - development
 ---
 
 If you're moving an object from out of the frame/stage in to the frame/stage, use an ease-out variation.

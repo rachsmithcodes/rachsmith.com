@@ -1,11 +1,12 @@
 ---
 title: Track your time
 slug: track-your-time
-added: 2022-08-02 20:10
-updated: 2022-08-02 20:10
-tags: [work]
+added: 2022-08-02T10:10:00.000Z
+updated: 2022-08-02T10:10:00.000Z
 excerpt: Tracking my work hours has had some positive consequences.
 publish: true
+tags:
+  - work
 ---
 
 When I was pregnant with my first baby I asked work if I could swap from a permanent full time role to a part-time contractor-style role where I billed them for the hours I worked. I knew that I would want the flexibility where I could work more on the weeks I had bandwidth and less on the other weeks. The only pay structure that seemed fair to me was to be paid by the hour[^1].

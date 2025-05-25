@@ -1,13 +1,15 @@
 ---
-title: "Code sketch #4"
+title: 'Code sketch #4'
 slug: code-sketch-4
-added: 2024-05-11 20:05
-updated: 2024-05-11 20:05
-tags:
-  - development
-excerpt: "I wanted to make something bees and bombsesque for code sketch #4. Like their old school, minimal stuff."
+added: 2024-05-11T10:05:00.000Z
+updated: 2024-05-11T10:05:00.000Z
+excerpt: >-
+  I wanted to make something bees and bombsesque for code sketch #4. Like their
+  old school, minimal stuff.
 note: published
 publish: true
+tags:
+  - development
 ---
 
 I wanted to make something [bees and bombsesque](https://beesandbombs.com/) for code sketch #4. Like their old school, minimal stuff.

@@ -1,11 +1,13 @@
 ---
-title: "Mantras for when the baby won’t nap alone"
+title: Mantras for when the baby won’t nap alone
 slug: mantras-for-when-the-baby-wont-nap-alone
-added: 2021-02-08 20:30
-updated: 2021-02-08 20:30
-tags: [mothering, wellbeing]
+added: 2021-02-08T10:30:00.000Z
+updated: 2021-02-08T10:30:00.000Z
 excerpt: My productivity doesn’t determine my worth.
 publish: true
+tags:
+  - mothering
+  - wellbeing
 ---
 
 *My productivity doesn’t determine my worth.*

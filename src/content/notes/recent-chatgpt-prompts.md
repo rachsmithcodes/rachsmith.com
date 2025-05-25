@@ -1,11 +1,12 @@
 ---
 title: Recent ChatGPT prompts
 slug: recent-chatgpt-prompts
-added: 2023-05-01 05:53
-updated: 2023-05-01 05:53
-tags: [mothering]
+added: 2023-04-30T19:53:00.000Z
+updated: 2023-04-30T19:53:00.000Z
 excerpt: my most recent prompts
 publish: true
+tags:
+  - mothering
 ---
 
 *make up a short children’s story about a 2 year old called Ted[^1] who is in a real life game of Mario kart.*

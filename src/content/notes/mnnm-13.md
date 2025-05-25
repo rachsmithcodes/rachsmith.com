@@ -1,13 +1,13 @@
 ---
 title: Month notes & numbers №13
 slug: mnnm-13
-added: 2025-03-30 20:17
-updated: 2025-03-30 20:17
-tags:
-  - mn&n
+added: 2025-03-30T10:17:00.000Z
+updated: 2025-03-30T10:17:00.000Z
 excerpt: Notable things from March 2025
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 
 The latter half of this month was ruined by me catching Covid (my second time). Boooooooo. 

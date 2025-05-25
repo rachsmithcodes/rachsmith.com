@@ -1,11 +1,12 @@
 ---
 title: Baby products that actually helped me
 slug: baby-products-that-actually-helped-me
-added: 2021-03-10 11:22
-updated: 2021-03-10 11:22
-tags: [mothering]
+added: 2021-03-10T01:22:00.000Z
+updated: 2021-03-10T01:22:00.000Z
 excerpt: My picks from the crazy world of baby products.
 publish: true
+tags:
+  - mothering
 ---
 
 The baby product scene is wild. There is so much stuff you are told you need to buy and it is all so expensive. I remember when I was shopping for a stroller and car seat for my first child, and the options ranged between $150 and $3000. It really wasn’t clear why the more expensive options were *that* much better either. Then there is the added pressure of wanting to do right by your children, making you a vulnerable target to advertisers and baby store salespeople. It’s a hard consumer space to navigate, especially if you have a limited budget.

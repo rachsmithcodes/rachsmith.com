@@ -1,11 +1,13 @@
 ---
-title: "How I'm going to try and stop my \"revenge bedtime procrastination\""
+title: How I'm going to try and stop my "revenge bedtime procrastination"
 slug: how-im-going-to-try-and-stop-my-revenge-bedtime-procrastination
-added: 2021-07-10 20:02
-updated: 2021-07-10 20:02
-tags: [productivity, wellbeing]
+added: 2021-07-10T10:02:00.000Z
+updated: 2021-07-10T10:02:00.000Z
 excerpt: I need to stop staying up at night for no good reason.
 publish: true
+tags:
+  - productivity
+  - wellbeing
 ---
 
 I feel like there is so little time in the week where I can just do whatever I feel like. There are always kids to be cared for, meals to plan and make, work to be done. Sometimes I can feel like I am just going from one demand to the next all day long. Then at night when I really should go to bed I stay up an extra 30 minutes to an hour messing around on my phone simply because it is quiet and nobody is bothering me and *I can*. I'm not staying up super late but it is late enough to make me seriously regret the previous night's pointless Wikipedia reading and YouTube watching when I wake up the following morning.

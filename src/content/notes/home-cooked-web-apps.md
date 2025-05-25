@@ -1,13 +1,15 @@
 ---
 title: Home-cooked web apps
 slug: home-cooked-web-apps
-added: 2024-10-13 14:10
-updated: 2024-10-13 14:10
-tags:
-  - development
-excerpt: Recently, my attention has been focused on building web apps to suit my very specific needs.
+added: 2024-10-13T04:10:00.000Z
+updated: 2024-10-13T04:10:00.000Z
+excerpt: >-
+  Recently, my attention has been focused on building web apps to suit my very
+  specific needs.
 note: published
 publish: true
+tags:
+  - development
 ---
 Recently, my attention has been focused on building web apps to suit my very specific needs. The first one was a financial dashboard of sorts, where I took the data from my YNAB account and built out custom reports so help me make sure we're hitting our investment goal and spending according to our values. 
 

@@ -1,13 +1,15 @@
 ---
-title: "Code sketch #7"
+title: 'Code sketch #7'
 slug: code-sketch-7
-added: 2024-05-26 19:02
-updated: 2024-05-26 19:02
-tags:
-  - development
-excerpt: This code sketch is inspired by a Pen by Gerard Ferrandez. I wanted to have squares that kept splitting in to smaller squares when clicked.
+added: 2024-05-26T09:02:00.000Z
+updated: 2024-05-26T09:02:00.000Z
+excerpt: >-
+  This code sketch is inspired by a Pen by Gerard Ferrandez. I wanted to have
+  squares that kept splitting in to smaller squares when clicked.
 note: published
 publish: true
+tags:
+  - development
 ---
 This code sketch is inspired by a [Pen by Gerard Ferrandez](https://codepen.io/ge1doot/full/WbWQOP/). I wanted to have squares that kept splitting in to smaller squares when clicked.
 

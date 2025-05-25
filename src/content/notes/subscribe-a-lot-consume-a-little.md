@@ -1,11 +1,13 @@
 ---
-title: Subscribe a lot, consume a little
+title: 'Subscribe a lot, consume a little'
 slug: subscribe-a-lot-consume-a-little
-added: 2023-01-23 20:14
-updated: 2023-01-30 07:24
-tags: []
-excerpt: The way I like to do content consumption is to subscribe to many different sources and then be ruthless about which content I actually choose to consume. 
+added: 2023-01-23T10:14:00.000Z
+updated: 2023-01-29T21:24:00.000Z
+excerpt: >-
+  The way I like to do content consumption is to subscribe to many different
+  sources and then be ruthless about which content I actually choose to consume.
 publish: true
+tags: []
 ---
 
 The way I like to do content consumption is to subscribe to many different sources and then be ruthless about which content I actually choose to consume. 

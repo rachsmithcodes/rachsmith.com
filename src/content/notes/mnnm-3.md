@@ -1,13 +1,13 @@
 ---
 title: Month notes & numbers №3
 slug: mnnm-3
-added: 2024-04-30 20:10
-updated: 2024-04-30 20:10
-tags:
-  - mn&n
+added: 2024-04-30T10:10:00.000Z
+updated: 2024-04-30T10:10:00.000Z
 excerpt: Notable things and stats from March 2024
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 The end of March came around while we were on our big US trip. Then I was really sick and things were hectic coming back and blah blah blah somehow we're at the end of April. So this update is a month late.
 

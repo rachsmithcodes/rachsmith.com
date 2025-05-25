@@ -1,11 +1,12 @@
 ---
 title: It doesn't seem that passive to me
 slug: it-doesnt-seem-that-passive-to-me
-added: 2022-09-16 09:11
-updated: 2022-09-16 09:11
-tags: [miscellany]
+added: 2022-09-15T23:11:00.000Z
+updated: 2022-09-15T23:11:00.000Z
 excerpt: These passive income ideas sound a lot like a second job
 publish: true
+tags:
+  - miscellany
 ---
 
 Who doesn't love the sound of passive income? Sitting back and doing nothing while letting the money roll in? As someone who's mostly relied on "active" income[^1] that sounded like a great idea. I thought I would see what I needed to do to make this passive income happen.

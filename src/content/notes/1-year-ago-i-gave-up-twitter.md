@@ -1,11 +1,13 @@
 ---
-title: "1 year ago, I gave up Twitter"
+title: '1 year ago, I gave up Twitter'
 slug: 1-year-ago-i-gave-up-twitter
-added: 2021-01-02 13:10
-updated: 2021-01-02 13:10
-tags: [wellbeing, productivity]
+added: 2021-01-02T03:10:00.000Z
+updated: 2021-01-02T03:10:00.000Z
 excerpt: It was the best decision I could have made.
 publish: true
+tags:
+  - wellbeing
+  - productivity
 ---
 
 I don’t need to publish another lengthy essay about quitting social media, the internet has enough of those. In bullet points:

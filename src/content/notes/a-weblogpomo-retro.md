@@ -1,12 +1,16 @@
 ---
-title: "A #WeblogPoMo2024 retrospective"
+title: 'A #WeblogPoMo2024 retrospective'
 slug: a-weblogpomo-retro
-added: 2024-05-30 19:05
-updated:  2024-05-30 19:05
-tags: [writing, meta]
-excerpt: "Today is the 30th, and tomorrow's post will be a notes & numbers for May, marking the end of the #WeblogPoMo2024 challenge."
+added: 2024-05-30T09:05:00.000Z
+updated: 2024-05-30T09:05:00.000Z
+excerpt: >-
+  Today is the 30th, and tomorrow's post will be a notes & numbers for May,
+  marking the end of the #WeblogPoMo2024 challenge.
 note: published
 publish: true
+tags:
+  - writing
+  - meta
 ---
 
 Today is the 30th, and tomorrow's post will be a notes & numbers for May, marking the end of the #WeblogPoMo2024 challenge. 

@@ -1,11 +1,14 @@
 ---
 title: The incredible portfolio websites of Lynn Fisher
 slug: the-incredible-websites-of-lynn-fisher
-added: 2023-01-03 14:43
-updated: 2023-01-03 14:43
-tags: [development]
-excerpt: If you're looking for some personal site inspiration, look no further than lynnandtonic.com.
+added: 2023-01-03T04:43:00.000Z
+updated: 2023-01-03T04:43:00.000Z
+excerpt: >-
+  If you're looking for some personal site inspiration, look no further than
+  lynnandtonic.com.
 publish: true
+tags:
+  - development
 ---
 
 ### Link: [Lynn Fisher's website](https://lynnandtonic.com/)

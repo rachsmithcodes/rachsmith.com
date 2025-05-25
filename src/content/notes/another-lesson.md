@@ -1,11 +1,12 @@
 ---
 title: Another lesson
 slug: another-lesson
-added: 2021-04-26 20:59
-updated: 2021-04-26 20:59
-tags: [mothering]
+added: 2021-04-26T10:59:00.000Z
+updated: 2021-04-26T10:59:00.000Z
 excerpt: A timely reminder from my youngest child.
 publish: true
+tags:
+  - mothering
 ---
 
 My baby likes to fiddle with my Apple Watch while they sit on my lap, using my arm for support as they can’t sit up on their own yet. This leads to unintentional workout starting, timer setting, and sometimes getting into the Things Watch app. Yesterday I opened Things to find that my long list of todos had been removed and replaced with a smiley face.

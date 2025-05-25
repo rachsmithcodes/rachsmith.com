@@ -1,12 +1,16 @@
 ---
 title: A redesign
 slug: a-redesign
-added: 2023-11-12 14:32
-updated: 2023-11-12 14:32
-tags: [development, meta]
-excerpt: A while ago I had an idea for a redesign of this website. Since then, I've been pottering away on it and finally sent it live last week.
+added: 2023-11-12T04:32:00.000Z
+updated: 2023-11-12T04:32:00.000Z
+excerpt: >-
+  A while ago I had an idea for a redesign of this website. Since then, I've
+  been pottering away on it and finally sent it live last week.
 publish: true
 note: publish
+tags:
+  - development
+  - meta
 ---
 
 A while ago (maybe six months?) I had an idea for a redesign of this website. Since then, I've been pottering away on it and finally sent it live last week. I didn't think it was "ready" yet, but in my mind, it would probably never be ready, and I was starting to get sick of working on it. If you've reached a point where you're starting not to like the design you initially thought was a great idea, it is time to ship the thing before you abandon it altogether!

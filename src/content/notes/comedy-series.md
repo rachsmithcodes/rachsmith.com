@@ -1,12 +1,15 @@
 ---
-title: "Comedy series I've watched over and over (and over)"
+title: Comedy series I've watched over and over (and over)
 slug: comedy-series
-added: 2024-06-04 19:06
-updated:  2024-06-04 19:06
-tags: [miscellany]
-excerpt: "I love a good comedy series. It's my comfort television. These are my favourites over the years."
+added: 2024-06-04T09:06:00.000Z
+updated: 2024-06-04T09:06:00.000Z
+excerpt: >-
+  I love a good comedy series. It's my comfort television. These are my
+  favourites over the years.
 note: published
 publish: true
+tags:
+  - miscellany
 ---
 
 I love a good comedy series. It's my comfort television. These are my favourites over the years.

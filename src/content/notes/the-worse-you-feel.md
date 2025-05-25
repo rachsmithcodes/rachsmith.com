@@ -1,14 +1,14 @@
 ---
-title: The worse you feel, the more committed you are to your protocol
+title: 'The worse you feel, the more committed you are to your protocol'
 slug: the-worse-you-feel
-added: 2024-05-10 20:05
-updated: 2024-05-10 20:05
-tags:
-  - wellbeing
-  - books
+added: 2024-05-10T10:05:00.000Z
+updated: 2024-05-10T10:05:00.000Z
 excerpt: I’m reading Areté by Brian Johnson at the moment.
 note: published
 publish: true
+tags:
+  - wellbeing
+  - books
 ---
 I’m reading [Areté](https://www.goodreads.com/en/book/show/173495434) by Brian Johnson at the moment (no, not [that Bryan Johnson](https://www.theguardian.com/society/2023/sep/14/my-ultimate-goal-dont-die-bryan-johnson-on-his-controversial-plan-to-live-for-ever)). I would describe it as a summation of every self help book ever written[^1]. As such, it’s long. I’m slowly getting through it. 
 

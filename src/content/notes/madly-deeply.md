@@ -1,14 +1,14 @@
 ---
-title: "Madly, Deeply: The Diaries of Alan Rickman"
+title: 'Madly, Deeply: The Diaries of Alan Rickman'
 slug: madly-deeply
-added: 2024-03-11 12:20
-updated: 2024-03-11 12:20
-tags:
-  - books
+added: 2024-03-11T02:20:00.000Z
+updated: 2024-03-11T02:20:00.000Z
 excerpt: Comfortingly boring
 publish: true
 type: book
 rating: 4
+tags:
+  - books
 ---
 
 ![The cover of Madly, Deeply](/images/madly-deeply.jpg)

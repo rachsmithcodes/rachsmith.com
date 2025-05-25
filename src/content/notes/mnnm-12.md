@@ -1,13 +1,13 @@
 ---
 title: Month notes & numbers №12
 slug: mnnm-12
-added: 2025-03-09 20:30
-updated: 2025-03-09 20:30
-tags:
-  - mn&n
+added: 2025-03-09T10:30:00.000Z
+updated: 2025-03-09T10:30:00.000Z
 excerpt: Notable things from February 2025
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 
 ## Notable

@@ -1,11 +1,15 @@
 ---
-title: "I completely ignored the front end development scene for 6 months. It was fine"
+title: I completely ignored the front end development scene for 6 months. It was fine
 slug: i-completely-ignored-the-front-end-development-scene-for-6-months
-added: 2021-07-26 20:37
-updated: 2021-07-26 20:37
-tags: [development, work]
-excerpt: "I've learnt I don't need to keep up with the hectic pace of Front End development news."
+added: 2021-07-26T10:37:00.000Z
+updated: 2021-07-26T10:37:00.000Z
+excerpt: >-
+  I've learnt I don't need to keep up with the hectic pace of Front End
+  development news.
 publish: true
+tags:
+  - development
+  - work
 ---
 
 The first year I started coding professionally, most of the work I did was in Adobe Flash. Then Steve Jobs [decided to kill Flash](https://en.wikipedia.org/wiki/Thoughts_on_Flash) and it forced me to learn how to animate with JavaScript, CSS3 and HTML Canvas if I wanted to keep landing contract jobs. In the second year, recruiters were asking me if I could "build Parallax websites" when the first mainstream use of it [appeared only 8 months prior](https://onepagelove.com/nike-better-world). 

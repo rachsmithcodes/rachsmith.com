@@ -1,14 +1,16 @@
 ---
 title: Spotify DJ is like a music pokie
 slug: spotify-dj
-added: 2024-05-05 16:05
-updated: 2024-05-05 16:05
+added: 2024-05-05T06:05:00.000Z
+updated: 2024-05-05T06:05:00.000Z
+excerpt: >-
+  I remember when showed up in my kids' Spotify account on my phone. My oldest
+  asked: "what's that?"
+note: published
+publish: true
 tags:
   - music
   - development
-excerpt: "I remember when showed up in my kids' Spotify account on my phone. My oldest asked: \"what's that?\""
-note: published
-publish: true
 ---
 I remember when [Spotify DJ](https://newsroom.spotify.com/2023-02-22/spotify-debuts-a-new-ai-dj-right-in-your-pocket/) showed up in my kids' Spotify account on my phone. My oldest asked: "what's that?". I explained it looked like a DJ would choose songs for you, but the DJ was software aka "AI", not a real person. "Can we try it?!" he responded excitedly.
 

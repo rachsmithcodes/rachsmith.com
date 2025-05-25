@@ -1,11 +1,15 @@
 ---
 title: Making my daily notes in the public workspace
 slug: making-my-daily-notes-in-the-public-workspace
-added: 2021-10-21 05:49
-updated: 2021-10-21 05:49
-tags: [work, productivity]
-excerpt: I've made my private daily notes public in an effort to increase communication with the team.
+added: 2021-10-20T19:49:00.000Z
+updated: 2021-10-20T19:49:00.000Z
+excerpt: >-
+  I've made my private daily notes public in an effort to increase communication
+  with the team.
 publish: true
+tags:
+  - work
+  - productivity
 ---
 
 I've been working remotely for over 5 years now. Something that you need to stay on top of as a remote worker is communicating about what you're working up to on the day-to-day. Especially in a team like CodePen. It is small. Members have their own zones of genius, and management is very light-handed. If you don't put in the effort in to keep people informed, you could go a long time "under the radar" with people not knowing what you've been doing.

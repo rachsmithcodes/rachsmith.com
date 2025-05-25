@@ -1,13 +1,15 @@
 ---
 title: It's okay to lower the bar
 slug: lower-the-bar
-added: 2024-08-13 20:08
-updated: 2024-08-13 20:08
-tags:
-  - journaling
-excerpt: I had a journal entry in my Hobonichi Techo Cousin for every day this year until July, where I have a string of blank pages.
+added: 2024-08-13T10:08:00.000Z
+updated: 2024-08-13T10:08:00.000Z
+excerpt: >-
+  I had a journal entry in my Hobonichi Techo Cousin for every day this year
+  until July, where I have a string of blank pages.
 note: published
 publish: true
+tags:
+  - journaling
 ---
 
 I had a journal entry in my [Hobonichi Techo Cousin](/hobonichi-techo-cousin/) for every day this year until July, where I have a string of blank pages.

@@ -1,13 +1,15 @@
 ---
 title: Generative AI is for the idea guys
 slug: ai-is-for-the-idea-guys
-added: 2024-05-23 15:05
-updated: 2024-05-23 15:05
-tags:
-  - creativity
-excerpt: When I started working in tech in the early 2010s I began running in to idea guys.
+added: 2024-05-23T05:05:00.000Z
+updated: 2024-05-23T05:05:00.000Z
+excerpt: >-
+  When I started working in tech in the early 2010s I began running in to idea
+  guys.
 note: published
 publish: true
+tags:
+  - creativity
 ---
 When I started working in tech in the early 2010s I began running in to idea guys[^1]. Upon discovering I was a developer, they would get very excited and pitch me their big idea for an app/website/service to see what I thought. 
 

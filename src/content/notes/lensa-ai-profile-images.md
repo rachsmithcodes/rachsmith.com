@@ -1,11 +1,13 @@
 ---
 title: I paid for some of those Lensa AI profile images
 slug: lensa-ai-profile-images
-added: 2022-12-06 14:18
-updated: 2022-12-14 10:06
-tags: []
-excerpt: "I already had the Lensa app on my phone, so I paid $9.99 AUD for 100 of their AI generated \"magic avatars\" just to see what would happen."
+added: 2022-12-06T04:18:00.000Z
+updated: 2022-12-14T00:06:00.000Z
+excerpt: >-
+  I already had the Lensa app on my phone, so I paid $9.99 AUD for 100 of their
+  AI generated "magic avatars" just to see what would happen.
 publish: true
+tags: []
 ---
 
 I already had the Lensa app on my phone, so I paid $9.99 AUD for 100 of their AI generated "magic avatars" just to see what would happen.

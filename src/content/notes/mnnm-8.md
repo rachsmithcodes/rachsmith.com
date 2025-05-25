@@ -1,13 +1,13 @@
 ---
 title: Month notes & numbers №8
 slug: mnnm-8
-added: 2024-09-06 18:44
-updated: 2024-09-06 18:44
-tags:
-  - mn&n
+added: 2024-09-06T08:44:00.000Z
+updated: 2024-09-06T08:44:00.000Z
 excerpt: Notable things from August 2024
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 
 It was a kinda-off month in terms of mental health, which I'm still blaming on just one big day of drinking [back in July](/mnnm-7/). Feeling much better now in September!

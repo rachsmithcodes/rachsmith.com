@@ -1,11 +1,15 @@
 ---
-title: "Don't want to fix that bug? Here are 6 things you can do instead"
+title: Don't want to fix that bug? Here are 6 things you can do instead
 slug: 6-things-to-do-instead-of-work
-added: 2023-01-07 19:52
-updated: 2023-01-07 19:52
-tags: [work]
-excerpt: Look, coding is hard. Every time you start to solve a problem or fix a bug you run the risk of not being able to do it and then feeling like you aren't as smart as you thought you were.
+added: 2023-01-07T09:52:00.000Z
+updated: 2023-01-07T09:52:00.000Z
+excerpt: >-
+  Look, coding is hard. Every time you start to solve a problem or fix a bug you
+  run the risk of not being able to do it and then feeling like you aren't as
+  smart as you thought you were.
 publish: true
+tags:
+  - work
 ---
 
 Look, coding is hard. Every time you start to solve a problem or fix a bug you run the risk of not being able to do it and then feeling like you aren't as smart as you thought you were. That sucks! Here are some things you can do instead.

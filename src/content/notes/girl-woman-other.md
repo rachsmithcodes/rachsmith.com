@@ -1,14 +1,16 @@
 ---
-title: Girl, Woman, Other by Bernardine Evaristo
+title: 'Girl, Woman, Other by Bernardine Evaristo'
 slug: girl-woman-other
-added: 2024-03-10 12:20
-updated: 2024-03-10 12:20
-tags:
-  - books
-excerpt: Quite different to the fiction I would usually read, but I found it interesting.
+added: 2024-03-10T02:20:00.000Z
+updated: 2024-03-10T02:20:00.000Z
+excerpt: >-
+  Quite different to the fiction I would usually read, but I found it
+  interesting.
 publish: true
 type: book
 rating: 3.5
+tags:
+  - books
 ---
 
 ![The cover of Girl, Woman, Other](/images/girl-woman-other.jpg)

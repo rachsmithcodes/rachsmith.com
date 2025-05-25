@@ -1,11 +1,15 @@
 ---
 title: Less typical
 slug: less-typical
-added: 2023-09-26 05:43
-updated: 2023-09-26 05:43
-tags: [wellbeing, productivity]
-excerpt: Over the last couple of years, I've had multiple readers email to kindly ask if I've considered that I'm neurodivergent in some way.
+added: 2023-09-25T19:43:00.000Z
+updated: 2023-09-25T19:43:00.000Z
+excerpt: >-
+  Over the last couple of years, I've had multiple readers email to kindly ask
+  if I've considered that I'm neurodivergent in some way.
 publish: true
+tags:
+  - wellbeing
+  - productivity
 ---
 
 I received an email in response to my note [No Inputs Day](/no-inputs-day/).

@@ -1,11 +1,15 @@
 ---
-title: "Learning how you best learn: some questions to ask yourself"
+title: 'Learning how you best learn: some questions to ask yourself'
 slug: learning-how-you-best-learn-some-questions-to-ask-yourself
-added: 2021-08-02 06:40
-updated: 2021-08-02 06:40
-tags: [development, productivity]
-excerpt: "I suggest some prompts to get you thinking about how you best learn new technology and skills."
+added: 2021-08-01T20:40:00.000Z
+updated: 2021-08-01T20:40:00.000Z
+excerpt: >-
+  I suggest some prompts to get you thinking about how you best learn new
+  technology and skills.
 publish: true
+tags:
+  - development
+  - productivity
 ---
 
 I believe that the best thing you can do for your career as a Developer is teach yourself how to learn effectively. Learning is a skill you need to develop, and it was one I actually didn't reach competence in until long after I'd completed my formal education. The difficult thing about learning as a skill is that there is no one-solution-fits-all answer as to how to do it. So you can't pay someone to give you a step-by-step instruction on how to teach yourself new things. You need to design a process that fits your personality, temperament and preferences.

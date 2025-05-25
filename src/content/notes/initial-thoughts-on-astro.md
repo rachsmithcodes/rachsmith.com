@@ -1,12 +1,14 @@
 ---
 title: Initial thoughts on Astro
 slug: initial-thoughts-on-astro
-added: 2022-07-11 07:42
-updated: 2022-07-11 07:42
-tags: [development, astro]
-excerpt: In short, I love it.
+added: 2022-07-10T21:42:00.000Z
+updated: 2022-07-10T21:42:00.000Z
+excerpt: 'In short, I love it.'
 imageId: '5'
 publish: true
+tags:
+  - development
+  - astro
 ---
 
 Last year, [I moved this site to Gatsby 4](/10000-gatsby-develops-later/). The plan was to start jazzing it up with a bit of animation like the [one on the home header](/). You can do canvas animations with React and Gatsby, but the truth is I am just kind of tired of working with (around) React. We've been in a love-hate relationship for 6 years(!!!) and I've been interested in trying something else.

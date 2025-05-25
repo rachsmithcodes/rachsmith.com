@@ -1,11 +1,13 @@
 ---
-title: 10,000 gatsby develops later
+title: '10,000 gatsby develops later'
 slug: 10000-gatsby-develops-later
-added: 2021-11-22 19:00
-updated: 2022-07-11 07:51
-tags: [development, meta]
-excerpt: I love gatsby, I hate gatsby.
+added: 2021-11-22T09:00:00.000Z
+updated: 2022-07-10T21:51:00.000Z
+excerpt: 'I love gatsby, I hate gatsby.'
 publish: true
+tags:
+  - development
+  - meta
 ---
 
 **Update**: I've changed the stack _again_. I know. What can I say, I'm an engineer. Details [here](/initial-thoughts-on-astro/).

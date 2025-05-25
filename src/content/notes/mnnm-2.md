@@ -1,12 +1,13 @@
 ---
 title: Month notes & numbers №2
 slug: mnnm-2
-added: 2024-03-04 13:49
-updated: 2024-03-04 13:49
-tags: [mn&n]
+added: 2024-03-04T03:49:00.000Z
+updated: 2024-03-04T03:49:00.000Z
 excerpt: Notable things and stats from February 2024
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 I am now two months in to my attempt to [journal every day](/my-goal-for-2024/), and I am pleased to report I have *something* on each daily page in my Hobonichi so far.  
 ## Notable

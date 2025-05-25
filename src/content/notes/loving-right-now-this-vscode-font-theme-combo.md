@@ -1,11 +1,12 @@
 ---
-title: "Loving right now: this VSCode font + theme combo"
+title: 'Loving right now: this VSCode font + theme combo'
 slug: loving-right-now-this-vscode-font-theme-combo
-added: 2021-03-06 16:46
-updated: 2021-03-06 16:46
-tags: [development]
+added: 2021-03-06T06:46:00.000Z
+updated: 2021-03-06T06:46:00.000Z
 excerpt: I recently changed my VSCode font and theme setup.
 publish: true
+tags:
+  - development
 ---
 
 ![A sample of React code with the In Bed By 7pm Theme](/images/react-sample.png)

@@ -1,12 +1,13 @@
 ---
 title: Month notes & numbers №1
 slug: mnnm-1
-added: 2024-02-03 05:34
-updated: 2024-02-03 05:34
-tags: [mn&n]
+added: 2024-02-02T19:34:00.000Z
+updated: 2024-02-02T19:34:00.000Z
 excerpt: Notable things and stats from January 2024
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 This is a new series which is very much inspired by Dave Rupert's [Vibe Checks](https://daverupert.com/tag/vibecheck). I've long wanted to do something like that myself, but I had the problem of [not being able to remember](/my-goal-for-2024/)  the month that just happened. So I set the goal of daily journaling, and I am pleased to report that I stuck to it all month, and I now have things to share!
 

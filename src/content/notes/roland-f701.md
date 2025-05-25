@@ -1,12 +1,12 @@
 ---
 title: Roland F701
 slug: roland-f701
-added: 2024-01-28 05:34
-updated: 2024-01-28 05:34
-tags: []
+added: 2024-01-27T19:34:00.000Z
+updated: 2024-01-27T19:34:00.000Z
 excerpt: Adventures with a piano in 2024.
 note: publish
 publish: true
+tags: []
 ---
 
 I took piano lessons from when I was 9 years old until I was 17. My husband was the same, so we've been thinking about getting our family a piano for a while.

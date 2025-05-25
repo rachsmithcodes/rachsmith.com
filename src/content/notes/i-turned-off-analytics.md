@@ -1,12 +1,13 @@
 ---
 title: I turned off analytics
 slug: i-turned-off-analytics
-added: 2024-01-30 05:48
-updated: 2024-01-30 05:48
-tags: [meta]
+added: 2024-01-29T19:48:00.000Z
+updated: 2024-01-29T19:48:00.000Z
 excerpt: I turned off the Plausible analytics for this site.
 note: publish
 publish: true
+tags:
+  - meta
 ---
 
 I turned off the Plausible analytics for this site. I used to use analytics mostly to look for links back to my site from other creators. When I had so little traffic, I could traipse through the data and find the people who had found me. 

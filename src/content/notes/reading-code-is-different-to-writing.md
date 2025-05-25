@@ -1,11 +1,14 @@
 ---
 title: Reading code is a different experience to writing code
 slug: reading-code-is-different-to-writing
-added: 2023-01-30 07:18
-updated: 2023-01-30 07:18
-tags: [development]
-excerpt: "Once I reach the point where I know what the code is doing, I kind of wish it would get out of the way. Enter: abstraction."
+added: 2023-01-29T21:18:00.000Z
+updated: 2023-01-29T21:18:00.000Z
+excerpt: >-
+  Once I reach the point where I know what the code is doing, I kind of wish it
+  would get out of the way. Enter: abstraction.
 publish: true
+tags:
+  - development
 ---
 
 When writing code, the first thing I focus on is making it do the thing I want it to do. After that is achieved, I might end up with a large file or method. Once I reach the point where I know what the code is doing, I kind of wish it would get out of the way.

@@ -1,11 +1,12 @@
 ---
-title: "And this is what a shit version of that would look like..."
+title: And this is what a shit version of that would look like...
 slug: this-is-a-shit-version
-added: 2023-02-02 15:59
-updated: 2023-02-02 15:59
-tags: [podcasts]
-excerpt: 
+added: 2023-02-02T05:59:00.000Z
+updated: 2023-02-02T05:59:00.000Z
+excerpt: null
 publish: true
+tags:
+  - podcasts
 ---
 
 I had someone recommend I check out the [Rich Roll podcast](https://www.richroll.com/all-episodes/), so I listened to a couple of recent episodes, including the one with [Steven Pressfield](https://www.google.com/search?q=steven+pressfield&oq=steven+pressfield&sourceid=chrome&ie=UTF-8).

@@ -1,14 +1,17 @@
 ---
 title: How quickly can I make an Astro DB project? (part 1)
 slug: astro-db-1
-added: 2024-05-14 20:05
-updated: 2024-05-14 20:05
+added: 2024-05-14T10:05:00.000Z
+updated: 2024-05-14T10:05:00.000Z
+excerpt: >-
+  I've been meaning to try out Astro DB and I have a little project I need to
+  make for our school, but I don't have a lot of time. Here's a real-time live
+  blog of my progress.
+note: published
+publish: true
 tags:
   - development
   - astro
-excerpt: I've been meaning to try out Astro DB and I have a little project I need to make for our school, but I don't have a lot of time. Here's a real-time live blog of my progress.
-note: published
-publish: true
 ---
 I've been meaning to try out Astro DB and I have a little project I need to make for our school, but I don't have a lot of time. Here's a real-time live blog of my progress.
 

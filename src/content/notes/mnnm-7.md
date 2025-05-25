@@ -1,13 +1,13 @@
 ---
 title: Month notes & numbers №7
 slug: mnnm-7
-added: 2024-08-06 18:44
-updated: 2024-08-06 18:44
-tags:
-  - mn&n
+added: 2024-08-06T08:44:00.000Z
+updated: 2024-08-06T08:44:00.000Z
 excerpt: Notable things from July 2024
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 It was a busy, and kinda stressful month. I felt like I had a lot on my plate in terms of responsibilities, and a family member had a big health scare. I was glad to see the back of July in the end!
 

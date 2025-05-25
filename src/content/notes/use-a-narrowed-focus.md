@@ -1,11 +1,14 @@
 ---
 title: Use a narrowed focus to complete big projects
 slug: use-a-narrowed-focus
-added: 2022-08-23 20:40
-updated: 2022-08-23 20:40
-tags: [development, work, productivity]
-excerpt: "A mental strategy I use to get through the tough days at work 🏔"
+added: 2022-08-23T10:40:00.000Z
+updated: 2022-08-23T10:40:00.000Z
+excerpt: "A mental strategy I use to get through the tough days at work \U0001F3D4"
 publish: true
+tags:
+  - development
+  - work
+  - productivity
 ---
 
 ### Link: [# Dr. Emily Balcetis: Tools for Setting & Achieving Goals | Huberman Lab Podcast #83](https://youtu.be/7YGZZcXqKxE?t=700)

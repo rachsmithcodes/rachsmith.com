@@ -1,11 +1,16 @@
 ---
 title: How often do you get to rewrite and rethink?
 slug: how-often-do-you-get-to-rewrite
-added: 2023-08-30 19:39
-updated: 2023-08-30 19:39
-tags: [development, work]
-excerpt: Whenever I return to some code I wrote six or more months ago, the ways to improve it immediately jump out. Not just little improvements either, vast improvements.
+added: 2023-08-30T09:39:00.000Z
+updated: 2023-08-30T09:39:00.000Z
+excerpt: >-
+  Whenever I return to some code I wrote six or more months ago, the ways to
+  improve it immediately jump out. Not just little improvements either, vast
+  improvements.
 publish: true
+tags:
+  - development
+  - work
 ---
 
 From [Baldur Bjarnason](https://www.baldurbjarnason.com/2023/disinterest/)

@@ -1,14 +1,14 @@
 ---
 title: Thoughts on Show Your Work! by Austin Kleon
 slug: thoughts-on-show-your-work-by-austin-kleon
-added: 2021-01-12 21:20
-updated: 2021-01-12 21:20
-tags:
-  - books
-excerpt: This short, to the point book made quite an impact on me.
+added: 2021-01-12T11:20:00.000Z
+updated: 2021-01-12T11:20:00.000Z
+excerpt: 'This short, to the point book made quite an impact on me.'
 publish: true
 type: book
 rating: 4
+tags:
+  - books
 ---
 
 ![The cover of Show Your Work!](/images/show-your-work.png)

@@ -1,11 +1,13 @@
 ---
 title: There is nothing better
 slug: there-is-nothing-better
-added: 2022-09-17 06:01
-updated: 2022-09-17 06:01
-tags: [mothering, wellbeing]
+added: 2022-09-16T20:01:00.000Z
+updated: 2022-09-16T20:01:00.000Z
 excerpt: A little mantra that helps me remember what's important.
 publish: true
+tags:
+  - mothering
+  - wellbeing
 ---
 
 *There is nothing better*.

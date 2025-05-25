@@ -1,11 +1,14 @@
 ---
 title: Paying for software subscriptions is my passion
 slug: paying-for-software-subscriptions-is-my-passion
-added: 2022-07-01 15:21
-updated: 2022-07-01 15:21
-tags: [productivity]
-excerpt: I think it is worth it to hand over money for software and apps that saves me time and effort, or improve my life in some way.
+added: 2022-07-01T05:21:00.000Z
+updated: 2022-07-01T05:21:00.000Z
+excerpt: >-
+  I think it is worth it to hand over money for software and apps that saves me
+  time and effort, or improve my life in some way.
 publish: true
+tags:
+  - productivity
 ---
 
 I think it is worth it to hand over money for software and apps that saves me time and effort, or improve my life in some way. I have paid for one-off software, and have a number of ongoing subscriptions. Just off the top of my head, I can think of

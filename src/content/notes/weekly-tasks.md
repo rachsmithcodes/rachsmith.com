@@ -1,12 +1,17 @@
 ---
 title: A weekly task list with the Alastair Method
 slug: weekly-tasks
-added: 2023-11-23 09:47
-updated: 2023-11-23 09:47
-tags: [productivity, journaling]
-excerpt: "I got back into bullet journaling this year. In the last few months, my productivity system has moved more and more from the digital back to the analog."
+added: 2023-11-22T23:47:00.000Z
+updated: 2023-11-22T23:47:00.000Z
+excerpt: >-
+  I got back into bullet journaling this year. In the last few months, my
+  productivity system has moved more and more from the digital back to the
+  analog.
 note: publish
 publish: true
+tags:
+  - productivity
+  - journaling
 ---
 
 I got back into [bullet journaling](/back-on-my-bullet-journaling/) this year. In the last few months, my productivity system has moved more and more from the digital back to the "analog"[^1].

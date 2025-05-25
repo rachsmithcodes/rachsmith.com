@@ -1,11 +1,12 @@
 ---
-title: "Oops! There's an oops in our error messages"
+title: Oops! There's an oops in our error messages
 slug: oops-error-messages
-added: 2022-11-02 05:37
-updated: 2022-11-02 05:37
-tags: [development]
-excerpt: "link: When life gives you lemons, write better error messages"
+added: 2022-11-01T19:37:00.000Z
+updated: 2022-11-01T19:37:00.000Z
+excerpt: 'link: When life gives you lemons, write better error messages'
 publish: true
+tags:
+  - development
 ---
 
 ### Link: [When life gives you lemons, write better error messages](https://wix-ux.com/when-life-gives-you-lemons-write-better-error-messages-46c5223e1a2f?gi=c5f8ea262a30)

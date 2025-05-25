@@ -1,11 +1,14 @@
 ---
 title: Matthew Walker's Why We Sleep
 slug: why-we-sleep
-added: 2022-07-22 13:30
-updated: 2022-07-22 13:30
-tags: [books, podcasts, wellbeing]
-excerpt: The next time someone quotes this book at you, you can tell them about this.
+added: 2022-07-22T03:30:00.000Z
+updated: 2022-07-22T03:30:00.000Z
+excerpt: 'The next time someone quotes this book at you, you can tell them about this.'
 publish: true
+tags:
+  - books
+  - podcasts
+  - wellbeing
 ---
 
 I remember people's fervour for Matthew Walker's [Why We Sleep](https://en.wikipedia.org/wiki/Why_We_Sleep) in 2018 very well. I recall it so clearly because I was triggered by many of the claims in that book, as I was _not_ sleeping in 2018. I had a baby who did not sleep, and so I did not sleep.

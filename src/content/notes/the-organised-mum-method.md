@@ -1,14 +1,14 @@
 ---
 title: The Organised Mum Method by Gemma Bray
 slug: the-organised-mum-method
-added: 2024-03-12 12:20
-updated: 2024-03-12 12:20
-tags:
-  - books
+added: 2024-03-12T02:20:00.000Z
+updated: 2024-03-12T02:20:00.000Z
 excerpt: A decent approach if you care to spend your time cleaning.
 publish: true
 type: book
 rating: 3
+tags:
+  - books
 ---
 
 ![The cover of The Organised Mum Method](/images/the-organised-mum.jpg)

@@ -1,14 +1,15 @@
 ---
 title: DJs that wear things over their head
 slug: djs-that-wear-things
-added: 2024-05-02 19:05
-updated: 2024-05-02 19:05
-tags:
-  - music
-excerpt: Today my son saw a Marshmello clip on Spotify and asked why he was wearing the marshmallow helmet.
+added: 2024-05-02T09:05:00.000Z
+updated: 2024-05-02T09:05:00.000Z
+excerpt: >-
+  Today my son saw a Marshmello clip on Spotify and asked why he was wearing the
+  marshmallow helmet.
 note: published
 publish: true
-includeYTResources: true
+tags:
+  - music
 ---
 Today my son saw a [Marshmello](https://en.wikipedia.org/wiki/Marshmello) clip on Spotify and asked why he was wearing the marshmallow helmet. I explained that some artists like to wear a mask to keep their actual identity private, but then later I thought about the how I didn't actually know if this is the case for Marshmello. After looking it up, it seems like this was an original motivation for the mask, although his actual identity has been revealed. It got me thinking about other artists I like that wear things over their head. 
 

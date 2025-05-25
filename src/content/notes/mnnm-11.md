@@ -1,13 +1,13 @@
 ---
 title: Month notes & numbers №11
 slug: mnnm-11
-added: 2025-02-01 20:30
-updated: 2025-02-01 20:30
-tags:
-  - mn&n
+added: 2025-02-01T10:30:00.000Z
+updated: 2025-02-01T10:30:00.000Z
 excerpt: Notable things from January 2025
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 
 ## Notable

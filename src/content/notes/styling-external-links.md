@@ -1,15 +1,18 @@
 ---
 title: Styling the external links on this site
 slug: styling-external-links
-added: 2024-05-18 14:05
-updated: 2024-05-18 14:05
+added: 2024-05-18T04:05:00.000Z
+updated: 2024-05-18T04:05:00.000Z
+excerpt: >-
+  One nice side-effect of doing this #WeblogPoMo2024 challenge is that I'm
+  forced to look at my website every day, and I'm inspired to make little
+  changes to it.
+note: published
+publish: true
 tags:
   - development
   - meta
   - astro
-excerpt: "One nice side-effect of doing this #WeblogPoMo2024 challenge is that I'm forced to look at my website every day, and I'm inspired to make little changes to it."
-note: published
-publish: true
 ---
 One nice side-effect of doing this #WeblogPoMo2024 challenge is that I'm forced to look at my website every day, and I'm inspired to make [little](/using-lighter-embeds/) [changes](/i-added-a-now-page/) to it. I decided I wanted to add some visual distinction between external links and internal links.
 

@@ -1,11 +1,16 @@
 ---
-title: A non-exhaustive list of the completely messed up content I consumed in the 2000s
+title: >-
+  A non-exhaustive list of the completely messed up content I consumed in the
+  2000s
 slug: messed-up-2000s-content
-added: 2022-11-09 05:46
-updated: 2022-11-09 05:46
-tags: [wellbeing]
-excerpt: "How does any millennial woman feel okay about themselves after spending their brain-forming teen years in the late 90s/early 2000s?"
+added: 2022-11-08T19:46:00.000Z
+updated: 2022-11-08T19:46:00.000Z
+excerpt: >-
+  How does any millennial woman feel okay about themselves after spending their
+  brain-forming teen years in the late 90s/early 2000s?
 publish: true
+tags:
+  - wellbeing
 ---
 
 - [The Swan](<https://en.wikipedia.org/wiki/The_Swan_(TV_series)>)

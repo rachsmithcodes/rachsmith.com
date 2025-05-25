@@ -1,11 +1,14 @@
 ---
-title: No one warns you not to pull your toddler's shirt off while they are standing next to the bath
+title: >-
+  No one warns you not to pull your toddler's shirt off while they are standing
+  next to the bath
 slug: no-one-warns-you
-added: 2022-07-16 15:44
-updated: 2022-07-16 15:44
-tags: [mothering]
-excerpt: It turns out, that would have been helpful.
+added: 2022-07-16T05:44:00.000Z
+updated: 2022-07-16T05:44:00.000Z
+excerpt: 'It turns out, that would have been helpful.'
 publish: true
+tags:
+  - mothering
 ---
 
 It’s a common clickbait title for articles and YouTube videos: "the things NO ONE tells you about being a parent."

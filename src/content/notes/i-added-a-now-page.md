@@ -1,13 +1,15 @@
 ---
 title: I added a now page to the site
 slug: i-added-a-now-page
-added: 2024-05-06 16:05
-updated: 2024-05-06 16:05
-tags:
-  - meta
-excerpt: I didn't post anything on this site for half of March and all of April. I also wasn't on socials much.
+added: 2024-05-06T06:05:00.000Z
+updated: 2024-05-06T06:05:00.000Z
+excerpt: >-
+  I didn't post anything on this site for half of March and all of April. I also
+  wasn't on socials much.
 note: published
 publish: true
+tags:
+  - meta
 ---
 I didn't post anything on this site for half of March and all of April. I also wasn't on socials much. It was such a long quiet period that a couple of people reached out to me via email to check that I was okay. It was incredibly touching and sweet, what with the absolute barriage of content we all receive every day, that anyone would notice that I hadn't posted and take the time to check in.
 

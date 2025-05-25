@@ -1,11 +1,18 @@
 ---
-title: "I listened to: Parenting Mojo - Most of what you know about attachment is probably wrong"
-slug: i-listened-to-parenting-mojo-most-of-what-you-know-about-attachment-is-probably-wrong
-added: 2021-07-01 10:09
-updated: 2021-07-01 10:09
-tags: [podcasts, mothering]
-excerpt: Jen Lumanlan breaks down the context around and limitations of the studies that crafted the ideas behind attachment parenting theory.
+title: >-
+  I listened to: Parenting Mojo - Most of what you know about attachment is
+  probably wrong
+slug: >-
+  i-listened-to-parenting-mojo-most-of-what-you-know-about-attachment-is-probably-wrong
+added: 2021-07-01T00:09:00.000Z
+updated: 2021-07-01T00:09:00.000Z
+excerpt: >-
+  Jen Lumanlan breaks down the context around and limitations of the studies
+  that crafted the ideas behind attachment parenting theory.
 publish: true
+tags:
+  - podcasts
+  - mothering
 ---
 
 [138: Most of what you know about attachment is probably wrong](https://yourparentingmojo.com/captivate-podcast/attachmentresearch/).

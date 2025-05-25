@@ -1,13 +1,16 @@
 ---
 title: Jumpsport 220 fitness trampoline
 slug: jumpsport-trampoline
-added: 2024-05-27 14:05
-updated: 2024-05-27 14:05
-tags:
-  - wellbeing
-excerpt: A couple of months ago the algorithm caught on to the fact I'd been told I can't run on a hamstring injury. It started pushing rebounding content, suggesting it was a lower-impact alternative to running.
+added: 2024-05-27T04:05:00.000Z
+updated: 2024-05-27T04:05:00.000Z
+excerpt: >-
+  A couple of months ago the algorithm caught on to the fact I'd been told I
+  can't run on a hamstring injury. It started pushing rebounding content,
+  suggesting it was a lower-impact alternative to running.
 note: published
 publish: true
+tags:
+  - wellbeing
 ---
 A couple of months ago the algorithm caught on to the fact I'd been [told I can't run](/mnnm-2/) on a hamstring injury. It started pushing rebounding content, suggesting it was a lower-impact alternative to running.
 

@@ -1,11 +1,12 @@
 ---
-title: "Remove Shorts from your YouTube Subscriptions feed with :has()"
+title: 'Remove Shorts from your YouTube Subscriptions feed with :has()'
 slug: remove-youtube-shorts
-added: 2023-01-19 15:28
-updated: 2023-01-20 13:41
-tags: [development]
-excerpt: 
+added: 2023-01-19T05:28:00.000Z
+updated: 2023-01-20T03:41:00.000Z
+excerpt: null
 publish: true
+tags:
+  - development
 ---
 
 I have nothing against short-form video content. TikTok is a lot of fun! YouTube shorts are... not it. I hate having them show up in my subscriptions feed! Today I figured out how to remove them from the feed with one line of CSS.

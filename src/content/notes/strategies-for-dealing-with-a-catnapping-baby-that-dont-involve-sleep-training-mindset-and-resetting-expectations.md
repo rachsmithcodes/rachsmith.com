@@ -1,11 +1,17 @@
 ---
-title: "Strategies for dealing with a catnapping baby (that don’t involve sleep training): Mindset and resetting expectations"
-slug: strategies-for-dealing-with-a-catnapping-baby-that-dont-involve-sleep-training-mindset-and-resetting-expectations
-added: 2021-02-08 20:32
-updated: 2021-02-08 20:32
-tags: [mothering, wellbeing, productivity]
+title: >-
+  Strategies for dealing with a catnapping baby (that don’t involve sleep
+  training): Mindset and resetting expectations
+slug: >-
+  strategies-for-dealing-with-a-catnapping-baby-that-dont-involve-sleep-training-mindset-and-resetting-expectations
+added: 2021-02-08T10:32:00.000Z
+updated: 2021-02-08T10:32:00.000Z
 excerpt: My tips for adjusting to a baby who does not sleep.
 publish: true
+tags:
+  - mothering
+  - wellbeing
+  - productivity
 ---
 
 I think this will be the first in a series of posts about dealing with a baby who prefers to be awake for most of the day.

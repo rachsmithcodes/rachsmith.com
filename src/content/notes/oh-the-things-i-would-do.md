@@ -1,14 +1,16 @@
 ---
-title: Oh, the things I would do with the time I do not have!
+title: 'Oh, the things I would do with the time I do not have!'
 slug: oh-the-things-i-would-do
-added: 2022-12-19 00:01
-updated: 2022-12-19 00:41
+added: 2022-12-18T14:01:00.000Z
+updated: 2022-12-18T14:41:00.000Z
+excerpt: >-
+  I find myself thinking about what I would do with my free time if I just had
+  some of it back. Here's some of what I've come up with
+publish: true
 tags:
   - productivity
   - mothering
   - creativity
-excerpt: I find myself thinking about what I would do with my free time if I just had some of it back. Here's some of what I've come up with
-publish: true
 ---
 
 When you become a parent, the "free time" gets sucked out of your life in a way that you couldn't anticipate or comprehend when you were child-free. 

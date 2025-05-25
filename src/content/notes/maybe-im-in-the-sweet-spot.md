@@ -1,11 +1,12 @@
 ---
 title: Maybe I'm in the sweet spot for GitHub Copilot
 slug: maybe-im-in-the-sweet-spot
-added: 2022-07-19 06:12
-updated: 2022-07-19 06:12
-tags: [development]
-excerpt: For me, it is far more useful than it is distracting.
+added: 2022-07-18T20:12:00.000Z
+updated: 2022-07-18T20:12:00.000Z
+excerpt: 'For me, it is far more useful than it is distracting.'
 publish: true
+tags:
+  - development
 ---
 
 I think of GitHub Copilot as intellisense/autocomplete on steroids. Instead of completing words, it is completing entire statements.

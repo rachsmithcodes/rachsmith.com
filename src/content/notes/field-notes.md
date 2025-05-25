@@ -1,13 +1,16 @@
 ---
 title: Field notes
 slug: field-notes
-added: 2024-06-18 08:06
-updated: 2024-06-18 08:06
-tags:
-  - productivity
-excerpt: I've been trying out a new thing lately - carrying a pocket notebook around with me and using it to capture diary entries, thoughts and tasks instead of my phone.
+added: 2024-06-17T22:06:00.000Z
+updated: 2024-06-17T22:06:00.000Z
+excerpt: >-
+  I've been trying out a new thing lately - carrying a pocket notebook around
+  with me and using it to capture diary entries, thoughts and tasks instead of
+  my phone.
 note: published
 publish: true
+tags:
+  - productivity
 ---
 <img src="/images/field-notes.webp" alt="A black Field Notes notebook" />
 

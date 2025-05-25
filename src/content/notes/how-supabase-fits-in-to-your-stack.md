@@ -1,11 +1,16 @@
 ---
 title: How Supabase fits into your stack
 slug: how-supabase-fits-in-to-your-stack
-added: 2022-12-09 09:20
-updated: 2022-12-09 09:20
-tags: [development, astro]
-excerpt: "I was looking at different Postgres hosting options when I recalled I had seen buzz from developers on Twitter about Supabase. I wondered if that could be my database host?"
+added: 2022-12-08T23:20:00.000Z
+updated: 2022-12-08T23:20:00.000Z
+excerpt: >-
+  I was looking at different Postgres hosting options when I recalled I had seen
+  buzz from developers on Twitter about Supabase. I wondered if that could be my
+  database host?
 publish: true
+tags:
+  - development
+  - astro
 ---
 
 Recently I considered replacing the [Talkyard](https://www.talkyard.io/) comments solution on my notes here with something I've built myself. To do that I need a database. I was looking at different Postgres hosting options when I recalled I had seen buzz from developers on Twitter about [Supabase](https://supabase.com/). I wondered if that could be my database host?

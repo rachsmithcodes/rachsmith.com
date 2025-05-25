@@ -1,11 +1,15 @@
 ---
 title: No Inputs Day
 slug: no-inputs-day
-added: 2023-09-11 07:25
-updated: 2023-09-11 07:25
-tags: [wellbeing, productivity]
-excerpt: As I've shared here previously, my phone use regularly cycles between manageable and problematic. I had a doozy of a week last week.
+added: 2023-09-10T21:25:00.000Z
+updated: 2023-09-10T21:25:00.000Z
+excerpt: >-
+  As I've shared here previously, my phone use regularly cycles between
+  manageable and problematic. I had a doozy of a week last week.
 publish: true
+tags:
+  - wellbeing
+  - productivity
 ---
 
 As I've [shared here previously](/screen-time/), my phone use regularly cycles between manageable and problematic. I had a doozy of a week last week. It was one of those weeks where I was reaching for my phone and/or AirPods to fill every spare moment of my day with scrolling or listening to podcasts. 

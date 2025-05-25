@@ -1,11 +1,13 @@
 ---
 title: Fuck it
 slug: fuck-it
-added: 2022-06-27 19:50
-updated: 2022-06-27 19:50
-tags: [wellbeing, productivity]
+added: 2022-06-27T09:50:00.000Z
+updated: 2022-06-27T09:50:00.000Z
 excerpt: fighting off the perfectionism dragon for the 2045th time
 publish: true
+tags:
+  - wellbeing
+  - productivity
 ---
 
 My writing attempts completely halted at the start of the year. What happened? I was under some pretty intense stress. Our family dog had a long history of mental health issues and they had reached crisis point. Then I was grieving her loss. It wasn't a great combo with parenting a baby-toddler and a preschooler.

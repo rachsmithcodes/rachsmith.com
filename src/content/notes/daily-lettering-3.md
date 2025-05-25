@@ -1,13 +1,13 @@
 ---
 title: Daily lettering week 3
 slug: daily-lettering-3
-added: 2024-06-24 11:38
-updated: 2024-06-24 11:38
-tags:
-  - creativity
+added: 2024-06-24T01:38:00.000Z
+updated: 2024-06-24T01:38:00.000Z
 excerpt: Week 3 of lettering pieces.
 note: published
 publish: true
+tags:
+  - creativity
 ---
 
 Three-quarters of the way through this month's creative challenge! I feel like I'm genuinely getting better from all the practice, especially with my control over the Apple Pencil in Procreate.  

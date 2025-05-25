@@ -1,13 +1,13 @@
 ---
 title: I'm in a paperless trap of my own making
 slug: im-in-a-paperless-trap
-added: 2024-05-04 13:05
-updated: 2024-05-04 13:05
-tags:
-  - productivity
-excerpt: Oops, I accidentally put my life in to Evernote.
+added: 2024-05-04T03:05:00.000Z
+updated: 2024-05-04T03:05:00.000Z
+excerpt: 'Oops, I accidentally put my life in to Evernote.'
 note: published
 publish: true
+tags:
+  - productivity
 ---
 
 We've been running a paperless house for years now. Any paper that crosses the threshold is either scanned and filed (if important) or put in the bin. It's due to a trauma response on my part[^1], but it actually makes general life admin a lot easier, and keeps the house free of clutter. I've felt pretty smug about it all until recently.

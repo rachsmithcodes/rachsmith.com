@@ -1,11 +1,15 @@
 ---
 title: Recreating the title effect from creativesouth.com
 slug: recreating-creative-south-title
-added: 2023-04-09 20:35
-updated: 2023-04-09 20:35
-tags: [development]
-excerpt: "I am just so impressed with the design of the website for Creative South '23. What a gorgeous site! One neat detail is the mouse-aware \"3D\" effect on the title text. I decided to see if I could recreate it."
+added: 2023-04-09T10:35:00.000Z
+updated: 2023-04-09T10:35:00.000Z
+excerpt: >-
+  I am just so impressed with the design of the website for Creative South '23.
+  What a gorgeous site! One neat detail is the mouse-aware "3D" effect on the
+  title text. I decided to see if I could recreate it.
 publish: true
+tags:
+  - development
 ---
 
 I am just so impressed with the design of [the website for Creative South '23](https://www.creativesouth.com/) . What a gorgeous site! One neat detail is the mouse-aware "3D" effect on the title text. I decided to see if I could recreate it.

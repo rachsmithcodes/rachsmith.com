@@ -1,14 +1,13 @@
 ---
 title: Mum jeans
 slug: mum-jeans
-added: 2024-05-16 19:05
-updated: 2024-05-16 19:05
-tags:
-  - miscellany
-excerpt: 
+added: 2024-05-16T09:05:00.000Z
+updated: 2024-05-16T09:05:00.000Z
+excerpt: null
 note: published
 publish: true
-includeYTResources: true
+tags:
+  - miscellany
 ---
 
 I know we're not supposed to be wearing skinny jeans anymore. The wide leg is what's cool. But every time I pull on a pair of jeans that are not skinny this is entirely the vibe:

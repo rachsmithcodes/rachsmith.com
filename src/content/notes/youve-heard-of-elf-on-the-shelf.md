@@ -1,11 +1,15 @@
 ---
-title: "You've heard of Elf on the Shelf..."
+title: You've heard of Elf on the Shelf...
 slug: youve-heard-of-elf-on-the-shelf
-added: 2022-12-03 07:06
-updated: 2022-12-03 07:06
-tags: []
-excerpt: In my opinion, one of the best things about Twitter is how people get behind popular meme formats, and then it is like thousands of people across the world are all joining in on an in-joke. Especially when the memes are quite wholesome and not mean-spirited.
+added: 2022-12-02T21:06:00.000Z
+updated: 2022-12-02T21:06:00.000Z
+excerpt: >-
+  In my opinion, one of the best things about Twitter is how people get behind
+  popular meme formats, and then it is like thousands of people across the world
+  are all joining in on an in-joke. Especially when the memes are quite
+  wholesome and not mean-spirited.
 publish: true
+tags: []
 ---
 
 [The Elf on the Shelf](https://en.wikipedia.org/wiki/The_Elf_on_the_Shelf) is a controversial figure that starts many an argument in Mum/Mom Facebook Groups. I don't really think about that when I see the Elf though. I think about the day in September 2017 when it seemed like all of Twitter was posting variations of the "You've heard of the Elf on the Shelf" meme.

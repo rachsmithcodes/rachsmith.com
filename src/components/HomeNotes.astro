@@ -5,18 +5,18 @@ import NoteListItem from './NoteListItem.astro';
 import { makeNoteFromNugget, monthNames } from '../data/notes';
 
 type Year = {
-  date: string;
+  date: number;
   months: Month[];
 };
 
 type Month = {
-  date: string;
+  date: number;
   name: string;
   notes: Note[];
 };
 
 type Note = CollectionEntry<'notes'> & {
-  date: string;
+  date: number;
 };
 
 const notes = await getCollection('notes');
@@ -30,9 +30,10 @@ for (const nugget of nuggets) {
 const years: Year[] = [];
 
 notes.forEach((note) => {
-  const [yearDate, monthDate, dayDate] = note.data.added
-    .split(' ')[0]
-    .split('-');
+  const addedDate = new Date(note.data.added);
+  const yearDate = addedDate.getFullYear();
+  const monthDate = addedDate.getMonth() + 1;
+  const dayDate = addedDate.getDate();
 
   let year: Year | undefined = years.find((year) => year.date === yearDate);
   if (!year) {
@@ -45,7 +46,7 @@ notes.forEach((note) => {
 
   let month = year.months.find((month) => month.date === monthDate);
   if (!month) {
-    const monthIndex = parseInt(monthDate) - 1;
+    const monthIndex = monthDate - 1;
     const monthName = monthNames[monthIndex];
     month = {
       date: monthDate,
@@ -62,12 +63,12 @@ notes.forEach((note) => {
 });
 
 years
-  .sort((a, b) => parseInt(b.date) - parseInt(a.date))
+  .sort((a, b) => b.date - a.date)
   .forEach((year) => {
     year.months
-      .sort((a, b) => parseInt(b.date) - parseInt(a.date))
+      .sort((a, b) => b.date - a.date)
       .forEach((month) => {
-        month.notes.sort((a, b) => parseInt(b.date) - parseInt(a.date));
+        month.notes.sort((a, b) => b.date - a.date);
       });
   });
 ---

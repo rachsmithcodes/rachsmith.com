@@ -1,11 +1,17 @@
 ---
-title: "\"The longer you leave it, the better it has to be\" and other weird, wrong ideas from my perfectionist brain"
+title: >-
+  "The longer you leave it, the better it has to be" and other weird, wrong
+  ideas from my perfectionist brain
 slug: wrong-ideas-from-the-perfectionist
-added: 2023-03-05 14:44
-updated: 2023-03-05 14:44
-tags: [productivity]
-excerpt: When I was on the mend, I decided I should probably get back to writing (and publishing), but I felt an old familiar anxiety around the first thing I wrote and published after my short break.
+added: 2023-03-05T04:44:00.000Z
+updated: 2023-03-05T04:44:00.000Z
+excerpt: >-
+  When I was on the mend, I decided I should probably get back to writing (and
+  publishing), but I felt an old familiar anxiety around the first thing I wrote
+  and published after my short break.
 publish: true
+tags:
+  - productivity
 ---
 
 Two weeks ago, I caught a nasty cold (thanks, daycare). It didn't knock me over, but all I could manage was my day job, looking after the kids and feeding everyone. There was no [daily writing practice](/how-i-wrote-more/), running or yoga. 

@@ -1,11 +1,15 @@
 ---
-title: "My first try at using p5.js"
+title: My first try at using p5.js
 slug: my-first-try-at-p5
-added: 2023-05-07 14:20
-updated: 2023-05-07 14:20
-tags: [development]
-excerpt: "I've been interested in the p5.js project for years, and watched Daniel Shiffman use it in many a Coding Trai video, but I've never actually picked it up and used it myself until now!"
+added: 2023-05-07T04:20:00.000Z
+updated: 2023-05-07T04:20:00.000Z
+excerpt: >-
+  I've been interested in the p5.js project for years, and watched Daniel
+  Shiffman use it in many a Coding Trai video, but I've never actually picked it
+  up and used it myself until now!
 publish: true
+tags:
+  - development
 ---
 
 I've been interested in the [p5.js](https://p5js.org/) project for years, and watched Daniel Shiffman use it in many a [Coding Train](https://thecodingtrain.com/) video, but I've never actually picked it up and used it myself until now! 

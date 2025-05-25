@@ -1,13 +1,13 @@
 ---
 title: Planner plans for 2025
 slug: planner-plans-2025
-added: 2025-01-01 07:01
-updated: 2025-01-01 07:01
-tags:
-  - journaling
+added: 2024-12-31T21:01:00.000Z
+updated: 2024-12-31T21:01:00.000Z
 excerpt: My Hobonichi Planners for 2025
 note: published
 publish: true
+tags:
+  - journaling
 ---
 Last I had a [Hobonichi Techo Cousin](/hobonichi-techo-cousin/) and I loved so many things about it: the paper, the layout, how flat it lays on the desk. The one thing that bothered me was just how big the pages were. I struggled to fill them and it just felt like a waste having so many half-blank pages. 
 

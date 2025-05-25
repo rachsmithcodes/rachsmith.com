@@ -1,12 +1,17 @@
 ---
 title: Chronicling
 slug: chronicling
-added:  2024-01-29 13:35
-updated:  2024-01-29 13:35
-tags: [productivity]
-excerpt: I wouldn't really call it a goal for the year, because it is too vague, but I had set an *intention* for 2024 that I would spend more of my free time in creative practice - whether that be writing, lettering, drawing, creative coding or piano.
+added: 2024-01-29T03:35:00.000Z
+updated: 2024-01-29T03:35:00.000Z
+excerpt: >-
+  I wouldn't really call it a goal for the year, because it is too vague, but I
+  had set an *intention* for 2024 that I would spend more of my free time in
+  creative practice - whether that be writing, lettering, drawing, creative
+  coding or piano.
 note: publish
 publish: true
+tags:
+  - productivity
 ---
 
 I wouldn't really call it a goal for the year, because it is too vague, but I had set an *intention* for 2024 that I would spend more of my free time in creative practice - whether that be writing, lettering, drawing, creative coding or [piano](/roland-f701/).

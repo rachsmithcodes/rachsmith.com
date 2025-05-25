@@ -1,11 +1,12 @@
 ---
-title: "Good things: August 2022"
+title: 'Good things: August 2022'
 slug: good-things-august-2022
-added: 2022-09-04 14:28
-updated: 2022-09-04 14:28
-tags: [miscellany]
+added: 2022-09-04T04:28:00.000Z
+updated: 2022-09-04T04:28:00.000Z
 excerpt: Some good things from August.
 publish: true
+tags:
+  - miscellany
 ---
 
 *Side note: I'm having a "off" mental health day today so coming up with this list has been a bit hard. If I had to do it a week ago I probably could have listed 20. Brains are fickle things.*

@@ -1,11 +1,15 @@
 ---
-title: The middle point of softness, kindness, calmness
+title: 'The middle point of softness, kindness, calmness'
 slug: the-middle-point
-added: 2023-09-04 20:19
-updated: 2023-09-04 20:19
-tags: [wellbeing, podcasts]
-excerpt: "I listened to a clip of Will McMahon on The Imperfects podcast, describing how to speak to a friend who is going through something really difficult."
+added: 2023-09-04T10:19:00.000Z
+updated: 2023-09-04T10:19:00.000Z
+excerpt: >-
+  I listened to a clip of Will McMahon on The Imperfects podcast, describing how
+  to speak to a friend who is going through something really difficult.
 publish: true
+tags:
+  - wellbeing
+  - podcasts
 ---
 
 

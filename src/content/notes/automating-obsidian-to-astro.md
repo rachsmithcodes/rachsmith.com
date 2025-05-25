@@ -1,11 +1,17 @@
 ---
-title: Automating the process for moving notes from my Obsidian vault to my Astro site
+title: >-
+  Automating the process for moving notes from my Obsidian vault to my Astro
+  site
 slug: automating-obsidian-to-astro
-added: 2022-10-26 08:13
-updated: 2023-10-16 20:07
-tags: [development, astro, obsidian, meta]
+added: 2022-10-25T22:13:00.000Z
+updated: 2023-10-16T10:07:00.000Z
 excerpt: I wrote a script to copy notes from my private vault to my public site.
 publish: true
+tags:
+  - development
+  - astro
+  - obsidian
+  - meta
 ---
 
 Lately, I've been writing the drafts of the notes on this site in my [Obsidian vault](https://obsidian.md/). When I want to publish them, I would copy the contents over to the src directory of my [Astro site code](/initial-thoughts-on-astro/), use the [VSCode Grammarly extension](https://marketplace.visualstudio.com/items?itemName=znck.grammarly) to proof read, add some more frontmatter and push to GitHub. 

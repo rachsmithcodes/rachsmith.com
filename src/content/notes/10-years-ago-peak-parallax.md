@@ -1,11 +1,14 @@
 ---
 title: 10 years ago we were at peak parallax
 slug: 10-years-ago-peak-parallax
-added: 2023-06-18 06:35
-updated: 2023-06-18 06:35
-tags: [development]
-excerpt: "It was ten years ago when it felt like half the internet’s marketing websites had text and images sliding all around the page when you scroll. Ten years!"
+added: 2023-06-17T20:35:00.000Z
+updated: 2023-06-17T20:35:00.000Z
+excerpt: >-
+  It was ten years ago when it felt like half the internet’s marketing websites
+  had text and images sliding all around the page when you scroll. Ten years!
 publish: true
+tags:
+  - development
 ---
 It was ten years ago when it felt like half the internet’s marketing websites had text and images sliding all around the page when you scroll. Ten years! 
 

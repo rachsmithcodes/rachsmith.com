@@ -1,12 +1,15 @@
 ---
 title: A big ass wall calendar
 slug: a-big-ass-calendar
-added: 2023-12-22 14:51
-updated: 2023-12-22 14:51
-tags: [productivity]
-excerpt: This is the third year in a row that I'm replacing my NeuYear Sunday Monochrome Calendar.
+added: 2023-12-22T04:51:00.000Z
+updated: 2023-12-22T04:51:00.000Z
+excerpt: >-
+  This is the third year in a row that I'm replacing my NeuYear Sunday
+  Monochrome Calendar.
 note: publish
 publish: true
+tags:
+  - productivity
 ---
 
 This is the third year in a row that I'm replacing my [NeuYear Sunday Monochrome Calendar](https://www.neuyear.net/collections/sunday-first/products/grayscale-large-wall-calendar?variant=44726886433070). I think I first heard about these on the [Focused](https://www.relay.fm/focused) podcast, being advertised as a productivity tool. Still, I bought it to help with my oldest kid.

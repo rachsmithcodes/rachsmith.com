@@ -1,11 +1,12 @@
 ---
 title: Functional perfectionism
 slug: functional-perfectionism
-added: 2022-09-27 20:47
-updated: 2022-09-27 20:47
-tags: [productivity]
+added: 2022-09-27T10:47:00.000Z
+updated: 2022-09-27T10:47:00.000Z
 excerpt: My experience with a sneaky kind of perfectionism.
 publish: true
+tags:
+  - productivity
 ---
 
 For most of my life, I didn't think I was a perfectionist. I saw other people around me struggling to start anything for fear of doing it wrong. I wasn't like that. I was achieving shit and conquering goals. 

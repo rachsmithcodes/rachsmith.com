@@ -1,11 +1,14 @@
 ---
 title: I'm in need of a phase
 slug: im-in-need-of-a-phase
-added:  2022-11-05 06:09
-updated:  2022-11-05 06:09
-tags: [miscellany]
-excerpt: "When I was a kid, I would get into \"phases\" - I would become obsessed with a particular interest or subject matter just because I could."
+added: 2022-11-04T20:09:00.000Z
+updated: 2022-11-04T20:09:00.000Z
+excerpt: >-
+  When I was a kid, I would get into "phases" - I would become obsessed with a
+  particular interest or subject matter just because I could.
 publish: true
+tags:
+  - miscellany
 ---
 
 When I was a kid, I would get into "phases" - I would become obsessed with a particular interest or subject matter just because I could. From the ones I remember, there was a [Greek mythology](https://en.wikipedia.org/wiki/Greek_mythology) phase, the phase where I couldn't stop reading ghost stories, the phase where I got really into making [friendship bracelets](https://sarahmaker.com/how-to-make-friendship-bracelets/), and a phase where I learnt everything there was to ever know about the members of [Hanson](https://en.wikipedia.org/wiki/Hanson_(band)).

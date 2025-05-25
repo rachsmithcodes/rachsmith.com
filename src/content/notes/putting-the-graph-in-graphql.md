@@ -1,11 +1,12 @@
 ---
 title: Putting the graph in GraphQL
 slug: putting-the-graph-in-graphql
-added: 2022-09-01 19:44
-updated: 2022-09-01 19:44
-tags: [development]
+added: 2022-09-01T09:44:00.000Z
+updated: 2022-09-01T09:44:00.000Z
 excerpt: It took me a while to understand how to design for the Graph in a GraphQL API.
 publish: true
+tags:
+  - development
 ---
 
 It took me a while to understand how to design for the Graph in a [GraphQL](https://graphql.org/) API. Coming from [REST](https://www.redhat.com/en/topics/api/what-is-a-rest-api), I first added a lot of queries to the [Query type](https://graphql.org/learn/schema/#the-query-and-mutation-types).

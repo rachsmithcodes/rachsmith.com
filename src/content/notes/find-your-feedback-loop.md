@@ -1,13 +1,15 @@
 ---
 title: Find your feedback loop
 slug: find-your-feedback-loop
-added: 2023-04-17 05:45
-updated: 2023-04-17 05:45
-tags:
-  - development
-excerpt: I thought I wasn't smart enough to be a programmer, but I just hadn't found the right languages yet.
+added: 2023-04-16T19:45:00.000Z
+updated: 2023-04-16T19:45:00.000Z
+excerpt: >-
+  I thought I wasn't smart enough to be a programmer, but I just hadn't found
+  the right languages yet.
 publish: true
 noComments: true
+tags:
+  - development
 ---
 
 When I was 17, I started a degree in Software Engineering. The first programming language I learnt was [Lisp](https://en.wikipedia.org/wiki/Lisp_(programming_language)), and I don't think we ever even programmed with it. I just learnt the syntax, and all the assessments were writing answers to logic problems on paper! 

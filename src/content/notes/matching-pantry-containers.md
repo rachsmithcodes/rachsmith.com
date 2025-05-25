@@ -1,13 +1,13 @@
 ---
 title: Matching pantry containers
 slug: matching-pantry-containers
-added: 2021-04-04 16:00
-updated: 2021-04-04 16:00
+added: 2021-04-04T06:00:00.000Z
+updated: 2021-04-04T06:00:00.000Z
+excerpt: 'I want matching pantry containers, even though I shouldn''t.'
+publish: true
 tags:
   - wellbeing
   - home
-excerpt: I want matching pantry containers, even though I shouldn't.
-publish: true
 ---
 
 I want matching pantry containers. I watched a few YouTube videos by an influencer with a huge pantry filled with these beautiful matching clear containers with labels, and I've been thinking about it ever since. 

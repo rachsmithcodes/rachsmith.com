@@ -1,13 +1,15 @@
 ---
-title: "Code sketch #6"
+title: 'Code sketch #6'
 slug: code-sketch-6
-added: 2024-05-25 19:02
-updated: 2024-05-25 19:02
-tags:
-  - development
-excerpt: "This one was a throwback to an animated background headers inspiration post I made for Codrops just under 10(!!!) years ago."
+added: 2024-05-25T09:02:00.000Z
+updated: 2024-05-25T09:02:00.000Z
+excerpt: >-
+  This one was a throwback to an animated background headers inspiration post I
+  made for Codrops just under 10(!!!) years ago.
 note: published
 publish: true
+tags:
+  - development
 ---
 This one was a throwback to an [animated background headers inspiration](https://tympanus.net/codrops/2014/09/23/animated-background-headers/) post I made for Codrops just under 10(!!!) years ago. The first demo (dots connected by lines) sparked a minor trend, and many website headers with this effect were shipped for the next year or so.
 

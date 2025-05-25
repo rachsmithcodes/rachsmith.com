@@ -1,13 +1,13 @@
 ---
 title: Does your face light up?
 slug: does-your-face-light-up
-added: 2022-07-03 21:28
-updated: 2022-07-03 21:28
-tags: [mothering]
+added: 2022-07-03T11:28:00.000Z
+updated: 2022-07-03T11:28:00.000Z
 excerpt: The best parenting advice I've ever heard.
 imageId: '3'
 publish: true
-includeYTResources: true
+tags:
+  - mothering
 ---
 
 The best parenting advice I've ever heard was from the novelist [Toni Morrison](https://en.wikipedia.org/wiki/Toni_Morrison) on an episode of Oprah.

@@ -1,12 +1,14 @@
 ---
 title: AR glasses are here?
 slug: ar-glasses-are-here
-added: 2022-09-29 19:46
-updated: 2023-01-28 16:00
-tags: [miscellany]
-excerpt: Maybe it won't be that long before augmented reality glasses are the new must-have device.
+added: 2022-09-29T09:46:00.000Z
+updated: 2023-01-28T06:00:00.000Z
+excerpt: >-
+  Maybe it won't be that long before augmented reality glasses are the new
+  must-have device.
 publish: true
-includeYTResources: true
+tags:
+  - miscellany
 ---
 
 I was listening to [Cal Newport's Deep Questions](https://www.calnewport.com/podcast/) podcast a while ago, and I was struck by his predictions for AR technology.

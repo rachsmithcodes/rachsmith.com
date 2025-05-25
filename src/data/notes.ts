@@ -58,7 +58,7 @@ const makeTitle = (id: string) => {
 
 const makeAdded = (id: string) => {
   const [year, month, day, hour, minute] = id.split('-');
-  return `${year}-${month}-${day} ${hour}:${minute}`;
+  return new Date(`${year}-${month}-${day} ${hour}:${minute}`);
 };
 
 export function makeNoteFromNugget(nugget) {

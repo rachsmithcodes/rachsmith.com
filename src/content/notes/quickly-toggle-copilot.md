@@ -1,11 +1,12 @@
 ---
 title: Quickly toggle Copilot suggestions on and off with your keyboard
 slug: quickly-toggle-copilot
-added: 2022-08-25 14:31
-updated: 2022-08-25 14:31
-tags: [development]
+added: 2022-08-25T04:31:00.000Z
+updated: 2022-08-25T04:31:00.000Z
 excerpt: I found a way to toggle copilot suggestions off and on with my keyboard
 publish: true
+tags:
+  - development
 ---
 
 Overall, [I'm a fan of GitHub Copilot](/maybe-im-in-the-sweet-spot/). Sometimes I just want it to get out of the way. I wanted to figure out how to toggle it off and on again with my keyboard.

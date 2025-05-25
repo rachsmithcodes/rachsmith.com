@@ -1,12 +1,13 @@
 ---
 title: Spotify Podcasts should be a separate App
 slug: spotify-podcasts-should-be-a-separate-app
-added: 2022-07-08 14:19
-updated: 2022-07-08 14:19
-tags: [miscellany]
-excerpt: Every time a podcast goes Spotify exclusive, an angel loses its wings
+added: 2022-07-08T04:19:00.000Z
+updated: 2022-07-08T04:19:00.000Z
+excerpt: 'Every time a podcast goes Spotify exclusive, an angel loses its wings'
 imageId: '4'
 publish: true
+tags:
+  - miscellany
 ---
 
 I listen to a lot of podcasts. Over the years I've tried lots of different great podcast player apps. I was an avid [Overcast](https://overcast.fm/) user but I've recently gotten in to [Castro](https://castro.fm/).

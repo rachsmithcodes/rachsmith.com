@@ -1,11 +1,12 @@
 ---
 title: Code-first to product-first
 slug: code-first-to-product-first
-added: 2021-10-05 13:17
-updated: 2021-10-05 13:17
-tags: [development]
+added: 2021-10-05T03:17:00.000Z
+updated: 2021-10-05T03:17:00.000Z
 excerpt: My thoughts on Zach Lloyd's description on "two kinds of programmers".
 publish: true
+tags:
+  - development
 ---
 
 Recently I discovered [this article on Zach Lloyd's website](https://thezbook.com/code-first-vs-product-first/) in which he describes two kinds of programmers:

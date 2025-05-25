@@ -1,14 +1,14 @@
 ---
 title: Disco dishes
 slug: disco-dishes
-added: 2023-11-15 19:52
-updated: 2023-11-15 19:52
-tags:
-  - music
-  - podcasts
+added: 2023-11-15T09:52:00.000Z
+updated: 2023-11-15T09:52:00.000Z
 excerpt: On a recent Saturday evening it was my turn to do the post-dinner cleanup.
 note: publish
 publish: true
+tags:
+  - music
+  - podcasts
 ---
 
 On a recent Saturday evening it was my turn to do the post-dinner cleanup. I'd run out of comedy/pop culture podcasts to listen to, but I had just polished off a spicy marg and listening to [Dr. Andrew Huberman](https://www.hubermanlab.com/podcast) spout health facts was absolutely not the vibe. So I chucked on some trending pop music and had a little dance party on my own while I wiped down surfaces and swept up food scraps. It was awesome!

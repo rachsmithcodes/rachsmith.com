@@ -1,11 +1,15 @@
 ---
 title: Surrender
 slug: surrender
-added: 2023-05-22 06:42
-updated: 2023-05-22 06:42
-tags: [productivity, wellbeing]
-excerpt: "Regular readers of my notes might have picked up that I have a little bit of trouble being okay with wasting time"
+added: 2023-05-21T20:42:00.000Z
+updated: 2023-05-21T20:42:00.000Z
+excerpt: >-
+  Regular readers of my notes might have picked up that I have a little bit of
+  trouble being okay with wasting time
 publish: true
+tags:
+  - productivity
+  - wellbeing
 ---
 
 Regular readers of my notes might have noticed that I have a little trouble being okay with *wasting time*. Ever since having kids, my time anxiety has driven me to look at every week as a puzzle to be solved. What is the most optimal way to cram all the pieces in? 

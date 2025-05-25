@@ -1,12 +1,17 @@
 ---
 title: Hobonichi Techo Cousin
 slug: hobonichi-techo-cousin
-added: 2023-12-27 06:34
-updated: 2023-12-27 06:34
-tags: [productivity, journaling]
-excerpt: I've been rocking a bullet journal in Rhodia and Leuchtturm notebooks for many years. After seeing the Hobonichi Techo Cousin on YouTube and Instagram I decided to give a dated planner a try in 2024.
+added: 2023-12-26T20:34:00.000Z
+updated: 2023-12-26T20:34:00.000Z
+excerpt: >-
+  I've been rocking a bullet journal in Rhodia and Leuchtturm notebooks for many
+  years. After seeing the Hobonichi Techo Cousin on YouTube and Instagram I
+  decided to give a dated planner a try in 2024.
 note: publish
 publish: true
+tags:
+  - productivity
+  - journaling
 ---
 
 I've been rocking a bullet journal in Rhodia and Leuchtturm notebooks for many years. After seeing the [Hobonichi Techo Cousin](https://www.1101.com/store/techo/en/2024/pc/detail_cover/cb24_jan_en/) on YouTube and Instagram I decided to give a dated planner a try in 2024. I'm pretty excited, I haven't used a dated planner since I was in high school!

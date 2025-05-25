@@ -1,11 +1,17 @@
 ---
-title: "How I achieved my goal of \"writing more\""
+title: How I achieved my goal of "writing more"
 slug: how-i-wrote-more
-added: 2022-12-31 07:05
-updated: 2022-12-31 07:05
-tags: [productivity, obsidian, writing]
-excerpt: Recently I wrote how I got comfortable with writing and publishing more frequently on this website. I thought I would share some specific things I did to make writing happen for me this year.
+added: 2022-12-30T21:05:00.000Z
+updated: 2022-12-30T21:05:00.000Z
+excerpt: >-
+  Recently I wrote how I got comfortable with writing and publishing more
+  frequently on this website. I thought I would share some specific things I did
+  to make writing happen for me this year.
 publish: true
+tags:
+  - productivity
+  - obsidian
+  - writing
 ---
 
 Recently I wrote about getting comfortable with [writing and publishing more frequently on this website](/2022-was-the-year-i-published/). A few people have expressed that they would like to do the same, so I thought I would share some specific things I did to make writing happen for me this year.

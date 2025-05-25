@@ -1,14 +1,16 @@
 ---
 title: Post Brain
 slug: post-brain
-added: 2024-05-13 13:05
-updated: 2024-05-13 13:05
+added: 2024-05-13T03:05:00.000Z
+updated: 2024-05-13T03:05:00.000Z
+excerpt: >-
+  I don't know if there's a proper name for this pattern of thinking, so I'll
+  just call it Post Brain.
+note: published
+publish: true
 tags:
   - writing
   - creativity
-excerpt: I don't know if there's a proper name for this pattern of thinking, so I'll just call it Post Brain.
-note: published
-publish: true
 ---
 I don't know if there's a proper name for this pattern of thinking, so I'll just call it Post Brain. 
 

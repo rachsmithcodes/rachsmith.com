@@ -1,12 +1,17 @@
 ---
-title: Conditionally adding content to my Obsidian daily note with the Templater plugin
+title: >-
+  Conditionally adding content to my Obsidian daily note with the Templater
+  plugin
 slug: conditionally-add-content-to-daily-note
-added: 2024-01-09 17:18
-updated: 2024-01-09 17:18
-tags: [obsidian]
-excerpt: "I wanted to add some work startup/shutdown checklists to my Daily Note in Obsidian, but I didn't want them going in on the days I don't work."
+added: 2024-01-09T07:18:00.000Z
+updated: 2024-01-09T07:18:00.000Z
+excerpt: >-
+  I wanted to add some work startup/shutdown checklists to my Daily Note in
+  Obsidian, but I didn't want them going in on the days I don't work.
 note: publish
 publish: true
+tags:
+  - obsidian
 ---
 I wanted to add some work startup/shutdown checklists to my [daily note](https://help.obsidian.md/Plugins/Daily+notes) in [Obsidian](https://obsidian.md/), but I didn't want them going in on the days I don't work. It turns out this is possible with the [Templater Plugin](https://github.com/SilentVoid13/Templater).
 

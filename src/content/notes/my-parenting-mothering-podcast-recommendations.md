@@ -1,11 +1,15 @@
 ---
 title: My parenting/mothering podcast recommendations
 slug: my-parenting-mothering-podcast-recommendations
-added: 2021-09-28 07:30
-updated: 2024-04-11 20:54
-tags: [podcasts, mothering]
-excerpt: A list of all the parenting podcasts that I have found useful at some point in my parenting journey.
+added: 2021-09-27T21:30:00.000Z
+updated: 2024-04-11T10:54:00.000Z
+excerpt: >-
+  A list of all the parenting podcasts that I have found useful at some point in
+  my parenting journey.
 publish: true
+tags:
+  - podcasts
+  - mothering
 ---
 
 A good friend will have twins soon! She asked me for my parenting podcast recommendations. I decided to share the list here as well. 

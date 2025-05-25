@@ -24,7 +24,7 @@ export async function getStaticPaths() {
 }
 
 export function formatDate(date) {
-  return new Date(date.replace(/-/g, '/')).toLocaleDateString('en-US', {
+  return date.toLocaleDateString('en-US', {
     month: 'long',
     day: 'numeric',
     year: 'numeric',
@@ -38,17 +38,12 @@ if (slug === undefined) return;
 
 const { Content } = await render(note);
 
+console.log('🌈 -> note', note);
+
+const includeYTResources = note.body.includes('lite-youtube');
+
 const {
-  data: {
-    added,
-    excerpt,
-    includeYTResources,
-    noComments,
-    tags,
-    title,
-    type,
-    updated,
-  },
+  data: { added, excerpt, noComments, tags, title, type, updated },
 } = note;
 
 // random imageId between 1 and 6
@@ -112,8 +107,11 @@ const titleEncoded = encodeURIComponent(`re: ${title}`);
         <div class="meta">
           <span class="added-updated"
             >Added: {formatDate(added)}
-            {updated !== added && <br />}
-            {updated !== added && `Updated: ${formatDate(updated)}`}
+            {updated.getTime() !== added.getTime() && <br />}
+            {
+              updated.getTime() !== added.getTime() &&
+                `Updated: ${formatDate(updated)}`
+            }
           </span>
 
           <TagsList tags={tags.map((t) => ({ name: t }))} />

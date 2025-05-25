@@ -1,11 +1,15 @@
 ---
 title: Don't remove a fence until you know why it was put up in the first place
 slug: dont-remove-a-fence
-added:  2022-11-01 01:27
-updated: 2022-11-01 01:27
-tags: [development, work]
-excerpt: "Chesterton's Fence states: Don't move a fence until you know why it was put there in the first place."
+added: 2022-10-31T15:27:00.000Z
+updated: 2022-10-31T15:27:00.000Z
+excerpt: >-
+  Chesterton's Fence states: Don't move a fence until you know why it was put
+  there in the first place.
 publish: true
+tags:
+  - development
+  - work
 ---
 
 Recently I learnt about [Chesterton's Fence](https://fs.blog/chestertons-fence/), a mental shortcut to help when you're deciding whether to change something in a system. 

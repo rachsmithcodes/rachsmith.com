@@ -1,11 +1,14 @@
 ---
 title: Deciding once about skincare and cosmetics
 slug: deciding-once-skincare
-added: 2022-11-29 05:45
-updated: 2022-11-29 05:45
-tags: [books]
-excerpt: Kendra Adachi's The Lazy Genius Way outlines 13 principles to simplify your approach to life. Of all the principles, my favourite has to be "decide once".
+added: 2022-11-28T19:45:00.000Z
+updated: 2022-11-28T19:45:00.000Z
+excerpt: >-
+  Kendra Adachi's The Lazy Genius Way outlines 13 principles to simplify your
+  approach to life. Of all the principles, my favourite has to be "decide once".
 publish: true
+tags:
+  - books
 ---
 
 Kendra Adachi's [The Lazy Genius Way](https://www.thelazygeniuscollective.com/book) outlines 13 principles to simplify your approach to life. Of all the principles, my favourite has to be "decide once". The idea is that you make a decision about something, and drop any ideas of revisiting that decision.

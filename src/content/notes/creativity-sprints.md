@@ -1,13 +1,16 @@
 ---
 title: Creativity sprints
 slug: creativity-sprints
-added: 2024-05-07 19:05
-updated: 2024-05-07 19:05
-tags:
-  - creativity
-excerpt: "I was worried I would very quickly run out of things to write about when I first started on #WeblogPoMo2024, but it turns out if I make myself produce *something* every day, I find the words."
+added: 2024-05-07T09:05:00.000Z
+updated: 2024-05-07T09:05:00.000Z
+excerpt: >-
+  I was worried I would very quickly run out of things to write about when I
+  first started on #WeblogPoMo2024, but it turns out if I make myself produce
+  *something* every day, I find the words.
 note: published
 publish: true
+tags:
+  - creativity
 ---
 I was worried I would very quickly run out of things to write about when I first started on [#WeblogPoMo2024](https://weblog.anniegreens.lol/weblog-posting-month-2024), but it turns out if I make myself produce *something* every day, I find the words.
 

@@ -1,12 +1,13 @@
 ---
 title: App Defaults 2023
 slug: app-defaults
-added: 2023-12-31 06:30
-updated: 2023-12-31 06:30
-tags: [obsidian]
+added: 2023-12-30T20:30:00.000Z
+updated: 2023-12-30T20:30:00.000Z
 excerpt: My app defaults.
 note: publish
 publish: true
+tags:
+  - obsidian
 ---
 
 Hey, it's a meme post. [Everyone's doing it](https://defaults.rknight.me/).

@@ -1,13 +1,15 @@
 ---
 title: Social skills
 slug: social-skills
-added: 2024-11-04 21:11
-updated: 2024-11-04 21:11
-tags:
-  - mothering
-excerpt: "A conversation about the day's playground shenanigans with my one of my kids had me asking him: \"do you know what social skills are?\"."
+added: 2024-11-04T11:11:00.000Z
+updated: 2024-11-04T11:11:00.000Z
+excerpt: >-
+  A conversation about the day's playground shenanigans with my one of my kids
+  had me asking him: "do you know what social skills are?".
 note: published
 publish: true
+tags:
+  - mothering
 ---
 A conversation about the day's playground shenanigans with one of my kids had me asking him: "do you know what social skills are?".
 

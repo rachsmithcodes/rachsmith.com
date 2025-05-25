@@ -1,11 +1,13 @@
 ---
-title: "The must-have utility apps I use every day on my Macbook Pro"
+title: The must-have utility apps I use every day on my Macbook Pro
 slug: the-must-have-utility-apps-i-use-every-day-on-my-macbook-pro
-added: 2021-05-29 13:59
-updated: 2021-05-29 13:59
-tags:  [productivity, work]
+added: 2021-05-29T03:59:00.000Z
+updated: 2021-05-29T03:59:00.000Z
 excerpt: A list of my must-have and nice-to-have apps and services.
 publish: true
+tags:
+  - productivity
+  - work
 ---
 
 Recently I returned to work after 6 months of leave and as our Dev environment had changed dramatically since then, I formatted my computer. Whenever I have to start from scratch on a Mac, I am reminded just how much I rely on various utility Apps throughout my day. So here is the list of my must-have and nice-to-have apps and services.

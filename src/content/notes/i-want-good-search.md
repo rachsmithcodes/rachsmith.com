@@ -1,11 +1,15 @@
 ---
-title: AI is making it easier to create more noise, when all I want is good search
+title: 'AI is making it easier to create more noise, when all I want is good search'
 slug: i-want-good-search
-added: 2023-03-03 14:29
-updated: 2023-03-03 14:29
-tags: [productivity, obsidian]
-excerpt: We use Notion for the bulk of our knowledge management at CodePen. I have no use for an AI that can write for me.
+added: 2023-03-03T04:29:00.000Z
+updated: 2023-03-03T04:29:00.000Z
+excerpt: >-
+  We use Notion for the bulk of our knowledge management at CodePen. I have no
+  use for an AI that can write for me.
 publish: true
+tags:
+  - productivity
+  - obsidian
 ---
 
 Notion released its [AI features](https://www.notion.so/product/ai). Like most AI-powered-document tools, the value proposition is that the AI can generate content for you. 

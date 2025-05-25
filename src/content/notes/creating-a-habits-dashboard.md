@@ -1,11 +1,14 @@
 ---
 title: Creating a Habits Dashboard with Obsidian and the Dataview JS API
 slug: creating-a-habits-dashboard
-added: 2023-01-02 16:34
-updated: 2023-01-02 16:34
-tags: [development]
-excerpt: I finally dug into doing something with the habits data I'd been tracking in my daily notes, using the Dataview JS API.
+added: 2023-01-02T06:34:00.000Z
+updated: 2023-01-02T06:34:00.000Z
+excerpt: >-
+  I finally dug into doing something with the habits data I'd been tracking in
+  my daily notes, using the Dataview JS API.
 publish: true
+tags:
+  - development
 ---
 
 I've been tracking habits and other personal stats in my [Obsidian daily notes](https://help.obsidian.md/Plugins/Daily+notes) for a few months now, using the [Dataview Plugin's inline field syntax](https://blacksmithgu.github.io/obsidian-dataview/).

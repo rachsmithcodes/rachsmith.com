@@ -1,11 +1,12 @@
 ---
 title: HyperKey
 slug: hyperkey
-added: 2022-12-15 20:27
-updated: 2022-12-15 20:27
-tags: [productivity]
-excerpt: 
+added: 2022-12-15T10:27:00.000Z
+updated: 2022-12-15T10:27:00.000Z
+excerpt: null
 publish: true
+tags:
+  - productivity
 ---
 
 [Another](/brett-terpstras-searchlink/) piece of productivity gold from [this Automators podcast episode](https://www.relay.fm/automators/116): the concept of a hyper key.

@@ -1,11 +1,16 @@
 ---
 title: The inevitable menty-b of early motherhood
 slug: the-inevitable-menty-b
-added: 2023-05-05 19:58
-updated: 2023-05-05 19:58
-tags: [mothering]
-excerpt: "I can't speak for all new mothers, but a particular experience happens to women like me: high-achieving, type-A strivers who give birth to highly sensitive, non-sleeping, stage-5-clinger babies. I call it the inevitable mental breakdown."
+added: 2023-05-05T09:58:00.000Z
+updated: 2023-05-05T09:58:00.000Z
+excerpt: >-
+  I can't speak for all new mothers, but a particular experience happens to
+  women like me: high-achieving, type-A strivers who give birth to highly
+  sensitive, non-sleeping, stage-5-clinger babies. I call it the inevitable
+  mental breakdown.
 publish: true
+tags:
+  - mothering
 ---
 
 I can't speak for all new mothers, but a particular experience happens to women like me: high-achieving, type-A strivers who give birth to highly sensitive, non-sleeping, stage-5-clinger babies. I call it the inevitable mental breakdown. 

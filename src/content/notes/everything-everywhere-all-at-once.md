@@ -1,11 +1,15 @@
 ---
 title: Everything Everywhere All At Once
 slug: everything-everywhere-all-at-once
-added: 2023-01-31 11:09
-updated: 2023-01-31 11:09
-tags: [miscellany]
-excerpt: "When I was in year 9, I had to watch The Matrix for a school assignment. We watched many movies when I was a kid, including some sci-fi, but it wasn't really my thing."
+added: 2023-01-31T01:09:00.000Z
+updated: 2023-01-31T01:09:00.000Z
+excerpt: >-
+  When I was in year 9, I had to watch The Matrix for a school assignment. We
+  watched many movies when I was a kid, including some sci-fi, but it wasn't
+  really my thing.
 publish: true
+tags:
+  - miscellany
 ---
 
 When I was in year 9, I had to watch [The Matrix](https://en.wikipedia.org/wiki/The_Matrix) for a school assignment. We watched many movies when I was a kid, including some sci-fi, but it wasn't really my thing. The Matrix stands out in my memory because I remember having the thought after I watched it:

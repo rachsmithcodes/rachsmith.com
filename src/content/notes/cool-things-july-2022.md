@@ -1,11 +1,12 @@
 ---
 title: 'Cool things: July 2022'
 slug: cool-things-july-2022
-added: 2022-08-05 21:08
-updated: 2022-08-05 21:08
-tags: [miscellany]
+added: 2022-08-05T11:08:00.000Z
+updated: 2022-08-05T11:08:00.000Z
 excerpt: Stuff I was digging in July.
 publish: true
+tags:
+  - miscellany
 ---
 
 ### Music: ["True" by Solange](https://open.spotify.com/album/3r9UTfGCgZLCOhV7cz99YC?si=AcdohijOTxurUZZhHas-dg)

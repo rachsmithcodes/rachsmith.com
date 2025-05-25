@@ -1,11 +1,14 @@
 ---
 title: To be whole is the goal
 slug: to-be-whole-is-the-goal
-added: 2021-02-11 21:22
-updated: 2021-02-11 21:22
-tags: [wellbeing]
-excerpt: I'm sharing about all of the things that interest me rather than trying to fit one niche.
+added: 2021-02-11T11:22:00.000Z
+updated: 2021-02-11T11:22:00.000Z
+excerpt: >-
+  I'm sharing about all of the things that interest me rather than trying to fit
+  one niche.
 publish: true
+tags:
+  - wellbeing
 ---
 
 In Nat Eliason’s post [“Be Yourself, Not a Niche”](https://www.nateliason.com/blog/be-yourself) he encourages us to blog about whatever we are interested in, instead of fitting a specific niche. When I made the goal of consistently blogging in 2021, I knew I wouldn’t be able to keep it up if I was trying to stick to a particular topic. Reading Nat’s post was encouraging.

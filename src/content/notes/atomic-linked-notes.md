@@ -1,11 +1,13 @@
 ---
-title: Atomic, linked notes
+title: 'Atomic, linked notes'
 slug: atomic-linked-notes
-added:  2022-10-23 20:44
-updated: 2022-10-23 20:44
-tags: []
-excerpt: Despite my desire to publish more, I've had trouble with not treating every note with the gravity of a "finished", polished blog post. 
+added: 2022-10-23T10:44:00.000Z
+updated: 2022-10-23T10:44:00.000Z
+excerpt: >-
+  Despite my desire to publish more, I've had trouble with not treating every
+  note with the gravity of a "finished", polished blog post.
 publish: true
+tags: []
 ---
 
 After discovering the idea of a [digital garden](https://joelhooks.com/digital-garden), [I declared this website is no longer a blog](/my-blog-is-dead/). I've still had trouble with changing my mindset around the individual notes on this site, and not treating every note with the gravity of a "finished", polished blog post. 

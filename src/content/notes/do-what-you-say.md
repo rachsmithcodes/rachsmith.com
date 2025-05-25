@@ -1,11 +1,15 @@
 ---
-title: "Do what you say you're going to do"
+title: Do what you say you're going to do
 slug: do-what-you-say
-added: 2022-11-23 09:28
-updated: 2022-11-23 09:28
-tags: [work, productivity]
-excerpt: If you want to impress people you work with/for, do what you say you're going to do.
+added: 2022-11-22T23:28:00.000Z
+updated: 2022-11-22T23:28:00.000Z
+excerpt: >-
+  If you want to impress people you work with/for, do what you say you're going
+  to do.
 publish: true
+tags:
+  - work
+  - productivity
 ---
 
 If you want to impress people you work with/for, do what you say you're going to do. Be reliable and deliver what you have promised (almost) every time.

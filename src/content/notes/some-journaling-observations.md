@@ -1,13 +1,15 @@
 ---
 title: Some observations after journaling every day this year
 slug: some-journaling-observations
-added: 2024-05-20 13:05
-updated: 2024-05-20 13:05
-tags:
-  - journaling
-excerpt: I've written a journal entry for every day this year. Here are some observations.
+added: 2024-05-20T03:05:00.000Z
+updated: 2024-05-20T03:05:00.000Z
+excerpt: >-
+  I've written a journal entry for every day this year. Here are some
+  observations.
 note: published
 publish: true
+tags:
+  - journaling
 ---
 My main goal for this year was to [journal something about my day](/my-goal-for-2024/), every day. Some observations:
 

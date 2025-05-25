@@ -1,11 +1,12 @@
 ---
 title: Grifter math
 slug: grifter-math
-added: 2022-07-21 14:15
-updated: 2022-07-21 14:15
-tags: [miscellany]
+added: 2022-07-21T04:15:00.000Z
+updated: 2022-07-21T04:15:00.000Z
 excerpt: It doesn't add up
 publish: true
+tags:
+  - miscellany
 ---
 
 I am partial to watching a bit of productivity and self development material on YouTube. I think that's why all my ads are get-rich-quick grifters.

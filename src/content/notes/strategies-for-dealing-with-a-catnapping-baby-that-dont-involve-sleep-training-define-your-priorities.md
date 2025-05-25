@@ -1,11 +1,18 @@
 ---
-title: "Strategies for dealing with a catnapping baby (that don’t involve sleep training): Define your priorities"
-slug: strategies-for-dealing-with-a-catnapping-baby-that-dont-involve-sleep-training-define-your-priorities
-added: 2021-05-10 17:07
-updated: 2021-05-10 17:07
-tags: [mothering, productivity]
-excerpt: Defining your priorities will help reduce stress around having limited agency due to a baby that doesn't nap.
+title: >-
+  Strategies for dealing with a catnapping baby (that don’t involve sleep
+  training): Define your priorities
+slug: >-
+  strategies-for-dealing-with-a-catnapping-baby-that-dont-involve-sleep-training-define-your-priorities
+added: 2021-05-10T07:07:00.000Z
+updated: 2021-05-10T07:07:00.000Z
+excerpt: >-
+  Defining your priorities will help reduce stress around having limited agency
+  due to a baby that doesn't nap.
 publish: true
+tags:
+  - mothering
+  - productivity
 ---
 
 This is the second post about dealing with a baby that only naps for 20-30 minutes at a time. The first and most important thing you'll need to do is [change your mindset](/strategies-for-dealing-with-a-catnapping-baby-that-dont-involve-sleep-training-mindset-and-resetting-expectations/) so if you haven't, read that.

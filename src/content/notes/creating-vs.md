@@ -1,14 +1,16 @@
 ---
 title: Creating vs. Consuming
 slug: creating-vs
-added: 2022-02-04 14:11
-updated: 2022-02-04 14:11
+added: 2022-02-04T04:11:00.000Z
+updated: 2022-02-04T04:11:00.000Z
+excerpt: >-
+  Some new soundtracks I'm telling myself when it comes to creativity and my
+  time.
+publish: true
 tags:
   - wellbeing
   - productivity
   - creativity
-excerpt: Some new soundtracks I'm telling myself when it comes to creativity and my time.
-publish: true
 ---
 
 One of the things I tend to overthink about is whether I’m getting the consuming vs. creating balance right.

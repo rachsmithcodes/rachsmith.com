@@ -1,11 +1,15 @@
 ---
 title: The hardest part of being a Junior Developer
 slug: the-hardest-part-of-being-a-jnr
-added:  2023-01-16 05:49
-updated:  2023-01-16 05:49
-tags: [work, development]
-excerpt: Even though it was 12 years ago, I still remember what the most stressful part of being a junior developer was.
+added: 2023-01-15T19:49:00.000Z
+updated: 2023-01-15T19:49:00.000Z
+excerpt: >-
+  Even though it was 12 years ago, I still remember what the most stressful part
+  of being a junior developer was.
 publish: true
+tags:
+  - work
+  - development
 ---
 
 

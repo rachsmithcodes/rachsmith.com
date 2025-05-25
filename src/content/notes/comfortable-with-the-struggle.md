@@ -1,14 +1,16 @@
 ---
 title: Comfortable with the struggle
 slug: comfortable-with-the-struggle
-added: 2024-07-08 12:07
-updated: 2024-07-08 12:07
+added: 2024-07-08T02:07:00.000Z
+updated: 2024-07-08T02:07:00.000Z
+excerpt: >-
+  Sometimes I get asked by newcomers how one can become a developer like me -
+  specifically, with a job and career like mine.
+note: published
+publish: true
 tags:
   - development
   - work
-excerpt: Sometimes I get asked by newcomers how one can become a developer like me - specifically, with a job and career like mine.
-note: published
-publish: true
 ---
 
 Sometimes I get asked by newcomers how one can become a developer like me - specifically, with a job and career [like mine](/my-lifestyle-centric-career/). 

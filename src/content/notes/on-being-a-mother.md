@@ -1,13 +1,13 @@
 ---
 title: On being a mother
 slug: on-being-a-mother
-added: 2024-05-12 19:05
-updated: 2024-05-12 19:05
-tags:
-  - mothering
+added: 2024-05-12T09:05:00.000Z
+updated: 2024-05-12T09:05:00.000Z
 excerpt: A short reflection on motherhood on this Mother's Day.
 note: published
 publish: true
+tags:
+  - mothering
 ---
 On this Mother's Day, I would like to say that I am so very grateful to be a mother. I of course cherish my children and all the joy they bring: the funny things they say, the hugs and kisses and declarations of adoration, the fascinating experience of watching them grow and change. 
 

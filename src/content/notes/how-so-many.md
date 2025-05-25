@@ -1,13 +1,15 @@
 ---
 title: How does Anh Do write so many books?
 slug: how-so-many
-added: 2024-05-08 19:05
-updated: 2024-05-08 19:05
-tags:
-  - miscellany
-excerpt: "Something I think about often: how does Anh Do write so many books in such a short span of time?"
+added: 2024-05-08T09:05:00.000Z
+updated: 2024-05-08T09:05:00.000Z
+excerpt: >-
+  Something I think about often: how does Anh Do write so many books in such a
+  short span of time?
 note: published
 publish: true
+tags:
+  - miscellany
 ---
 Something I think about often: how does [Anh Do](https://www.anhdo.com/) write so many books in such a short span of time?
 

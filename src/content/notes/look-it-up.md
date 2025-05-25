@@ -1,11 +1,12 @@
 ---
-title: Look it up 
+title: Look it up
 slug: look-it-up
-added: 2022-10-10 06:26
-updated: 2022-10-10 06:26
-tags: [development]
-excerpt: "Geoff Graham: Look it up!"
+added: 2022-10-09T20:26:00.000Z
+updated: 2022-10-09T20:26:00.000Z
+excerpt: 'Geoff Graham: Look it up!'
 publish: true
+tags:
+  - development
 ---
 
 ### Link: [Look it up!](https://geoffgraham.me/look-it-up/)

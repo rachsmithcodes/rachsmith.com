@@ -5,12 +5,11 @@ const note = z.object({
   type: z.enum(['note', 'book']).optional(),
   title: z.string(),
   tags: z.array(z.string()),
-  added: z.string(),
-  updated: z.string(),
+  added: z.date(),
+  updated: z.date(),
   excerpt: z.string().optional().nullable(),
   rating: z.number().optional().nullable(),
   noComments: z.boolean().optional().nullable(),
-  includeYTResources: z.boolean().optional().nullable(),
 });
 
 const notesCollection = defineCollection({

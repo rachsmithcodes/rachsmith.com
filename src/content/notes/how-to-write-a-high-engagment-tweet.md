@@ -1,11 +1,12 @@
 ---
 title: How to write a high-engagement tweet
 slug: how-to-write-a-high-engagment-tweet
-added: 2021-11-24 22:00
-updated: 2021-11-24 22:00
-tags: [miscellany]
-excerpt: "Hint: make people mad"
+added: 2021-11-24T12:00:00.000Z
+updated: 2021-11-24T12:00:00.000Z
+excerpt: 'Hint: make people mad'
 publish: true
+tags:
+  - miscellany
 ---
 
 1. Pick a stance that that could be mistaken as contrarian, but in reality most people actually agree with.

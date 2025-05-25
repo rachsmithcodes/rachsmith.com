@@ -1,13 +1,13 @@
 ---
 title: Month notes & numbers №14
 slug: mnnm-14
-added: 2025-05-11 16:20
-updated: 2025-05-11 16:20
-tags:
-  - mn&n
+added: 2025-05-11T06:20:00.000Z
+updated: 2025-05-11T06:20:00.000Z
 excerpt: Notable things from May 2025
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 
 This month's update is a little ode to the practice of journaling. Part way through April I caught gastro 😭 and in this moment of weakness [I downloaded Royal Kingdom from the App Store](/a-not-so-casual-gamer/). I got sucked in to the matching vortex and went in to the ol' shame spiral about all the hours lost, again.

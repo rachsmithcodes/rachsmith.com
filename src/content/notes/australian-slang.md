@@ -1,11 +1,12 @@
 ---
 title: Australian slang that I have used with my long-suffering American colleagues
 slug: australian-slang
-added: 2022-09-09 06:18
-updated: 2022-09-09 06:18
-tags: [work]
-excerpt:
+added: 2022-09-08T20:18:00.000Z
+updated: 2022-09-08T20:18:00.000Z
+excerpt: null
 publish: true
+tags:
+  - work
 ---
 
 Often I'll say something in a meeting or in Slack and then later realise, people don't use that phrase in the USA. Here's a non-exhaustive list of things my CodePen colleagues have probably had to Google at some point.

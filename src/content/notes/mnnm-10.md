@@ -1,13 +1,13 @@
 ---
 title: Month notes & numbers №10
 slug: mnnm-10
-added: 2025-01-01 07:03
-updated: 2025-01-01 07:03
-tags:
-  - mn&n
+added: 2024-12-31T21:03:00.000Z
+updated: 2024-12-31T21:03:00.000Z
 excerpt: Notable things from November & December 2024
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 
 I haven't been too online the last two months because things have been really busy offline. It's good busy - no issues or dramas but the School year ending and lead up to Christmas involves a lot of preparation, organising and socialising.

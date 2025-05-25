@@ -1,11 +1,15 @@
 ---
 title: Moving from problem adder to problem solver
 slug: moving-from-problem-adder-to-problem-solver
-added: 2022-11-19 07:00
-updated: 2022-11-19 07:00
-tags: [work, development]
-excerpt: My natural inclination is to be a problem adder. When someone describes an idea to me my mind immediately goes to the 15 reasons why it wouldn't work.
+added: 2022-11-18T21:00:00.000Z
+updated: 2022-11-18T21:00:00.000Z
+excerpt: >-
+  My natural inclination is to be a problem adder. When someone describes an
+  idea to me my mind immediately goes to the 15 reasons why it wouldn't work.
 publish: true
+tags:
+  - work
+  - development
 ---
 
 From one of [James Clear's newsletters](https://jamesclear.com/3-2-1/october-13-2022):

@@ -1,11 +1,17 @@
 ---
 title: Reassessing the morning routine in 2023
 slug: reassessing-the-morning-routine
-added:  2023-07-10 05:40
-updated: 2023-07-10 05:40
-tags: [wellbeing, podcasts, journaling]
-excerpt: Remember when productivity YouTube was all about the morning routine? It remains to be an engagement-generating video topic today, but back in 2016 it was a hot HOT topic.
+added: 2023-07-09T19:40:00.000Z
+updated: 2023-07-09T19:40:00.000Z
+excerpt: >-
+  Remember when productivity YouTube was all about the morning routine? It
+  remains to be an engagement-generating video topic today, but back in 2016 it
+  was a hot HOT topic.
 publish: true
+tags:
+  - wellbeing
+  - podcasts
+  - journaling
 ---
 
 Remember when productivity YouTube was all about the morning routine? It remains an engagement-generating video topic today, but back in 2016, it was a hot HOT topic. I admit I was on the bandwagon. I read [The Miracle Morning](https://miraclemorning.com/), constructed a morning routine using the suggestions, and it did improve my productivity and overall mood during the day.

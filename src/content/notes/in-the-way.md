@@ -1,13 +1,16 @@
 ---
 title: In the way
 slug: in-the-way
-added: 2025-03-12 8:43
-updated: 2025-03-12 8:43
-tags:
-  - writing
-excerpt: I was texting with my best friend. Her mum has cancer, and my friend is going through the brutality of watching it take her piece by piece, just as I did with my own mum 13 years ago.
+added: 2025-03-11T22:43:00.000Z
+updated: 2025-03-11T22:43:00.000Z
+excerpt: >-
+  I was texting with my best friend. Her mum has cancer, and my friend is going
+  through the brutality of watching it take her piece by piece, just as I did
+  with my own mum 13 years ago.
 note: published
 publish: true
+tags:
+  - writing
 ---
 
 I was texting with my best friend. Her mum has cancer, and my friend is going through the brutality of watching it take her piece by piece, just as I did with my own mum 13 years ago.

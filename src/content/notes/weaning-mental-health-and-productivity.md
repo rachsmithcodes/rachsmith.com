@@ -1,11 +1,13 @@
 ---
-title: Weaning, mental health and productivity
+title: 'Weaning, mental health and productivity'
 slug: weaning-mental-health-and-productivity
-added: 2021-12-09 09:11
-updated: 2021-12-09 09:11
-tags: [wellbeing, productivity]
+added: 2021-12-08T23:11:00.000Z
+updated: 2021-12-08T23:11:00.000Z
 excerpt: No self improvement book is gonna help me with this.
 publish: true
+tags:
+  - wellbeing
+  - productivity
 ---
 
 You can add this to the list of my losing tickets in the biological lottery: hormone shifts from weaning.

@@ -1,11 +1,14 @@
 ---
 title: My lifestyle-centric career
 slug: my-lifestyle-centric-career
-added: 2022-11-08 05:59
-updated: 2022-11-08 05:59
-tags: [work]
-excerpt: Cal Newport describes lifestyle-centric career planning as deciding on what lifestyle you want, and then work backwards from there.
+added: 2022-11-07T19:59:00.000Z
+updated: 2022-11-07T19:59:00.000Z
+excerpt: >-
+  Cal Newport describes lifestyle-centric career planning as deciding on what
+  lifestyle you want, and then work backwards from there.
 publish: true
+tags:
+  - work
 ---
 
 [Cal Newport](https://www.calnewport.com/blog/2022/08/25/the-most-important-piece-of-career-advice-you-probably-never-heard-2/) describes lifestyle-centric career planning as deciding on what lifestyle you want[^1], and then work backwards from there. This subverts the typical advice for high-performers: that you should chase the better opportunity, that higher paying role, that promotion to another level of seniority.

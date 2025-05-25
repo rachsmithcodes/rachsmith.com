@@ -1,11 +1,12 @@
 ---
-title: "Loving right now: This Figma template for creating Database ERDs"
+title: 'Loving right now: This Figma template for creating Database ERDs'
 slug: loving-right-now-this-figma-template
-added: 2021-08-25 14:20
-updated: 2021-08-25 14:20
-tags: [development]
-excerpt: "This Figma template came through for me today"
+added: 2021-08-25T04:20:00.000Z
+updated: 2021-08-25T04:20:00.000Z
+excerpt: This Figma template came through for me today
 publish: true
+tags:
+  - development
 ---
 
 As part of some work I'm doing for CodePen, I needed to come up with an ERD document for an extension we're making to our database. I think the last time I had to make an ERD was 15 years ago, as part of a Software Engineering degree.

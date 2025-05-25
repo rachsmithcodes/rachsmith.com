@@ -1,15 +1,18 @@
 ---
 title: I've never done a real interview
 slug: no-real-interviews
-added: 2024-05-17 19:05
-updated: 2024-05-17 19:05
+added: 2024-05-17T09:05:00.000Z
+updated: 2024-05-17T09:05:00.000Z
+excerpt: >-
+  I was listening to a recent ShopTalk Show episode where Dave Rupert was
+  sharing about his experience of looking for a developer job this year. It made
+  me reflect on my own career.
+note: published
+publish: true
 tags:
   - development
   - work
   - podcasts
-excerpt: I was listening to a recent ShopTalk Show episode where Dave Rupert was sharing about his experience of looking for a developer job this year. It made me reflect on my own career.
-note: published
-publish: true
 ---
 I was listening to a recent [ShopTalk Show](https://shoptalkshow.com/615/) episode where Dave Rupert was sharing about his experience of looking for a developer job this year. It made me reflect on my own career.
 

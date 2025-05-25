@@ -1,11 +1,12 @@
 ---
 title: How to open a specific Notion page on your iPhone
 slug: how-to-open-a-specific-notion-page-on-your-iphone
-added: 2021-03-24 21:01
-updated: 2021-03-24 21:01
-tags: [productivity]
+added: 2021-03-24T21:01:00.000Z
+updated: 2021-03-24T11:01:00.000Z
 excerpt: Notion's performance isn't great. This trick can help speed things up.
 publish: true
+tags:
+  - productivity
 ---
 
 There are many reasons I love Notion, and I plan to share my setup for weekly and monthly reviews on this blog in the future. One thing that has really been bugging me lately is how bad the performance has gotten. Maybe my location (Australia) exacerbates this, but Notion has been *so slow* lately.

@@ -1,11 +1,12 @@
 ---
 title: There are two parts to minimalism
 slug: there-are-two-parts-to-minimalism
-added: 2022-08-18 20:10
-updated: 2022-08-18 20:10
-tags: [miscellany]
-excerpt: One I am pretty good at, the other I need to work on.
+added: 2022-08-18T10:10:00.000Z
+updated: 2022-08-18T10:10:00.000Z
+excerpt: 'One I am pretty good at, the other I need to work on.'
 publish: true
+tags:
+  - miscellany
 ---
 
 I like the idea of being a minimalist.

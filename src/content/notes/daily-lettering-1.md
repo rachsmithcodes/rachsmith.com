@@ -1,13 +1,15 @@
 ---
 title: Daily lettering week 1
 slug: daily-lettering-1
-added: 2024-06-07 19:06
-updated: 2024-06-07 19:06
-tags:
-  - creativity
-excerpt: I've enjoyed my daily lettering challenge for the month of June so far! I've been having fun with trying different styles and brushes.
+added: 2024-06-07T09:06:00.000Z
+updated: 2024-06-07T09:06:00.000Z
+excerpt: >-
+  I've enjoyed my daily lettering challenge for the month of June so far! I've
+  been having fun with trying different styles and brushes.
 note: published
 publish: true
+tags:
+  - creativity
 ---
 
 I've enjoyed my daily lettering challenge for the month of June so far! I've been having fun with trying different styles and brushes.

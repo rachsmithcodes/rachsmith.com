@@ -1,11 +1,13 @@
 ---
 title: Wtf is an island and why is it in my website?
 slug: wtf-is-an-island
-added: 2022-09-13 05:56
-updated: 2022-09-13 05:56
-tags: [development, astro]
+added: 2022-09-12T19:56:00.000Z
+updated: 2022-09-12T19:56:00.000Z
 excerpt: Wrapping my head around Islands Architecture.
 publish: true
+tags:
+  - development
+  - astro
 ---
 
 The newest website frameworks[^1] keep referencing this thing called islands architecture. Which had me asking: what is an island? And how is it architected?

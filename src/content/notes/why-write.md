@@ -1,11 +1,14 @@
 ---
 title: Why write?
 slug: why-write
-added: 2021-06-13 21:23
-updated: 2021-06-13 21:23
-tags: [wellbeing, journaling, writing]
+added: 2021-06-13T11:23:00.000Z
+updated: 2021-06-13T11:23:00.000Z
 excerpt: Why do I want to dedicate my precious time to writing?
 publish: true
+tags:
+  - wellbeing
+  - journaling
+  - writing
 ---
 
 It was a goal of mine at the start of 2021 to publish consistently to this blog. I've been failing to do that recently. I was for a while there finding time to write in the margins. Now I'm back at work, just about any margin in my life has been squeezed out, and so has the writing. The only way to bring it back is to do the puzzle of time, energy and priorities once again to slot the writing back in.

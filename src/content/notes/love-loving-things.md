@@ -1,11 +1,12 @@
 ---
 title: I love this post about loving
 slug: love-loving-things
-added: 2022-08-15 07:08
-updated: 2022-08-15 07:08
-tags: [miscellany]
-excerpt: 💜
+added: 2022-08-14T21:08:00.000Z
+updated: 2022-08-14T21:08:00.000Z
+excerpt: "\U0001F49C"
 publish: true
+tags:
+  - miscellany
 ---
 
 ### Link: [Love Loving Things](https://birchtree.me/blog/love-loving-things/)

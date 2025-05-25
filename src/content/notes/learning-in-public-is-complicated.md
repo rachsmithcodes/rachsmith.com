@@ -1,11 +1,16 @@
 ---
-title: "Learning in public isn't so easy when you're buried by layers of engineering"
+title: Learning in public isn't so easy when you're buried by layers of engineering
 slug: learning-in-public-is-complicated
-added:  2023-01-18 20:15
-updated:  2023-01-18 20:15
-tags: [development, work]
-excerpt: "I've come to appreciate that unless you're a full-time content creator who can devote hours to polish, the only way to publish regularly is by embracing the approach of \"working with the garage door up\""
+added: 2023-01-18T10:15:00.000Z
+updated: 2023-01-18T10:15:00.000Z
+excerpt: >-
+  I've come to appreciate that unless you're a full-time content creator who can
+  devote hours to polish, the only way to publish regularly is by embracing the
+  approach of "working with the garage door up"
 publish: true
+tags:
+  - development
+  - work
 ---
 
 I've come to appreciate that unless you're a full-time content creator who can devote hours to polishing, the only way to publish regularly is by embracing the approach of "[working with the garage door up](https://notes.andymatuschak.org/Work_with_the_garage_door_up)" or "[learning in public](https://www.swyx.io/learn-in-public/)".   [Show Your Work!](/thoughts-on-show-your-work-by-austin-kleon/) as [Austin Kleon](http://austinkleon.com/) says.

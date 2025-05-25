@@ -1,11 +1,13 @@
 ---
-title: "My blog is dead. Long live my digital garden"
+title: My blog is dead. Long live my digital garden
 slug: my-blog-is-dead
-added: 2021-11-22 15:00
-updated: 2021-11-22 15:00
-tags: [development, obsidian]
-excerpt: The same content, a different perspective on publishing.
+added: 2021-11-22T05:00:00.000Z
+updated: 2021-11-22T05:00:00.000Z
+excerpt: 'The same content, a different perspective on publishing.'
 publish: true
+tags:
+  - development
+  - obsidian
 ---
 
 I don't recall how or why I ended up there, but a month ago I stumbled across [Joel Hook' website](https://joelhooks.com/digital-garden) where I was introduced to the concept of a **digital garden**. I was immediately captivated by the idea and went down a bit of a rabbit hole reading posts on digital gardens and looking at other people's digital gardens. Here are the links I found most useful (apart from Joel's original post):

@@ -1,11 +1,14 @@
 ---
 title: Using regex with find-and-replace in VS Code
 slug: using-regex-with-and-find-and-replace
-added: 2023-03-21 20:20
-updated: 2023-03-21 20:20
-tags: [development]
-excerpt: "Because I needed to replace text on either side of the number, a simple find-and-replace term wasn't going to work. I needed regex."
+added: 2023-03-21T10:20:00.000Z
+updated: 2023-03-21T10:20:00.000Z
+excerpt: >-
+  Because I needed to replace text on either side of the number, a simple
+  find-and-replace term wasn't going to work. I needed regex.
 publish: true
+tags:
+  - development
 ---
 
 The context for how and why is [too niche](/learning-in-public-is-complicated/) for me to go in to here, but I had a bunch of files where I needed to change all instances of this:

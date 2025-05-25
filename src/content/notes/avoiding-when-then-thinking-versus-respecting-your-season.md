@@ -1,11 +1,16 @@
 ---
-title: "Avoiding \"when, then\" thinking versus respecting your season"
+title: 'Avoiding "when, then" thinking versus respecting your season'
 slug: avoiding-when-then-thinking-versus-respecting-your-season
-added: 2021-06-21 20:56
-updated: 2021-06-21 20:56
-tags: [mothering, productivity, wellbeing]
-excerpt: "Two themes of mothering advice that are useful yet seem in conflict with eachother."
+added: 2021-06-21T10:56:00.000Z
+updated: 2021-06-21T10:56:00.000Z
+excerpt: >-
+  Two themes of mothering advice that are useful yet seem in conflict with
+  eachother.
 publish: true
+tags:
+  - mothering
+  - productivity
+  - wellbeing
 ---
 
 I listen to a lot of podcasts and read blog posts about motherhood and parenting. I come across two themes of advice that are useful yet seem in conflict with each other. 

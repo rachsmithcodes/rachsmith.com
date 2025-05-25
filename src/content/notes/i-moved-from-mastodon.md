@@ -1,11 +1,13 @@
 ---
 title: I moved from my self hosted Mastodon instance to a micro.blog account
 slug: i-moved-from-mastodon
-added: 2023-09-23 07:13
-updated: 2023-09-23 07:13
-tags: []
-excerpt: I share some reasons why I decided to give up on my self-hosted mastodon instance.
+added: 2023-09-22T21:13:00.000Z
+updated: 2023-09-22T21:13:00.000Z
+excerpt: >-
+  I share some reasons why I decided to give up on my self-hosted mastodon
+  instance.
 publish: true
+tags: []
 ---
 
 My experiment with running my own Mastodon instance is over. I've decided to move on for a few different reasons, but the **tldr is that it was costing me too much money**.

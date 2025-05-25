@@ -1,13 +1,15 @@
 ---
 title: My own little patch
 slug: my-own-little-patch
-added: 2024-05-22 20:05
-updated: 2024-05-22 20:05
+added: 2024-05-22T10:05:00.000Z
+updated: 2024-05-22T10:05:00.000Z
+excerpt: >-
+  I don't know if you've tried to use websites lately, but it's largely a mess
+  out there.
+note: published
+publish: 'true'
 tags:
   - development
-excerpt: I don't know if you've tried to use websites lately, but it's largely a mess out there.
-note: published
-publish: "true"
 ---
 I don't know if you've tried to use websites lately, but it's largely a mess out there.
 

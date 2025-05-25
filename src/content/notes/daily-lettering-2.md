@@ -1,13 +1,13 @@
 ---
 title: Daily lettering week 2
 slug: daily-lettering-2
-added: 2024-06-16 16:06
-updated: 2024-06-16 16:06
-tags:
-  - creativity
+added: 2024-06-16T06:06:00.000Z
+updated: 2024-06-16T06:06:00.000Z
 excerpt: Another week of lettering pieces.
 note: published
 publish: true
+tags:
+  - creativity
 ---
 
 Another week of lettering pieces. 

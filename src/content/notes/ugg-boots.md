@@ -1,11 +1,12 @@
 ---
 title: Ugg Boots
 slug: ugg-boots
-added: 2021-07-05 21:07
-updated: 2021-07-05 21:07
-tags: [miscellany]
+added: 2021-07-05T11:07:00.000Z
+updated: 2021-07-05T11:07:00.000Z
 excerpt: I had forgotten how much I love these shoes.
 publish: true
+tags:
+  - miscellany
 ---
 
 ![My Ugg Boots](/images/uggs.jpg)

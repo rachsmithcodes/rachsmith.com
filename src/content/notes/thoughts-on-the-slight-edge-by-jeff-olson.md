@@ -1,13 +1,17 @@
 ---
 title: Thoughts on the Slight Edge by Jeff Olson
 slug: thoughts-on-the-slight-edge-by-jeff-olson
-added: 2021-03-26 10:31
-updated: 2021-03-26 10:31
-tags: [books, productivity]
-excerpt: The main takeaway from this book is helpful, but there are other authors who do a better job at writing about it.
+added: 2021-03-26T00:31:00.000Z
+updated: 2021-03-26T00:31:00.000Z
+excerpt: >-
+  The main takeaway from this book is helpful, but there are other authors who
+  do a better job at writing about it.
 publish: true
 type: book
 rating: 2
+tags:
+  - books
+  - productivity
 ---
 
 ![The Slight Edge book cover](/images/the-slight-edge.jpg)

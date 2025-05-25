@@ -1,11 +1,15 @@
 ---
 title: The Perfect Mother Myth and Mothering within the context of Motherhood
 slug: the-perfect-mother
-added: 2023-02-10 13:36
-updated: 2023-02-10 13:36
-tags: [mothering]
-excerpt: "A resource that has helped me in my mothering journey is Dr. Sophie Brock. She is a Motherhood Studies Sociologist who has brought so much language to things that I could feel when I became a mother but couldn't really explain."
+added: 2023-02-10T03:36:00.000Z
+updated: 2023-02-10T03:36:00.000Z
+excerpt: >-
+  A resource that has helped me in my mothering journey is Dr. Sophie Brock. She
+  is a Motherhood Studies Sociologist who has brought so much language to things
+  that I could feel when I became a mother but couldn't really explain.
 publish: true
+tags:
+  - mothering
 ---
 
 A resource that has helped me in my mothering journey is [Dr. Sophie Brock](https://drsophiebrock.com/). She is a Motherhood Studies Sociologist who has brought so much language to things that I could *feel* when I became a mother but couldn't explain.

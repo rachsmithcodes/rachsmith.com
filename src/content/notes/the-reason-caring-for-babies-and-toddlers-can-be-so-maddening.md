@@ -1,11 +1,13 @@
 ---
 title: The reason caring for babies and toddlers can be so maddening
 slug: the-reason-caring-for-babies-and-toddlers-can-be-so-maddening
-added: 2021-03-02 21:17
-updated: 2021-03-02 21:17
-tags: [productivity, mothering]
-excerpt: If one more person tells me I need to time block, I'm gonna scream.
+added: 2021-03-02T11:17:00.000Z
+updated: 2021-03-02T11:17:00.000Z
+excerpt: 'If one more person tells me I need to time block, I''m gonna scream.'
 publish: true
+tags:
+  - productivity
+  - mothering
 ---
 
 Today I was listening to [Nir Eyal being interviewed on the What's Essential Podcast](https://omny.fm/shows/essentialism-with-greg-mckeown/greg-nir-dancing-lanterns-pause) and he said:

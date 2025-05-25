@@ -1,11 +1,12 @@
 ---
-title: I'm 35 - reflections, plans and wishes
+title: 'I''m 35 - reflections, plans and wishes'
 slug: im-35-reflections-plans-and-wishes
-added: 2021-08-09 06:11
-updated: 2021-08-09 06:11
-tags: [wellbeing]
+added: 2021-08-08T20:11:00.000Z
+updated: 2021-08-08T20:11:00.000Z
 excerpt: Looking back and looking forward 5 years on this half-decade birthday.
 publish: true
+tags:
+  - wellbeing
 ---
 
 I turned 35 on Wednesday. For whatever reason, half-decade birthdays have always felt like a significant milestone to me.

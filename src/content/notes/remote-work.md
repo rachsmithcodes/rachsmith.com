@@ -1,11 +1,12 @@
 ---
 title: Remote work
 slug: remote-work
-added: 2022-08-13 15:05
-updated: 2022-08-13 15:05
-tags: [work]
+added: 2022-08-13T05:05:00.000Z
+updated: 2022-08-13T05:05:00.000Z
 excerpt: I love remote work. I wouldn't have loved it when I was in my 20s.
 publish: true
+tags:
+  - work
 ---
 
 I love remote work. I love that I don't have a commute. I love that I can live in my coastal town of Australia while working for a company based in the US. I love how I can break my work up in to sections in the day amongst exercise, getting household maintenance done and caretaking for my kids. I love that my husband works remotely, so we get to eat lunch together on work days. 

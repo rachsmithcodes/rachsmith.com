@@ -1,12 +1,17 @@
 ---
 title: A lack of frequency increases the pressure to deliver quality
 slug: a-lack-of-frequency
-added: 2025-04-15 17:53
-updated: 2025-04-15 17:53
-tags: [writing, meta]
-excerpt: "I have this story in my head, that the longer I go without writing a note here, the better that note has to be when I do eventually come back and post again."
+added: 2025-04-15T07:53:00.000Z
+updated: 2025-04-15T07:53:00.000Z
+excerpt: >-
+  I have this story in my head, that the longer I go without writing a note
+  here, the better that note has to be when I do eventually come back and post
+  again.
 note: published
 publish: true
+tags:
+  - writing
+  - meta
 ---
 I have this story in my head, that the longer I go without writing a note here, the better that note has to be when I do eventually come back and post again. 
 

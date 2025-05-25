@@ -1,13 +1,13 @@
 ---
 title: Why being on my phone too much makes me feel bad
 slug: why-phone-makes-bad-feels
-added: 2024-05-28 19:05
-updated: 2024-05-28 19:05
-tags:
-  - wellbeing
+added: 2024-05-28T09:05:00.000Z
+updated: 2024-05-28T09:05:00.000Z
 excerpt: There's a threshold of phone use that once crossed makes me feel pretty bad.
 note: published
 publish: true
+tags:
+  - wellbeing
 ---
 There's a threshold of phone use that once crossed makes me feel pretty bad.
 

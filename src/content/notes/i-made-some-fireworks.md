@@ -1,11 +1,14 @@
 ---
 title: I made some rainbow fireworks with PixiJS
 slug: i-made-some-fireworks
-added: 2023-07-09 14:42
-updated: 2023-07-09 14:42
-tags: [development]
-excerpt: I'm challenging myself to follow up any Pen I create with some notes on how I did it.
+added: 2023-07-09T04:42:00.000Z
+updated: 2023-07-09T04:42:00.000Z
+excerpt: >-
+  I'm challenging myself to follow up any Pen I create with some notes on how I
+  did it.
 publish: true
+tags:
+  - development
 ---
 I'm challenging myself to follow up any [Pen](https://codepen.io) I create with some notes on how I did it. The only way that is ever going to happen is if I take the pressure off and let go of the idea that I have to write a comprehensive tutorial. So you can think of this as less of a "how to make fireworks with JavaScript" and more of a "how I made fireworks with JavaScript" post.
 

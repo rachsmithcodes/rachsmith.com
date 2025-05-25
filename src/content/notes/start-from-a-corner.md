@@ -1,14 +1,17 @@
 ---
 title: Start from a corner of the room
 slug: start-from-a-corner
-added: 2024-05-21 19:05
-updated: 2024-05-21 19:05
+added: 2024-05-21T09:05:00.000Z
+updated: 2024-05-21T09:05:00.000Z
+excerpt: >-
+  Sometimes when the house is a shambles and there is stuff everywhere I can
+  find the idea of tidying overwhelming. This is because my brain wants to
+  figure out the most efficient way to do the process.
+note: published
+publish: true
 tags:
   - wellbeing
   - productivity
-excerpt: Sometimes when the house is a shambles and there is stuff everywhere I can find the idea of tidying overwhelming. This is because my brain wants to figure out the most efficient way to do the process.
-note: published
-publish: true
 ---
 Sometimes when the house is a shambles and there is stuff everywhere I can find the idea of tidying overwhelming. This is because my brain wants to figure out the most efficient way to do the process. I want to know the best place/way to start and because I can't figure that out I struggle to start at all.
 

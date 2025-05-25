@@ -1,13 +1,16 @@
 ---
-title: "Code sketch #5"
+title: 'Code sketch #5'
 slug: code-sketch-5
-added: 2024-05-19 20:05
-updated: 2024-05-19 20:05
-tags:
-  - development
-excerpt: I started this one with a grid of squares. I imagined an invisible circle growing from the centre of the grid, and the squares changing size depending on their closeness to the circle.
+added: 2024-05-19T10:05:00.000Z
+updated: 2024-05-19T10:05:00.000Z
+excerpt: >-
+  I started this one with a grid of squares. I imagined an invisible circle
+  growing from the centre of the grid, and the squares changing size depending
+  on their closeness to the circle.
 note: published
 publish: true
+tags:
+  - development
 ---
 I started this one with a grid of squares. I imagined an invisible circle growing from the centre of the grid, and the squares changing size depending on their closeness to the circle.
 

@@ -1,8 +1,8 @@
 ---
 const { slug, title, added, type, includeDate = true } = Astro.props;
 
-const addedSegments = added.split(' ')[0].split('-');
-const day = addedSegments[2];
+const addedDate = new Date(added);
+const day = addedDate.getDate().toString().padStart(2, '0');
 ---
 
 <style>

@@ -1,13 +1,13 @@
 ---
 title: My favourite afternoon snack
 slug: snack
-added: 2024-05-09 20:05
-updated: 2024-05-09 20:05
-tags:
-  - food
+added: 2024-05-09T10:05:00.000Z
+updated: 2024-05-09T10:05:00.000Z
 excerpt: This is my favourite snack to eat at the moment.
 note: published
 publish: true
+tags:
+  - food
 ---
 This is my favourite snack to eat at the moment.
 

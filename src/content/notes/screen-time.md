@@ -1,11 +1,15 @@
 ---
 title: Screen time
 slug: screen-time
-added: 2021-08-28 07:48
-updated: 2021-08-28 07:48
-tags: [wellbeing, productivity]
-excerpt: The inability to self-regulate my screen usage has been a thread of my entire life.
+added: 2021-08-27T21:48:00.000Z
+updated: 2021-08-27T21:48:00.000Z
+excerpt: >-
+  The inability to self-regulate my screen usage has been a thread of my entire
+  life.
 publish: true
+tags:
+  - wellbeing
+  - productivity
 ---
 
 I watched a lot of TV when I was a kid. I was an early riser, and would wake up before anyone else in my family, head in to the living room and switch on the TV. The cartoons didn't start until 6:30am so I would watch an [early morning aerobics show](https://en.wikipedia.org/wiki/Aerobics_Oz_Style), rather than stay in bed. 

@@ -1,11 +1,12 @@
 ---
 title: Touch the keys
 slug: touch-the-keys
-added: 2021-09-13 21:02
-updated: 2021-09-13 21:02
-tags: [productivity]
+added: 2021-09-13T11:02:00.000Z
+updated: 2021-09-13T11:02:00.000Z
 excerpt: On Kourosh Dini's idea of "being with" the work every day.
 publish: true
+tags:
+  - productivity
 ---
 
 Earlier in the year [I shared the 5 minute timer hack](/the-5-minute-timer-hack-i-use-to-get-almost-anything-done/) for getting started on a task when activation energy is holding me back. Sometimes, the thought of spending even 5 minutes on something is too overwhelming. When I’m in this place, I find Kourosh Dini’s advice to “touch the keys” really helpful.

@@ -1,11 +1,13 @@
 ---
-title: "64%"
+title: 64%
 slug: 64-percent
-added: 2022-08-08 06:03
-updated: 2022-08-08 06:03
-tags: [wellbeing, books]
+added: 2022-08-07T20:03:00.000Z
+updated: 2022-08-07T20:03:00.000Z
 excerpt: Happy birthday to me.
 publish: true
+tags:
+  - wellbeing
+  - books
 ---
 
 At some point between turning 30 and now, my birthday turned from a reason to celebrate and go on a bender to a stressful reminder of my own mortality. My Dad died when he was 51 and my mum when she was 56. Both happened due to illness. I turned 36 last week. If I last as long as mum did that means my life is already 64% over! 

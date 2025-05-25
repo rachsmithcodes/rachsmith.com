@@ -1,13 +1,13 @@
 ---
 title: Daily lettering week 4
 slug: daily-lettering-4
-added: 2024-07-01 17:08
-updated: 2024-07-01 17:08
-tags:
-  - creativity
+added: 2024-07-01T07:08:00.000Z
+updated: 2024-07-01T07:08:00.000Z
 excerpt: The final week of daily lettering.
 note: published
 publish: true
+tags:
+  - creativity
 ---
 
 I was starting to get over the lettering practice by this week, as I had run out of ideas and felt like it was getting repetitive. I definitely feel like having to "finish" something every day is preventing my ability to focus on quality and perhaps improve my skill. So for July's challenge I'm going to dedicate 20 minutes a day to creative practice and post the WIP on Mastodon.

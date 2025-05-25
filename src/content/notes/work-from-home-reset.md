@@ -1,12 +1,16 @@
 ---
 title: A work from home reset for the new year
 slug: work-from-home-reset
-added: 2024-01-02 13:44
-updated: 2024-01-02 13:44
-tags: [work, productivity]
-excerpt: "I've been working remotely for so long now I'm good at staying productive, but I like starting the year with a little work-from-home refresh."
+added: 2024-01-02T03:44:00.000Z
+updated: 2024-01-02T03:44:00.000Z
+excerpt: >-
+  I've been working remotely for so long now I'm good at staying productive, but
+  I like starting the year with a little work-from-home refresh.
 note: publish
 publish: true
+tags:
+  - work
+  - productivity
 ---
 
 Whenever I tell people (IRL) about my job, the first comments/questions I get are about how hard it is to get anything done when you don't have a boss and/or colleagues in the same building keeping you accountable.

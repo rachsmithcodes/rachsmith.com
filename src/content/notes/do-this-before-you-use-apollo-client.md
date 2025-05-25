@@ -1,11 +1,12 @@
 ---
 title: Do this before you use Apollo Client
 slug: do-this-before-you-use-apollo-client
-added: 2022-08-28 14:06
-updated: 2022-08-28 14:06
-tags: [development]
+added: 2022-08-28T04:06:00.000Z
+updated: 2022-08-28T04:06:00.000Z
 excerpt: Read the docs. No really.
 publish: true
+tags:
+  - development
 ---
 
 [Apollo Client](https://www.apollographql.com/docs/react/) has been a crucial part of [CodePen's](https://codepen.io) frontend code from the moment we started using a GraphQL API on the backend. Before we had Apollo Client we had to handle the caching of state an request management ourselves. That was a lot of code to write.

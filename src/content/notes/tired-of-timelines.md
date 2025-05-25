@@ -1,11 +1,14 @@
 ---
 title: Tired of timelines
 slug: tired-of-timelines
-added: 2022-11-15 06:56
-updated: 2022-11-15 06:56
-tags: []
-excerpt: At this stage in my life, I simply do not have the time or energy to shake my little pan in a stream of information, trying to sift out the nuggets I want to engage with.
+added: 2022-11-14T20:56:00.000Z
+updated: 2022-11-14T20:56:00.000Z
+excerpt: >-
+  At this stage in my life, I simply do not have the time or energy to shake my
+  little pan in a stream of information, trying to sift out the nuggets I want
+  to engage with.
 publish: true
+tags: []
 ---
 
 I [joined Mastodon](https://front-end.social/@rachsmith). It feels very much like Twitter did in 2009. Some people are probably jazzed about that but to me, it just felt... exhausting. I couldn't put my finger on why until I read Luke Harris's post [The Fail Whale Cascade](https://www.lkhrs.com/blog/2022/11/twitter/)

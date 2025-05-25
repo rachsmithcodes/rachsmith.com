@@ -1,11 +1,12 @@
 ---
-title: "The 5-minute timer hack I use to get almost anything done"
+title: The 5-minute timer hack I use to get almost anything done
 slug: the-5-minute-timer-hack-i-use-to-get-almost-anything-done
-added: 2021-03-16 21:22
-updated: 2021-03-16 21:22
-tags: [productivity]
-excerpt: Transitions are hard for me, this is what I do to make myself move.
+added: 2021-03-16T11:22:00.000Z
+updated: 2021-03-16T11:22:00.000Z
+excerpt: 'Transitions are hard for me, this is what I do to make myself move.'
 publish: true
+tags:
+  - productivity
 ---
 
 My toddler struggles with transitions from one activity or place to the next. If they're at home, they don't want to leave to go to Grandma's. If they're at Grandma's they don't want to leave to come home. If they're busy playing with cards, they don't want to get togs on for a swim. If they're swimming, they don't want to get out of the pool to have something to eat.

@@ -1,13 +1,13 @@
 ---
 title: Month notes & numbers №6
 slug: mnnm-6
-added: 2024-07-01 18:44
-updated: 2024-07-01 18:44
-tags:
-  - mn&n
+added: 2024-07-01T08:44:00.000Z
+updated: 2024-07-01T08:44:00.000Z
 excerpt: Notable things from June 2024
 note: publish
 publish: true
+tags:
+  - mn&n
 ---
 
 ## Notable

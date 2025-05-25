@@ -1,11 +1,17 @@
 ---
-title: "How I keep up with the latest Front-End Development news, without scrolling my life away"
-slug: how-i-keep-up-with-the-latest-front-end-development-news-without-scrolling-my-life-away
-added: 2021-09-01 06:52
-updated: 2021-09-01 06:52
-tags: [development]
-excerpt: Some of the email newsletters I've found useful for keeping up with Front End news.
+title: >-
+  How I keep up with the latest Front-End Development news, without scrolling my
+  life away
+slug: >-
+  how-i-keep-up-with-the-latest-front-end-development-news-without-scrolling-my-life-away
+added: 2021-08-31T20:52:00.000Z
+updated: 2021-08-31T20:52:00.000Z
+excerpt: >-
+  Some of the email newsletters I've found useful for keeping up with Front End
+  news.
 publish: true
+tags:
+  - development
 ---
 
 There are very few things I missed when I quit spending time on Twitter, but one of them was keeping up with the latest news and links from the JavaScript/Front-End world. 
