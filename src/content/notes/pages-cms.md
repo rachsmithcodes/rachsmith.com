@@ -9,10 +9,11 @@ excerpt: >-
 note: idea
 tags:
   - meta
+  - development
 ---
 Recently I've been experimenting with adding title-less notes to this site, for thoughts the length of a microblog or social post. 
 
-Around the same time, I saw Pages CMS popping up in my communities. I decided to give it a try, for adding these micro posts (I call them nuggets) to my Astro content.
+Around the same time, I saw [Pages CMS](https://pagescms.org/) popping up in my communities. I decided to give it a try, for adding these micro posts (I call them nuggets) to my Astro content.
 
 I didn't want to replace the authoring flow for my regular notes with Pages, because I quite like the Obsidian-vault-to-site-repo pipeline I had created for those. But these notes are written and published while I'm sitting at my computer. They take more time and attention, so I'm cool with the "slow" and manual process it takes to publish them.
 
