@@ -32,5 +32,5 @@ I added a purples and pinks colour palette. I wanted to make it so the squares t
 
 <hr>
 
-This has been post no. 26 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 26 for `#WeblogPoMo2024` and it is what I was interested in today.
 

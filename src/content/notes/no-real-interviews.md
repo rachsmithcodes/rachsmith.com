@@ -34,6 +34,6 @@ I'm kidding... kinda. I would be more than happy to talk through a legit softwar
 
 <hr>
 
-This has been post no. 17 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 17 for `#WeblogPoMo2024` and it is what I was interested in today.
 
 [^1]: If I'm so lucky/privileged to do so.

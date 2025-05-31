@@ -27,4 +27,4 @@ I have a nutrition goal at the moment to include protein, fibre and colour (via 
 
 <hr>
 
-This has been post no. 9 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 9 for `#WeblogPoMo2024` and it is what I was interested in today.

@@ -24,7 +24,7 @@ It wasn't too much effort:
 
 <hr>
 
-This has been post no. 3 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 3 for `#WeblogPoMo2024` and it is what I was interested in today.
 
 
 

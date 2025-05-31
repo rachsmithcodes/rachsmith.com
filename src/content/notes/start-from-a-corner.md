@@ -21,4 +21,4 @@ This strategy can be applied to other, digital spaces, too. Email inbox: start a
 
 <hr>
 
-This has been post no. 21 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 21 for `#WeblogPoMo2024` and it is what I was interested in today.

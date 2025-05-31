@@ -12,7 +12,7 @@ tags:
 
 ## Notable
 
-**#WeblogPoMo2024**. I added a note every day this month. It was sometimes a squeeze to get a post up, but I think I did less procrastination and time-wasting overall this month. 
+**`#WeblogPoMo2024`**. I added a note every day this month. It was sometimes a squeeze to get a post up, but I think I did less procrastination and time-wasting overall this month. 
 
 **I was thinking a lot about ways to move more**. I considered buying a walking pad for my standing desk but I've been working on just standing more instead.
 

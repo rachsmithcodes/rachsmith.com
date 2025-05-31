@@ -31,6 +31,6 @@ Today threatened to be one of those days where I spiral down: day 2 of a menstru
 
 <hr>
 
-This has been post no. 10 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 10 for `#WeblogPoMo2024` and it is what I was interested in today.
 
 [^1]: Michael Hobbs and Peter Shamshiri from [If Books Could Kill](https://en.wikipedia.org/wiki/If_Books_Could_Kill) have a “one book theory” - that all self-help books just end up saying the same thing. Well, I would posit this is the *actual* one book.

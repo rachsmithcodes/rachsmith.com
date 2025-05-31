@@ -22,9 +22,9 @@ At some point I was cured of Post Brain, I think having a baby may have finally 
 
 Looking back now, it all seems a little bit coo-coo bananas. So many thought-cycles spent on constructing hypothetical Tweets!! And for what?! I wonder else could I have done with the creativity and brain power of my early 20s if I didn't expend so much energy thinking about social media.
 
-These days, I almost have the opposite of Post Brain. I am so bad at turning my experiences in to content, I will often reach 7pm on any particular day of this #WeblogPoMo2024 challenge and think "shit! What am I going to post about?" because I have come up with nothing throughout the day. Still, I think I'm much better off.
+These days, I almost have the opposite of Post Brain. I am so bad at turning my experiences in to content, I will often reach 7pm on any particular day of this `#WeblogPoMo2024` challenge and think "shit! What am I going to post about?" because I have come up with nothing throughout the day. Still, I think I'm much better off.
 
 
 <hr>
 
-This has been post no. 13 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 13 for `#WeblogPoMo2024` and it is what I was interested in today.

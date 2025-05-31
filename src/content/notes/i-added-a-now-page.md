@@ -23,6 +23,6 @@ Until then, <a href="/now/">here's what I'm up to now</a>.
 
 <hr>
 
-This has been post no. 6 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 6 for `#WeblogPoMo2024` and it is what I was interested in today.
 
 [^1]: I've been trying to avoid a hamburger menu 😭

@@ -12,7 +12,7 @@ publish: true
 tags:
   - creativity
 ---
-I was worried I would very quickly run out of things to write about when I first started on [#WeblogPoMo2024](https://weblog.anniegreens.lol/weblog-posting-month-2024), but it turns out if I make myself produce *something* every day, I find the words.
+I was worried I would very quickly run out of things to write about when I first started on [`#WeblogPoMo2024`](https://weblog.anniegreens.lol/weblog-posting-month-2024), but it turns out if I make myself produce *something* every day, I find the words.
 
 I'm finding there's something to having a default thing to do with any spare bit of time each day. I have a lot of creative interests: writing, piano, lettering, drawing, creative coding... I like to flit between them to "keep things interesting" but more often than not the mental effort to pick one of them when I have a spare moment causes me to procrastinate and do something like watch YouTube instead. 
 
@@ -25,4 +25,4 @@ Love that I'm only 7 days in to this challenge and I'm already thinking about th
 
 <hr>
 
-This has been post no. 7 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 7 for `#WeblogPoMo2024` and it is what I was interested in today.

@@ -11,7 +11,7 @@ publish: true
 tags:
   - creativity
 ---
-This is day and post 24 of the #WeblogPoMo2024 challenge. I think I'm going to make it to the end of the month with a note for every day![^1]
+This is day and post 24 of the `#WeblogPoMo2024` challenge. I think I'm going to make it to the end of the month with a note for every day![^1]
 
 This breeds confidence for a new [creativity sprint](/creativity-sprints/)/challenge for next month. I will be hand lettering one word or phrase every day for the month. Maybe on physical paper some days but mostly on the iPad Pro. 
 

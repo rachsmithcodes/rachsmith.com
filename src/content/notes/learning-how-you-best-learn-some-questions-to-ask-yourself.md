@@ -64,7 +64,7 @@ After considering your answers to the above questions, you might be able to come
 You might do better with:
 - Consuming entire books on a subject.
 - Signing up to a course provider with video tutorials such as [Egghead.io](https://egghead.io) or [Wes Bos](https://wesbos.com/courses).
-- Joining a public challenge with some built-in community like [#100daysofcode](https://www.100daysofcode.com/) or [CodePen Challenges](https://codepen.io/challenges). 
+	- Joining a public challenge with some built-in community like [`#100daysofcode`](https://www.100daysofcode.com/) or [CodePen Challenges](https://codepen.io/challenges). 
 
 ## The common ingredient in everyone's learning process is time and energy
 

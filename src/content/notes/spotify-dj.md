@@ -26,6 +26,6 @@ It got me thinking about the AI product I use the most: GitHub Copilot. Readers 
 
 <hr>
 
-This has been post no. 5 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 5 for `#WeblogPoMo2024` and it is what I was interested in today.
 
 [^1]: Australian slang for poker machine or slot machine.

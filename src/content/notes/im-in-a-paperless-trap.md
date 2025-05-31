@@ -23,7 +23,7 @@ If you know of any good cross-platform (Andy is a Windows user) software that ca
 
 <hr>
 
-This has been post no. 4 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 4 for `#WeblogPoMo2024` and it is what I was interested in today.
 
 
 [^1]: My mum died young, without a will. It took my sister and I months of sorting through random bits of paperwork in the house and making phone calls, before we could piece together her full financial situation. If you have dependants of any kind and you don't have a will in place, PLEASE get it sorted ASAP. 

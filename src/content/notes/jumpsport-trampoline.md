@@ -32,4 +32,4 @@ At the risk of sounding like one of these people, I'm absolutely loving it, and 
 
 <hr>
 
-This has been post no. 27 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 27 for `#WeblogPoMo2024` and it is what I was interested in today.

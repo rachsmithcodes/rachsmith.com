@@ -14,7 +14,7 @@ tags:
   - meta
   - astro
 ---
-One nice side-effect of doing this #WeblogPoMo2024 challenge is that I'm forced to look at my website every day, and I'm inspired to make [little](/using-lighter-embeds/) [changes](/i-added-a-now-page/) to it. I decided I wanted to add some visual distinction between external links and internal links.
+One nice side-effect of doing this `#WeblogPoMo2024` challenge is that I'm forced to look at my website every day, and I'm inspired to make [little](/using-lighter-embeds/) [changes](/i-added-a-now-page/) to it. I decided I wanted to add some visual distinction between external links and internal links.
 
 I figured I'd have to put some "middleware" in the markdown-to-HTML processing that Astro uses. I was researching [rehype plugins](https://github.com/rehypejs/rehype/blob/main/doc/plugins.md), trying to figure out what exactly to do before I found an [Astro docs page](https://docs.astro.build/en/recipes/external-links/) explaining how to achieve almost exactly what I wanted. Another high-five to the Astro docs maintainers!
 
@@ -28,6 +28,6 @@ What do you think about that feature? Would it be cool? Or annoying? Sound off i
 
 <hr>
 
-This has been post no. 18 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 18 for `#WeblogPoMo2024` and it is what I was interested in today.
 
 

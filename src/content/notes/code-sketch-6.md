@@ -41,5 +41,5 @@ I'm pretty happy with how it turned out. Here's the final Pen:
 
 <hr>
 
-This has been post no. 25 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 25 for `#WeblogPoMo2024` and it is what I was interested in today.
 

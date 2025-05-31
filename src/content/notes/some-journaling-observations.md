@@ -23,4 +23,4 @@ My main goal for this year was to [journal something about my day](/my-goal-for-
 
 <hr>
 
-This has been post no. 20 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 20 for `#WeblogPoMo2024` and it is what I was interested in today.

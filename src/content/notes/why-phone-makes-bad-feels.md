@@ -19,4 +19,4 @@ Every hour spent with the phone is an hour not spent on anything I actually care
 
 <hr>
 
-This has been post no. 28 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 28 for `#WeblogPoMo2024` and it is what I was interested in today.

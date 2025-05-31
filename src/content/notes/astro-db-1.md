@@ -33,6 +33,6 @@ After 32 minutes I have a new Project set up, a development DB, a connection wit
 
 <hr>
 
-This has been post no. 14 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 14 for `#WeblogPoMo2024` and it is what I was interested in today.
 
 [^1]: I'm a [Netlify](https://www.netlify.com/) girly.

@@ -13,7 +13,7 @@ tags:
   - meta
 ---
 
-Today is the 30th, and tomorrow's post will be a notes & numbers for May, marking the end of the #WeblogPoMo2024 challenge. 
+Today is the 30th, and tomorrow's post will be a notes & numbers for May, marking the end of the `#WeblogPoMo2024` challenge. 
 
 If you are a subscriber and are tired of having me pop up in your RSS reader constantly, I apologise, and it will be over soon. I don't intend to keep up the daily posting.
 

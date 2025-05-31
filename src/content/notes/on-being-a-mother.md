@@ -18,4 +18,4 @@ I am 100% a better person now, because of them.
 
 <hr>
 
-This has been post no. 12 for #WeblogPoMo2024 and it is what I was interested in today.
+This has been post no. 12 for `#WeblogPoMo2024` and it is what I was interested in today.
