@@ -38,8 +38,6 @@ if (slug === undefined) return;
 
 const { Content } = await render(note);
 
-console.log('🌈 -> note', note);
-
 const includeYTResources = note.body.includes('lite-youtube');
 
 const {

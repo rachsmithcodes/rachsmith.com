@@ -7,10 +7,7 @@ type Props = {
 
 const { rating } = Astro.props;
 
-console.log(rating);
-
 const stars = Array.from({ length: Math.floor(rating) }).map(() => 'full');
-console.log(stars);
 if (rating % 1 > 0.5) {
   stars.push('half');
 }
