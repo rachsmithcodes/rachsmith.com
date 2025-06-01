@@ -52,4 +52,4 @@ if (dayIsWorkday) { %>
 LIST FROM "notes" or "projects"
 WHERE file.cday = this.file.day
 ```
-
+````
