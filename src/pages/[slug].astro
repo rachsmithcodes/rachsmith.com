@@ -44,9 +44,6 @@ const {
   data: { added, excerpt, noComments, tags, title, type, updated },
 } = note;
 
-// random imageId between 1 and 6
-const imageId = Math.floor(Math.random() * 6) + 1;
-
 let description = excerpt;
 let permalink = `https://rachsmith.com/${slug}/`;
 
@@ -95,7 +92,6 @@ const titleEncoded = encodeURIComponent(`re: ${title}`);
     description={description ?? ''}
     permalink={permalink}
     canonicalUrl={permalink}
-    imageId={imageId}
     includeYTResources={includeYTResources}
   />
   <body>

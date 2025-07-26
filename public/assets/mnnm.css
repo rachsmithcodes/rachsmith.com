@@ -1,0 +1,214 @@
+:root {
+  --grid-size: 1.6rem;
+  --red: #d30e03;
+  --orange: #ef5f1f;
+  --pink: #c80e84;
+  --green: #48a71e;
+  --light-blue: #1b81b4;
+  --purple: #5741ac;
+  --blue: #393f85;
+  --yellow: #ffc328;
+}
+
+@font-face {
+  font-family: 'MidsummerMod';
+  font-style: italic;
+  font-weight: 400;
+  src:
+    url(/fonts/MidsummerModItalic.woff2) format('woff2'),
+    url(/fonts/MidsummerModItalic.ttf) format('truetype');
+}
+
+body {
+  font-family: 'MidsummerMod', sans-serif;
+  font-size: var(--grid-size);
+  font-style: italic;
+  background-color: #fafaf8;
+  background:
+    radial-gradient(
+      circle,
+      transparent 20%,
+      #fafaf8 20%,
+      #fafaf8 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #fafaf8 20%,
+        #fafaf8 80%,
+        transparent 80%,
+        transparent
+      )
+      25px 25px,
+    linear-gradient(#f3f3e5 2px, transparent 2px) 0 -1px,
+    linear-gradient(90deg, #f3f3e5 2px, #fafaf8 2px) -1px 0;
+  background-size:
+    50px 50px,
+    50px 50px,
+    25px 25px,
+    25px 25px;
+}
+
+p,
+li {
+  line-height: 1.3;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+li {
+  padding-left: 1.9rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+li.write {
+  background-image: url('/assets/writing.svg');
+  background-size: 1.5rem;
+}
+
+li.rebounder {
+  background-image: url('/assets/rebounder.svg');
+  background-size: 1.5rem;
+}
+
+li.strength {
+  background-image: url('/assets/strength.svg');
+  background-size: 1.5rem;
+}
+
+li.walk {
+  background-image: url('/assets/walk.svg');
+  background-size: 1.5rem;
+}
+
+li.read {
+  background-image: url('/assets/reading.svg');
+  background-size: 1.5rem;
+}
+
+li.run {
+  background-image: url('/assets/running.svg');
+  background-size: 1.5rem;
+}
+
+li.sleep {
+  background-image: url('/assets/sleep.svg');
+  background-size: 1.5rem;
+}
+
+li.journal {
+  background-image: url('/assets/journal.svg');
+  background-size: 1.5rem;
+}
+
+li.piano {
+  background-image: url('/assets/piano.svg');
+  background-size: 1.5rem;
+}
+
+li.pilates {
+  background-image: url('/assets/pilates.svg');
+  background-size: 1.5rem;
+}
+
+li.dance {
+  background-image: url('/assets/dance.svg');
+  background-size: 1.5rem;
+}
+
+li.colouring {
+  background-image: url('/assets/colouring.svg');
+  background-size: 1.5rem;
+}
+
+li.yoga {
+  background-image: url('/assets/yoga.svg');
+  background-size: 1.5rem;
+}
+
+li.lettering {
+  background-image: url('/assets/lettering.svg');
+  background-size: 1.5rem;
+}
+
+li.drawing {
+  background-image: url('/assets/drawing.svg');
+  background-size: 1.5rem;
+}
+
+li.coding {
+  background-image: url('/assets/coding.svg');
+  background-size: 1.5rem;
+}
+
+span.x {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+p,
+ul,
+details {
+  margin-bottom: var(--grid-size);
+}
+
+.highlighter {
+  line-height: 0.96;
+  font-size: calc(var(--grid-size) * 1.38);
+  background-size: 100% 76%;
+  background-repeat: no-repeat;
+  background-position: center 80%;
+  width: max-content;
+  padding: 0 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  margin: 0;
+  font-size: var(--grid-size);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  line-height: 1;
+}
+
+.highlighter.pink {
+  background-image: url('/assets/brush-pink.svg');
+}
+
+.highlighter.yellow {
+  background-image: url('/assets/brush-yellow.svg');
+}
+
+.highlighter.blue {
+  background-image: url('/assets/brush-blue.svg');
+}
+
+.highlighter.orange {
+  background-image: url('/assets/brush-orange.svg');
+}
+
+.highlighter.green {
+  background-image: url('/assets/brush-green.svg');
+}
+
+a {
+  color: #c80e84;
+  text-underline-offset: 0.2rem;
+}
+
+p.date {
+  text-transform: uppercase;
+}
+
+code {
+  font-family: 'MidsummerMod', sans-serif;
+}
