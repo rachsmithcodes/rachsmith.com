@@ -1,5 +1,5 @@
 ---
-title: Month notes & numbers №4
+title: Month notes & numbers No. 4
 slug: mnnm-4
 added: 2024-05-01T08:44:00.000Z
 updated: 2024-05-01T08:44:00.000Z
@@ -10,9 +10,11 @@ tags:
   - mn&n
 ---
 
+<p class="date">April 2024</p>
+
 A small update as I spent around half of the month sick (since when do adults get ear infections?).
 
-## Notable
+<h2 class="highlighter pink">Notable</h2>
 
 **Seattle and West LA**. For leg 2 and 3 of our big USA trip we stayed with friends in Seattle, and then headed back to West LA to catch up with more friends. Many of our friends had kids we either hadn't met yet or seen since they were babies/little kids so that was great. Andy and I lived in Venice Beach from 2013-2016 so we showed the kids around our old stomping ground. Some things were different but I was pleasantly surprised to see how much remained the same. The boys were happiest about going to the Culver City Dave & Buster's.
 
@@ -20,17 +22,17 @@ A small update as I spent around half of the month sick (since when do adults ge
 
 **I have a new favourite outfit**. It's [this dress](https://proudpoppyclothing.com.au/cdn/shop/files/2Proud_Poppy-3741.jpg?v=1709092858&width=2040) with [this jacket](https://www.shestreet.com.au/cdn/shop/files/she_street_AmbroseDenimJacket_10.jpg?v=1712284394&width=1200) and sneaks. It makes me so happy!
 
-## Work
+<h2 class="highlighter yellow">Work</h2>
 
 Still on working on the Permissions implementation for our new CodePen Editor.
 
 **The work soundtrack:** [COWBOY CARTER](https://open.spotify.com/album/6BzxX6zkDsYKFJ04ziU5xQ?si=onRBwqTJTQ6E-chudNwqxQ)
 
-## Watched
+<h2 class="highlighter blue">Watched</h2>
 
 Sick/lazy vibes meant I watched a LOT of YouTube. Lots of health/fitness related content (which I am always drawn to when I feel like shit). 
 
-## The numbers
+<h2 class="highlighter orange">The numbers</h2>
 
 No counts this month as with the vacay and illness I gave up on updating things in Chronicling. I'll be back to it in May.
 

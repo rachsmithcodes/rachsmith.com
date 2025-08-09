@@ -1,0 +1,100 @@
+---
+import { getCollection, render } from 'astro:content';
+import HeadMeta from '../../components/HeadMeta.astro';
+
+export async function getStaticPaths() {
+  const notes = await getCollection('monthNotes');
+
+  return notes.map((note) => {
+    const number = note.id.split('-')[1];
+    return {
+      params: { number },
+      props: { note },
+    };
+  });
+}
+
+const { number } = Astro.params;
+const { note } = Astro.props;
+
+const { Content } = await render(note);
+
+const {
+  data: { added, excerpt, noComments, tags, title, type, updated },
+} = note;
+
+let description = excerpt;
+let permalink = `https://rachsmith.com/mnnm/${number}/`;
+
+if (number === undefined) return;
+---
+
+<style>
+  body {
+    background-color: #fafaf8;
+  }
+  .header {
+    font-size: 1.05rem;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px;
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa,
+      Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri,
+      source-sans-pro, sans-serif;
+    padding: var(--grid-size) calc(var(--grid-size) * 3);
+    line-height: 1.5;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    line-height: 0.8;
+    margin-bottom: calc(var(--grid-size) * 1.02);
+  }
+  .notebook-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #faf9f2;
+    opacity: 0.8;
+    background-size: var(--grid-size) var(--grid-size);
+    padding: calc(var(--grid-size) * 2) calc(var(--grid-size) * 3);
+    border-radius: 12px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  @media (max-width: 800px) {
+    .notebook-wrap {
+      padding: var(--grid-size) calc(var(--grid-size) * 2);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .notebook-wrap {
+      padding: var(--grid-size);
+    }
+  }
+</style>
+
+<html lang="en">
+  <head>
+    <HeadMeta
+      title={title}
+      description={description ?? ''}
+      permalink={permalink}
+    />
+    <link rel="stylesheet" href="/assets/reset.css" />
+    <link rel="stylesheet" href="/assets/mnnm.css" />
+  </head>
+  <body>
+    <header class="header">
+      This is an <a href="https://rachsmith.com/tags/mnnm/">#mnnm</a> note from <a
+        href="https://rachsmith.com">Rach Smith's digital garden</a
+      >.
+    </header>
+    <main class="notebook-wrap">
+      <h1 class="title">{title}</h1>
+      <Content />
+    </main>
+  </body>
+</html>

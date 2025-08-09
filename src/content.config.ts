@@ -20,6 +20,14 @@ const notesCollection = defineCollection({
   schema: note,
 });
 
+const monthNotesCollection = defineCollection({
+  loader: glob({
+    pattern: '*.md',
+    base: './src/content/mnnm',
+  }),
+  schema: note,
+});
+
 const comment = z.object({
   id: z.string(),
   parentId: z.string().nullable(),
@@ -54,6 +62,7 @@ const commentsCollection = defineCollection({
 //    This key should match your collection directory name in "src/content"
 export const collections = {
   notes: notesCollection,
+  monthNotes: monthNotesCollection,
   comments: commentsCollection,
   nuggets: nuggetsCollection,
 };

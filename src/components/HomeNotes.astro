@@ -15,21 +15,31 @@ type Month = {
   notes: Note[];
 };
 
-type Note = CollectionEntry<'notes'> & {
+type Note = (CollectionEntry<'notes'> | CollectionEntry<'monthNotes'>) & {
   date: number;
 };
 
 const notes = await getCollection('notes');
+const monthNotes = await getCollection('monthNotes');
+const allNotes = [
+  ...notes,
+  ...monthNotes.map((note) => {
+    return {
+      ...note,
+      data: { ...note.data },
+    };
+  }),
+];
 const nuggets = await getCollection('nuggets');
 
 for (const nugget of nuggets) {
   // add nugget to notes
-
   notes.push(makeNoteFromNugget(nugget));
 }
+
 const years: Year[] = [];
 
-notes.forEach((note) => {
+allNotes.forEach((note) => {
   const addedDate = new Date(note.data.added);
   const yearDate = addedDate.getFullYear();
   const monthDate = addedDate.getMonth() + 1;
@@ -108,16 +118,24 @@ years
                   <span>{month.name}</span> <span>{i === 0 && year.date}</span>
                 </h2>
               </li>
-              {month.notes.map((note) => (
-                <NoteListItem
-                  slug={note.id}
-                  title={note.data.title}
-                  added={note.data.added}
-                  tags={note.data.tags}
-                  type={note.data.type}
-                  excerpt={note.data.excerpt}
-                />
-              ))}
+              {month.notes.map((note) => {
+                let href = `/${note.id}/`;
+                const idSplit = note.id.split('-');
+                if (idSplit[0] === 'mnnm') {
+                  href = `/mnnm/${idSplit[1]}/`;
+                }
+
+                return (
+                  <NoteListItem
+                    href={href}
+                    title={note.data.title}
+                    added={note.data.added}
+                    tags={note.data.tags}
+                    type={note.data.type}
+                    excerpt={note.data.excerpt}
+                  />
+                );
+              })}
             </>
           ))}
         </>

@@ -1,5 +1,5 @@
 ---
-title: Month notes & numbers №8
+title: Month notes & numbers No. 8
 slug: mnnm-8
 added: 2024-09-06T08:44:00.000Z
 updated: 2024-09-06T08:44:00.000Z
@@ -10,9 +10,11 @@ tags:
   - mn&n
 ---
 
-It was a kinda-off month in terms of mental health, which I'm still blaming on just one big day of drinking [back in July](/mnnm-7/). Feeling much better now in September!
+<p class="date">August 2024</p>
 
-## Notable
+It was a kinda-off month in terms of mental health, which I'm still blaming on just one big day of drinking back in July. Feeling much better now in September!
+
+<h2 class="highlighter pink">Notable</h2>
 
 **I turned 38**. Kind of a nothing birthday. I did get to go out for an afternoon with my sister and some besties so that was nice.
 
@@ -20,34 +22,34 @@ It was a kinda-off month in terms of mental health, which I'm still blaming on j
 
 **I was doing a lot of coding for fun.** I was building out a reporting web app for our YNAB data using the [YNAB API](https://api.ynab.com/), [PocketBase](https://pocketbase.io/) and [SvelteKit](https://kit.svelte.dev/). It is probably something that could be made with a spreadsheet but I just love using JavaScript. It's been a while since I was inspired to code outside of my day job. I'm enjoying this phase!
 
-## Work
+<h2 class="highlighter yellow">Work</h2>
 
 Split my time between upgrading our billing and payments system at [CodePen](https://codepen.io), as well as QA work for the new Editor.
 
-**The work soundtrack:** [hot girl sh*t](https://open.spotify.com/playlist/37i9dQZF1DWSnLm8DcIg6D?si=e2ec2a06dcff45b0)
+**The work soundtrack:** [hot girl sh\*t](https://open.spotify.com/playlist/37i9dQZF1DWSnLm8DcIg6D?si=e2ec2a06dcff45b0)
 
-## Watched
+<h2 class="highlighter blue">Watched</h2>
 
 Back on [The Marvelous Mrs. Maisel](https://www.imdb.com/title/tt5788792/) Season 3.
 
-## The numbers
+<h2 class="highlighter orange">The numbers</h2>
 
 My counts from [Chronicling](/chronicling/).
 
-<h3 style="margin-bottom: 0.2rem; font-size: 1.2rem;">Fitness</h3>
-<ul style="list-style: none; margin: 0; padding: 0;">
-  <li>rebounder: 5 workouts</li>
-  <li>strength: 10 workouts</li>
-  <li>walk: 13 walks</li>
-  <li>walkrun: 4 times</li>
+<h3>Fitness</h3>
+<ul>
+  <li class="rebounder">rebounder: 5 workouts</li>
+  <li class="strength">strength: 10 workouts</li>
+  <li class="walk">walk: 13 walks</li>
+  <li class="run">walkrun: 4 times</li>
 </ul>
 
-<h3 style="margin-bottom: 0.2rem; font-size: 1.2rem;">Creative</h3>
-<ul style="list-style: none; margin: 0; padding: 0;">
-<li>coding for fun: 10 times</li>
-<li>lettering: 2 times</li>
-<li>journal: 23 times</li>
-<li>piano: 5 times</li>
-<li>read (book): 0 times</li>
-<li>write: 1 time</li>
+<h3>Creative</h3>
+<ul>
+<li class="coding">coding for fun: 10 times</li>
+<li class="lettering">lettering: 2 times</li>
+<li class="journal">journal: 23 times</li>
+<li class="piano">piano: 5 times</li>
+<li class="read">read (book): 0 times</li>
+<li class="write">write: 1 time</li>
 </ul>

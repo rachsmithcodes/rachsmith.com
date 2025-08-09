@@ -1,5 +1,5 @@
 ---
-const { slug, title, added, type, includeDate = true } = Astro.props;
+const { href, title, added, type, includeDate = true } = Astro.props;
 
 const addedDate = new Date(added);
 const day = addedDate.getDate().toString().padStart(2, '0');
@@ -58,5 +58,5 @@ const day = addedDate.getDate().toString().padStart(2, '0');
 
 <li class="note">
   {includeDate && <span class="date">{day}</span>}
-  <a class={type} href={`/${slug}/`}>{title}</a>
+  <a class={type} href={href}>{title}</a>
 </li>
