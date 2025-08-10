@@ -34,7 +34,7 @@ const nuggets = await getCollection('nuggets');
 
 for (const nugget of nuggets) {
   // add nugget to notes
-  notes.push(makeNoteFromNugget(nugget));
+  allNotes.push(makeNoteFromNugget(nugget));
 }
 
 const years: Year[] = [];
