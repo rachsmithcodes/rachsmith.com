@@ -1,6 +1,6 @@
 ---
 title: Month notes & numbers No. 3
-slug: mnnm-3
+slug: mnan-3
 added: 2024-04-30T10:10:00.000Z
 updated: 2024-04-30T10:10:00.000Z
 excerpt: Notable things and stats from March 2024
@@ -9,13 +9,14 @@ publish: true
 tags:
   - mn&n
 ---
+
 The end of March came around while we were on our big US trip. Then I was really sick and things were hectic coming back and blah blah blah somehow we're at the end of April. So this update is a month late.
 
 <p class="date">March 2024</p>
 
 <h2 class="highlighter pink">Notable</h2>
 
-**We went to Disneyland!!** Most of the month was spent preparing for a 2 week holiday in the USA. We survived the 13 hour overnight flight. It turns out our youngest fella is a dream traveller. All the work and cost of the trip was worth it just for the Disney part. The boys had the time of their life and the oldest one will have memories to last a lifetime. 
+**We went to Disneyland!!** Most of the month was spent preparing for a 2 week holiday in the USA. We survived the 13 hour overnight flight. It turns out our youngest fella is a dream traveller. All the work and cost of the trip was worth it just for the Disney part. The boys had the time of their life and the oldest one will have memories to last a lifetime.
 
 **I sold our double stroller.** Some people get a bit emotional about no longer needing the baby stuff, but I toss it from the house with glee!
 
@@ -31,7 +32,7 @@ I was working on the Permissions implementation for our new CodePen Editor - the
 
 <h2 class="highlighter blue">Played</h2>
 
-I didn't watch any notable movies/TV this month as I was more feeling the Switch games. [Kirby and The Forgotten Land](https://en.wikipedia.org/wiki/Kirby_and_the_Forgotten_Land) in particular. 
+I didn't watch any notable movies/TV this month as I was more feeling the Switch games. [Kirby and The Forgotten Land](https://en.wikipedia.org/wiki/Kirby_and_the_Forgotten_Land) in particular.
 
 <h2 class="highlighter orange">The numbers</h2>
 
@@ -53,4 +54,3 @@ My counts from [Chronicling](/chronicling/).
 <li class="read">14 <span class="x">✕</span> reading (book)</li>
 <li class="write">5 <span class="x">✕</span> write</li>
 </ul>
-

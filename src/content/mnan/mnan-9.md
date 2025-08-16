@@ -1,6 +1,6 @@
 ---
 title: 'Month notes & numbers No. 9: bankruptcy'
-slug: mnnm-9
+slug: mnan-9
 added: 2024-11-02T21:03:00.000Z
 updated: 2024-11-02T21:03:00.000Z
 excerpt: Notable things from September & October 2024

@@ -79,3 +79,12 @@ export function makeNoteFromNugget(nugget) {
     },
   };
 }
+
+export function getNoteHref(note: { id: string }) {
+  let href = `/${note.id}/`;
+  const idSplit = note.id.split('-');
+  if (idSplit[0] === 'mnan') {
+    href = `/mnan/${idSplit[1]}/`;
+  }
+  return href;
+}

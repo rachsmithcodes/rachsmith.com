@@ -1,6 +1,6 @@
 ---
 title: Month notes & numbers No. 7
-slug: mnnm-7
+slug: mnan-7
 added: 2024-08-06T08:44:00.000Z
 updated: 2024-08-06T08:44:00.000Z
 excerpt: Notable things from July 2024

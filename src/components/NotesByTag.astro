@@ -3,18 +3,28 @@ import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import NoteListItem from './NoteListItem.astro';
 import TagsList from './TagsList.astro';
+import { getNoteHref } from '../data/notes';
 
 const notes = await getCollection('notes');
+const monthNotes = await getCollection('monthNotes');
+const allNotes = [
+  ...notes,
+  ...monthNotes.map((note) => ({
+    ...note,
+    data: { ...note.data, tags: ['mn&n'] },
+  })),
+];
 type Tag = {
   name: string;
-  notes: CollectionEntry<'notes'>[];
+  notes: (CollectionEntry<'notes'> | CollectionEntry<'monthNotes'>)[];
 };
 const tags: Tag[] = [];
 
-for (const note of notes) {
+for (const note of allNotes) {
   if (note.data.tags) {
     for (const tag of note.data.tags) {
       if (!tags.find((t) => t.name === tag)) {
+        console.log('🌈 -> tag', tag);
         tags.push({
           name: tag,
           notes: [note],
@@ -109,6 +119,7 @@ for (const tag of tags) {
         <ul class="notes-list">
           {tag.notes.map((note) => (
             <NoteListItem
+              href={getNoteHref(note)}
               slug={note.id}
               title={note.data.title}
               added={note.data.added}

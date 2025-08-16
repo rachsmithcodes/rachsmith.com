@@ -1,6 +1,6 @@
 ---
 title: Month notes & numbers No. 11
-slug: mnnm-11
+slug: mnan-11
 added: 2025-02-01T10:30:00.000Z
 updated: 2025-02-01T10:30:00.000Z
 excerpt: Notable things from January 2025

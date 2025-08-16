@@ -12,7 +12,7 @@ publish: true
 tags:
   - wellbeing
 ---
-A couple of months ago the algorithm caught on to the fact I'd been [told I can't run](/mnnm-2/) on a hamstring injury. It started pushing rebounding content, suggesting it was a lower-impact alternative to running.
+A couple of months ago the algorithm caught on to the fact I'd been told I can't run on a hamstring injury. It started pushing rebounding content, suggesting it was a lower-impact alternative to running.
 
 I bought a cheap rebounder and although I enjoyed the exercise, the sound it made (as a spring model) was driving me up the wall. There are certain sounds and textures I really struggle with, and I just *couldn't* with the sound the springs made. 
 

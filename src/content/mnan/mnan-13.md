@@ -1,6 +1,6 @@
 ---
 title: Month notes & numbers No. 13
-slug: mnnm-13
+slug: mnan-13
 added: 2025-03-30T10:17:00.000Z
 updated: 2025-03-30T10:17:00.000Z
 excerpt: Notable things from March 2025

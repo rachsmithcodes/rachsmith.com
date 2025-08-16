@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import NoteListItem from './NoteListItem.astro';
-import { makeNoteFromNugget, monthNames } from '../data/notes';
+import { getNoteHref, makeNoteFromNugget, monthNames } from '../data/notes';
 
 type Year = {
   date: number;
@@ -118,24 +118,16 @@ years
                   <span>{month.name}</span> <span>{i === 0 && year.date}</span>
                 </h2>
               </li>
-              {month.notes.map((note) => {
-                let href = `/${note.id}/`;
-                const idSplit = note.id.split('-');
-                if (idSplit[0] === 'mnnm') {
-                  href = `/mnnm/${idSplit[1]}/`;
-                }
-
-                return (
-                  <NoteListItem
-                    href={href}
-                    title={note.data.title}
-                    added={note.data.added}
-                    tags={note.data.tags}
-                    type={note.data.type}
-                    excerpt={note.data.excerpt}
-                  />
-                );
-              })}
+              {month.notes.map((note) => (
+                <NoteListItem
+                  href={getNoteHref(note)}
+                  title={note.data.title}
+                  added={note.data.added}
+                  tags={note.data.tags}
+                  type={note.data.type}
+                  excerpt={note.data.excerpt}
+                />
+              ))}
             </>
           ))}
         </>

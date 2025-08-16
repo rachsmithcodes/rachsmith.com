@@ -1,6 +1,6 @@
 ---
 title: Month notes & numbers No. 15
-slug: mnnm-15
+slug: mnan-15
 added: 2025-08-10T07:48:00.000Z
 updated: 2025-08-10T07:48:00.000Z
 excerpt: Notable things from June & July 2025
@@ -12,7 +12,7 @@ tags:
 
 <p class="date">June & July 2025</p>
 
-It's funny that in the <a href="/mnnm/14/">last update</a> I wrote about how great my journaling practice is for remembering things, and then life got so busy I stopped the daily journaling. Now two months have passed somehow and I don't know how it happened so fast or what occurred. Thankfully I'm back in the habit this month!
+It's funny that in the <a href="/mnan/14/">last update</a> I wrote about how great my journaling practice is for remembering things, and then life got so busy I stopped the daily journaling. Now two months have passed somehow and I don't know how it happened so fast or what occurred. Thankfully I'm back in the habit this month!
 
 <h2 class="highlighter pink">Notable</h2>
 

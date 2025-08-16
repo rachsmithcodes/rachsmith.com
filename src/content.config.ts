@@ -23,7 +23,7 @@ const notesCollection = defineCollection({
 const monthNotesCollection = defineCollection({
   loader: glob({
     pattern: '*.md',
-    base: './src/content/mnnm',
+    base: './src/content/mnan',
   }),
   schema: note,
 });

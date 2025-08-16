@@ -16,7 +16,7 @@ I had a journal entry in my [Hobonichi Techo Cousin](/hobonichi-techo-cousin/) f
 
 I was doing so well, and I was really in to the swing of journaling every day... until I wasn't.
 
-The cause? Doing a little *too* well at journaling, actually. I got inspired by the fancy spreads of other Hobonichi enthusiasts on Instagram, and started making my own pretty layouts. My pages were looking beautiful until things got busy and my mental health/energy [took a dive](/mnnm-7/).
+The cause? Doing a little *too* well at journaling, actually. I got inspired by the fancy spreads of other Hobonichi enthusiasts on Instagram, and started making my own pretty layouts. My pages were looking beautiful until things got busy and my mental health/energy took a dive.
 
 I'd raised the bar for my daily entries, and didn't have the energy to meet it. But instead of just lowering the bar and going back to boring/ugly entries, perfectionist thinking kicked in. If I couldn't make it good, why do it at all?
 

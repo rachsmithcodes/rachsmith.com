@@ -1,6 +1,6 @@
 ---
 title: Month notes & numbers No. 10
-slug: mnnm-10
+slug: mnan-10
 added: 2024-12-31T21:03:00.000Z
 updated: 2024-12-31T21:03:00.000Z
 excerpt: Notable things from November & December 2024

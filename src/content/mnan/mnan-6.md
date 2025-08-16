@@ -1,6 +1,6 @@
 ---
 title: Month notes & numbers No. 6
-slug: mnnm-6
+slug: mnan-6
 added: 2024-07-01T08:44:00.000Z
 updated: 2024-07-01T08:44:00.000Z
 excerpt: Notable things from June 2024

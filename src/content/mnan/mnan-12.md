@@ -1,6 +1,6 @@
 ---
 title: Month notes & numbers No. 12
-slug: mnnm-12
+slug: mnan-12
 added: 2025-03-09T10:30:00.000Z
 updated: 2025-03-09T10:30:00.000Z
 excerpt: Notable things from February 2025

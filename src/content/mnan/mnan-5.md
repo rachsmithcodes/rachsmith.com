@@ -1,6 +1,6 @@
 ---
 title: Month notes & numbers No. 5
-slug: mnnm-5
+slug: mnan-5
 added: 2024-05-31T08:44:00.000Z
 updated: 2024-05-31T08:44:00.000Z
 excerpt: Notable things from May 2024

@@ -1,6 +1,6 @@
 ---
 title: Month notes & numbers No. 2
-slug: mnnm-2
+slug: mnan-2
 added: 2024-03-04T03:49:00.000Z
 updated: 2024-03-04T03:49:00.000Z
 excerpt: Notable things and stats from February 2024
@@ -12,7 +12,7 @@ tags:
 
 <p class="date">February 2024</p>
 
-I am now two months in to my attempt to [journal every day](/my-goal-for-2024/), and I am pleased to report I have *something* on each daily page in my Hobonichi so far.  
+I am now two months in to my attempt to [journal every day](/my-goal-for-2024/), and I am pleased to report I have _something_ on each daily page in my Hobonichi so far.
 
 <h2 class="highlighter pink">Notable</h2>
 
@@ -24,7 +24,7 @@ A side-effect of all this focus on home life is that I've **published shit-all o
 
 Last month, I went hard on working out and running, and finished with a hamstring injury. I went to the physio and she told me (in a much nicer way) that **I had absolutely no business running those distances on my weak-ass glutes** (weak-ass ass?). So I've been doing the rehab exercises. It's like **every day is leg day** with the same boring routine, but I am seeing an improvement and should be back to running soon.
 
-**I made a real effort to read more and scroll less**, after noting my abysmal reading count in last month's numbers. I ended up finishing three books. I plan to post a little review of the books I read this year, I just need to finish adding a custom note type for book reviews. 
+**I made a real effort to read more and scroll less**, after noting my abysmal reading count in last month's numbers. I ended up finishing three books. I plan to post a little review of the books I read this year, I just need to finish adding a custom note type for book reviews.
 
 <h2 class="highlighter yellow">Work</h2>
 
@@ -59,4 +59,3 @@ My counts from [Chronicling](/chronicling/).
 <li class="read">14 <span class="x">✕</span> reading (book)</li>
 <li class="write">1 <span class="x">✕</span> write</li>
 </ul>
-

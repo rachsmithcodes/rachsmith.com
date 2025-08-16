@@ -1,6 +1,6 @@
 ---
 title: Month notes & numbers No. 8
-slug: mnnm-8
+slug: mnan-8
 added: 2024-09-06T08:44:00.000Z
 updated: 2024-09-06T08:44:00.000Z
 excerpt: Notable things from August 2024
