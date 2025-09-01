@@ -4,6 +4,7 @@ import rehypeExternalLinks from 'rehype-external-links';
 
 // https://astro.build/config
 export default defineConfig({
+  server: { port: 4321 },
   integrations: [sitemap()],
   site: 'https://rachsmith.com',
   trailingSlash: 'always',
